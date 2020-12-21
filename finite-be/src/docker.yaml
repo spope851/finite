@@ -1,0 +1,28 @@
+# docker pull mongo
+# docker pull mongo-express
+# docker network create -d mongo-network
+# docker run -p 27017:27017 -d -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb --net mongo-network mongo
+# docker run -p 8081:8081 -d -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --name mongo-express --net mongo-network -e ME_CONFIG_MONGODB_SERVER=mongodb mongo-express
+# aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 762604136064.dkr.ecr.us-east-2.amazonaws.com 
+# docker build -t finite-be:1.1 .
+# docker tag finite-be:1.0 762604136064.dkr.ecr.us-east-2.amazonaws.com/finite-be:1.0
+# docker push 762604136064.dkr.ecr.us-east-2.amazonaws.com/finite-fe:1.3
+# docker exec -it e15e9cb4bc1a /bin/sh
+
+version: '3'
+services:
+  mongodb:
+    image: mongo
+    ports: 
+     - 27017:27017
+    environment:
+     - MONGO_INITDB_ROOT_USERNAME=admin
+     - MONGO_INITDB_ROOT_PASSWORD=password
+  mongo-express:
+    image: mongo-express
+    ports:
+     - 8080:8081
+    environment:
+     - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
+     - ME_CONFIG_MONGODB_ADMINPASSWORD=password
+     - ME_CONFIG_MONGODB_SERVER=mongodb

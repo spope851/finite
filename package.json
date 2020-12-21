@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "prod": "docker-compose -f finite.yaml up",
+        "run:fe": "docker-compose -f finite-fe.yaml up",
+        "run:be": "docker-compose -f finite-be.yaml up",
+        "run:db": "docker-compose -f finite-db.yaml up",
+        "build:fe": "cd finite-fe && yarn build",
+        "start:fe": "cd finite-fe && yarn start"
+    }
+}
