@@ -5,6 +5,7 @@
 # docker run -p 8081:8081 -d -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --name mongo-express --net mongo-network -e ME_CONFIG_MONGODB_SERVER=mongodb mongo-express
 # aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 762604136064.dkr.ecr.us-east-2.amazonaws.com 
 # docker run --name website -v $(pwd):/usr/share/nginx/html:ro -p 3000:80 -d nginx
+#
 
 version: '3'
 services:
