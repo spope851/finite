@@ -1,3 +1,4 @@
+# https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
 # docker pull mongo
 # docker pull mongo-express
 # docker network create -d mongo-network

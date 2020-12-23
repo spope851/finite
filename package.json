@@ -4,8 +4,11 @@
         "run:fe": "docker-compose -f finite-fe.yaml up",
         "run:be": "docker-compose -f finite-be.yaml up",
         "run:db": "docker-compose -f finite-db.yaml up",
-        "build:fe": "cd front-end && yarn build",
+        "build:fe": "cd front-end && yarn && yarn build",
         "start:fe": "cd front-end && yarn start",
         "start:be": "cd back-end/src && yarn start"
+    },
+    "dependencies": {
+        "react-scripts": "^4.0.1"
     }
 }
