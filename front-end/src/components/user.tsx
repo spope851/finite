@@ -1,5 +1,6 @@
-import React from 'react';  
-import get from '../services/get.service'
+import React, { useContext, useEffect, useState } from 'react'
+import { UserContext } from '../contexts/user'
+import {useGet} from '../services/get.service'
 
 let axios = require('axios')
 
@@ -60,55 +61,39 @@ const populateUsers = () => {
       }
     ]
   })
-  document.location.reload()
 }
 
-class User extends React.Component{
+export interface userProps {
+  id:number,
+  username:string,
+  password:string,
+  signedIn:boolean
+}
 
-  constructor(props) {
-    super(props); 
-      this.state = {
-      users: []
-    };
-  }
+interface OwnProps {
+  user?:string
+  noUsers:boolean
+}
 
-  componentDidMount() {
-    get('users')
-      .then(res => this.setState({ users: res }))
-      .catch(err => console.log(err));
-  }
+export const User:React.FC<OwnProps> = (props) => {
 
-  render(){
+  const {user, noUsers} = props
 
-    let data
-    let username = null
+  const message =
+    `Logged in as:  
+    ${user
+      ? user 
+      : 'Guest'}, Welcome!`
 
-    if(this.state.users.length){data = true}
-    this.state.users.forEach(function(el){
-      if (el.signedIn === true){
-        username = el.username
-      }
-    })
-      
-    const message =
-      `Logged in as:  
-      ${username? 
-        username 
-          : 
-        'Guest'}, Welcome!`
-    return (
-      <>
-      {data 
-        ? <div className="card text-dark">
-            {message} 
-            {username ? 
-              ''
-              :
-              <span>Click <a href='/login'>here</a> to sign up for an account</span>}
-          </div>
-        : <button onClick={populateUsers}>No users in DB. Click here to add some for testing</button>}
-      </>
+  return (
+    <>
+      <div className="card text-dark">
+          {message} 
+          {user 
+           ? ''
+           : <span>Click <a href='/login'>here</a> to sign up for an account</span>}
+      </div><br />
+      {noUsers && <button onClick={populateUsers}>No users in DB. Click here to add some for testing</button>}
+    </>
     )
-  }
 }
-export default User
