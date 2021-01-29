@@ -11,35 +11,16 @@ import {
   useLocation
 } from "react-router-dom";
 import { User, userProps } from './components/user'
-import stats from './scrape/playerStats.json'
-import { Team } from './components/team'
 import { useEffect } from 'react'
 import { LoginSignup } from './pages/login-signup'
-
-let teams: any[] = [];
-Object.keys(stats).forEach(function(el:any){
-  if(teams.indexOf(stats[el].data[0].team.id)===-1){
-    teams.push(stats[el].data[0].team.id)
-  }
-})
-
-export const Welcome = () => {
-  return (
-        <>
-          <br />
-          <br />
-          <br />
-          <h1>Welcome To Finite</h1>
-        </>
-  )
-}
+import { Welcome } from './components/welcome'
+import { TeamRoutes } from './routes/team-routes'
 
 export const Index:React.FC = () => {
   
   let location = useLocation()
 
   const [activeUser, setActiveUser] = useState<string | undefined>(undefined)
-  const [activeUserId, setActiveUserId] = useState<number>()
   const [noUsers, setNoUsers] = useState<boolean>(true)
 
   useEffect(() => {
@@ -53,7 +34,6 @@ export const Index:React.FC = () => {
     jsnData.forEach((user:userProps) => {
       if (user.signedIn) {
         setActiveUser(user.username)
-        setActiveUserId(user.id)
       }
     })
   }
@@ -84,9 +64,7 @@ ReactDOM.render(
           <Route path="/account" component={Account} />
           <Route path="/app" component={App} />
           <Switch>
-            {teams.map((el) =>
-              <Route key={el} path={"/teams/"+el} component={Team} />
-            )}
+              <Route path={"/teams/:id"} component={TeamRoutes} />
           </Switch>
       </Router>
     </div>,

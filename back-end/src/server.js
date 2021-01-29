@@ -1,8 +1,8 @@
 require('dotenv').config()
-const express = require('express');
-const bodyParser = require('body-parser');
-const MongoClient = require('mongodb').MongoClient;
-const app = express();
+const express = require('express')
+const bodyParser = require('body-parser')
+const MongoClient = require('mongodb').MongoClient
+const app = express()
 
 const port = process.env.PORT || 3001;
 const HOST = process.env.MODE === 'dev' ? process.env.HOST_DEV : process.env.HOST_PROD
@@ -16,7 +16,7 @@ const USER_ENDPOINT = '/api/users'
 const PLAYER_ENDPOINT = '/api/players'
 
 app.use(bodyParser.json({limit: '50mb'}));
-app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
+app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }))
 
 async function getUsers(response,client) {
   let responses = []
@@ -79,7 +79,7 @@ app.get(USER_ENDPOINT, (req, res) => {
     if (err) throw err  
     getUsers(res, client)      
   })
-});
+})
 
 app.get(PLAYER_ENDPOINT, (req, res) => {
   console.log('GET   ',req.body)
@@ -87,7 +87,7 @@ app.get(PLAYER_ENDPOINT, (req, res) => {
     if (err) throw err  
     getPlayers(res, client)      
   })
-});
+})
 
 app.put(USER_ENDPOINT, (req, res) => {
   console.log('PUT   ',req.body)  
@@ -114,7 +114,7 @@ app.post(USER_ENDPOINT, (req, res) => {
     if (err) throw err  
     signup(client, req.body)      
   })
-});
+})
 
 app.delete(USER_ENDPOINT, (req, res) => {
   console.log('DELETE',req.body);
@@ -122,6 +122,6 @@ app.delete(USER_ENDPOINT, (req, res) => {
     if (err) throw err  
     deleteUser(client, req.body.id)      
   })
-});
+})
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, () => console.log(`Listening on port ${port}`))
