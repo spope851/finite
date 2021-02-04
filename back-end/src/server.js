@@ -46,10 +46,10 @@ async function logout(client) {
     { $set: {signedIn:false} }
   )
 }
-
-async function login(client,id) {
+var ObjectId = require('mongodb').ObjectId
+async function login(client,_id) {
   await client.db(USER_DB).collection(USER_TABLE).updateOne(
-    {id:id},
+    {_id: new ObjectId(_id)},
     { $set: {signedIn:true} }
   )
 }
@@ -58,13 +58,13 @@ async function signup(client,body) {
   await client.db(USER_DB).collection(USER_TABLE).insertOne(body)
 }
 
-async function deleteUser(client,id) {
-  await client.db(USER_DB).collection(USER_TABLE).deleteOne({id:id})
+async function deleteUser(client,_id) {
+  await client.db(USER_DB).collection(USER_TABLE).deleteOne({_id: new ObjectId(_id)})
 }
 
-async function changePassword(client,id,newPassword) {
+async function changePassword(client,_id,newPassword) {
   await client.db(USER_DB).collection(USER_TABLE).updateOne(
-    {id:id},
+    {_id: new ObjectId(_id)},
     { $set: {
         password:newPassword,
         signedIn:false
@@ -94,8 +94,8 @@ app.put(USER_ENDPOINT, (req, res) => {
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err
     if (req.body.function === 'logout'){logout(client)}
-    if (req.body.function === 'login'){login(client, req.body.id)}
-    if (req.body.function === 'changePassword'){changePassword(client, req.body.id, req.body.newPassword)}
+    if (req.body.function === 'login'){login(client, req.body._id)}
+    if (req.body.function === 'changePassword'){changePassword(client, req.body._id, req.body.newPassword)}
     if (req.body.function === 'populate'){populate(client, req.body)}
   })
 })
@@ -120,7 +120,7 @@ app.delete(USER_ENDPOINT, (req, res) => {
   console.log('DELETE',req.body);
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
-    deleteUser(client, req.body.id)      
+    deleteUser(client, req.body._id)      
   })
 })
 
