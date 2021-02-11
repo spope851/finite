@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react'
-import { userProps } from '../components/user'
+import { UserProps } from '../components/user'
 import { useGet } from '../services/get.service'
 
-export const UserContext = React.createContext({} as userProps | undefined)
+export const UserContext = React.createContext({} as UserProps | undefined)
 export const UserContextProvider = (props:any) => {
-    const [users, setUsers] = useState<userProps[]>()
-    const [activeUser, setactiveUser] = useState<userProps>()
+    const [users, setUsers] = useState<UserProps[]>()
+    const [activeUser, setactiveUser] = useState<UserProps>()
     
     let data = useGet('users')
 

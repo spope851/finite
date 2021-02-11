@@ -26,8 +26,12 @@ export const Team:React.FC<OwnProps> = (props) => {
         <br />
         <h2>Players</h2>
         <div className="row">
-          {players.map((player, i) => 
-            <Player details={player.data[0]} name={player.data[0].first_name+' '+player.data[0].last_name} key={i}/>
+          {players.map((player) => 
+            <Player 
+              id={player._id} 
+              details={player.data[0]} 
+              name={player.data[0].first_name+' '+player.data[0].last_name} 
+              key={player._id}/>
           )}
         </div>
       </div>

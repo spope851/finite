@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { userProps } from "../components/user";
+import { UserProps } from "../components/user";
 
 export const useGet = (endpoint:string) => {
 
-  const [data, setData] = useState<userProps[]>()
+  const [data, setData] = useState<UserProps[]>()
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(true)
 

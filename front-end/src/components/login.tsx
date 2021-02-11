@@ -1,15 +1,10 @@
-import React, { useState } from 'react';
-import { userProps } from './user';
-import { Redirect } from 'react-router-dom'
+import React, { useState, useEffect } from 'react';
+import { UserProps } from './user';
+import { Redirect, useHistory } from 'react-router-dom'
 
 let axios = require('axios');
 
 const MONGO_EXPRESS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
-
-const MONGO_DB = {
-  "db":"user_account",
-  "table":"users"
-}
 
 export const Login:React.FC = () => {
   const [SignedUp, setSignedUp] = useState<boolean>(false)
@@ -19,13 +14,21 @@ export const Login:React.FC = () => {
   const [presentUser, setPresentUser] = useState<string>()
   const [presentUPW, setPresentUPW] = useState<string>()
   
+  let history = useHistory()
+
+  useEffect(() => {
+    if (loggedIn) {
+      history.push("/app")
+    }
+  },[loggedIn])
+
   const hasUser = async (username:string) => {
     const data = await fetch(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`)
     const jsnData = await data.json()
     
     setSignedUp(false)
 
-    jsnData.forEach((user:userProps) => {
+    jsnData.forEach((user:UserProps) => {
       user.username === username && setSignedUp(true)
     })
   }
@@ -34,13 +37,12 @@ export const Login:React.FC = () => {
     const data = await fetch(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`)
     const jsnData = await data.json()
 
-    jsnData.forEach((user:userProps) => {
+    jsnData.forEach((user:UserProps) => {
       user.username === username && user.password !== password && setWrongPassword(true)
       if (user.username === username && user.password === password) {
         axios.put(MONGO_EXPRESS_API, {
             "function":"login",
-            ...MONGO_DB, 
-            "id":user.id
+            "_id":user._id
         })
         setLoggedIn(true)
       }
@@ -59,7 +61,6 @@ export const Login:React.FC = () => {
 
     return (
       <div>
-        {loggedIn && <Redirect from={'/login'} to={'/app'} /> }
         <h2>Login:</h2>
         <br />
         <input 
@@ -73,7 +74,7 @@ export const Login:React.FC = () => {
           onChange={e => setPresentUPW(e.target.value)} 
         />
         <input 
-          onClick={login} 
+          onClick={login}
           type="button" 
           value="Login"
           disabled={!presentUser || !presentUPW}

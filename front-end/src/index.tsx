@@ -10,7 +10,7 @@ import {
   Switch,
   useLocation
 } from "react-router-dom";
-import { User, userProps } from './components/user'
+import { User, UserProps } from './components/user'
 import { useEffect } from 'react'
 import { LoginSignup } from './pages/login-signup'
 import { Welcome } from './components/welcome'
@@ -20,7 +20,7 @@ export const Index:React.FC = () => {
   
   let location = useLocation()
 
-  const [activeUser, setActiveUser] = useState<string | undefined>(undefined)
+  const [activeUser, setActiveUser] = useState<UserProps>()
   const [noUsers, setNoUsers] = useState<boolean>(true)
 
   useEffect(() => {
@@ -31,9 +31,9 @@ export const Index:React.FC = () => {
     const data = await fetch(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`)
     const jsnData = await data.json()
     jsnData.length && setNoUsers(false)
-    jsnData.forEach((user:userProps) => {
+    jsnData.forEach((user:UserProps) => {
       if (user.signedIn) {
-        setActiveUser(user.username)
+        setActiveUser(user)
       }
     })
   }
@@ -41,8 +41,9 @@ export const Index:React.FC = () => {
   return (
       <>
         <header className="App-header">
-          <br  />
-          <User user={activeUser} noUsers={noUsers}/>
+          <User 
+            user={activeUser} 
+            noUsers={noUsers}/>
           <div className="navbar">
             <a className="nav-link" href="/account">Account</a>
             <a className="nav-link" href="/app">App</a>
