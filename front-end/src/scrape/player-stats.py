@@ -13,7 +13,7 @@ def plusForSpaceList(l):
         res.append(name.replace(' ','+'))
     return res
 
-FILE='playerNames.json'
+FILE='player-names.json'
 with open(FILE) as data:    
     names = json.load(data)
     
@@ -45,6 +45,6 @@ for i in test:
         count+=1
     
     
-handle = open('playerStats.json', "w")
+handle = open('player-stats.json', "w")
 json.dump(players, handle, indent=6)
 handle.close()
