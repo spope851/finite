@@ -3,3 +3,4 @@ aws
 build
 Timesheet.ods
 .~lock.Timesheet.ods#
+get-pip.py
