@@ -45,6 +45,6 @@ for i in test:
         count+=1
     
     
-handle = open('player-stats.json', "w")
+handle = open('player-info.json', "w")
 json.dump(players, handle, indent=6)
 handle.close()

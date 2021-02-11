@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import stats from './scrape/player-stats.json'
+import stats from './scrape/player-info.json'
 import leaders from './scrape/season-leaders.json'
 import {Player} from './components/player'
 
