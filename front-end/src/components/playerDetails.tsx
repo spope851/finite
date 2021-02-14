@@ -2,21 +2,26 @@ import React from 'react'
 import styled from 'styled-components'
 
 interface OwnProps {
-  data:any
+  price:number
+  position:string
+  height?:string
+  weight?:number
+  teamId:number
+  teamName:string
   trade: (price:number) => void
 }
 
 export const PlayerDetails:React.FC<OwnProps> = (props) => {
-  
-  let base = props.data.height_inches !== 0 ? props.data.height_inches : props.data.height_feet
-  let price = ((base+10)*1.16)
+
+  const { price, position, height, weight, teamId, teamName } = props
   
   return (
     <>
-      <p><span>Price: <Price onClick={e => e.target === e.currentTarget && props.trade(price)}>{price}</Price></span></p>
-      <p>{'Position: '+props.data.position}</p>
-      <p>{props.data.height_feet ? 'Height: '+props.data.height_feet+'\''+props.data.height_inches+'"' : ''}</p>
-      {window.location.pathname.indexOf('team') === -1? <><span>Team: </span><a href={"/teams/"+props.data.team.id}>{props.data.team.full_name}</a></> : <p></p>}
+      <p><span>Price: <Price onClick={e => e.target === e.currentTarget && props.trade(price)}>{`$${price}`}</Price></span></p>
+      <p>{'Position: '+position}</p>
+      <p>{height ? 'Height: '+height : ''}</p>
+      <p>{weight ? 'Weight: '+weight : ''}</p>
+      {window.location.pathname.indexOf('team') === -1? <><span>Team: </span><a href={"/teams/"+teamId}>{teamName}</a></> : <p></p>}
     </>
   )
 }

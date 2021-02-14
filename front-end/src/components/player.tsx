@@ -5,18 +5,22 @@ import styled from 'styled-components';
 import { TradeButton } from './buttons/trade-button';
 import { PlayerDetails } from './playerDetails'
 
-interface Idetails {
-  
+export interface IPlayer {
+    _id:string
+    name:string
+    height:string
+    weight:number
+    position:string
+    team:number
+    price:number
 }
 
-interface OwnProps {
-  id:string
-  name:string
-  details?:any
+interface OwnProps extends IPlayer {
+  teamName?:string
 }
 
 export const Player:React.FC<OwnProps> = (props) => {
-  const { id, name, details } = props
+  const { _id, name, height, weight, position, team, teamName, price } = props
   
   const [playerDetails, setDetails] = useState<boolean>(false)
   const [trade, setTrade] = useState<boolean>(false)
@@ -37,7 +41,7 @@ export const Player:React.FC<OwnProps> = (props) => {
   }
 
   const player = {
-    id: id,
+    id: _id,
     name: name
   }
 
@@ -69,7 +73,15 @@ export const Player:React.FC<OwnProps> = (props) => {
             </>}
       </div>
       <div className="card-body">
-        {playerDetails && <PlayerDetails trade={toggleTrade} data={details}/>}
+        {playerDetails && (
+          <PlayerDetails 
+            trade={toggleTrade} 
+            height={height && height}
+            position={position} 
+            weight={weight && weight}
+            teamId={team} 
+            teamName={teamName || ''}
+            price={price}/>)}
       </div>
     </div>
   )

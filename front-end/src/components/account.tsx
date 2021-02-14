@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { GearIcon } from '../assets/gear';
 import { Position } from './buttons/trade-button';
-import { Player } from './player';
+import { IPlayer, Player } from './player';
+import { ITeam } from './team';
 import { UserProps } from './user';
 
 let axios = require('axios');
 
 const USERS_API =  `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
 const TRADES_API =  `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/trades`
-const PLAYERS_API =  `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`
 const POSITIONS_API =  `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/positions`
 
 export interface TradeProps {
@@ -22,9 +22,10 @@ export interface TradeProps {
   price:number
 }
 
-export interface Protfolio extends Position {
+export interface AccountPosition extends Position {
   all_trades:TradeProps[]
-  player:any
+  player:IPlayer
+  team:ITeam
 }
 
 export const Account:React.FC = () => {
@@ -35,7 +36,7 @@ export const Account:React.FC = () => {
   const [calculating, setCalculating] = useState<boolean>(true)
   const [newPassword, setNewPassword] = useState<string>()
   const [user, setUser] = useState<UserProps>()
-  const [positions, setPositions] = useState<Protfolio[]>()
+  const [positions, setPositions] = useState<AccountPosition[]>()
   const [stockValue, setStockValue] = useState<number>(0)
 
   useEffect(() => {
@@ -43,7 +44,7 @@ export const Account:React.FC = () => {
   },[])
   
   useEffect(() => {
-    fetchTrades()
+    user && fetchTrades()
   },[user])
   
   const fetchUser = async () => {
@@ -74,14 +75,6 @@ export const Account:React.FC = () => {
     positions.data[0] && setPositions(positions.data)
   }
   
-  const fetchPlayer = async (id:string) => {
-    const data = await axios.get(PLAYERS_API, {
-      headers: {
-        "id":id
-      }
-    })
-  }
-  
   const logout = () => {
     axios.put(USERS_API, {
       "function":"logout"
@@ -106,8 +99,6 @@ export const Account:React.FC = () => {
     let ans = window.confirm('Password changed successfully!')
     if (ans) {document.location.reload()}
   }
-
-console.log(positions);
 
   return (
     <>
@@ -166,12 +157,17 @@ console.log(positions);
               <p>{`Player Stock: $${calculating ? '{..}' : stockValue}`}</p>
               <h1>Portfilio:</h1>
               <div className="row">
-                {positions && positions.map((position:Protfolio) =>
+                {positions && positions.map((position:AccountPosition) =>
                   <Player 
-                    id={position.player[0]._id} 
-                    details={position.player[0].data[0]} 
-                    name={`${position.player[0].data[0].first_name} ${position.player[0].data[0].last_name} (${position.quantity})`} 
-                    key={position.player[0]._id}/>
+                    _id={position.player._id} 
+                    height={position.player.height} 
+                    weight={position.player.weight} 
+                    position={position.player.position} 
+                    price={position.player.price} 
+                    team={position.player.team}
+                    name={`${position.player.name} (${position.quantity})`} 
+                    key={position.player._id}
+                    teamName={position.team.full_name}/>
                 )}
               </div>
             </>

@@ -29,6 +29,17 @@ rankings[568] = 'Giannis Antetokounmpo'
 rankings.reverse()
 rankings[215] = 'Wesley Matthews'
 
+final = []
+count = 1
+
+for rank in rankings:
+    player = {
+        "name": rank,
+        "rank": count
+    }
+    final.append(player)
+    count += 1
+
 handle = open(FILE, "w", encoding="utf8")
-json.dump(rankings, handle, indent=6, ensure_ascii=False)
+json.dump(final, handle, indent=6, ensure_ascii=False)
 handle.close()

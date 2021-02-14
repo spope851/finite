@@ -11,11 +11,13 @@ const MONGO_URL = `mongodb://admin:password@${HOST}:27017`
 const MONGO_OPTIONS = { useUnifiedTopology: true, authSource: 'admin' }
 const FINITE_DB = 'finite'
 const USER_TABLE = 'users'
+const TEAMS_TABLE = 'teams'
 const TRADE_TABLE = 'trades'
 const LEADER_TABLE = 'leaders'
 const PLAYER_TABLE = 'players'
 const POSITION_TABLE = 'positions'
 const USER_ENDPOINT = '/api/users'
+const TEAM_ENDPOINT = '/api/teams'
 const TRADE_ENDPOINT = '/api/trades'
 const PLAYER_ENDPOINT = '/api/players'
 const POSITION_ENDPOINT = '/api/positions'
@@ -32,13 +34,35 @@ async function getUsers(response,client) {
   response.send(responses)
 }
 
-async function getPlayers(response,client,id) {
+async function getTeams(response,client,id) {
   let responses = []
-  let cursor = client.db(FINITE_DB).collection(PLAYER_TABLE).find(
+  let cursor = client.db(FINITE_DB).collection(TEAMS_TABLE).find(
     id
-      ? { _id: id }
-      : ''
-  )
+      ? { id: Number(id) }
+      : '')
+  await cursor.forEach( el => {
+    responses.push(el)
+  })
+  response.send(responses)
+}
+
+async function getPlayers(response,client,team) {
+  let responses = []
+  let cursor = 
+    team
+      ? client.db(FINITE_DB).collection(TEAMS_TABLE).aggregate([
+        {$match: { id: Number(team) }},
+        {
+          $lookup: {
+            from: PLAYER_TABLE,
+            localField: "id",
+            foreignField: "team",
+            as: "players"
+          }
+        }
+      ])
+      : client.db(FINITE_DB).collection(PLAYER_TABLE).find()
+  
   await cursor.forEach( el => {
     responses.push(el)
   })
@@ -67,7 +91,17 @@ async function getPositions(response,client,user_id,player_id) {
               foreignField: "_id",
               as: "player"
             }
-          }
+          },
+          { $unwind: "$player" },
+          {
+            $lookup: {
+              from: TEAMS_TABLE,
+              localField: "player.team",
+              foreignField: "id",
+              as: "team"
+            }
+          },
+          { $unwind: "$team" }
         ]
   )
   await cursor.forEach( el => {
@@ -201,19 +235,31 @@ async function updateStockValue(client,_id,tradeValue) {
 }
 
 app.get(USER_ENDPOINT, (req, res) => {
-  console.log('GET   ',req.body)
+  console.log('GET user  ',req.body)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
     getUsers(res, client)      
   })
 })
 
+app.get(TEAM_ENDPOINT, (req, res) => {
+  console.log('GET team  ',req.headers.id)
+  MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
+    if (err) throw err
+    if (req.headers.id){
+      getTeams(res, client, req.headers.id)
+    } else {
+      getTeams(res, client)      
+    }
+  })
+})
+
 app.get(PLAYER_ENDPOINT, (req, res) => {
-  console.log('GET   ',req.headers.id)
+  console.log('GET player(s)  ',`team:${req.headers.team}`)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
-    if (req.headers.id){
-      getPlayers(res, client, req.headers.id)
+    if (req.headers.team){
+      getPlayers(res, client, req.headers.team)
     } else {
       getPlayers(res, client)
     }
@@ -221,7 +267,7 @@ app.get(PLAYER_ENDPOINT, (req, res) => {
 })
 
 app.get(TRADE_ENDPOINT, (req, res) => {
-  console.log('GET   ',req.headers.function, req.headers.user_id)
+  console.log('GET trades  ',req.headers.function, req.headers.user_id)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
     if (!req.headers.function) {getTrades(res, client, req.headers.user_id)}          
@@ -232,7 +278,7 @@ app.get(TRADE_ENDPOINT, (req, res) => {
 })
 
 app.get(POSITION_ENDPOINT, (req, res) => {
-  console.log('GET   ', req.headers.user_id, req.headers.player_id)
+  console.log('GET positions  ', req.headers.user_id, req.headers.player_id)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
     if (req.headers.player_id){
