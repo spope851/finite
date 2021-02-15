@@ -26,7 +26,7 @@ export const User:React.FC<OwnProps> = (props) => {
       ? user.username 
       : 'Guest'}, Welcome!`
 
-  const value = `Account Value: $${user && ((Number(user.cash) + Number(user.stockValue)) || 0)}`
+  const value = `Account Value: $${user && ((Number(user.cash) + Number(user.stockValue)).toFixed(2) || 0)}`
 
   return (
     <>

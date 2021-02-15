@@ -153,8 +153,8 @@ export const Account:React.FC = () => {
              : <GearIcon onClick={() => setShowSettings(true)}/>}
             <>
               <p>{`Username: ${user.username}`}</p>
-              <p>{`Cash: $${user.cash}`}</p>
-              <p>{`Player Stock: $${calculating ? '{..}' : stockValue}`}</p>
+              <p>{`Cash: $${Number(user.cash).toFixed(2)}`}</p>
+              <p>{`Equity: $${calculating ? '{..}' : Number(stockValue).toFixed(2)}`}</p>
               <h1>Portfilio:</h1>
               <div className="row">
                 {positions && positions.map((position:AccountPosition) =>
@@ -165,7 +165,8 @@ export const Account:React.FC = () => {
                     position={position.player.position} 
                     price={position.player.price} 
                     team={position.player.team}
-                    name={`${position.player.name} (${position.quantity})`} 
+                    name={`${position.player.name} (${position.quantity})
+                      $${(position.player.price * position.quantity).toFixed(2)}`} 
                     key={position.player._id}
                     teamName={position.team.full_name}/>
                 )}

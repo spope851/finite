@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import { TradeProps } from '../account';
 import { UserProps } from '../user'
 
 interface Player {
@@ -106,7 +105,7 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
 
     const trade = () => {
         // props.onClick(true)
-        alert(`${buy ? 'Bought' : 'Sold'} ${quantity} shares of ${player.name} at ${price} for ${price * quantity}`)
+        alert(`${buy ? 'Bought' : 'Sold'} ${quantity} shares of ${player.name} at $${price.toFixed(2)} for $${(price * quantity).toFixed(2)}`)
         storeTrade()
     }
 console.log(position);
@@ -116,7 +115,7 @@ console.log(position);
             onClick={e => trade()}
             disabled={user && 
                 buy 
-                    ? new Number(user.cash) <= (price * quantity)
+                    ? Number(user.cash) <= (price * quantity)
                     : disableSell || position && position.quantity < quantity}>
             {buy ? 'Buy' : 'Sell'}
         </StyledButton>

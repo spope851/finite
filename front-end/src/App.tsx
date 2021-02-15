@@ -40,7 +40,7 @@ const populatePlayers = () => {
 
 export const App:React.FC = () => {
   
-  const [players, setPlayers] = useState<IPlayer[]>()
+  const [players, setPlayers] = useState<IPlayer[]>([])
   const [teams, setTeams] = useState<ITeam[]>()
   
   useEffect(() => {
@@ -63,7 +63,7 @@ export const App:React.FC = () => {
     <div className="card col-12">
       <div className="card-header">All Players</div>
         <div className="card-body">
-          {players
+          {players.length
             ? <div className="row">
               {players.map((player:IPlayer) =>
                 <Player 

@@ -17,7 +17,7 @@ export const PlayerDetails:React.FC<OwnProps> = (props) => {
   
   return (
     <>
-      <p><span>Price: <Price onClick={e => e.target === e.currentTarget && props.trade(price)}>{`$${price}`}</Price></span></p>
+      <p><span>Price: <Price onClick={e => e.target === e.currentTarget && props.trade(price)}>{`$${price.toFixed(2)}`}</Price></span></p>
       <p>{'Position: '+position}</p>
       <p>{height ? 'Height: '+height : ''}</p>
       <p>{weight ? 'Weight: '+weight : ''}</p>

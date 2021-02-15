@@ -94,6 +94,10 @@ for player in ranked_players:
 priced_players = []
 
 for player in ranked_players:
+    if player["height"] == "None'None":
+        del player["height"]
+    if player["weight"] is None:
+        del player["weight"]
     r = player["rank"]
     if player["rank"] >= 400:
         player["price"] = round(((r - 638.6) / -23.9), 2) # $3-10
@@ -115,6 +119,8 @@ for player in ranked_players:
         player["price"] = round(((r - 351) / -3.5), 2) # $71-99
         del player["rank"]
         priced_players.append(player)
+
+# print(priced_players)
 
 # handle = open("ranked-players.json", "w", encoding="utf8")
 # json.dump(ranked_players, handle, indent=6, ensure_ascii=False)
