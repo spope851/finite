@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import stats from './scrape/player-info.json'
-import leaders from './scrape/season-leaders.json'
-import teams from './scrape/teams.json'
 import {Player, IPlayer} from './components/player'
 import { ITeam } from './components/team';
 
@@ -12,7 +10,6 @@ const MONGO_EXPRESS_API = `http://localhost:${process.env.REACT_APP_SERVER_PORT}
 
 const MONGO_DB = {
   players: {"table":"players"},
-  leaders: {"table":"leaders"},
   teams: {"table":"teams"}
 }
 
@@ -23,18 +20,6 @@ const populatePlayers = () => {
     ...MONGO_DB.players,
     "records":stats
   })
-  axios.put(MONGO_EXPRESS_API, 
-    {
-      "function":"populate",
-      ...MONGO_DB.leaders,
-      "records":leaders
-    })
-  axios.put(MONGO_EXPRESS_API, 
-    {
-      "function":"populate",
-      ...MONGO_DB.teams,
-      "records":teams
-    })
     document.location.reload()
 }
 
@@ -77,7 +62,7 @@ export const App:React.FC = () => {
                   name={player.name} 
                   key={player._id}/>)}
               </div>
-            : <button onClick={populatePlayers}>No players in DB. Click here to add some for testing</button>}
+            : <button onClick={populatePlayers}>DB is empty, click here to populate</button>}
       </div>
     </div>
   )

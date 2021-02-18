@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
 const MongoClient = require('mongodb').MongoClient
-var ObjectId = require('mongodb').ObjectId
+const ObjectId = require('mongodb').ObjectId
 const app = express()
 
 const port = process.env.PORT || 3001;
@@ -73,7 +73,7 @@ async function getPositions(response,client,user_id,player_id) {
   let responses = []
   let cursor = client.db(FINITE_DB).collection(POSITION_TABLE).aggregate(
     player_id
-      ? [{$match: { player_id: ObjectId(player_id), user_id: ObjectId(user_id) }}]
+      ? [{$match: { player_id: player_id, user_id: ObjectId(user_id) }}]
       : [
           {$match: { user_id: ObjectId(user_id) }},
           {
@@ -130,7 +130,7 @@ async function getUserValue(response,client,user_id) {
   let cursor = client.db(FINITE_DB).collection(TRADE_TABLE).aggregate([
     { 
       $match: { 
-        user_id: ObjectId(user_id) 
+        user_id: ObjectId(user_id)
       } 
     },
     { 
@@ -165,7 +165,7 @@ async function logout(client) {
 }
 async function login(client,_id) {
   await client.db(FINITE_DB).collection(USER_TABLE).updateOne(
-    {_id: new ObjectId(_id)},
+    {_id: ObjectId(_id)},
     { $set: {signedIn:true} }
   )
 }
@@ -179,7 +179,7 @@ async function trade(client,body) {
     "user_id": ObjectId(body.user_id),
     "buy": body.buy,
     "timestamp": body.timestamp,
-    "player_id": ObjectId(body.player_id),
+    "player_id": body.player_id,
     "quantity": body.quantity,
     "price": body.price
   })
@@ -188,22 +188,22 @@ async function trade(client,body) {
 async function newPosition(client,body) {
   await client.db(FINITE_DB).collection(POSITION_TABLE).insertOne({
     "user_id": ObjectId(body.user_id),
-    "player_id": ObjectId(body.player_id),
+    "player_id": body.player_id,
     "quantity": body.quantity,
   })
 }
 
 async function deleteUser(client,_id) {
-  await client.db(FINITE_DB).collection(USER_TABLE).deleteOne({_id: new ObjectId(_id)})
+  await client.db(FINITE_DB).collection(USER_TABLE).deleteOne({_id: ObjectId(_id)})
 }
 
 async function deletePosition(client,_id) {
-  await client.db(FINITE_DB).collection(POSITION_TABLE).deleteOne({_id: new ObjectId(_id)})
+  await client.db(FINITE_DB).collection(POSITION_TABLE).deleteOne({_id: ObjectId(_id)})
 }
 
 async function changePassword(client,_id,newPassword) {
   await client.db(FINITE_DB).collection(USER_TABLE).updateOne(
-    {_id: new ObjectId(_id)},
+    {_id: ObjectId(_id)},
     { $set: {
         password:newPassword,
         signedIn:false
@@ -214,7 +214,7 @@ async function changePassword(client,_id,newPassword) {
 
 async function updatePosition(client,_id,quantity) {
   await client.db(FINITE_DB).collection(POSITION_TABLE).updateOne(
-    {_id: new ObjectId(_id)},
+    {_id: ObjectId(_id)},
     { $set: {
         quantity:quantity
       } 
@@ -224,7 +224,7 @@ async function updatePosition(client,_id,quantity) {
 
 async function updateStockValue(client,_id,tradeValue) {
   await client.db(FINITE_DB).collection(USER_TABLE).updateOne(
-    {_id: new ObjectId(_id)},
+    {_id: ObjectId(_id)},
     { 
       $inc: {
         stockValue: tradeValue,

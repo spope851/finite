@@ -58,8 +58,8 @@ for item in x:
             player["last_price"] = player["price"]
             player["price"] = player["price"] + item["add"]
 
-# print(players)
+print(players)
 
-handle = open("player-info.json", "w", encoding="utf8")
-json.dump(players, handle, indent=6, ensure_ascii=False)
-handle.close()
+# handle = open("player-info.json", "w", encoding="utf8")
+# json.dump(players, handle, indent=6, ensure_ascii=False)
+# handle.close()
