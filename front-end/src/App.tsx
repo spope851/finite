@@ -55,9 +55,10 @@ export const App:React.FC = () => {
                   _id={player._id} 
                   height={player.height && player.height}
                   weight={player.weight && player.weight}
-                  position={player.position}
+                  position={player.position && player.position}
                   team={player.team}
                   price={player.price}
+                  last_price={player.last_price && player.last_price}
                   teamName={(teams && teams[player.team - 1].full_name)}
                   name={player.name} 
                   key={player._id}/>)}

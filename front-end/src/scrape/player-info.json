@@ -1,501 +1,4277 @@
 [
-    { "_id" : "3ff1", "name" : "Giannis Antetokounmpo", "height" : "6'11", "weight" : 242, "position" : "F", "team" : 17, "price" : 100 },
-    { "_id" : "3ff2", "name" : "Stephen Curry", "height" : "6'3", "weight" : 190, "position" : "G", "team" : 10, "price" : 99.71 },
-    { "_id" : "3ff3", "name" : "Kawhi Leonard", "height" : "6'7", "weight" : 230, "position" : "F", "team" : 13, "price" : 99.43 },
-    { "_id" : "3ff4", "name" : "James Harden", "height" : "6'5", "weight" : 220, "position" : "G", "team" : 3, "price" : 99.14 },
-    { "_id" : "3ff5", "name" : "LeBron James", "height" : "6'8", "weight" : 250, "position" : "F", "team" : 14, "price" : 98.86 },
-    { "_id" : "3ff6", "name" : "Anthony Davis", "height" : "6'10", "weight" : 253, "position" : "F-C", "team" : 14, "price" : 98.57 },
-    { "_id" : "3ff7", "name" : "Kevin Durant", "height" : "6'9", "weight" : 240, "position" : "F", "team" : 3, "price" : 98.29 },
-    { "_id" : "3ff8", "name" : "Nikola Jokic", "height" : "7'0", "weight" : 250, "position" : "C", "team" : 8, "price" : 98 },
-    { "_id" : "3ff9", "name" : "Joel Embiid", "height" : "7'0", "weight" : 250, "position" : "F-C", "team" : 23, "price" : 97.71 },
-    { "_id" : "3ffa", "name" : "Damian Lillard", "height" : "6'3", "weight" : 195, "position" : "G", "team" : 25, "price" : 97.43 },
-    { "_id" : "3ffb", "name" : "Paul George", "height" : "6'9", "weight" : 220, "position" : "F", "team" : 13, "price" : 97.14 },
-    { "_id" : "3ffc", "name" : "Karl-Anthony Towns", "height" : "7'0", "weight" : 248, "position" : "C", "team" : 18, "price" : 96.86 },
-    { "_id" : "3ffd", "name" : "Jimmy Butler", "height" : "6'8", "weight" : 232, "position" : "G-F", "team" : 16, "price" : 96.57 },
-    { "_id" : "3ffe", "name" : "Rudy Gobert", "height" : "7'1", "weight" : 245, "position" : "C", "team" : 29, "price" : 96.29 },
-    { "_id" : "3fff", "name" : "Blake Griffin", "height" : "6'10", "weight" : 250, "position" : "F", "team" : 9, "price" : 96 },
-    { "_id" : "4000", "name" : "Ben Simmons", "height" : "6'10", "weight" : 230, "position" : "G-F", "team" : 23, "price" : 95.71 },
-    { "_id" : "4001", "name" : "Kyrie Irving", "height" : "6'3", "weight" : 193, "position" : "G", "team" : 3, "price" : 95.43 },
-    { "_id" : "4002", "name" : "Russell Westbrook", "height" : "6'3", "weight" : 200, "position" : "G", "team" : 30, "price" : 95.14 },
-    { "_id" : "4003", "name" : "Bradley Beal", "height" : "6'5", "weight" : 207, "position" : "G", "team" : 30, "price" : 94.86 },
-    { "_id" : "4004", "name" : "Kemba Walker", "height" : "6'1", "weight" : 184, "position" : "G", "team" : 2, "price" : 94.57 },
-    { "_id" : "4005", "name" : "Klay Thompson", "height" : "6'7", "weight" : 215, "position" : "G", "team" : 10, "price" : 94 },
-    { "_id" : "4006", "name" : "Victor Oladipo", "height" : "6'4", "weight" : 210, "position" : "G", "team" : 11, "price" : 93.71 },
-    { "_id" : "4007", "name" : "Luka Doncic", "height" : "6'7", "weight" : 218, "position" : "F-G", "team" : 7, "price" : 93.43 },
-    { "_id" : "4008", "name" : "Jrue Holiday", "height" : "6'4", "weight" : 205, "position" : "G", "team" : 17, "price" : 93.14 },
-    { "_id" : "4009", "name" : "Al Horford", "height" : "6'10", "weight" : 245, "position" : "C-F", "team" : 21, "price" : 92.86 },
-    { "_id" : "400a", "name" : "Pascal Siakam", "height" : "6'9", "weight" : 230, "position" : "F", "team" : 28, "price" : 92.57 },
-    { "_id" : "400b", "name" : "Kyle Lowry", "height" : "6'1", "weight" : 196, "position" : "G", "team" : 28, "price" : 92.29 },
-    { "_id" : "400c", "name" : "Devin Booker", "height" : "6'6", "weight" : 210, "position" : "G", "team" : 24, "price" : 92 },
-    { "_id" : "400d", "name" : "Andre Drummond", "height" : "6'11", "weight" : 279, "position" : "C", "team" : 6, "price" : 91.71 },
-    { "_id" : "400e", "name" : "Chris Paul", "height" : "6'0", "weight" : 175, "position" : "G", "team" : 24, "price" : 91.43 },
-    { "_id" : "400f", "name" : "Nikola Vucevic", "height" : "7'0", "weight" : 260, "position" : "C", "team" : 22, "price" : 91.14 },
-    { "_id" : "4010", "name" : "Khris Middleton", "height" : "6'8", "weight" : 222, "position" : "F", "team" : 17, "price" : 90.86 },
-    { "_id" : "4011", "name" : "CJ McCollum", "height" : "6'3", "weight" : 190, "position" : "G", "team" : 25, "price" : 90.57 },
-    { "_id" : "4012", "name" : "De'Aaron Fox", "height" : "6'3", "weight" : 175, "position" : "G", "team" : 26, "price" : 90.29 },
-    { "_id" : "4013", "name" : "Mike Conley", "height" : "6'1", "weight" : 175, "position" : "G", "team" : 29, "price" : 90 },
-    { "_id" : "4014", "name" : "Donovan Mitchell", "height" : "6'3", "weight" : 215, "position" : "G", "team" : 29, "price" : 89.71 },
-    { "_id" : "4015", "name" : "LaMarcus Aldridge", "height" : "6'11", "weight" : 260, "position" : "F", "team" : 27, "price" : 89.43 },
-    { "_id" : "4016", "name" : "Kristaps Porzingis", "height" : "7'3", "weight" : 240, "position" : "F-C", "team" : 7, "price" : 89.14 },
-    { "_id" : "4017", "name" : "Kevin Love", "height" : "6'10", "weight" : 251, "position" : "F-C", "team" : 6, "price" : 88.86 },
-    { "_id" : "4018", "name" : "Jamal Murray", "height" : "6'4", "weight" : 207, "position" : "G", "team" : 8, "price" : 88.57 },
-    { "_id" : "4019", "name" : "Tobias Harris", "height" : "6'9", "weight" : 235, "position" : "F", "team" : 23, "price" : 88.29 },
-    { "_id" : "401a", "name" : "Danilo Gallinari", "height" : "6'10", "weight" : 225, "position" : "F", "team" : 1, "price" : 88 },
-    { "_id" : "401b", "name" : "DeMar DeRozan", "height" : "6'7", "weight" : 220, "position" : "G", "team" : 27, "price" : 87.71 },
-    { "_id" : "401c", "name" : "D'Angelo Russell", "height" : "6'5", "weight" : 198, "position" : "G", "team" : 18, "price" : 87.43 },
-    { "_id" : "401d", "name" : "Aaron Gordon", "height" : "6'9", "weight" : 220, "position" : "F", "team" : 22, "price" : 87.14 },
-    { "_id" : "401e", "name" : "Trae Young", "height" : "6'2", "weight" : 180, "position" : "G", "team" : 1, "price" : 86.86 },
-    { "_id" : "401f", "name" : "Myles Turner", "height" : "6'11", "weight" : 250, "position" : "C-F", "team" : 12, "price" : 86.57 },
-    { "_id" : "4020", "name" : "John Collins", "height" : "6'10", "weight" : 235, "position" : "F-C", "team" : 1, "price" : 86.29 },
-    { "_id" : "4021", "name" : "Jayson Tatum", "height" : "6'8", "weight" : 208, "position" : "F", "team" : 2, "price" : 86 },
-    { "_id" : "4022", "name" : "Clint Capela", "height" : "6'10", "weight" : 240, "position" : "C", "team" : 1, "price" : 85.71 },
-    { "_id" : "4023", "name" : "Jusuf Nurkic", "height" : "7'0", "weight" : 275, "position" : "C", "team" : 25, "price" : 85.14 },
-    { "_id" : "4024", "name" : "Buddy Hield", "height" : "6'4", "weight" : 214, "position" : "G", "team" : 26, "price" : 84.86 },
-    { "_id" : "4025", "name" : "Lauri Markkanen", "height" : "7'0", "weight" : 240, "position" : "F", "team" : 5, "price" : 84.57 },
-    { "_id" : "4026", "name" : "Paul Millsap", "height" : "6'8", "weight" : 246, "position" : "F", "team" : 8, "price" : 84.29 },
-    { "_id" : "4027", "name" : "Malcolm Brogdon", "height" : "6'5", "weight" : 229, "position" : "G", "team" : 12, "price" : 84 },
-    { "_id" : "4028", "name" : "Julius Randle", "height" : "6'9", "weight" : 250, "position" : "F", "team" : 20, "price" : 83.71 },
-    { "_id" : "4029", "name" : "Deandre Ayton", "height" : "7'1", "weight" : 250, "position" : "C", "team" : 24, "price" : 83.43 },
-    { "_id" : "402a", "name" : "Joe Ingles", "height" : "6'8", "weight" : 226, "position" : "F", "team" : 29, "price" : 83.14 },
-    { "_id" : "402b", "name" : "Zion Williamson", "position" : "F", "team" : 19, "price" : 82.86 },
-    { "_id" : "402c", "name" : "Zach LaVine", "height" : "6'5", "weight" : 200, "position" : "G", "team" : 5, "price" : 82.57 },
-    { "_id" : "402d", "name" : "Brook Lopez", "height" : "7'0", "weight" : 270, "position" : "C", "team" : 17, "price" : 82.29 },
-    { "_id" : "402e", "name" : "Otto Porter Jr.", "height" : "6'8", "weight" : 198, "position" : "F", "team" : 5, "price" : 82 },
-    { "_id" : "402f", "name" : "Marc Gasol", "height" : "7'1", "weight" : 255, "position" : "C", "team" : 14, "price" : 81.71 },
-    { "_id" : "4030", "name" : "Gary Harris", "height" : "6'4", "weight" : 210, "position" : "G", "team" : 8, "price" : 81.43 },
-    { "_id" : "4031", "name" : "Steven Adams", "height" : "7'0", "weight" : 265, "position" : "C", "team" : 19, "price" : 81.14 },
-    { "_id" : "4032", "name" : "Jaren Jackson Jr.", "height" : "6'11", "weight" : 242, "position" : "F-C", "team" : 15, "price" : 80.86 },
-    { "_id" : "4033", "name" : "Eric Bledsoe", "height" : "6'1", "weight" : 205, "position" : "G", "team" : 19, "price" : 80.57 },
-    { "_id" : "4034", "name" : "Bojan Bogdanovic", "height" : "6'8", "weight" : 216, "position" : "F", "team" : 29, "price" : 80.29 },
-    { "_id" : "4035", "name" : "Caris LeVert", "height" : "6'7", "weight" : 204, "position" : "G", "team" : 12, "price" : 80 },
-    { "_id" : "4036", "name" : "Josh Richardson", "height" : "6'6", "weight" : 200, "position" : "G-F", "team" : 7, "price" : 79.71 },
-    { "_id" : "4037", "name" : "Montrezl Harrell", "height" : "6'8", "weight" : 240, "position" : "F-C", "team" : 14, "price" : 79.43 },
-    { "_id" : "4038", "name" : "Marcus Smart", "height" : "6'4", "weight" : 220, "position" : "G", "team" : 2, "price" : 79.14 },
-    { "_id" : "4039", "name" : "Domantas Sabonis", "height" : "6'11", "weight" : 240, "position" : "F", "team" : 12, "price" : 78.86 },
-    { "_id" : "403a", "name" : "Bam Adebayo", "height" : "6'10", "weight" : 255, "position" : "C-F", "team" : 16, "price" : 78.57 },
-    { "_id" : "403b", "name" : "Robert Covington", "height" : "6'9", "weight" : 225, "position" : "F", "team" : 25, "price" : 78.29 },
-    { "_id" : "403c", "name" : "Eric Gordon", "height" : "6'4", "weight" : 215, "position" : "G", "team" : 11, "price" : 77.43 },
-    { "_id" : "403d", "name" : "Marvin Bagley III", "height" : "6'11", "weight" : 234, "position" : "F", "team" : 26, "price" : 77.14 },
-    { "_id" : "403e", "name" : "Jarrett Allen", "height" : "6'11", "weight" : 237, "position" : "C", "team" : 6, "price" : 76.86 },
-    { "_id" : "403f", "name" : "Jaylen Brown", "height" : "6'7", "weight" : 220, "position" : "G", "team" : 2, "price" : 76.57 },
-    { "_id" : "4040", "name" : "Derrick Favors", "height" : "6'10", "weight" : 265, "position" : "F-C", "team" : 29, "price" : 76.29 },
-    { "_id" : "4041", "name" : "Spencer Dinwiddie", "height" : "6'6", "weight" : 210, "position" : "G", "team" : 3, "price" : 76 },
-    { "_id" : "4042", "name" : "Mitchell Robinson", "height" : "7'1", "weight" : 240, "position" : "C", "team" : 20, "price" : 75.71 },
-    { "_id" : "4043", "name" : "Danny Green", "height" : "6'6", "weight" : 215, "position" : "G-F", "team" : 23, "price" : 75.43 },
-    { "_id" : "4044", "name" : "Shai Gilgeous-Alexander", "height" : "6'6", "weight" : 181, "position" : "G", "team" : 21, "price" : 75.14 },
-    { "_id" : "4045", "name" : "JJ Redick", "height" : "6'4", "weight" : 200, "position" : "G", "team" : 19, "price" : 74.86 },
-    { "_id" : "4046", "name" : "Patrick Beverley", "height" : "6'1", "weight" : 185, "position" : "G", "team" : 13, "price" : 74.57 },
-    { "_id" : "4047", "name" : "Justise Winslow", "height" : "6'7", "weight" : 225, "position" : "F", "team" : 15, "price" : 74.29 },
-    { "_id" : "4048", "name" : "Dejounte Murray", "height" : "6'5", "weight" : 170, "position" : "G", "team" : 27, "price" : 74 },
-    { "_id" : "4049", "name" : "Brandon Ingram", "height" : "6'9", "weight" : 190, "position" : "F", "team" : 19, "price" : 73.71 },
-    { "_id" : "404a", "name" : "Bogdan Bogdanovic", "height" : "6'6", "weight" : 205, "position" : "G", "team" : 1, "price" : 73.43 },
-    { "_id" : "404b", "name" : "Gordon Hayward", "height" : "6'8", "weight" : 225, "position" : "F", "team" : 4, "price" : 73.14 },
-    { "_id" : "404c", "name" : "Ricky Rubio", "height" : "6'4", "weight" : 190, "position" : "G", "team" : 18, "price" : 72.86 },
-    { "_id" : "404d", "name" : "Goran Dragic", "height" : "6'3", "weight" : 190, "position" : "G", "team" : 16, "price" : 72.57 },
-    { "_id" : "404e", "name" : "Lonzo Ball", "height" : "6'6", "weight" : 190, "position" : "G", "team" : 19, "price" : 72.29 },
-    { "_id" : "404f", "name" : "Al-Farouq Aminu", "height" : "6'9", "weight" : 220, "position" : "F", "team" : 22, "price" : 72 },
-    { "_id" : "4050", "name" : "Kevon Looney", "height" : "6'9", "weight" : 220, "position" : "F", "team" : 10, "price" : 69.45 },
-    { "_id" : "4051", "name" : "Derrick White", "height" : "6'4", "weight" : 190, "position" : "G", "team" : 27, "price" : 69.21 },
-    { "_id" : "4052", "name" : "Thaddeus Young", "height" : "6'8", "weight" : 221, "position" : "F", "team" : 5, "price" : 68.98 },
-    { "_id" : "4053", "name" : "Evan Fournier", "height" : "6'7", "weight" : 205, "position" : "G-F", "team" : 22, "price" : 68.74 },
-    { "_id" : "4054", "name" : "Fred VanVleet", "height" : "6'0", "weight" : 195, "position" : "G", "team" : 28, "price" : 68.5 },
-    { "_id" : "4055", "name" : "Jonas Valanciunas", "height" : "7'0", "weight" : 265, "position" : "C", "team" : 15, "price" : 68.26 },
-    { "_id" : "4056", "name" : "Joe Harris", "height" : "6'6", "weight" : 218, "position" : "F-G", "team" : 3, "price" : 68.02 },
-    { "_id" : "4057", "name" : "Andre Iguodala", "height" : "6'6", "weight" : 215, "position" : "G-F", "team" : 16, "price" : 67.79 },
-    { "_id" : "4058", "name" : "Rudy Gay", "height" : "6'8", "weight" : 230, "position" : "F", "team" : 27, "price" : 67.55 },
-    { "_id" : "4059", "name" : "Jerami Grant", "height" : "6'9", "weight" : 220, "position" : "F", "team" : 9, "price" : 66.83 },
-    { "_id" : "405a", "name" : "Dario Saric", "height" : "6'10", "weight" : 223, "position" : "F", "team" : 24, "price" : 66.6 },
-    { "_id" : "405b", "name" : "DeMarcus Cousins", "height" : "6'11", "weight" : 270, "position" : "C", "team" : 11, "price" : 66.36 },
-    { "_id" : "405c", "name" : "Serge Ibaka", "height" : "6'10", "weight" : 235, "position" : "F-C", "team" : 13, "price" : 66.12 },
-    { "_id" : "405d", "name" : "Jonathan Isaac", "height" : "6'10", "weight" : 210, "position" : "F", "team" : 22, "price" : 65.88 },
-    { "_id" : "405e", "name" : "Marcus Morris", "height" : "6'9", "weight" : 235, "position" : "F", "team" : 13, "price" : 65.64 },
-    { "_id" : "405f", "name" : "T.J. Warren", "height" : "6'8", "weight" : 215, "position" : "F", "team" : 12, "price" : 65.4 },
-    { "_id" : "4060", "name" : "Harrison Barnes", "height" : "6'8", "weight" : 225, "position" : "F", "team" : 26, "price" : 65.17 },
-    { "_id" : "4061", "name" : "Hassan Whiteside", "height" : "7'0", "weight" : 265, "position" : "C", "team" : 26, "price" : 64.93 },
-    { "_id" : "4062", "name" : "Kyle Kuzma", "height" : "6'9", "weight" : 220, "position" : "F", "team" : 14, "price" : 64.69 },
-    { "_id" : "4063", "name" : "Landry Shamet", "height" : "6'5", "weight" : 188, "position" : "G", "team" : 3, "price" : 64.45 },
-    { "_id" : "4064", "name" : "Reggie Jackson", "height" : "6'3", "weight" : 208, "position" : "G", "team" : 13, "price" : 64.21 },
-    { "_id" : "4065", "name" : "Jeremy Lamb", "height" : "6'5", "weight" : 185, "position" : "G", "team" : 12, "price" : 63.98 },
-    { "_id" : "4066", "name" : "D.J. Augustin", "height" : "6'0", "weight" : 183, "position" : "G", "team" : 17, "price" : 63.74 },
-    { "_id" : "4067", "name" : "Jeff Teague", "height" : "6'2", "weight" : 195, "position" : "G", "team" : 2, "price" : 63.26 },
-    { "_id" : "4068", "name" : "Monte Morris", "height" : "6'3", "weight" : 175, "position" : "G", "team" : 8, "price" : 63.02 },
-    { "_id" : "4069", "name" : "Wendell Carter Jr.", "height" : "6'10", "weight" : 255, "position" : "F", "team" : 5, "price" : 62.79 },
-    { "_id" : "406a", "name" : "Cody Zeller", "height" : "7'0", "weight" : 240, "position" : "C", "team" : 4, "price" : 62.55 },
-    { "_id" : "406b", "name" : "DeAndre Jordan", "height" : "6'11", "weight" : 265, "position" : "C", "team" : 3, "price" : 62.31 },
-    { "_id" : "406c", "name" : "Mikal Bridges", "height" : "6'7", "weight" : 210, "position" : "F", "team" : 24, "price" : 62.07 },
-    { "_id" : "406d", "name" : "Terrence Ross", "height" : "6'7", "weight" : 206, "position" : "G-F", "team" : 22, "price" : 61.83 },
-    { "_id" : "406e", "name" : "Willie Cauley-Stein", "height" : "7'0", "weight" : 240, "position" : "C", "team" : 7, "price" : 61.6 },
-    { "_id" : "406f", "name" : "Delon Wright", "height" : "6'5", "weight" : 183, "position" : "G", "team" : 9, "price" : 61.36 },
-    { "_id" : "4070", "name" : "Nicolas Batum", "height" : "6'8", "weight" : 200, "position" : "F-G", "team" : 13, "price" : 61.12 },
-    { "_id" : "4071", "name" : "Andrew Wiggins", "height" : "6'8", "weight" : 194, "position" : "F-G", "team" : 10, "price" : 60.88 },
-    { "_id" : "4072", "name" : "Zach Collins", "height" : "7'0", "weight" : 235, "position" : "F-C", "team" : 25, "price" : 60.64 },
-    { "_id" : "4073", "name" : "OG Anunoby", "height" : "6'8", "weight" : 232, "position" : "F", "team" : 28, "price" : 60.4 },
-    { "_id" : "4074", "name" : "Collin Sexton", "height" : "6'2", "weight" : 190, "position" : "G", "team" : 6, "price" : 60.17 },
-    { "_id" : "4075", "name" : "Nemanja Bjelica", "height" : "6'10", "weight" : 234, "position" : "F", "team" : 26, "price" : 59.93 },
-    { "_id" : "4076", "name" : "Thomas Bryant", "height" : "6'11", "weight" : 248, "position" : "C", "team" : 30, "price" : 59.69 },
-    { "_id" : "4077", "name" : "Kevin Huerter", "height" : "6'7", "weight" : 190, "position" : "G", "team" : 1, "price" : 59.21 },
-    { "_id" : "4078", "name" : "Will Barton", "height" : "6'6", "weight" : 190, "position" : "G", "team" : 8, "price" : 58.98 },
-    { "_id" : "4079", "name" : "Malik Beasley", "height" : "6'5", "weight" : 195, "position" : "G", "team" : 18, "price" : 58.74 },
-    { "_id" : "407a", "name" : "Kyle Anderson", "height" : "6'9", "weight" : 230, "position" : "F", "team" : 15, "price" : 58.5 },
-    { "_id" : "407b", "name" : "Aron Baynes", "height" : "6'10", "weight" : 260, "position" : "C-F", "team" : 28, "price" : 58.26 },
-    { "_id" : "407c", "name" : "Davis Bertans", "height" : "6'10", "weight" : 225, "position" : "F", "team" : 30, "price" : 58.02 },
-    { "_id" : "407d", "name" : "Kelly Oubre Jr.", "height" : "6'7", "weight" : 205, "position" : "F", "team" : 10, "price" : 57.79 },
-    { "_id" : "407e", "name" : "Jae Crowder", "height" : "6'6", "weight" : 235, "position" : "F", "team" : 24, "price" : 57.55 },
-    { "_id" : "407f", "name" : "Mason Plumlee", "height" : "6'11", "weight" : 235, "position" : "F-C", "team" : 9, "price" : 57.31 },
-    { "_id" : "4080", "name" : "Jakob Poeltl", "height" : "7'0", "weight" : 230, "position" : "C", "team" : 27, "price" : 57.07 },
-    { "_id" : "4081", "name" : "Enes Kanter", "position" : "C", "team" : 25, "price" : 56.83 },
-    { "_id" : "4082", "name" : "Miles Bridges", "height" : "6'7", "weight" : 225, "position" : "F", "team" : 4, "price" : 56.36 },
-    { "_id" : "4083", "name" : "Luke Kennard", "height" : "6'5", "weight" : 206, "position" : "G", "team" : 13, "price" : 56.12 },
-    { "_id" : "4084", "name" : "Markieff Morris", "position" : "F", "team" : 14, "price" : 55.88 },
-    { "_id" : "4085", "name" : "Ja Morant", "position" : "G", "team" : 15, "price" : 55.64 },
-    { "_id" : "4086", "name" : "Bryn Forbes", "height" : "6'3", "weight" : 190, "position" : "G", "team" : 17, "price" : 55.4 },
-    { "_id" : "4087", "name" : "Taurean Prince", "height" : "6'8", "weight" : 220, "position" : "F", "team" : 6, "price" : 55.17 },
-    { "_id" : "4088", "name" : "Kelly Olynyk", "height" : "7'0", "weight" : 240, "position" : "F", "team" : 16, "price" : 54.93 },
-    { "_id" : "4089", "name" : "Terry Rozier", "height" : "6'1", "weight" : 190, "position" : "G", "team" : 4, "price" : 54.69 },
-    { "_id" : "408a", "name" : "Tim Hardaway Jr.", "height" : "6'6", "weight" : 205, "position" : "G", "team" : 7, "price" : 54.45 },
-    { "_id" : "408b", "name" : "Tristan Thompson", "height" : "6'10", "weight" : 238, "position" : "C-F", "team" : 2, "price" : 54.21 },
-    { "_id" : "408c", "name" : "Maxi Kleber", "height" : "6'11", "weight" : 240, "position" : "F", "team" : 7, "price" : 53.74 },
-    { "_id" : "408d", "name" : "Bobby Portis", "height" : "6'11", "weight" : 250, "position" : "F", "team" : 17, "price" : 53.5 },
-    { "_id" : "408e", "name" : "Dwight Powell", "height" : "6'11", "weight" : 240, "position" : "F-C", "team" : 7, "price" : 53.26 },
-    { "_id" : "408f", "name" : "Rodney Hood", "height" : "6'8", "weight" : 206, "position" : "G", "team" : 25, "price" : 53.02 },
-    { "_id" : "4090", "name" : "James Johnson", "height" : "6'8", "weight" : 240, "position" : "F", "team" : 7, "price" : 52.79 },
-    { "_id" : "4091", "name" : "Seth Curry", "height" : "6'2", "weight" : 185, "position" : "G", "team" : 23, "price" : 52.55 },
-    { "_id" : "4092", "name" : "George Hill", "height" : "6'3", "weight" : 188, "position" : "G", "team" : 21, "price" : 52.31 },
-    { "_id" : "4093", "name" : "Kent Bazemore", "height" : "6'5", "weight" : 201, "position" : "G", "team" : 10, "price" : 52.07 },
-    { "_id" : "4094", "name" : "Cedi Osman", "height" : "6'8", "weight" : 215, "position" : "F", "team" : 6, "price" : 51.83 },
-    { "_id" : "4095", "name" : "Maurice Harkless", "height" : "6'9", "weight" : 220, "position" : "F", "team" : 16, "price" : 51.6 },
-    { "_id" : "4096", "name" : "Dennis Smith Jr.", "height" : "6'3", "weight" : 195, "position" : "G", "team" : 9, "price" : 51.36 },
-    { "_id" : "4097", "name" : "RJ Barrett", "position" : "F-G", "team" : 20, "price" : 51.12 },
-    { "_id" : "4098", "name" : "E'Twaun Moore", "height" : "6'4", "weight" : 191, "position" : "G", "team" : 24, "price" : 50.88 },
-    { "_id" : "4099", "name" : "Dwight Howard", "height" : "6'11", "weight" : 265, "position" : "C", "team" : 23, "price" : 50.64 },
-    { "_id" : "409a", "name" : "Josh Hart", "height" : "6'5", "weight" : 215, "position" : "G", "team" : 19, "price" : 50.4 },
-    { "_id" : "409b", "name" : "Royce O'Neale", "height" : "6'6", "weight" : 226, "position" : "F", "team" : 29, "price" : 50.17 },
-    { "_id" : "409c", "name" : "Austin Rivers", "height" : "6'4", "weight" : 200, "position" : "G", "team" : 20, "price" : 49.93 },
-    { "_id" : "409d", "name" : "JaVale McGee", "height" : "7'0", "weight" : 270, "position" : "C", "team" : 6, "price" : 49.69 },
-    { "_id" : "409e", "name" : "Tyus Jones", "height" : "6'2", "weight" : 196, "position" : "G", "team" : 15, "price" : 49.45 },
-    { "_id" : "409f", "name" : "Kentavious Caldwell-Pope", "height" : "6'5", "weight" : 205, "position" : "G", "team" : 14, "price" : 49.21 },
-    { "_id" : "40a0", "name" : "Derrick Rose", "height" : "6'3", "weight" : 200, "position" : "G", "team" : 20, "price" : 48.98 },
-    { "_id" : "40a1", "name" : "Trevor Ariza", "height" : "6'8", "weight" : 215, "position" : "F", "team" : 21, "price" : 48.26 },
-    { "_id" : "40a2", "name" : "Ed Davis", "height" : "6'10", "weight" : 225, "position" : "C", "team" : 18, "price" : 48.02 },
-    { "_id" : "40a3", "name" : "Noah Vonleh", "height" : "6'9", "weight" : 250, "position" : "F", "team" : 3, "price" : 47.79 },
-    { "_id" : "40a4", "name" : "Norman Powell", "height" : "6'4", "weight" : 215, "position" : "F-G", "team" : 28, "price" : 47.55 },
-    { "_id" : "40a5", "name" : "JaMychal Green", "height" : "6'9", "weight" : 227, "position" : "F", "team" : 8, "price" : 47.31 },
-    { "_id" : "40a6", "name" : "Taj Gibson", "height" : "6'9", "weight" : 232, "position" : "F", "team" : 20, "price" : 47.07 },
-    { "_id" : "40a7", "name" : "Cory Joseph", "height" : "6'3", "weight" : 193, "position" : "G", "team" : 26, "price" : 46.83 },
-    { "_id" : "40a8", "name" : "Tyler Johnson", "height" : "6'4", "weight" : 190, "position" : "G", "team" : 3, "price" : 46.6 },
-    { "_id" : "40a9", "name" : "Reggie Bullock", "height" : "6'7", "weight" : 205, "position" : "G-F", "team" : 20, "price" : 46.36 },
-    { "_id" : "40aa", "name" : "Robin Lopez", "height" : "7'0", "weight" : 275, "position" : "C", "team" : 30, "price" : 46.12 },
-    { "_id" : "40ab", "name" : "Darius Garland", "position" : "G", "team" : 6, "price" : 45.88 },
-    { "_id" : "40ac", "name" : "Josh Okogie", "height" : "6'4", "weight" : 212, "position" : "G", "team" : 18, "price" : 44.68 },
-    { "_id" : "40ad", "name" : "Alex Len", "height" : "7'1", "weight" : 250, "position" : "C", "team" : 30, "price" : 44.3 },
-    { "_id" : "40ae", "name" : "Jordan Clarkson", "height" : "6'5", "weight" : 194, "position" : "G", "team" : 29, "price" : 44.11 },
-    { "_id" : "40af", "name" : "Jarrett Culver", "position" : "G", "team" : 18, "price" : 43.74 },
-    { "_id" : "40b0", "name" : "Nerlens Noel", "height" : "6'11", "weight" : 220, "position" : "F-C", "team" : 20, "price" : 43.55 },
-    { "_id" : "40b1", "name" : "Elfrid Payton", "height" : "6'4", "weight" : 185, "position" : "G", "team" : 20, "price" : 43.36 },
-    { "_id" : "40b2", "name" : "Harry Giles III", "height" : "6'10", "weight" : 240, "position" : "F-C", "team" : 25, "price" : 42.98 },
-    { "_id" : "40b3", "name" : "Juancho Hernangomez", "height" : "6'9", "weight" : 230, "position" : "F", "team" : 18, "price" : 42.79 },
-    { "_id" : "40b4", "name" : "Richaun Holmes", "height" : "6'10", "weight" : 235, "position" : "F-C", "team" : 26, "price" : 42.6 },
-    { "_id" : "40b5", "name" : "Brandon Clarke", "position" : "F", "team" : 15, "price" : 42.42 },
-    { "_id" : "40b6", "name" : "Jeff Green", "height" : "6'9", "weight" : 235, "position" : "F", "team" : 3, "price" : 42.23 },
-    { "_id" : "40b7", "name" : "Torrey Craig", "height" : "6'7", "weight" : 215, "position" : "F", "team" : 17, "price" : 41.85 },
-    { "_id" : "40b8", "name" : "Wesley Matthews", "position" : "G-F", "team" : 14, "price" : 41.66 },
-    { "_id" : "40b9", "name" : "Garrett Temple", "height" : "6'6", "weight" : 195, "position" : "G-F", "team" : 5, "price" : 41.47 },
-    { "_id" : "40ba", "name" : "De'Andre Hunter", "position" : "F", "team" : 1, "price" : 41.09 },
-    { "_id" : "40bb", "name" : "Ish Smith", "height" : "6'0", "weight" : 175, "position" : "G", "team" : 30, "price" : 40.91 },
-    { "_id" : "40bc", "name" : "Willy Hernangomez", "height" : "6'11", "weight" : 240, "position" : "C", "team" : 19, "price" : 40.53 },
-    { "_id" : "40bd", "name" : "Boban Marjanovic", "height" : "7'3", "weight" : 290, "position" : "C", "team" : 7, "price" : 40.34 },
-    { "_id" : "40be", "name" : "Wayne Ellington", "position" : "G", "team" : 9, "price" : 40.15 },
-    { "_id" : "40bf", "name" : "Markelle Fultz", "height" : "6'4", "weight" : 200, "position" : "G", "team" : 22, "price" : 39.96 },
-    { "_id" : "40c0", "name" : "Jabari Parker", "height" : "6'8", "weight" : 245, "position" : "F", "team" : 26, "price" : 39.77 },
-    { "_id" : "40c1", "name" : "Terrance Ferguson", "height" : "6'7", "weight" : 190, "position" : "G", "team" : 23, "price" : 39.58 },
-    { "_id" : "40c2", "name" : "Malik Monk", "height" : "6'3", "weight" : 200, "position" : "G", "team" : 4, "price" : 39.4 },
-    { "_id" : "40c3", "name" : "Jalen Brunson", "height" : "6'3", "weight" : 190, "position" : "G", "team" : 7, "price" : 39.21 },
-    { "_id" : "40c4", "name" : "Dorian Finney-Smith", "height" : "6'8", "weight" : 220, "position" : "F", "team" : 7, "price" : 38.83 },
-    { "_id" : "40c5", "name" : "Dante Exum", "height" : "6'6", "weight" : 190, "position" : "G", "team" : 11, "price" : 38.64 },
-    { "_id" : "40c6", "name" : "Michael Porter Jr.", "height" : "6'10", "weight" : 210, "position" : "F", "team" : 8, "price" : 38.45 },
-    { "_id" : "40c7", "name" : "Kevin Knox", "height" : "6'9", "weight" : 215, "position" : "F", "team" : 20, "price" : 38.26 },
-    { "_id" : "40c8", "name" : "Daniel Theis", "height" : "6'8", "weight" : 243, "position" : "F", "team" : 2, "price" : 38.08 },
-    { "_id" : "40c9", "name" : "Coby White", "position" : "G", "team" : 5, "price" : 37.89 },
-    { "_id" : "40ca", "name" : "Jared Dudley", "height" : "6'7", "weight" : 237, "position" : "F", "team" : 14, "price" : 37.7 },
-    { "_id" : "40cb", "name" : "Mike Scott", "height" : "6'8", "weight" : 237, "position" : "F", "team" : 23, "price" : 37.51 },
-    { "_id" : "40cc", "name" : "Alec Burks", "height" : "6'6", "weight" : 214, "position" : "G", "team" : 20, "price" : 37.13 },
-    { "_id" : "40cd", "name" : "Aaron Holiday", "height" : "6'1", "weight" : 185, "position" : "G", "team" : 12, "price" : 36.75 },
-    { "_id" : "40ce", "name" : "Rajon Rondo", "height" : "6'1", "weight" : 186, "position" : "G", "team" : 1, "price" : 36.57 },
-    { "_id" : "40cf", "name" : "Avery Bradley", "height" : "6'2", "weight" : 180, "position" : "G", "team" : 16, "price" : 36.19 },
-    { "_id" : "40d0", "name" : "Nickeil Alexander-Walker", "position" : "G", "team" : 19, "price" : 36 },
-    { "_id" : "40d1", "name" : "Frank Ntilikina", "height" : "6'6", "weight" : 200, "position" : "G", "team" : 20, "price" : 35.81 },
-    { "_id" : "40d2", "name" : "James Ennis III", "height" : "6'7", "weight" : 210, "position" : "F", "team" : 22, "price" : 35.62 },
-    { "_id" : "40d3", "name" : "Kris Dunn", "height" : "6'4", "weight" : 205, "position" : "G", "team" : 1, "price" : 35.43 },
-    { "_id" : "40d4", "name" : "Meyers Leonard", "height" : "7'1", "weight" : 255, "position" : "F-C", "team" : 16, "price" : 35.06 },
-    { "_id" : "40d5", "name" : "Bruce Brown", "height" : "6'5", "weight" : 202, "position" : "G", "team" : 3, "price" : 34.87 },
-    { "_id" : "40d6", "name" : "Khem Birch", "height" : "6'9", "weight" : 233, "position" : "C", "team" : 22, "price" : 34.68 },
-    { "_id" : "40d7", "name" : "Tyler Herro", "position" : "G", "team" : 16, "price" : 34.49 },
-    { "_id" : "40d8", "name" : "Rodney McGruder", "height" : "6'4", "weight" : 200, "position" : "F-G", "team" : 9, "price" : 34.3 },
-    { "_id" : "40d9", "name" : "Doug McDermott", "height" : "6'8", "weight" : 225, "position" : "F", "team" : 12, "price" : 33.74 },
-    { "_id" : "40da", "name" : "Justin Holiday", "height" : "6'6", "weight" : 181, "position" : "F-G", "team" : 12, "price" : 33.36 },
-    { "_id" : "40db", "name" : "Lonnie Walker IV", "height" : "6'5", "weight" : 205, "position" : "G", "team" : 27, "price" : 33.17 },
-    { "_id" : "40dc", "name" : "Tony Snell", "height" : "6'7", "weight" : 213, "position" : "G", "team" : 1, "price" : 32.98 },
-    { "_id" : "40dd", "name" : "D.J. Wilson", "height" : "6'10", "weight" : 231, "position" : "F", "team" : 17, "price" : 32.79 },
-    { "_id" : "40de", "name" : "Justin Jackson", "height" : "6'8", "weight" : 210, "position" : "F", "team" : 21, "price" : 32.6 },
-    { "_id" : "40df", "name" : "Alex Caruso", "height" : "6'5", "weight" : 186, "position" : "G", "team" : 14, "price" : 32.42 },
-    { "_id" : "40e0", "name" : "Rui Hachimura", "position" : "F", "team" : 30, "price" : 32.04 },
-    { "_id" : "40e1", "name" : "Dillon Brooks", "height" : "6'6", "weight" : 220, "position" : "G-F", "team" : 15, "price" : 31.66 },
-    { "_id" : "40e2", "name" : "Stanley Johnson", "height" : "6'7", "weight" : 245, "position" : "F", "team" : 28, "price" : 31.28 },
-    { "_id" : "40e3", "name" : "Trey Burke", "height" : "6'1", "weight" : 175, "position" : "G", "team" : 7, "price" : 31.09 },
-    { "_id" : "40e4", "name" : "Gorgui Dieng", "height" : "6'11", "weight" : 252, "position" : "C", "team" : 15, "price" : 30.53 },
-    { "_id" : "40e5", "name" : "Rodions Kurucs", "height" : "6'9", "weight" : 210, "position" : "F", "team" : 11, "price" : 29.96 },
-    { "_id" : "40e6", "name" : "Anfernee Simons", "height" : "6'4", "weight" : 185, "position" : "G", "team" : 25, "price" : 29.77 },
-    { "_id" : "40e7", "name" : "Jaxson Hayes", "position" : "C", "team" : 19, "price" : 29.58 },
-    { "_id" : "40e8", "name" : "Jake Layman", "height" : "6'9", "weight" : 215, "position" : "F", "team" : 18, "price" : 29.4 },
-    { "_id" : "40e9", "name" : "Sterling Brown", "height" : "6'6", "weight" : 232, "position" : "G", "team" : 11, "price" : 29.02 },
-    { "_id" : "40ea", "name" : "Jordan Bell", "height" : "6'9", "weight" : 224, "position" : "F", "team" : 30, "price" : 28.83 },
-    { "_id" : "40eb", "name" : "Darius Miller", "height" : "6'8", "weight" : 225, "position" : "F", "team" : 21, "price" : 28.64 },
-    { "_id" : "40ec", "name" : "Denzel Valentine", "height" : "6'6", "weight" : 210, "position" : "G", "team" : 5, "price" : 28.45 },
-    { "_id" : "40ed", "name" : "T.J. McConnell", "height" : "6'2", "weight" : 190, "position" : "G", "team" : 12, "price" : 28.26 },
-    { "_id" : "40ee", "name" : "Trey Lyles", "height" : "6'10", "weight" : 234, "position" : "F", "team" : 27, "price" : 28.08 },
-    { "_id" : "40ef", "name" : "DeAndre' Bembry", "height" : "6'6", "weight" : 210, "position" : "F", "team" : 28, "price" : 27.89 },
-    { "_id" : "40f0", "name" : "Langston Galloway", "height" : "6'2", "weight" : 200, "position" : "G", "team" : 24, "price" : 27.7 },
-    { "_id" : "40f1", "name" : "Robert Williams III", "height" : "6'10", "weight" : 240, "position" : "C-F", "team" : 2, "price" : 27.32 },
-    { "_id" : "40f2", "name" : "Alfonzo McKinnie", "height" : "6'8", "weight" : 215, "position" : "F", "team" : 14, "price" : 26.38 },
-    { "_id" : "40f3", "name" : "Matisse Thybulle", "position" : "G-F", "team" : 23, "price" : 26.19 },
-    { "_id" : "40f4", "name" : "Frank Kaminsky", "height" : "7'0", "weight" : 242, "position" : "F-C", "team" : 24, "price" : 26 },
-    { "_id" : "40f5", "name" : "Derrick Jones Jr.", "height" : "6'7", "weight" : 200, "position" : "F-G", "team" : 25, "price" : 25.15 },
-    { "_id" : "40f6", "name" : "David Nwaba", "height" : "6'4", "weight" : 219, "position" : "G", "team" : 11, "price" : 25.01 },
-    { "_id" : "40f7", "name" : "Quinn Cook", "height" : "6'2", "weight" : 179, "position" : "G", "team" : 14, "price" : 24.87 },
-    { "_id" : "40f8", "name" : "Grant Williams", "position" : "F", "team" : 2, "price" : 24.73 },
-    { "_id" : "40f9", "name" : "Ryan Arcidiacono", "height" : "6'3", "weight" : 200, "position" : "G", "team" : 5, "price" : 24.59 },
-    { "_id" : "40fa", "name" : "Jahlil Okafor", "height" : "6'11", "weight" : 275, "position" : "C", "team" : 9, "price" : 24.17 },
-    { "_id" : "40fb", "name" : "Cameron Johnson", "position" : "F", "team" : 24, "price" : 24.03 },
-    { "_id" : "40fc", "name" : "Mike Muscala", "height" : "6'11", "weight" : 240, "position" : "F-C", "team" : 21, "price" : 23.89 },
-    { "_id" : "40fd", "name" : "Damyean Dotson", "height" : "6'6", "weight" : 210, "position" : "G", "team" : 6, "price" : 23.75 },
-    { "_id" : "40fe", "name" : "Patrick Patterson", "height" : "6'9", "weight" : 230, "position" : "F", "team" : 13, "price" : 23.32 },
-    { "_id" : "40ff", "name" : "Raul Neto", "height" : "6'1", "weight" : 179, "position" : "G", "team" : 30, "price" : 23.04 },
-    { "_id" : "4100", "name" : "Furkan Korkmaz", "height" : "6'7", "weight" : 190, "position" : "G-F", "team" : 23, "price" : 22.9 },
-    { "_id" : "4101", "name" : "Georges Niang", "height" : "6'8", "weight" : 230, "position" : "F", "team" : 29, "price" : 22.76 },
-    { "_id" : "4102", "name" : "Chandler Hutchison", "height" : "6'7", "weight" : 197, "position" : "F", "team" : 5, "price" : 22.48 },
-    { "_id" : "4103", "name" : "Semi Ojeleye", "height" : "6'7", "weight" : 241, "position" : "F", "team" : 2, "price" : 22.2 },
-    { "_id" : "4104", "name" : "Patrick McCaw", "height" : "6'7", "weight" : 185, "position" : "", "team" : 28, "price" : 22.06 },
-    { "_id" : "4105", "name" : "Dwayne Bacon", "height" : "6'7", "weight" : 221, "position" : "G-F", "team" : 22, "price" : 21.63 },
-    { "_id" : "4106", "name" : "Luke Kornet", "height" : "7'1", "weight" : 250, "position" : "F-C", "team" : 5, "price" : 21.49 },
-    { "_id" : "4107", "name" : "Wes Iwundu", "height" : "6'7", "weight" : 195, "position" : "F", "team" : 7, "price" : 21.35 },
-    { "_id" : "4108", "name" : "Matthew Dellavedova", "height" : "6'4", "weight" : 200, "position" : "G", "team" : 6, "price" : 21.21 },
-    { "_id" : "4109", "name" : "De'Anthony Melton", "height" : "6'4", "weight" : 200, "position" : "G", "team" : 15, "price" : 21.07 },
-    { "_id" : "410a", "name" : "Michael Carter-Williams", "position" : "G", "team" : 22, "price" : 20.93 },
-    { "_id" : "410b", "name" : "Donte DiVincenzo", "height" : "6'4", "weight" : 203, "position" : "G", "team" : 17, "price" : 20.79 },
-    { "_id" : "410c", "name" : "Christian Wood", "height" : "6'10", "weight" : 214, "position" : "F", "team" : 11, "price" : 20.51 },
-    { "_id" : "410d", "name" : "Tim Frazier", "height" : "6'1", "weight" : 170, "position" : "G", "team" : 9, "price" : 20.23 },
-    { "_id" : "410e", "name" : "Frank Jackson", "height" : "6'3", "weight" : 205, "position" : "G", "team" : 9, "price" : 20.08 },
-    { "_id" : "410f", "name" : "Ty Jerome", "position" : "G", "team" : 21, "price" : 19.94 },
-    { "_id" : "4110", "name" : "Glenn Robinson III", "height" : "6'6", "weight" : 222, "position" : "G-F", "team" : 26, "price" : 19.8 },
-    { "_id" : "4111", "name" : "Solomon Hill", "height" : "6'7", "weight" : 225, "position" : "F", "team" : 1, "price" : 19.66 },
-    { "_id" : "4112", "name" : "P.J. Washington", "position" : "F", "team" : 4, "price" : 19.52 },
-    { "_id" : "4113", "name" : "Kenrich Williams", "height" : "6'7", "weight" : 210, "position" : "G-F", "team" : 21, "price" : 19.38 },
-    { "_id" : "4114", "name" : "Romeo Langford", "position" : "G", "team" : 2, "price" : 18.96 },
-    { "_id" : "4115", "name" : "Bismack Biyombo", "height" : "6'9", "weight" : 255, "position" : "C", "team" : 4, "price" : 18.54 },
-    { "_id" : "4116", "name" : "Nassir Little", "position" : "F", "team" : 25, "price" : 17.97 },
-    { "_id" : "4117", "name" : "Carsen Edwards", "position" : "G", "team" : 2, "price" : 17.83 },
-    { "_id" : "4118", "name" : "Goga Bitadze", "position" : "C", "team" : 12, "price" : 17.41 },
-    { "_id" : "4119", "name" : "Hamidou Diallo", "height" : "6'5", "weight" : 198, "position" : "G", "team" : 21, "price" : 16.99 },
-    { "_id" : "411a", "name" : "Damian Jones", "height" : "7'0", "weight" : 245, "position" : "C", "team" : 24, "price" : 16.85 },
-    { "_id" : "411b", "name" : "Bruno Fernando", "position" : "F", "team" : 1, "price" : 16.42 },
-    { "_id" : "411c", "name" : "Shaquille Harrison", "height" : "6'4", "weight" : 190, "position" : "G", "team" : 29, "price" : 16.28 },
-    { "_id" : "411d", "name" : "Josh Jackson", "height" : "6'8", "weight" : 200, "position" : "F", "team" : 9, "price" : 16.14 },
-    { "_id" : "411e", "name" : "Sindarius Thornwell", "height" : "6'5", "weight" : 215, "position" : "G", "team" : 19, "price" : 16 },
-    { "_id" : "411f", "name" : "Keita Bates-Diop", "height" : "6'9", "weight" : 229, "position" : "F", "team" : 27, "price" : 15.72 },
-    { "_id" : "4120", "name" : "Sekou Doumbouya", "position" : "F", "team" : 9, "price" : 15.44 },
-    { "_id" : "4121", "name" : "Grayson Allen", "height" : "6'5", "weight" : 198, "position" : "G", "team" : 15, "price" : 15.15 },
-    { "_id" : "4122", "name" : "Jarred Vanderbilt", "height" : "6'9", "weight" : 214, "position" : "F", "team" : 18, "price" : 15.01 },
-    { "_id" : "4123", "name" : "Devonte' Graham", "height" : "6'2", "weight" : 185, "position" : "G", "team" : 4, "price" : 14.87 },
-    { "_id" : "4124", "name" : "Cristiano Felicio", "height" : "6'10", "weight" : 265, "position" : "F-C", "team" : 5, "price" : 14.59 },
-    { "_id" : "4125", "name" : "Chuma Okeke", "position" : "F", "team" : 22, "price" : 14.45 },
-    { "_id" : "4126", "name" : "Dylan Windler", "position" : "G-F", "team" : 6, "price" : 14.31 },
-    { "_id" : "4127", "name" : "Bol Bol", "position" : "C", "team" : 8, "price" : 14.03 },
-    { "_id" : "4128", "name" : "JaKarr Sampson", "position" : "", "team" : 12, "price" : 13.61 },
-    { "_id" : "4129", "name" : "Luka Samanic", "position" : "F", "team" : 27, "price" : 13.18 },
-    { "_id" : "412a", "name" : "Jevon Carter", "height" : "6'2", "weight" : 196, "position" : "G", "team" : 24, "price" : 12.9 },
-    { "_id" : "412b", "name" : "Ignas Brazdeikis", "position" : "F", "team" : 20, "price" : 12.76 },
-    { "_id" : "412c", "name" : "Abdel Nader", "height" : "6'6", "weight" : 225, "position" : "F", "team" : 24, "price" : 12.62 },
-    { "_id" : "412d", "name" : "Nicolo Melli", "position" : "F", "team" : 19, "price" : 12.34 },
-    { "_id" : "412e", "name" : "Keldon Johnson", "position" : "F", "team" : 27, "price" : 12.2 },
-    { "_id" : "412f", "name" : "Shake Milton", "height" : "6'6", "weight" : 207, "position" : "G", "team" : 23, "price" : 12.06 },
-    { "_id" : "4130", "name" : "Eric Paschall", "position" : "F", "team" : 10, "price" : 11.92 },
-    { "_id" : "4131", "name" : "Jerome Robinson", "height" : "6'5", "weight" : 190, "position" : "G", "team" : 30, "price" : 11.63 },
-    { "_id" : "4132", "name" : "Ben McLemore", "position" : "G", "team" : 11, "price" : 11.49 },
-    { "_id" : "4133", "name" : "Brad Wanamaker", "height" : "6'4", "weight" : 210, "position" : "G", "team" : 10, "price" : 11.21 },
-    { "_id" : "4134", "name" : "Chris Boucher", "height" : "6'10", "weight" : 200, "position" : "F", "team" : 28, "price" : 9.94 },
-    { "_id" : "4135", "name" : "Jordan Poole", "position" : "G", "team" : 10, "price" : 9.9 },
-    { "_id" : "4136", "name" : "Damion Lee", "height" : "6'6", "weight" : 210, "position" : "G", "team" : 10, "price" : 9.86 },
-    { "_id" : "4137", "name" : "Talen Horton-Tucker", "position" : "G", "team" : 14, "price" : 9.77 },
-    { "_id" : "4138", "name" : "Tony Bradley", "height" : "6'10", "weight" : 248, "position" : "C", "team" : 23, "price" : 9.73 },
-    { "_id" : "4139", "name" : "Cameron Payne", "position" : "G", "team" : 24, "price" : 9.61 },
-    { "_id" : "413a", "name" : "Isaiah Hartenstein", "height" : "7'0", "weight" : 249, "position" : "F-C", "team" : 8, "price" : 9.52 },
-    { "_id" : "413b", "name" : "Vincent Poirier", "position" : "C", "team" : 23, "price" : 9.48 },
-    { "_id" : "413c", "name" : "Daniel Gafford", "position" : "F", "team" : 5, "price" : 9.44 },
-    { "_id" : "413d", "name" : "Darius Bazley", "position" : "F", "team" : 21, "price" : 9.4 },
-    { "_id" : "413e", "name" : "Nicolas Claxton", "position" : "F-C", "team" : 3, "price" : 9.36 },
-    { "_id" : "413f", "name" : "Alen Smailagic", "position" : "F", "team" : 10, "price" : 9.27 },
-    { "_id" : "4140", "name" : "Chimezie Metu", "height" : "6'10", "weight" : 225, "position" : "F", "team" : 26, "price" : 9.23 },
-    { "_id" : "4141", "name" : "Tacko Fall", "position" : "C", "team" : 2, "price" : 9.15 },
-    { "_id" : "4142", "name" : "Terance Mann", "position" : "G", "team" : 13, "price" : 9.02 },
-    { "_id" : "4143", "name" : "Thanasis Antetokounmpo", "position" : "", "team" : 17, "price" : 8.98 },
-    { "_id" : "4144", "name" : "KZ Okpala", "position" : "F", "team" : 16, "price" : 8.94 },
-    { "_id" : "4145", "name" : "Mfiondu Kabengele", "position" : "F", "team" : 13, "price" : 8.9 },
-    { "_id" : "4146", "name" : "Yuta Watanabe", "height" : "6'9", "weight" : 205, "position" : "G", "team" : 28, "price" : 8.85 },
-    { "_id" : "4147", "name" : "Kyle Guy", "position" : "G", "team" : 26, "price" : 8.73 },
-    { "_id" : "4148", "name" : "Isaac Bonga", "height" : "6'8", "weight" : 180, "position" : "G", "team" : 30, "price" : 8.48 },
-    { "_id" : "4149", "name" : "Jaylen Adams", "height" : "6'2", "weight" : 190, "position" : "G", "team" : 17, "price" : 8.39 },
-    { "_id" : "414a", "name" : "Matt Thomas", "position" : "G", "team" : 28, "price" : 8.35 },
-    { "_id" : "414b", "name" : "Marques Bolden", "position" : "C", "team" : 6, "price" : 8.02 },
-    { "_id" : "414c", "name" : "Cody Martin", "position" : "F", "team" : 4, "price" : 7.85 },
-    { "_id" : "414d", "name" : "Theo Pinson", "height" : "6'6", "weight" : 218, "position" : "G-F", "team" : 20, "price" : 7.77 },
-    { "_id" : "414e", "name" : "Terence Davis", "position" : "G", "team" : 28, "price" : 7.64 },
-    { "_id" : "414f", "name" : "John Konchar", "position" : "G-F", "team" : 15, "price" : 7.6 },
-    { "_id" : "4150", "name" : "Tremont Waters", "position" : "G", "team" : 2, "price" : 7.56 },
-    { "_id" : "4151", "name" : "Naz Reid", "position" : "F-C", "team" : 18, "price" : 7.51 },
-    { "_id" : "4152", "name" : "Kendrick Nunn", "position" : "G", "team" : 16, "price" : 7.47 },
-    { "_id" : "4153", "name" : "Quinndary Weatherspoon", "position" : "G", "team" : 27, "price" : 7.43 },
-    { "_id" : "4154", "name" : "Justin James", "position" : "G-F", "team" : 26, "price" : 7.39 },
-    { "_id" : "4155", "name" : "Brandon Goodwin", "height" : "6'2", "weight" : 180, "position" : "", "team" : 1, "price" : 7.31 },
-    { "_id" : "4156", "name" : "Drew Eubanks", "height" : "6'10", "weight" : 245, "position" : "F", "team" : 27, "price" : 7.26 },
-    { "_id" : "4157", "name" : "Edmond Sumner", "height" : "6'6", "weight" : 176, "position" : "G", "team" : 12, "price" : 7.18 },
-    { "_id" : "4158", "name" : "Kostas Antetokounmpo", "height" : "6'10", "weight" : 200, "position" : "F", "team" : 14, "price" : 7.14 },
-    { "_id" : "4159", "name" : "Miye Oni", "position" : "G", "team" : 29, "price" : 7.1 },
-    { "_id" : "415a", "name" : "Jalen Lecque", "position" : "G", "team" : 12, "price" : 6.89 },
-    { "_id" : "415b", "name" : "Isaiah Roby", "position" : "F", "team" : 21, "price" : 6.76 },
-    { "_id" : "415c", "name" : "Duncan Robinson", "height" : "6'8", "weight" : 210, "position" : "F", "team" : 16, "price" : 6.59 },
-    { "_id" : "415d", "name" : "DaQuan Jeffries", "position" : "F", "team" : 26, "price" : 6.55 },
-    { "_id" : "415e", "name" : "Jaylen Nowell", "position" : "G", "team" : 18, "price" : 6.43 },
-    { "_id" : "415f", "name" : "Vlatko Cancar", "position" : "F", "team" : 8, "price" : 6.34 },
-    { "_id" : "4160", "name" : "Caleb Martin", "position" : "F", "team" : 4, "price" : 6.3 },
-    { "_id" : "4161", "name" : "Udonis Haslem", "height" : "6'8", "weight" : 235, "position" : "F", "team" : 16, "price" : 6.22 },
-    { "_id" : "4162", "name" : "Jordan McLaughlin", "position" : "G", "team" : 18, "price" : 6.01 },
-    { "_id" : "4163", "name" : "Jalen McDaniels", "position" : "F", "team" : 4, "price" : 5.92 },
-    { "_id" : "4164", "name" : "Moses Brown", "position" : "C", "team" : 21, "price" : 5.63 },
-    { "_id" : "4165", "name" : "Amir Coffey", "position" : "G", "team" : 13, "price" : 5.59 },
-    { "_id" : "4166", "name" : "Garrison Mathews", "position" : "G", "team" : 30, "price" : 5.55 },
-    { "_id" : "4167", "name" : "Wenyen Gabriel", "height" : "6'9", "weight" : 205, "position" : "F", "team" : 19, "price" : 5.51 },
-    { "_id" : "4168", "name" : "Jared Harper", "position" : "G", "team" : 20, "price" : 5.09 },
-    { "_id" : "4169", "name" : "Devontae Cacok", "position" : "F-C", "team" : 14, "price" : 5.05 },
-    { "_id" : "416a", "name" : "Chris Silva", "position" : "F", "team" : 16, "price" : 5 },
-    { "_id" : "416b", "name" : "Luguentz Dort", "position" : "G", "team" : 21, "price" : 4.59 },
-    { "_id" : "416c", "name" : "Mychal Mulder", "position" : "G", "team" : 10, "price" : 4.54 },
-    { "_id" : "416d", "name" : "Rayjon Tucker", "position" : "F", "team" : 23, "price" : 4.5 },
-    { "_id" : "416e", "name" : "Kelan Martin", "position" : "F", "team" : 12, "price" : 4.21 },
-    { "_id" : "416f", "name" : "Jarrell Brantley", "position" : "F", "team" : 29, "price" : 4.17 },
-    { "_id" : "4170", "name" : "Javonte Green", "position" : "G-F", "team" : 2, "price" : 4.04 },
-    { "_id" : "4171", "name" : "Max Strus", "position" : "G", "team" : 16, "price" : 3.54 },
-    { "_id" : "4172", "name" : "Juwan Morgan", "position" : "F", "team" : 29, "price" : 3.5 },
-    { "_id" : "4173", "name" : "Adam Mokoka", "position" : "G", "team" : 5, "price" : 3.21 },
-    { "_id" : "4174", "name" : "Dean Wade", "position" : "F", "team" : 6, "price" : 3 },
-    { "_id" : "4175", "name" : "Draymond Green", "height" : "6'7", "weight" : 230, "position" : "F", "team" : 10, "price" : 94.29 },
-    { "_id" : "4176", "name" : "Larry Nance", "position" : "", "team" : 6, "price" : 63.5 },
-    { "_id" : "4177", "name" : "Mo Bamba", "height" : "7'0", "weight" : 221, "position" : "C", "team" : 22, "price" : 41.28 },
-    { "_id" : "4178", "name" : "Cameron Reddish", "position" : "F-G", "team" : 1, "price" : 30.15 },
-    { "_id" : "4179", "name" : "Svi Mykhailiuk", "height" : "6'8", "weight" : 205, "position" : "G", "team" : 9, "price" : 15.86 },
-    { "_id" : "417a", "name" : "Norvel Pelle", "position" : "F", "team" : 3, "price" : 6.09 },
-    { "_id" : "417b", "name" : "John Wallace", "position" : "", "team" : 20, "price" : 85.43 },
-    { "_id" : "417c", "name" : "Tomas Satoransky", "height" : "6'7", "weight" : 210, "position" : "G-F", "team" : 5, "price" : 67.07 },
-    { "_id" : "417d", "name" : "Dennis Scott", "position" : "", "team" : 22, "price" : 48.74 },
-    { "_id" : "417e", "name" : "Ivica Zubac", "height" : "7'1", "weight" : 240, "position" : "C", "team" : 13, "price" : 44.49 },
-    { "_id" : "417f", "name" : "Pat Connaughton", "height" : "6'4", "weight" : 209, "position" : "G", "team" : 17, "price" : 37.32 },
-    { "_id" : "4180", "name" : "Danuel House Jr.", "height" : "6'7", "weight" : 220, "position" : "", "team" : 11, "price" : 26.94 },
-    { "_id" : "4181", "name" : "Troy Brown Jr.", "height" : "6'7", "weight" : 215, "position" : "F", "team" : 30, "price" : 18.68 },
-    { "_id" : "4182", "name" : "Kevin Porter Jr.", "position" : "G", "team" : 11, "price" : 17.55 },
-    { "_id" : "4183", "name" : "Gary Clark", "height" : "6'8", "weight" : 225, "position" : "F", "team" : 22, "price" : 15.58 },
-    { "_id" : "4184", "name" : "Gary Trent Jr.", "position" : "G", "team" : 25, "price" : 13.32 },
-    { "_id" : "4185", "name" : "Brian Bowen II", "position" : "F", "team" : 12, "price" : 7.89 },
-    { "_id" : "4186", "name" : "Josh Green", "position" : "G", "team" : 7, "price" : 26.04 },
-    { "_id" : "4187", "name" : "Tyrese Haliburton", "position" : "G", "team" : 26, "price" : 97.91 },
-    { "_id" : "4188", "name" : "LaMelo Ball", "position" : "G", "team" : 4, "price" : 95.54 },
-    { "_id" : "4189", "name" : "Xavier Tillman", "position" : "F", "team" : 15, "price" : 93.17 },
-    { "_id" : "418a", "name" : "Jae'Sean Tate", "position" : "F", "team" : 11, "price" : 90.8 },
-    { "_id" : "418b", "name" : "Desmond Bane", "position" : "G", "team" : 15, "price" : 88.43 },
-    { "_id" : "418c", "name" : "Patrick Williams", "position" : "F", "team" : 5, "price" : 86.06 },
-    { "_id" : "418d", "name" : "James Wiseman", "position" : "C", "team" : 10, "price" : 83.69 },
-    { "_id" : "418e", "name" : "Immanuel Quickley", "position" : "G", "team" : 20, "price" : 81.31 },
-    { "_id" : "418f", "name" : "Payton Pritchard", "position" : "G", "team" : 2, "price" : 78.94 },
-    { "_id" : "4190", "name" : "Cole Anthony", "position" : "G", "team" : 22, "price" : 76.57 },
-    { "_id" : "4191", "name" : "Devin Vassell", "position" : "G-F", "team" : 27, "price" : 74.2 },
-    { "_id" : "4192", "name" : "Anthony Edwards", "position" : "G", "team" : 18, "price" : 71.83 },
-    { "_id" : "4193", "name" : "Isaiah Stewart", "position" : "F-C", "team" : 9, "price" : 67.57 },
-    { "_id" : "4194", "name" : "Deni Avdija", "position" : "F", "team" : 30, "price" : 65.6 },
-    { "_id" : "4195", "name" : "Theo Maledon", "position" : "G", "team" : 21, "price" : 63.62 },
-    { "_id" : "4196", "name" : "Isaac Okoro", "position" : "F-G", "team" : 6, "price" : 61.64 },
-    { "_id" : "4197", "name" : "Tyrese Maxey", "position" : "G", "team" : 23, "price" : 59.67 },
-    { "_id" : "4198", "name" : "Saddiq Bey", "position" : "F", "team" : 9, "price" : 57.69 },
-    { "_id" : "4199", "name" : "Jaden McDaniels", "position" : "F", "team" : 18, "price" : 55.71 },
-    { "_id" : "419a", "name" : "Isaiah Joe", "position" : "G", "team" : 23, "price" : 53.74 },
-    { "_id" : "419b", "name" : "Onyeka Okongwu", "position" : "F-C", "team" : 1, "price" : 49.79 },
-    { "_id" : "419c", "name" : "Precious Achiuwa", "position" : "F", "team" : 16, "price" : 47.81 },
-    { "_id" : "419d", "name" : "Facundo Campazzo", "position" : "", "team" : 8, "price" : 45.83 },
-    { "_id" : "419e", "name" : "Obi Toppin", "position" : "F", "team" : 20, "price" : 43.26 },
-    { "_id" : "419f", "name" : "Paul Reed", "position" : "F", "team" : 23, "price" : 41.7 },
-    { "_id" : "41a0", "name" : "Reggie Perry", "position" : "F-C", "team" : 3, "price" : 40.13 },
-    { "_id" : "41a1", "name" : "CJ Elleby", "position" : "F-G", "team" : 25, "price" : 38.57 },
-    { "_id" : "41a2", "name" : "Daniel Oturu", "position" : "C", "team" : 13, "price" : 37 },
-    { "_id" : "41a3", "name" : "Cassius Winston", "position" : "G", "team" : 30, "price" : 35.43 },
-    { "_id" : "41a4", "name" : "Skylar Mays", "position" : "G", "team" : 1, "price" : 33.87 },
-    { "_id" : "41a5", "name" : "R.J. Hampton", "position" : "G", "team" : 8, "price" : 32.3 },
-    { "_id" : "41a6", "name" : "Saben Lee", "position" : "G", "team" : 9, "price" : 30.74 },
-    { "_id" : "41a7", "name" : "Sam Merrill", "position" : "G", "team" : 17, "price" : 29.17 },
-    { "_id" : "41a8", "name" : "Brodric Thomas", "position" : "G", "team" : 11, "price" : 27.6 },
-    { "_id" : "41a9", "name" : "Jahmi'us Ramsey", "position" : "G", "team" : 26, "price" : 24.15 },
-    { "_id" : "41aa", "name" : "Aaron Nesmith", "position" : "G-F", "team" : 2, "price" : 22.99 },
-    { "_id" : "41ab", "name" : "Elijah Hughes", "position" : "G", "team" : 29, "price" : 21.82 },
-    { "_id" : "41ac", "name" : "Udoka Azubuike", "position" : "C-F", "team" : 29, "price" : 20.65 },
-    { "_id" : "41ad", "name" : "Devon Dotson", "position" : "G", "team" : 5, "price" : 19.48 },
-    { "_id" : "41ae", "name" : "Zeke Nnaji", "position" : "F-C", "team" : 8, "price" : 18.31 },
-    { "_id" : "41af", "name" : "Killian Hayes", "position" : "G", "team" : 9, "price" : 17.14 },
-    { "_id" : "41b0", "name" : "Tre Jones", "position" : "G", "team" : 27, "price" : 15.97 },
-    { "_id" : "41b1", "name" : "Sean McDermott", "position" : "F", "team" : 15, "price" : 14.8 },
-    { "_id" : "41b2", "name" : "Malachi Flynn", "position" : "G", "team" : 28, "price" : 13.63 },
-    { "_id" : "41b3", "name" : "Tyrell Terry", "position" : "G", "team" : 7, "price" : 12.46 },
-    { "_id" : "41b4", "name" : "Cassius Stanley", "position" : "G", "team" : 12, "price" : 11.3 },
-    { "_id" : "41b5", "name" : "Nick Richards", "position" : "C", "team" : 4, "price" : 9.7 },
-    { "_id" : "41b6", "name" : "Jalen Smith", "position" : "F-C", "team" : 24, "price" : 9.36 },
-    { "_id" : "41b7", "name" : "Nico Mannion", "position" : "G", "team" : 10, "price" : 9.01 },
-    { "_id" : "41b8", "name" : "Vernon Carey Jr.", "position" : "F-C", "team" : 4, "price" : 8.66 },
-    { "_id" : "41b9", "name" : "Robert Woodard II", "position" : "F", "team" : 26, "price" : 8.31 },
-    { "_id" : "41ba", "name" : "Tyler Bey", "position" : "F", "team" : 7, "price" : 7.97 },
-    { "_id" : "41bb", "name" : "Jalen Harris", "position" : "G", "team" : 28, "price" : 7.62 },
-    { "_id" : "41bc", "name" : "Ashton Hagans", "position" : "G-F", "team" : 18, "price" : 7.27 },
-    { "_id" : "41bd", "name" : "Ty-Shon Alexander", "position" : "G", "team" : 24, "price" : 6.92 },
-    { "_id" : "41be", "name" : "Carmelo Anthony", "position" : "F", "team" : 25, "price" : 33.44 },
-    { "_id" : "41bf", "name" : "Keljin Blevins", "position" : "F", "team" : 25, "price" : 53.63 },
-    { "_id" : "41c0", "name" : "Chris Chiozza", "position" : "G", "team" : 3, "price" : 46.1 },
-    { "_id" : "41c1", "name" : "Marquese Chriss", "height" : "6'10", "weight" : 240, "position" : "F", "team" : 10, "price" : 66.58 },
-    { "_id" : "41c2", "name" : "Nate Darling", "position" : "", "team" : 4, "price" : 69.44 },
-    { "_id" : "41c3", "name" : "Mamadi Diakite", "position" : "F", "team" : 17, "price" : 34.76 },
-    { "_id" : "41c4", "name" : "Terry Dozier", "position" : "", "team" : 4, "price" : 54.21 },
-    { "_id" : "41c5", "name" : "Trent Forrest", "position" : "G", "team" : 29, "price" : 67.46 },
-    { "_id" : "41c6", "name" : "Anthony Gill", "position" : "F", "team" : 30, "price" : 57.68 },
-    { "_id" : "41c7", "name" : "Josh Hall", "position" : "F", "team" : 21, "price" : 26.88 },
-    { "_id" : "41c8", "name" : "Nate Hinton", "position" : "G-F", "team" : 7, "price" : 39.25 },
-    { "_id" : "41c9", "name" : "Markus Howard", "position" : "G", "team" : 8, "price" : 30.78 },
-    { "_id" : "41ca", "name" : "Mason Jones", "position" : "G", "team" : 11, "price" : 28.82 },
-    { "_id" : "41cb", "name" : "Nathan Knight", "position" : "F-C", "team" : 1, "price" : 56.9 },
-    { "_id" : "41cc", "name" : "Kira Lewis Jr.", "position" : "G", "team" : 19, "price" : 61.34 },
-    { "_id" : "41cd", "name" : "Timothe Luwawu-Cabarrot", "height" : "6'6", "weight" : 210, "position" : "G-F", "team" : 3, "price" : 33.85 },
-    { "_id" : "41ce", "name" : "Will Magnay", "position" : "C", "team" : 19, "price" : 26.93 },
-    { "_id" : "41cf", "name" : "Karim Mane", "position" : "G", "team" : 22, "price" : 34.89 },
-    { "_id" : "41d0", "name" : "Naji Marshall", "position" : "F", "team" : 19, "price" : 30.79 },
-    { "_id" : "41d1", "name" : "Bob Martin", "position" : "", "team" : 13, "price" : 41.03 },
-    { "_id" : "41d2", "name" : "Desmond Mason", "position" : "G", "team" : 21, "price" : 40.19 },
-    { "_id" : "41d3", "name" : "Chris Mills", "position" : "", "team" : 6, "price" : 36.72 },
-    { "_id" : "41d4", "name" : "Jordan Nwora", "position" : "F", "team" : 17, "price" : 34.77 },
-    { "_id" : "41d5", "name" : "Aleksej Pokusevski", "position" : "C", "team" : 21, "price" : 51.76 },
-    { "_id" : "41d6", "name" : "Jontay Porter", "position" : "C-F", "team" : 15, "price" : 32.72 },
-    { "_id" : "41d7", "name" : "Grant Riller", "position" : "G", "team" : 4, "price" : 48.07 },
-    { "_id" : "41d8", "name" : "Jay Scrubb", "position" : "G", "team" : 13, "price" : 33.82 },
-    { "_id" : "41d9", "name" : "Iman Shumpert", "height" : "6'5", "weight" : 215, "position" : "G", "team" : 3, "price" : 35.08 },
-    { "_id" : "41da", "name" : "Deividas Sirvydis", "position" : "G", "team" : 9, "price" : 30.21 },
-    { "_id" : "41db", "name" : "Lamar Stevens", "position" : "F", "team" : 6, "price" : 52.18 },
-    { "_id" : "41dc", "name" : "Killian Tillie", "position" : "F-C", "team" : 15, "price" : 35.7 },
-    { "_id" : "41dd", "name" : "Juan Toscano-Anderson", "position" : "F", "team" : 10, "price" : 29.44 },
-    { "_id" : "41de", "name" : "Anthony Tucker", "position" : "", "team" : 30, "price" : 31.66 },
-    { "_id" : "41df", "name" : "Gabe Vincent", "position" : "G", "team" : 16, "price" : 32.06 },
-    { "_id" : "41e0", "name" : "Moritz Wagner", "height" : "6'11", "weight" : 245, "position" : "C", "team" : 30, "price" : 32.2 },
-    { "_id" : "41e1", "name" : "Paul Watson", "position" : "G", "team" : 28, "price" : 38.93 },
-    { "_id" : "41e2", "name" : "Greg Whittington", "position" : "F", "team" : 8, "price" : 62.35 },
-    { "_id" : "41e3", "name" : "Herb Williams", "position" : "", "team" : 7, "price" : 62.01 }
+      {
+            "_id": "3ff1",
+            "name": "Giannis Antetokounmpo",
+            "height": "6'11",
+            "weight": 242,
+            "position": "F",
+            "team": 17,
+            "price": 118.5,
+            "last_price": 100
+      },
+      {
+            "_id": "3ff2",
+            "name": "Stephen Curry",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 10,
+            "price": 115.06,
+            "last_price": 99.71
+      },
+      {
+            "_id": "3ff3",
+            "name": "Kawhi Leonard",
+            "height": "6'7",
+            "weight": 230,
+            "position": "F",
+            "team": 13,
+            "price": 108.88000000000001,
+            "last_price": 99.43
+      },
+      {
+            "_id": "3ff4",
+            "name": "James Harden",
+            "height": "6'5",
+            "weight": 220,
+            "position": "G",
+            "team": 3,
+            "price": 107.34,
+            "last_price": 99.14
+      },
+      {
+            "_id": "3ff5",
+            "name": "LeBron James",
+            "height": "6'8",
+            "weight": 250,
+            "position": "F",
+            "team": 14,
+            "price": 114.36,
+            "last_price": 98.86
+      },
+      {
+            "_id": "3ff6",
+            "name": "Anthony Davis",
+            "height": "6'10",
+            "weight": 253,
+            "position": "F-C",
+            "team": 14,
+            "price": 106.32,
+            "last_price": 98.57
+      },
+      {
+            "_id": "3ff7",
+            "name": "Kevin Durant",
+            "height": "6'9",
+            "weight": 240,
+            "position": "F",
+            "team": 3,
+            "price": 100.89,
+            "last_price": 98.29
+      },
+      {
+            "_id": "3ff8",
+            "name": "Nikola Jokic",
+            "height": "7'0",
+            "weight": 250,
+            "position": "C",
+            "team": 8,
+            "price": 120.15,
+            "last_price": 98
+      },
+      {
+            "_id": "3ff9",
+            "name": "Joel Embiid",
+            "height": "7'0",
+            "weight": 250,
+            "position": "F-C",
+            "team": 23,
+            "price": 112.31,
+            "last_price": 97.71
+      },
+      {
+            "_id": "3ffa",
+            "name": "Damian Lillard",
+            "height": "6'3",
+            "weight": 195,
+            "position": "G",
+            "team": 25,
+            "price": 113.13000000000001,
+            "last_price": 97.43
+      },
+      {
+            "_id": "3ffb",
+            "name": "Paul George",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 13,
+            "price": 101.09,
+            "last_price": 97.14
+      },
+      {
+            "_id": "3ffc",
+            "name": "Karl-Anthony Towns",
+            "height": "7'0",
+            "weight": 248,
+            "position": "C",
+            "team": 18,
+            "price": 96.86
+      },
+      {
+            "_id": "3ffd",
+            "name": "Jimmy Butler",
+            "height": "6'8",
+            "weight": 232,
+            "position": "G-F",
+            "team": 16,
+            "price": 96.57
+      },
+      {
+            "_id": "3ffe",
+            "name": "Rudy Gobert",
+            "height": "7'1",
+            "weight": 245,
+            "position": "C",
+            "team": 29,
+            "price": 110.44,
+            "last_price": 96.29
+      },
+      {
+            "_id": "3fff",
+            "name": "Blake Griffin",
+            "height": "6'10",
+            "weight": 250,
+            "position": "F",
+            "team": 9,
+            "price": 96
+      },
+      {
+            "_id": "4000",
+            "name": "Ben Simmons",
+            "height": "6'10",
+            "weight": 230,
+            "position": "G-F",
+            "team": 23,
+            "price": 101.85999999999999,
+            "last_price": 95.71
+      },
+      {
+            "_id": "4001",
+            "name": "Kyrie Irving",
+            "height": "6'3",
+            "weight": 193,
+            "position": "G",
+            "team": 3,
+            "price": 97.83000000000001,
+            "last_price": 95.43
+      },
+      {
+            "_id": "4002",
+            "name": "Russell Westbrook",
+            "height": "6'3",
+            "weight": 200,
+            "position": "G",
+            "team": 30,
+            "price": 98.09,
+            "last_price": 95.14
+      },
+      {
+            "_id": "4003",
+            "name": "Bradley Beal",
+            "height": "6'5",
+            "weight": 207,
+            "position": "G",
+            "team": 30,
+            "price": 105.16,
+            "last_price": 94.86
+      },
+      {
+            "_id": "4004",
+            "name": "Kemba Walker",
+            "height": "6'1",
+            "weight": 184,
+            "position": "G",
+            "team": 2,
+            "price": 94.57
+      },
+      {
+            "_id": "4005",
+            "name": "Klay Thompson",
+            "height": "6'7",
+            "weight": 215,
+            "position": "G",
+            "team": 10,
+            "price": 94
+      },
+      {
+            "_id": "4006",
+            "name": "Victor Oladipo",
+            "height": "6'4",
+            "weight": 210,
+            "position": "G",
+            "team": 11,
+            "price": 93.91,
+            "last_price": 93.71
+      },
+      {
+            "_id": "4007",
+            "name": "Luka Doncic",
+            "height": "6'7",
+            "weight": 218,
+            "position": "F-G",
+            "team": 7,
+            "price": 112.38,
+            "last_price": 93.43
+      },
+      {
+            "_id": "4008",
+            "name": "Jrue Holiday",
+            "height": "6'4",
+            "weight": 205,
+            "position": "G",
+            "team": 17,
+            "price": 95.79,
+            "last_price": 93.14
+      },
+      {
+            "_id": "4009",
+            "name": "Al Horford",
+            "height": "6'10",
+            "weight": 245,
+            "position": "C-F",
+            "team": 21,
+            "price": 93.11,
+            "last_price": 92.86
+      },
+      {
+            "_id": "400a",
+            "name": "Pascal Siakam",
+            "height": "6'9",
+            "weight": 230,
+            "position": "F",
+            "team": 28,
+            "price": 93.32,
+            "last_price": 92.57
+      },
+      {
+            "_id": "400b",
+            "name": "Kyle Lowry",
+            "height": "6'1",
+            "weight": 196,
+            "position": "G",
+            "team": 28,
+            "price": 92.74000000000001,
+            "last_price": 92.29
+      },
+      {
+            "_id": "400c",
+            "name": "Devin Booker",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 24,
+            "price": 93.05,
+            "last_price": 92
+      },
+      {
+            "_id": "400d",
+            "name": "Andre Drummond",
+            "height": "6'11",
+            "weight": 279,
+            "position": "C",
+            "team": 6,
+            "price": 102.80999999999999,
+            "last_price": 91.71
+      },
+      {
+            "_id": "400e",
+            "name": "Chris Paul",
+            "height": "6'0",
+            "weight": 175,
+            "position": "G",
+            "team": 24,
+            "price": 94.48,
+            "last_price": 91.43
+      },
+      {
+            "_id": "400f",
+            "name": "Nikola Vucevic",
+            "height": "7'0",
+            "weight": 260,
+            "position": "C",
+            "team": 22,
+            "price": 101.99,
+            "last_price": 91.14
+      },
+      {
+            "_id": "4010",
+            "name": "Khris Middleton",
+            "height": "6'8",
+            "weight": 222,
+            "position": "F",
+            "team": 17,
+            "price": 93.01,
+            "last_price": 90.86
+      },
+      {
+            "_id": "4011",
+            "name": "CJ McCollum",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 25,
+            "price": 91.27,
+            "last_price": 90.57
+      },
+      {
+            "_id": "4012",
+            "name": "De'Aaron Fox",
+            "height": "6'3",
+            "weight": 175,
+            "position": "G",
+            "team": 26,
+            "price": 93.04,
+            "last_price": 90.29
+      },
+      {
+            "_id": "4013",
+            "name": "Mike Conley",
+            "height": "6'1",
+            "weight": 175,
+            "position": "G",
+            "team": 29,
+            "price": 90.95,
+            "last_price": 90
+      },
+      {
+            "_id": "4014",
+            "name": "Donovan Mitchell",
+            "height": "6'3",
+            "weight": 215,
+            "position": "G",
+            "team": 29,
+            "price": 92.96,
+            "last_price": 89.71
+      },
+      {
+            "_id": "4015",
+            "name": "LaMarcus Aldridge",
+            "height": "6'11",
+            "weight": 260,
+            "position": "F",
+            "team": 27,
+            "price": 89.43
+      },
+      {
+            "_id": "4016",
+            "name": "Kristaps Porzingis",
+            "height": "7'3",
+            "weight": 240,
+            "position": "F-C",
+            "team": 7,
+            "price": 89.14
+      },
+      {
+            "_id": "4017",
+            "name": "Kevin Love",
+            "height": "6'10",
+            "weight": 251,
+            "position": "F-C",
+            "team": 6,
+            "price": 88.86
+      },
+      {
+            "_id": "4018",
+            "name": "Jamal Murray",
+            "height": "6'4",
+            "weight": 207,
+            "position": "G",
+            "team": 8,
+            "price": 88.57
+      },
+      {
+            "_id": "4019",
+            "name": "Tobias Harris",
+            "height": "6'9",
+            "weight": 235,
+            "position": "F",
+            "team": 23,
+            "price": 88.69000000000001,
+            "last_price": 88.29
+      },
+      {
+            "_id": "401a",
+            "name": "Danilo Gallinari",
+            "height": "6'10",
+            "weight": 225,
+            "position": "F",
+            "team": 1,
+            "price": 88.7,
+            "last_price": 88
+      },
+      {
+            "_id": "401b",
+            "name": "DeMar DeRozan",
+            "height": "6'7",
+            "weight": 220,
+            "position": "G",
+            "team": 27,
+            "price": 91.50999999999999,
+            "last_price": 87.71
+      },
+      {
+            "_id": "401c",
+            "name": "D'Angelo Russell",
+            "height": "6'5",
+            "weight": 198,
+            "position": "G",
+            "team": 18,
+            "price": 87.48,
+            "last_price": 87.43
+      },
+      {
+            "_id": "401d",
+            "name": "Aaron Gordon",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 22,
+            "price": 87.14
+      },
+      {
+            "_id": "401e",
+            "name": "Trae Young",
+            "height": "6'2",
+            "weight": 180,
+            "position": "G",
+            "team": 1,
+            "price": 95.36,
+            "last_price": 86.86
+      },
+      {
+            "_id": "401f",
+            "name": "Myles Turner",
+            "height": "6'11",
+            "weight": 250,
+            "position": "C-F",
+            "team": 12,
+            "price": 93.07,
+            "last_price": 86.57
+      },
+      {
+            "_id": "4020",
+            "name": "John Collins",
+            "height": "6'10",
+            "weight": 235,
+            "position": "F-C",
+            "team": 1,
+            "price": 86.94000000000001,
+            "last_price": 86.29
+      },
+      {
+            "_id": "4021",
+            "name": "Jayson Tatum",
+            "height": "6'8",
+            "weight": 208,
+            "position": "F",
+            "team": 2,
+            "price": 87.35,
+            "last_price": 86
+      },
+      {
+            "_id": "4022",
+            "name": "Clint Capela",
+            "height": "6'10",
+            "weight": 240,
+            "position": "C",
+            "team": 1,
+            "price": 95.41,
+            "last_price": 85.71
+      },
+      {
+            "_id": "4023",
+            "name": "Jusuf Nurkic",
+            "height": "7'0",
+            "weight": 275,
+            "position": "C",
+            "team": 25,
+            "price": 85.14
+      },
+      {
+            "_id": "4024",
+            "name": "Buddy Hield",
+            "height": "6'4",
+            "weight": 214,
+            "position": "G",
+            "team": 26,
+            "price": 87.01,
+            "last_price": 84.86
+      },
+      {
+            "_id": "4025",
+            "name": "Lauri Markkanen",
+            "height": "7'0",
+            "weight": 240,
+            "position": "F",
+            "team": 5,
+            "price": 86.27,
+            "last_price": 84.57
+      },
+      {
+            "_id": "4026",
+            "name": "Paul Millsap",
+            "height": "6'8",
+            "weight": 246,
+            "position": "F",
+            "team": 8,
+            "price": 84.39,
+            "last_price": 84.29
+      },
+      {
+            "_id": "4027",
+            "name": "Malcolm Brogdon",
+            "height": "6'5",
+            "weight": 229,
+            "position": "G",
+            "team": 12,
+            "price": 88.8,
+            "last_price": 84
+      },
+      {
+            "_id": "4028",
+            "name": "Julius Randle",
+            "height": "6'9",
+            "weight": 250,
+            "position": "F",
+            "team": 20,
+            "price": 95.11,
+            "last_price": 83.71
+      },
+      {
+            "_id": "4029",
+            "name": "Deandre Ayton",
+            "height": "7'1",
+            "weight": 250,
+            "position": "C",
+            "team": 24,
+            "price": 90.18,
+            "last_price": 83.43
+      },
+      {
+            "_id": "402a",
+            "name": "Joe Ingles",
+            "height": "6'8",
+            "weight": 226,
+            "position": "F",
+            "team": 29,
+            "price": 84.99,
+            "last_price": 83.14
+      },
+      {
+            "_id": "402b",
+            "name": "Zion Williamson",
+            "position": "F",
+            "team": 19,
+            "price": 89.96,
+            "last_price": 82.86
+      },
+      {
+            "_id": "402c",
+            "name": "Zach LaVine",
+            "height": "6'5",
+            "weight": 200,
+            "position": "G",
+            "team": 5,
+            "price": 89.07,
+            "last_price": 82.57
+      },
+      {
+            "_id": "402d",
+            "name": "Brook Lopez",
+            "height": "7'0",
+            "weight": 270,
+            "position": "C",
+            "team": 17,
+            "price": 83.54,
+            "last_price": 82.29
+      },
+      {
+            "_id": "402e",
+            "name": "Otto Porter Jr.",
+            "height": "6'8",
+            "weight": 198,
+            "position": "F",
+            "team": 5,
+            "price": 82
+      },
+      {
+            "_id": "402f",
+            "name": "Marc Gasol",
+            "height": "7'1",
+            "weight": 255,
+            "position": "C",
+            "team": 14,
+            "price": 84.21,
+            "last_price": 81.71
+      },
+      {
+            "_id": "4030",
+            "name": "Gary Harris",
+            "height": "6'4",
+            "weight": 210,
+            "position": "G",
+            "team": 8,
+            "price": 81.93,
+            "last_price": 81.43
+      },
+      {
+            "_id": "4031",
+            "name": "Steven Adams",
+            "height": "7'0",
+            "weight": 265,
+            "position": "C",
+            "team": 19,
+            "price": 83.69,
+            "last_price": 81.14
+      },
+      {
+            "_id": "4032",
+            "name": "Jaren Jackson Jr.",
+            "height": "6'11",
+            "weight": 242,
+            "position": "F-C",
+            "team": 15,
+            "price": 80.86
+      },
+      {
+            "_id": "4033",
+            "name": "Eric Bledsoe",
+            "height": "6'1",
+            "weight": 205,
+            "position": "G",
+            "team": 19,
+            "price": 80.57
+      },
+      {
+            "_id": "4034",
+            "name": "Bojan Bogdanovic",
+            "height": "6'8",
+            "weight": 216,
+            "position": "F",
+            "team": 29,
+            "price": 80.69000000000001,
+            "last_price": 80.29
+      },
+      {
+            "_id": "4035",
+            "name": "Caris LeVert",
+            "height": "6'7",
+            "weight": 204,
+            "position": "G",
+            "team": 12,
+            "price": 80
+      },
+      {
+            "_id": "4036",
+            "name": "Josh Richardson",
+            "height": "6'6",
+            "weight": 200,
+            "position": "G-F",
+            "team": 7,
+            "price": 79.71
+      },
+      {
+            "_id": "4037",
+            "name": "Montrezl Harrell",
+            "height": "6'8",
+            "weight": 240,
+            "position": "F-C",
+            "team": 14,
+            "price": 84.68,
+            "last_price": 79.43
+      },
+      {
+            "_id": "4038",
+            "name": "Marcus Smart",
+            "height": "6'4",
+            "weight": 220,
+            "position": "G",
+            "team": 2,
+            "price": 79.89,
+            "last_price": 79.14
+      },
+      {
+            "_id": "4039",
+            "name": "Domantas Sabonis",
+            "height": "6'11",
+            "weight": 240,
+            "position": "F",
+            "team": 12,
+            "price": 86.21000000000001,
+            "last_price": 78.86
+      },
+      {
+            "_id": "403a",
+            "name": "Bam Adebayo",
+            "height": "6'10",
+            "weight": 255,
+            "position": "C-F",
+            "team": 16,
+            "price": 81.66999999999999,
+            "last_price": 78.57
+      },
+      {
+            "_id": "403b",
+            "name": "Robert Covington",
+            "height": "6'9",
+            "weight": 225,
+            "position": "F",
+            "team": 25,
+            "price": 80.14,
+            "last_price": 78.29
+      },
+      {
+            "_id": "403c",
+            "name": "Eric Gordon",
+            "height": "6'4",
+            "weight": 215,
+            "position": "G",
+            "team": 11,
+            "price": 77.73,
+            "last_price": 77.43
+      },
+      {
+            "_id": "403d",
+            "name": "Marvin Bagley III",
+            "height": "6'11",
+            "weight": 234,
+            "position": "F",
+            "team": 26,
+            "price": 77.14
+      },
+      {
+            "_id": "403e",
+            "name": "Jarrett Allen",
+            "height": "6'11",
+            "weight": 237,
+            "position": "C",
+            "team": 6,
+            "price": 86.21,
+            "last_price": 76.86
+      },
+      {
+            "_id": "403f",
+            "name": "Jaylen Brown",
+            "height": "6'7",
+            "weight": 220,
+            "position": "G",
+            "team": 2,
+            "price": 80.72,
+            "last_price": 76.57
+      },
+      {
+            "_id": "4040",
+            "name": "Derrick Favors",
+            "height": "6'10",
+            "weight": 265,
+            "position": "F-C",
+            "team": 29,
+            "price": 76.29
+      },
+      {
+            "_id": "4041",
+            "name": "Spencer Dinwiddie",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 3,
+            "price": 76
+      },
+      {
+            "_id": "4042",
+            "name": "Mitchell Robinson",
+            "height": "7'1",
+            "weight": 240,
+            "position": "C",
+            "team": 20,
+            "price": 84.06,
+            "last_price": 75.71
+      },
+      {
+            "_id": "4043",
+            "name": "Danny Green",
+            "height": "6'6",
+            "weight": 215,
+            "position": "G-F",
+            "team": 23,
+            "price": 75.43
+      },
+      {
+            "_id": "4044",
+            "name": "Shai Gilgeous-Alexander",
+            "height": "6'6",
+            "weight": 181,
+            "position": "G",
+            "team": 21,
+            "price": 75.49,
+            "last_price": 75.14
+      },
+      {
+            "_id": "4045",
+            "name": "JJ Redick",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 19,
+            "price": 74.86
+      },
+      {
+            "_id": "4046",
+            "name": "Patrick Beverley",
+            "height": "6'1",
+            "weight": 185,
+            "position": "G",
+            "team": 13,
+            "price": 74.57,
+            "last_price": 74.57
+      },
+      {
+            "_id": "4047",
+            "name": "Justise Winslow",
+            "height": "6'7",
+            "weight": 225,
+            "position": "F",
+            "team": 15,
+            "price": 74.29
+      },
+      {
+            "_id": "4048",
+            "name": "Dejounte Murray",
+            "height": "6'5",
+            "weight": 170,
+            "position": "G",
+            "team": 27,
+            "price": 75.85,
+            "last_price": 74
+      },
+      {
+            "_id": "4049",
+            "name": "Brandon Ingram",
+            "height": "6'9",
+            "weight": 190,
+            "position": "F",
+            "team": 19,
+            "price": 76.21,
+            "last_price": 73.71
+      },
+      {
+            "_id": "404a",
+            "name": "Bogdan Bogdanovic",
+            "height": "6'6",
+            "weight": 205,
+            "position": "G",
+            "team": 1,
+            "price": 73.43
+      },
+      {
+            "_id": "404b",
+            "name": "Gordon Hayward",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 4,
+            "price": 74.14,
+            "last_price": 73.14
+      },
+      {
+            "_id": "404c",
+            "name": "Ricky Rubio",
+            "height": "6'4",
+            "weight": 190,
+            "position": "G",
+            "team": 18,
+            "price": 73.71,
+            "last_price": 72.86
+      },
+      {
+            "_id": "404d",
+            "name": "Goran Dragic",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 16,
+            "price": 72.57
+      },
+      {
+            "_id": "404e",
+            "name": "Lonzo Ball",
+            "height": "6'6",
+            "weight": 190,
+            "position": "G",
+            "team": 19,
+            "price": 72.29
+      },
+      {
+            "_id": "404f",
+            "name": "Al-Farouq Aminu",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 22,
+            "price": 72
+      },
+      {
+            "_id": "4050",
+            "name": "Kevon Looney",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 10,
+            "price": 69.45
+      },
+      {
+            "_id": "4051",
+            "name": "Derrick White",
+            "height": "6'4",
+            "weight": 190,
+            "position": "G",
+            "team": 27,
+            "price": 69.21
+      },
+      {
+            "_id": "4052",
+            "name": "Thaddeus Young",
+            "height": "6'8",
+            "weight": 221,
+            "position": "F",
+            "team": 5,
+            "price": 70.48,
+            "last_price": 68.98
+      },
+      {
+            "_id": "4053",
+            "name": "Evan Fournier",
+            "height": "6'7",
+            "weight": 205,
+            "position": "G-F",
+            "team": 22,
+            "price": 68.74
+      },
+      {
+            "_id": "4054",
+            "name": "Fred VanVleet",
+            "height": "6'0",
+            "weight": 195,
+            "position": "G",
+            "team": 28,
+            "price": 75.3,
+            "last_price": 68.5
+      },
+      {
+            "_id": "4055",
+            "name": "Jonas Valanciunas",
+            "height": "7'0",
+            "weight": 265,
+            "position": "C",
+            "team": 15,
+            "price": 71.21000000000001,
+            "last_price": 68.26
+      },
+      {
+            "_id": "4056",
+            "name": "Joe Harris",
+            "height": "6'6",
+            "weight": 218,
+            "position": "F-G",
+            "team": 3,
+            "price": 72.82,
+            "last_price": 68.02
+      },
+      {
+            "_id": "4057",
+            "name": "Andre Iguodala",
+            "height": "6'6",
+            "weight": 215,
+            "position": "G-F",
+            "team": 16,
+            "price": 69.09,
+            "last_price": 67.79
+      },
+      {
+            "_id": "4058",
+            "name": "Rudy Gay",
+            "height": "6'8",
+            "weight": 230,
+            "position": "F",
+            "team": 27,
+            "price": 67.55
+      },
+      {
+            "_id": "4059",
+            "name": "Jerami Grant",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 9,
+            "price": 71.08,
+            "last_price": 66.83
+      },
+      {
+            "_id": "405a",
+            "name": "Dario Saric",
+            "height": "6'10",
+            "weight": 223,
+            "position": "F",
+            "team": 24,
+            "price": 66.6
+      },
+      {
+            "_id": "405b",
+            "name": "DeMarcus Cousins",
+            "height": "6'11",
+            "weight": 270,
+            "position": "C",
+            "team": 11,
+            "price": 66.36
+      },
+      {
+            "_id": "405c",
+            "name": "Serge Ibaka",
+            "height": "6'10",
+            "weight": 235,
+            "position": "F-C",
+            "team": 13,
+            "price": 67.22,
+            "last_price": 66.12
+      },
+      {
+            "_id": "405d",
+            "name": "Jonathan Isaac",
+            "height": "6'10",
+            "weight": 210,
+            "position": "F",
+            "team": 22,
+            "price": 65.88
+      },
+      {
+            "_id": "405e",
+            "name": "Marcus Morris",
+            "height": "6'9",
+            "weight": 235,
+            "position": "F",
+            "team": 13,
+            "price": 66.49,
+            "last_price": 65.64
+      },
+      {
+            "_id": "405f",
+            "name": "T.J. Warren",
+            "height": "6'8",
+            "weight": 215,
+            "position": "F",
+            "team": 12,
+            "price": 65.4
+      },
+      {
+            "_id": "4060",
+            "name": "Harrison Barnes",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 26,
+            "price": 66.02,
+            "last_price": 65.17
+      },
+      {
+            "_id": "4061",
+            "name": "Hassan Whiteside",
+            "height": "7'0",
+            "weight": 265,
+            "position": "C",
+            "team": 26,
+            "price": 64.93
+      },
+      {
+            "_id": "4062",
+            "name": "Kyle Kuzma",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 14,
+            "price": 64.94,
+            "last_price": 64.69
+      },
+      {
+            "_id": "4063",
+            "name": "Landry Shamet",
+            "height": "6'5",
+            "weight": 188,
+            "position": "G",
+            "team": 3,
+            "price": 64.45
+      },
+      {
+            "_id": "4064",
+            "name": "Reggie Jackson",
+            "height": "6'3",
+            "weight": 208,
+            "position": "G",
+            "team": 13,
+            "price": 64.21
+      },
+      {
+            "_id": "4065",
+            "name": "Jeremy Lamb",
+            "height": "6'5",
+            "weight": 185,
+            "position": "G",
+            "team": 12,
+            "price": 63.98
+      },
+      {
+            "_id": "4066",
+            "name": "D.J. Augustin",
+            "height": "6'0",
+            "weight": 183,
+            "position": "G",
+            "team": 17,
+            "price": 63.74
+      },
+      {
+            "_id": "4067",
+            "name": "Jeff Teague",
+            "height": "6'2",
+            "weight": 195,
+            "position": "G",
+            "team": 2,
+            "price": 63.26
+      },
+      {
+            "_id": "4068",
+            "name": "Monte Morris",
+            "height": "6'3",
+            "weight": 175,
+            "position": "G",
+            "team": 8,
+            "price": 63.77,
+            "last_price": 63.02
+      },
+      {
+            "_id": "4069",
+            "name": "Wendell Carter Jr.",
+            "height": "6'10",
+            "weight": 255,
+            "position": "F",
+            "team": 5,
+            "price": 62.79
+      },
+      {
+            "_id": "406a",
+            "name": "Cody Zeller",
+            "height": "7'0",
+            "weight": 240,
+            "position": "C",
+            "team": 4,
+            "price": 62.55
+      },
+      {
+            "_id": "406b",
+            "name": "DeAndre Jordan",
+            "height": "6'11",
+            "weight": 265,
+            "position": "C",
+            "team": 3,
+            "price": 64.86,
+            "last_price": 62.31
+      },
+      {
+            "_id": "406c",
+            "name": "Mikal Bridges",
+            "height": "6'7",
+            "weight": 210,
+            "position": "F",
+            "team": 24,
+            "price": 63.07,
+            "last_price": 62.07
+      },
+      {
+            "_id": "406d",
+            "name": "Terrence Ross",
+            "height": "6'7",
+            "weight": 206,
+            "position": "G-F",
+            "team": 22,
+            "price": 61.98,
+            "last_price": 61.83
+      },
+      {
+            "_id": "406e",
+            "name": "Willie Cauley-Stein",
+            "height": "7'0",
+            "weight": 240,
+            "position": "C",
+            "team": 7,
+            "price": 61.6
+      },
+      {
+            "_id": "406f",
+            "name": "Delon Wright",
+            "height": "6'5",
+            "weight": 183,
+            "position": "G",
+            "team": 9,
+            "price": 62.36,
+            "last_price": 61.36
+      },
+      {
+            "_id": "4070",
+            "name": "Nicolas Batum",
+            "height": "6'8",
+            "weight": 200,
+            "position": "F-G",
+            "team": 13,
+            "price": 64.11999999999999,
+            "last_price": 61.12
+      },
+      {
+            "_id": "4071",
+            "name": "Andrew Wiggins",
+            "height": "6'8",
+            "weight": 194,
+            "position": "F-G",
+            "team": 10,
+            "price": 61.63,
+            "last_price": 60.88
+      },
+      {
+            "_id": "4072",
+            "name": "Zach Collins",
+            "height": "7'0",
+            "weight": 235,
+            "position": "F-C",
+            "team": 25,
+            "price": 60.64
+      },
+      {
+            "_id": "4073",
+            "name": "OG Anunoby",
+            "height": "6'8",
+            "weight": 232,
+            "position": "F",
+            "team": 28,
+            "price": 61.55,
+            "last_price": 60.4
+      },
+      {
+            "_id": "4074",
+            "name": "Collin Sexton",
+            "height": "6'2",
+            "weight": 190,
+            "position": "G",
+            "team": 6,
+            "price": 60.57,
+            "last_price": 60.17
+      },
+      {
+            "_id": "4075",
+            "name": "Nemanja Bjelica",
+            "height": "6'10",
+            "weight": 234,
+            "position": "F",
+            "team": 26,
+            "price": 59.93
+      },
+      {
+            "_id": "4076",
+            "name": "Thomas Bryant",
+            "height": "6'11",
+            "weight": 248,
+            "position": "C",
+            "team": 30,
+            "price": 59.69
+      },
+      {
+            "_id": "4077",
+            "name": "Kevin Huerter",
+            "height": "6'7",
+            "weight": 190,
+            "position": "G",
+            "team": 1,
+            "price": 59.21
+      },
+      {
+            "_id": "4078",
+            "name": "Will Barton",
+            "height": "6'6",
+            "weight": 190,
+            "position": "G",
+            "team": 8,
+            "price": 58.98
+      },
+      {
+            "_id": "4079",
+            "name": "Malik Beasley",
+            "height": "6'5",
+            "weight": 195,
+            "position": "G",
+            "team": 18,
+            "price": 60.89,
+            "last_price": 58.74
+      },
+      {
+            "_id": "407a",
+            "name": "Kyle Anderson",
+            "height": "6'9",
+            "weight": 230,
+            "position": "F",
+            "team": 15,
+            "price": 58.5
+      },
+      {
+            "_id": "407b",
+            "name": "Aron Baynes",
+            "height": "6'10",
+            "weight": 260,
+            "position": "C-F",
+            "team": 28,
+            "price": 58.26
+      },
+      {
+            "_id": "407c",
+            "name": "Davis Bertans",
+            "height": "6'10",
+            "weight": 225,
+            "position": "F",
+            "team": 30,
+            "price": 58.77,
+            "last_price": 58.02
+      },
+      {
+            "_id": "407d",
+            "name": "Kelly Oubre Jr.",
+            "height": "6'7",
+            "weight": 205,
+            "position": "F",
+            "team": 10,
+            "price": 57.79
+      },
+      {
+            "_id": "407e",
+            "name": "Jae Crowder",
+            "height": "6'6",
+            "weight": 235,
+            "position": "F",
+            "team": 24,
+            "price": 57.55
+      },
+      {
+            "_id": "407f",
+            "name": "Mason Plumlee",
+            "height": "6'11",
+            "weight": 235,
+            "position": "F-C",
+            "team": 9,
+            "price": 60.260000000000005,
+            "last_price": 57.31
+      },
+      {
+            "_id": "4080",
+            "name": "Jakob Poeltl",
+            "height": "7'0",
+            "weight": 230,
+            "position": "C",
+            "team": 27,
+            "price": 60.37,
+            "last_price": 57.07
+      },
+      {
+            "_id": "4081",
+            "name": "Enes Kanter",
+            "position": "C",
+            "team": 25,
+            "price": 63.23,
+            "last_price": 56.83
+      },
+      {
+            "_id": "4082",
+            "name": "Miles Bridges",
+            "height": "6'7",
+            "weight": 225,
+            "position": "F",
+            "team": 4,
+            "price": 56.36
+      },
+      {
+            "_id": "4083",
+            "name": "Luke Kennard",
+            "height": "6'5",
+            "weight": 206,
+            "position": "G",
+            "team": 13,
+            "price": 56.419999999999995,
+            "last_price": 56.12
+      },
+      {
+            "_id": "4084",
+            "name": "Markieff Morris",
+            "position": "F",
+            "team": 14,
+            "price": 55.88
+      },
+      {
+            "_id": "4085",
+            "name": "Ja Morant",
+            "position": "G",
+            "team": 15,
+            "price": 56.34,
+            "last_price": 55.64
+      },
+      {
+            "_id": "4086",
+            "name": "Bryn Forbes",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 17,
+            "price": 56.0,
+            "last_price": 55.4
+      },
+      {
+            "_id": "4087",
+            "name": "Taurean Prince",
+            "height": "6'8",
+            "weight": 220,
+            "position": "F",
+            "team": 6,
+            "price": 55.17
+      },
+      {
+            "_id": "4088",
+            "name": "Kelly Olynyk",
+            "height": "7'0",
+            "weight": 240,
+            "position": "F",
+            "team": 16,
+            "price": 54.93
+      },
+      {
+            "_id": "4089",
+            "name": "Terry Rozier",
+            "height": "6'1",
+            "weight": 190,
+            "position": "G",
+            "team": 4,
+            "price": 56.089999999999996,
+            "last_price": 54.69
+      },
+      {
+            "_id": "408a",
+            "name": "Tim Hardaway Jr.",
+            "height": "6'6",
+            "weight": 205,
+            "position": "G",
+            "team": 7,
+            "price": 56.25,
+            "last_price": 54.45
+      },
+      {
+            "_id": "408b",
+            "name": "Tristan Thompson",
+            "height": "6'10",
+            "weight": 238,
+            "position": "C-F",
+            "team": 2,
+            "price": 56.26,
+            "last_price": 54.21
+      },
+      {
+            "_id": "408c",
+            "name": "Maxi Kleber",
+            "height": "6'11",
+            "weight": 240,
+            "position": "F",
+            "team": 7,
+            "price": 54.24,
+            "last_price": 53.74
+      },
+      {
+            "_id": "408d",
+            "name": "Bobby Portis",
+            "height": "6'11",
+            "weight": 250,
+            "position": "F",
+            "team": 17,
+            "price": 55.25,
+            "last_price": 53.5
+      },
+      {
+            "_id": "408e",
+            "name": "Dwight Powell",
+            "height": "6'11",
+            "weight": 240,
+            "position": "F-C",
+            "team": 7,
+            "price": 53.26
+      },
+      {
+            "_id": "408f",
+            "name": "Rodney Hood",
+            "height": "6'8",
+            "weight": 206,
+            "position": "G",
+            "team": 25,
+            "price": 53.02
+      },
+      {
+            "_id": "4090",
+            "name": "James Johnson",
+            "height": "6'8",
+            "weight": 240,
+            "position": "F",
+            "team": 7,
+            "price": 52.79
+      },
+      {
+            "_id": "4091",
+            "name": "Seth Curry",
+            "height": "6'2",
+            "weight": 185,
+            "position": "G",
+            "team": 23,
+            "price": 53.449999999999996,
+            "last_price": 52.55
+      },
+      {
+            "_id": "4092",
+            "name": "George Hill",
+            "height": "6'3",
+            "weight": 188,
+            "position": "G",
+            "team": 21,
+            "price": 52.31
+      },
+      {
+            "_id": "4093",
+            "name": "Kent Bazemore",
+            "height": "6'5",
+            "weight": 201,
+            "position": "G",
+            "team": 10,
+            "price": 52.07
+      },
+      {
+            "_id": "4094",
+            "name": "Cedi Osman",
+            "height": "6'8",
+            "weight": 215,
+            "position": "F",
+            "team": 6,
+            "price": 51.83
+      },
+      {
+            "_id": "4095",
+            "name": "Maurice Harkless",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 16,
+            "price": 51.6
+      },
+      {
+            "_id": "4096",
+            "name": "Dennis Smith Jr.",
+            "height": "6'3",
+            "weight": 195,
+            "position": "G",
+            "team": 9,
+            "price": 51.36
+      },
+      {
+            "_id": "4097",
+            "name": "RJ Barrett",
+            "position": "F-G",
+            "team": 20,
+            "price": 52.22,
+            "last_price": 51.12
+      },
+      {
+            "_id": "4098",
+            "name": "E'Twaun Moore",
+            "height": "6'4",
+            "weight": 191,
+            "position": "G",
+            "team": 24,
+            "price": 50.88
+      },
+      {
+            "_id": "4099",
+            "name": "Dwight Howard",
+            "height": "6'11",
+            "weight": 265,
+            "position": "C",
+            "team": 23,
+            "price": 51.59,
+            "last_price": 50.64
+      },
+      {
+            "_id": "409a",
+            "name": "Josh Hart",
+            "height": "6'5",
+            "weight": 215,
+            "position": "G",
+            "team": 19,
+            "price": 50.75,
+            "last_price": 50.4
+      },
+      {
+            "_id": "409b",
+            "name": "Royce O'Neale",
+            "height": "6'6",
+            "weight": 226,
+            "position": "F",
+            "team": 29,
+            "price": 51.27,
+            "last_price": 50.17
+      },
+      {
+            "_id": "409c",
+            "name": "Austin Rivers",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 20,
+            "price": 49.93
+      },
+      {
+            "_id": "409d",
+            "name": "JaVale McGee",
+            "height": "7'0",
+            "weight": 270,
+            "position": "C",
+            "team": 6,
+            "price": 49.69
+      },
+      {
+            "_id": "409e",
+            "name": "Tyus Jones",
+            "height": "6'2",
+            "weight": 196,
+            "position": "G",
+            "team": 15,
+            "price": 50.150000000000006,
+            "last_price": 49.45
+      },
+      {
+            "_id": "409f",
+            "name": "Kentavious Caldwell-Pope",
+            "height": "6'5",
+            "weight": 205,
+            "position": "G",
+            "team": 14,
+            "price": 49.26,
+            "last_price": 49.21
+      },
+      {
+            "_id": "40a0",
+            "name": "Derrick Rose",
+            "height": "6'3",
+            "weight": 200,
+            "position": "G",
+            "team": 20,
+            "price": 48.98
+      },
+      {
+            "_id": "40a1",
+            "name": "Trevor Ariza",
+            "height": "6'8",
+            "weight": 215,
+            "position": "F",
+            "team": 21,
+            "price": 48.26
+      },
+      {
+            "_id": "40a2",
+            "name": "Ed Davis",
+            "height": "6'10",
+            "weight": 225,
+            "position": "C",
+            "team": 18,
+            "price": 48.02
+      },
+      {
+            "_id": "40a3",
+            "name": "Noah Vonleh",
+            "height": "6'9",
+            "weight": 250,
+            "position": "F",
+            "team": 3,
+            "price": 47.79
+      },
+      {
+            "_id": "40a4",
+            "name": "Norman Powell",
+            "height": "6'4",
+            "weight": 215,
+            "position": "F-G",
+            "team": 28,
+            "price": 47.55
+      },
+      {
+            "_id": "40a5",
+            "name": "JaMychal Green",
+            "height": "6'9",
+            "weight": 227,
+            "position": "F",
+            "team": 8,
+            "price": 47.31
+      },
+      {
+            "_id": "40a6",
+            "name": "Taj Gibson",
+            "height": "6'9",
+            "weight": 232,
+            "position": "F",
+            "team": 20,
+            "price": 47.07
+      },
+      {
+            "_id": "40a7",
+            "name": "Cory Joseph",
+            "height": "6'3",
+            "weight": 193,
+            "position": "G",
+            "team": 26,
+            "price": 46.83
+      },
+      {
+            "_id": "40a8",
+            "name": "Tyler Johnson",
+            "height": "6'4",
+            "weight": 190,
+            "position": "G",
+            "team": 3,
+            "price": 46.6
+      },
+      {
+            "_id": "40a9",
+            "name": "Reggie Bullock",
+            "height": "6'7",
+            "weight": 205,
+            "position": "G-F",
+            "team": 20,
+            "price": 46.36
+      },
+      {
+            "_id": "40aa",
+            "name": "Robin Lopez",
+            "height": "7'0",
+            "weight": 275,
+            "position": "C",
+            "team": 30,
+            "price": 46.37,
+            "last_price": 46.12
+      },
+      {
+            "_id": "40ab",
+            "name": "Darius Garland",
+            "position": "G",
+            "team": 6,
+            "price": 45.88
+      },
+      {
+            "_id": "40ac",
+            "name": "Josh Okogie",
+            "height": "6'4",
+            "weight": 212,
+            "position": "G",
+            "team": 18,
+            "price": 44.68
+      },
+      {
+            "_id": "40ad",
+            "name": "Alex Len",
+            "height": "7'1",
+            "weight": 250,
+            "position": "C",
+            "team": 30,
+            "price": 44.3
+      },
+      {
+            "_id": "40ae",
+            "name": "Jordan Clarkson",
+            "height": "6'5",
+            "weight": 194,
+            "position": "G",
+            "team": 29,
+            "price": 45.21,
+            "last_price": 44.11
+      },
+      {
+            "_id": "40af",
+            "name": "Jarrett Culver",
+            "position": "G",
+            "team": 18,
+            "price": 43.74
+      },
+      {
+            "_id": "40b0",
+            "name": "Nerlens Noel",
+            "height": "6'11",
+            "weight": 220,
+            "position": "F-C",
+            "team": 20,
+            "price": 45.05,
+            "last_price": 43.55
+      },
+      {
+            "_id": "40b1",
+            "name": "Elfrid Payton",
+            "height": "6'4",
+            "weight": 185,
+            "position": "G",
+            "team": 20,
+            "price": 43.36
+      },
+      {
+            "_id": "40b2",
+            "name": "Harry Giles III",
+            "height": "6'10",
+            "weight": 240,
+            "position": "F-C",
+            "team": 25,
+            "price": 42.98
+      },
+      {
+            "_id": "40b3",
+            "name": "Juancho Hernangomez",
+            "height": "6'9",
+            "weight": 230,
+            "position": "F",
+            "team": 18,
+            "price": 42.79
+      },
+      {
+            "_id": "40b4",
+            "name": "Richaun Holmes",
+            "height": "6'10",
+            "weight": 235,
+            "position": "F-C",
+            "team": 26,
+            "price": 48.75,
+            "last_price": 42.6
+      },
+      {
+            "_id": "40b5",
+            "name": "Brandon Clarke",
+            "position": "F",
+            "team": 15,
+            "price": 43.370000000000005,
+            "last_price": 42.42
+      },
+      {
+            "_id": "40b6",
+            "name": "Jeff Green",
+            "height": "6'9",
+            "weight": 235,
+            "position": "F",
+            "team": 3,
+            "price": 42.58,
+            "last_price": 42.23
+      },
+      {
+            "_id": "40b7",
+            "name": "Torrey Craig",
+            "height": "6'7",
+            "weight": 215,
+            "position": "F",
+            "team": 17,
+            "price": 41.85
+      },
+      {
+            "_id": "40b8",
+            "name": "Wesley Matthews",
+            "position": "G-F",
+            "team": 14,
+            "price": 41.66
+      },
+      {
+            "_id": "40b9",
+            "name": "Garrett Temple",
+            "height": "6'6",
+            "weight": 195,
+            "position": "G-F",
+            "team": 5,
+            "price": 41.47
+      },
+      {
+            "_id": "40ba",
+            "name": "De'Andre Hunter",
+            "position": "F",
+            "team": 1,
+            "price": 41.190000000000005,
+            "last_price": 41.09
+      },
+      {
+            "_id": "40bb",
+            "name": "Ish Smith",
+            "height": "6'0",
+            "weight": 175,
+            "position": "G",
+            "team": 30,
+            "price": 40.91
+      },
+      {
+            "_id": "40bc",
+            "name": "Willy Hernangomez",
+            "height": "6'11",
+            "weight": 240,
+            "position": "C",
+            "team": 19,
+            "price": 40.53
+      },
+      {
+            "_id": "40bd",
+            "name": "Boban Marjanovic",
+            "height": "7'3",
+            "weight": 290,
+            "position": "C",
+            "team": 7,
+            "price": 40.34
+      },
+      {
+            "_id": "40be",
+            "name": "Wayne Ellington",
+            "position": "G",
+            "team": 9,
+            "price": 40.35,
+            "last_price": 40.15
+      },
+      {
+            "_id": "40bf",
+            "name": "Markelle Fultz",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 22,
+            "price": 39.96
+      },
+      {
+            "_id": "40c0",
+            "name": "Jabari Parker",
+            "height": "6'8",
+            "weight": 245,
+            "position": "F",
+            "team": 26,
+            "price": 39.77
+      },
+      {
+            "_id": "40c1",
+            "name": "Terrance Ferguson",
+            "height": "6'7",
+            "weight": 190,
+            "position": "G",
+            "team": 23,
+            "price": 39.58
+      },
+      {
+            "_id": "40c2",
+            "name": "Malik Monk",
+            "height": "6'3",
+            "weight": 200,
+            "position": "G",
+            "team": 4,
+            "price": 40.35,
+            "last_price": 39.4
+      },
+      {
+            "_id": "40c3",
+            "name": "Jalen Brunson",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 7,
+            "price": 39.46,
+            "last_price": 39.21
+      },
+      {
+            "_id": "40c4",
+            "name": "Dorian Finney-Smith",
+            "height": "6'8",
+            "weight": 220,
+            "position": "F",
+            "team": 7,
+            "price": 38.879999999999995,
+            "last_price": 38.83
+      },
+      {
+            "_id": "40c5",
+            "name": "Dante Exum",
+            "height": "6'6",
+            "weight": 190,
+            "position": "G",
+            "team": 11,
+            "price": 38.64
+      },
+      {
+            "_id": "40c6",
+            "name": "Michael Porter Jr.",
+            "height": "6'10",
+            "weight": 210,
+            "position": "F",
+            "team": 8,
+            "price": 38.45
+      },
+      {
+            "_id": "40c7",
+            "name": "Kevin Knox",
+            "height": "6'9",
+            "weight": 215,
+            "position": "F",
+            "team": 20,
+            "price": 38.26
+      },
+      {
+            "_id": "40c8",
+            "name": "Daniel Theis",
+            "height": "6'8",
+            "weight": 243,
+            "position": "F",
+            "team": 2,
+            "price": 40.53,
+            "last_price": 38.08
+      },
+      {
+            "_id": "40c9",
+            "name": "Coby White",
+            "position": "G",
+            "team": 5,
+            "price": 37.89
+      },
+      {
+            "_id": "40ca",
+            "name": "Jared Dudley",
+            "height": "6'7",
+            "weight": 237,
+            "position": "F",
+            "team": 14,
+            "price": 37.7
+      },
+      {
+            "_id": "40cb",
+            "name": "Mike Scott",
+            "height": "6'8",
+            "weight": 237,
+            "position": "F",
+            "team": 23,
+            "price": 37.51
+      },
+      {
+            "_id": "40cc",
+            "name": "Alec Burks",
+            "height": "6'6",
+            "weight": 214,
+            "position": "G",
+            "team": 20,
+            "price": 37.13
+      },
+      {
+            "_id": "40cd",
+            "name": "Aaron Holiday",
+            "height": "6'1",
+            "weight": 185,
+            "position": "G",
+            "team": 12,
+            "price": 36.75
+      },
+      {
+            "_id": "40ce",
+            "name": "Rajon Rondo",
+            "height": "6'1",
+            "weight": 186,
+            "position": "G",
+            "team": 1,
+            "price": 36.57
+      },
+      {
+            "_id": "40cf",
+            "name": "Avery Bradley",
+            "height": "6'2",
+            "weight": 180,
+            "position": "G",
+            "team": 16,
+            "price": 36.19
+      },
+      {
+            "_id": "40d0",
+            "name": "Nickeil Alexander-Walker",
+            "position": "G",
+            "team": 19,
+            "price": 36
+      },
+      {
+            "_id": "40d1",
+            "name": "Frank Ntilikina",
+            "height": "6'6",
+            "weight": 200,
+            "position": "G",
+            "team": 20,
+            "price": 35.81
+      },
+      {
+            "_id": "40d2",
+            "name": "James Ennis III",
+            "height": "6'7",
+            "weight": 210,
+            "position": "F",
+            "team": 22,
+            "price": 35.62
+      },
+      {
+            "_id": "40d3",
+            "name": "Kris Dunn",
+            "height": "6'4",
+            "weight": 205,
+            "position": "G",
+            "team": 1,
+            "price": 35.43
+      },
+      {
+            "_id": "40d4",
+            "name": "Meyers Leonard",
+            "height": "7'1",
+            "weight": 255,
+            "position": "F-C",
+            "team": 16,
+            "price": 35.06
+      },
+      {
+            "_id": "40d5",
+            "name": "Bruce Brown",
+            "height": "6'5",
+            "weight": 202,
+            "position": "G",
+            "team": 3,
+            "price": 34.87
+      },
+      {
+            "_id": "40d6",
+            "name": "Khem Birch",
+            "height": "6'9",
+            "weight": 233,
+            "position": "C",
+            "team": 22,
+            "price": 35.68,
+            "last_price": 34.68
+      },
+      {
+            "_id": "40d7",
+            "name": "Tyler Herro",
+            "position": "G",
+            "team": 16,
+            "price": 34.49
+      },
+      {
+            "_id": "40d8",
+            "name": "Rodney McGruder",
+            "height": "6'4",
+            "weight": 200,
+            "position": "F-G",
+            "team": 9,
+            "price": 34.3
+      },
+      {
+            "_id": "40d9",
+            "name": "Doug McDermott",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 12,
+            "price": 34.24,
+            "last_price": 33.74
+      },
+      {
+            "_id": "40da",
+            "name": "Justin Holiday",
+            "height": "6'6",
+            "weight": 181,
+            "position": "F-G",
+            "team": 12,
+            "price": 34.11,
+            "last_price": 33.36
+      },
+      {
+            "_id": "40db",
+            "name": "Lonnie Walker IV",
+            "height": "6'5",
+            "weight": 205,
+            "position": "G",
+            "team": 27,
+            "price": 33.17
+      },
+      {
+            "_id": "40dc",
+            "name": "Tony Snell",
+            "height": "6'7",
+            "weight": 213,
+            "position": "G",
+            "team": 1,
+            "price": 32.98
+      },
+      {
+            "_id": "40dd",
+            "name": "D.J. Wilson",
+            "height": "6'10",
+            "weight": 231,
+            "position": "F",
+            "team": 17,
+            "price": 32.79
+      },
+      {
+            "_id": "40de",
+            "name": "Justin Jackson",
+            "height": "6'8",
+            "weight": 210,
+            "position": "F",
+            "team": 21,
+            "price": 32.6
+      },
+      {
+            "_id": "40df",
+            "name": "Alex Caruso",
+            "height": "6'5",
+            "weight": 186,
+            "position": "G",
+            "team": 14,
+            "price": 32.42
+      },
+      {
+            "_id": "40e0",
+            "name": "Rui Hachimura",
+            "position": "F",
+            "team": 30,
+            "price": 32.04
+      },
+      {
+            "_id": "40e1",
+            "name": "Dillon Brooks",
+            "height": "6'6",
+            "weight": 220,
+            "position": "G-F",
+            "team": 15,
+            "price": 31.91,
+            "last_price": 31.66
+      },
+      {
+            "_id": "40e2",
+            "name": "Stanley Johnson",
+            "height": "6'7",
+            "weight": 245,
+            "position": "F",
+            "team": 28,
+            "price": 31.28
+      },
+      {
+            "_id": "40e3",
+            "name": "Trey Burke",
+            "height": "6'1",
+            "weight": 175,
+            "position": "G",
+            "team": 7,
+            "price": 31.09
+      },
+      {
+            "_id": "40e4",
+            "name": "Gorgui Dieng",
+            "height": "6'11",
+            "weight": 252,
+            "position": "C",
+            "team": 15,
+            "price": 30.53
+      },
+      {
+            "_id": "40e5",
+            "name": "Rodions Kurucs",
+            "height": "6'9",
+            "weight": 210,
+            "position": "F",
+            "team": 11,
+            "price": 29.96
+      },
+      {
+            "_id": "40e6",
+            "name": "Anfernee Simons",
+            "height": "6'4",
+            "weight": 185,
+            "position": "G",
+            "team": 25,
+            "price": 29.77
+      },
+      {
+            "_id": "40e7",
+            "name": "Jaxson Hayes",
+            "position": "C",
+            "team": 19,
+            "price": 29.58
+      },
+      {
+            "_id": "40e8",
+            "name": "Jake Layman",
+            "height": "6'9",
+            "weight": 215,
+            "position": "F",
+            "team": 18,
+            "price": 29.4
+      },
+      {
+            "_id": "40e9",
+            "name": "Sterling Brown",
+            "height": "6'6",
+            "weight": 232,
+            "position": "G",
+            "team": 11,
+            "price": 29.02,
+            "last_price": 29.02
+      },
+      {
+            "_id": "40ea",
+            "name": "Jordan Bell",
+            "height": "6'9",
+            "weight": 224,
+            "position": "F",
+            "team": 30,
+            "price": 28.83
+      },
+      {
+            "_id": "40eb",
+            "name": "Darius Miller",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 21,
+            "price": 28.64
+      },
+      {
+            "_id": "40ec",
+            "name": "Denzel Valentine",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 5,
+            "price": 28.45
+      },
+      {
+            "_id": "40ed",
+            "name": "T.J. McConnell",
+            "height": "6'2",
+            "weight": 190,
+            "position": "G",
+            "team": 12,
+            "price": 32.760000000000005,
+            "last_price": 28.26
+      },
+      {
+            "_id": "40ee",
+            "name": "Trey Lyles",
+            "height": "6'10",
+            "weight": 234,
+            "position": "F",
+            "team": 27,
+            "price": 28.08
+      },
+      {
+            "_id": "40ef",
+            "name": "DeAndre' Bembry",
+            "height": "6'6",
+            "weight": 210,
+            "position": "F",
+            "team": 28,
+            "price": 27.89
+      },
+      {
+            "_id": "40f0",
+            "name": "Langston Galloway",
+            "height": "6'2",
+            "weight": 200,
+            "position": "G",
+            "team": 24,
+            "price": 27.7
+      },
+      {
+            "_id": "40f1",
+            "name": "Robert Williams III",
+            "height": "6'10",
+            "weight": 240,
+            "position": "C-F",
+            "team": 2,
+            "price": 27.32
+      },
+      {
+            "_id": "40f2",
+            "name": "Alfonzo McKinnie",
+            "height": "6'8",
+            "weight": 215,
+            "position": "F",
+            "team": 14,
+            "price": 26.38
+      },
+      {
+            "_id": "40f3",
+            "name": "Matisse Thybulle",
+            "position": "G-F",
+            "team": 23,
+            "price": 26.84,
+            "last_price": 26.19
+      },
+      {
+            "_id": "40f4",
+            "name": "Frank Kaminsky",
+            "height": "7'0",
+            "weight": 242,
+            "position": "F-C",
+            "team": 24,
+            "price": 26
+      },
+      {
+            "_id": "40f5",
+            "name": "Derrick Jones Jr.",
+            "height": "6'7",
+            "weight": 200,
+            "position": "F-G",
+            "team": 25,
+            "price": 25.15
+      },
+      {
+            "_id": "40f6",
+            "name": "David Nwaba",
+            "height": "6'4",
+            "weight": 219,
+            "position": "G",
+            "team": 11,
+            "price": 25.360000000000003,
+            "last_price": 25.01
+      },
+      {
+            "_id": "40f7",
+            "name": "Quinn Cook",
+            "height": "6'2",
+            "weight": 179,
+            "position": "G",
+            "team": 14,
+            "price": 24.87
+      },
+      {
+            "_id": "40f8",
+            "name": "Grant Williams",
+            "position": "F",
+            "team": 2,
+            "price": 24.73
+      },
+      {
+            "_id": "40f9",
+            "name": "Ryan Arcidiacono",
+            "height": "6'3",
+            "weight": 200,
+            "position": "G",
+            "team": 5,
+            "price": 24.59
+      },
+      {
+            "_id": "40fa",
+            "name": "Jahlil Okafor",
+            "height": "6'11",
+            "weight": 275,
+            "position": "C",
+            "team": 9,
+            "price": 24.17
+      },
+      {
+            "_id": "40fb",
+            "name": "Cameron Johnson",
+            "position": "F",
+            "team": 24,
+            "price": 24.03,
+            "last_price": 24.03
+      },
+      {
+            "_id": "40fc",
+            "name": "Mike Muscala",
+            "height": "6'11",
+            "weight": 240,
+            "position": "F-C",
+            "team": 21,
+            "price": 23.89
+      },
+      {
+            "_id": "40fd",
+            "name": "Damyean Dotson",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 6,
+            "price": 23.75
+      },
+      {
+            "_id": "40fe",
+            "name": "Patrick Patterson",
+            "height": "6'9",
+            "weight": 230,
+            "position": "F",
+            "team": 13,
+            "price": 23.32
+      },
+      {
+            "_id": "40ff",
+            "name": "Raul Neto",
+            "height": "6'1",
+            "weight": 179,
+            "position": "G",
+            "team": 30,
+            "price": 23.04
+      },
+      {
+            "_id": "4100",
+            "name": "Furkan Korkmaz",
+            "height": "6'7",
+            "weight": 190,
+            "position": "G-F",
+            "team": 23,
+            "price": 22.9
+      },
+      {
+            "_id": "4101",
+            "name": "Georges Niang",
+            "height": "6'8",
+            "weight": 230,
+            "position": "F",
+            "team": 29,
+            "price": 22.76
+      },
+      {
+            "_id": "4102",
+            "name": "Chandler Hutchison",
+            "height": "6'7",
+            "weight": 197,
+            "position": "F",
+            "team": 5,
+            "price": 22.48
+      },
+      {
+            "_id": "4103",
+            "name": "Semi Ojeleye",
+            "height": "6'7",
+            "weight": 241,
+            "position": "F",
+            "team": 2,
+            "price": 22.2
+      },
+      {
+            "_id": "4104",
+            "name": "Patrick McCaw",
+            "height": "6'7",
+            "weight": 185,
+            "position": "",
+            "team": 28,
+            "price": 22.06
+      },
+      {
+            "_id": "4105",
+            "name": "Dwayne Bacon",
+            "height": "6'7",
+            "weight": 221,
+            "position": "G-F",
+            "team": 22,
+            "price": 22.279999999999998,
+            "last_price": 21.63
+      },
+      {
+            "_id": "4106",
+            "name": "Luke Kornet",
+            "height": "7'1",
+            "weight": 250,
+            "position": "F-C",
+            "team": 5,
+            "price": 21.49
+      },
+      {
+            "_id": "4107",
+            "name": "Wes Iwundu",
+            "height": "6'7",
+            "weight": 195,
+            "position": "F",
+            "team": 7,
+            "price": 21.35
+      },
+      {
+            "_id": "4108",
+            "name": "Matthew Dellavedova",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 6,
+            "price": 21.21
+      },
+      {
+            "_id": "4109",
+            "name": "De'Anthony Melton",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 15,
+            "price": 21.07
+      },
+      {
+            "_id": "410a",
+            "name": "Michael Carter-Williams",
+            "position": "G",
+            "team": 22,
+            "price": 20.93
+      },
+      {
+            "_id": "410b",
+            "name": "Donte DiVincenzo",
+            "height": "6'4",
+            "weight": 203,
+            "position": "G",
+            "team": 17,
+            "price": 21.04,
+            "last_price": 20.79
+      },
+      {
+            "_id": "410c",
+            "name": "Christian Wood",
+            "height": "6'10",
+            "weight": 214,
+            "position": "F",
+            "team": 11,
+            "price": 23.11,
+            "last_price": 20.51
+      },
+      {
+            "_id": "410d",
+            "name": "Tim Frazier",
+            "height": "6'1",
+            "weight": 170,
+            "position": "G",
+            "team": 9,
+            "price": 20.23
+      },
+      {
+            "_id": "410e",
+            "name": "Frank Jackson",
+            "height": "6'3",
+            "weight": 205,
+            "position": "G",
+            "team": 9,
+            "price": 20.08
+      },
+      {
+            "_id": "410f",
+            "name": "Ty Jerome",
+            "position": "G",
+            "team": 21,
+            "price": 19.94
+      },
+      {
+            "_id": "4110",
+            "name": "Glenn Robinson III",
+            "height": "6'6",
+            "weight": 222,
+            "position": "G-F",
+            "team": 26,
+            "price": 19.8
+      },
+      {
+            "_id": "4111",
+            "name": "Solomon Hill",
+            "height": "6'7",
+            "weight": 225,
+            "position": "F",
+            "team": 1,
+            "price": 19.66
+      },
+      {
+            "_id": "4112",
+            "name": "P.J. Washington",
+            "position": "F",
+            "team": 4,
+            "price": 19.97,
+            "last_price": 19.52
+      },
+      {
+            "_id": "4113",
+            "name": "Kenrich Williams",
+            "height": "6'7",
+            "weight": 210,
+            "position": "G-F",
+            "team": 21,
+            "price": 19.38
+      },
+      {
+            "_id": "4114",
+            "name": "Romeo Langford",
+            "position": "G",
+            "team": 2,
+            "price": 18.96
+      },
+      {
+            "_id": "4115",
+            "name": "Bismack Biyombo",
+            "height": "6'9",
+            "weight": 255,
+            "position": "C",
+            "team": 4,
+            "price": 19.54,
+            "last_price": 18.54
+      },
+      {
+            "_id": "4116",
+            "name": "Nassir Little",
+            "position": "F",
+            "team": 25,
+            "price": 17.97
+      },
+      {
+            "_id": "4117",
+            "name": "Carsen Edwards",
+            "position": "G",
+            "team": 2,
+            "price": 17.83
+      },
+      {
+            "_id": "4118",
+            "name": "Goga Bitadze",
+            "position": "C",
+            "team": 12,
+            "price": 17.41
+      },
+      {
+            "_id": "4119",
+            "name": "Hamidou Diallo",
+            "height": "6'5",
+            "weight": 198,
+            "position": "G",
+            "team": 21,
+            "price": 16.99
+      },
+      {
+            "_id": "411a",
+            "name": "Damian Jones",
+            "height": "7'0",
+            "weight": 245,
+            "position": "C",
+            "team": 24,
+            "price": 16.85
+      },
+      {
+            "_id": "411b",
+            "name": "Bruno Fernando",
+            "position": "F",
+            "team": 1,
+            "price": 16.42
+      },
+      {
+            "_id": "411c",
+            "name": "Shaquille Harrison",
+            "height": "6'4",
+            "weight": 190,
+            "position": "G",
+            "team": 29,
+            "price": 16.28
+      },
+      {
+            "_id": "411d",
+            "name": "Josh Jackson",
+            "height": "6'8",
+            "weight": 200,
+            "position": "F",
+            "team": 9,
+            "price": 16.14
+      },
+      {
+            "_id": "411e",
+            "name": "Sindarius Thornwell",
+            "height": "6'5",
+            "weight": 215,
+            "position": "G",
+            "team": 19,
+            "price": 16
+      },
+      {
+            "_id": "411f",
+            "name": "Keita Bates-Diop",
+            "height": "6'9",
+            "weight": 229,
+            "position": "F",
+            "team": 27,
+            "price": 15.72
+      },
+      {
+            "_id": "4120",
+            "name": "Sekou Doumbouya",
+            "position": "F",
+            "team": 9,
+            "price": 15.44
+      },
+      {
+            "_id": "4121",
+            "name": "Grayson Allen",
+            "height": "6'5",
+            "weight": 198,
+            "position": "G",
+            "team": 15,
+            "price": 15.15
+      },
+      {
+            "_id": "4122",
+            "name": "Jarred Vanderbilt",
+            "height": "6'9",
+            "weight": 214,
+            "position": "F",
+            "team": 18,
+            "price": 15.01
+      },
+      {
+            "_id": "4123",
+            "name": "Devonte' Graham",
+            "height": "6'2",
+            "weight": 185,
+            "position": "G",
+            "team": 4,
+            "price": 15.37,
+            "last_price": 14.87
+      },
+      {
+            "_id": "4124",
+            "name": "Cristiano Felicio",
+            "height": "6'10",
+            "weight": 265,
+            "position": "F-C",
+            "team": 5,
+            "price": 14.59
+      },
+      {
+            "_id": "4125",
+            "name": "Chuma Okeke",
+            "position": "F",
+            "team": 22,
+            "price": 14.45
+      },
+      {
+            "_id": "4126",
+            "name": "Dylan Windler",
+            "position": "G-F",
+            "team": 6,
+            "price": 14.31
+      },
+      {
+            "_id": "4127",
+            "name": "Bol Bol",
+            "position": "C",
+            "team": 8,
+            "price": 14.03
+      },
+      {
+            "_id": "4128",
+            "name": "JaKarr Sampson",
+            "position": "",
+            "team": 12,
+            "price": 13.61
+      },
+      {
+            "_id": "4129",
+            "name": "Luka Samanic",
+            "position": "F",
+            "team": 27,
+            "price": 13.18
+      },
+      {
+            "_id": "412a",
+            "name": "Jevon Carter",
+            "height": "6'2",
+            "weight": 196,
+            "position": "G",
+            "team": 24,
+            "price": 12.9
+      },
+      {
+            "_id": "412b",
+            "name": "Ignas Brazdeikis",
+            "position": "F",
+            "team": 20,
+            "price": 12.76
+      },
+      {
+            "_id": "412c",
+            "name": "Abdel Nader",
+            "height": "6'6",
+            "weight": 225,
+            "position": "F",
+            "team": 24,
+            "price": 12.62
+      },
+      {
+            "_id": "412d",
+            "name": "Nicolo Melli",
+            "position": "F",
+            "team": 19,
+            "price": 12.34
+      },
+      {
+            "_id": "412e",
+            "name": "Keldon Johnson",
+            "position": "F",
+            "team": 27,
+            "price": 12.2
+      },
+      {
+            "_id": "412f",
+            "name": "Shake Milton",
+            "height": "6'6",
+            "weight": 207,
+            "position": "G",
+            "team": 23,
+            "price": 12.06
+      },
+      {
+            "_id": "4130",
+            "name": "Eric Paschall",
+            "position": "F",
+            "team": 10,
+            "price": 11.92
+      },
+      {
+            "_id": "4131",
+            "name": "Jerome Robinson",
+            "height": "6'5",
+            "weight": 190,
+            "position": "G",
+            "team": 30,
+            "price": 11.63
+      },
+      {
+            "_id": "4132",
+            "name": "Ben McLemore",
+            "position": "G",
+            "team": 11,
+            "price": 11.49
+      },
+      {
+            "_id": "4133",
+            "name": "Brad Wanamaker",
+            "height": "6'4",
+            "weight": 210,
+            "position": "G",
+            "team": 10,
+            "price": 11.21
+      },
+      {
+            "_id": "4134",
+            "name": "Chris Boucher",
+            "height": "6'10",
+            "weight": 200,
+            "position": "F",
+            "team": 28,
+            "price": 15.34,
+            "last_price": 9.94
+      },
+      {
+            "_id": "4135",
+            "name": "Jordan Poole",
+            "position": "G",
+            "team": 10,
+            "price": 9.9
+      },
+      {
+            "_id": "4136",
+            "name": "Damion Lee",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 10,
+            "price": 10.309999999999999,
+            "last_price": 9.86
+      },
+      {
+            "_id": "4137",
+            "name": "Talen Horton-Tucker",
+            "position": "G",
+            "team": 14,
+            "price": 9.77
+      },
+      {
+            "_id": "4138",
+            "name": "Tony Bradley",
+            "height": "6'10",
+            "weight": 248,
+            "position": "C",
+            "team": 23,
+            "price": 9.73
+      },
+      {
+            "_id": "4139",
+            "name": "Cameron Payne",
+            "position": "G",
+            "team": 24,
+            "price": 9.61
+      },
+      {
+            "_id": "413a",
+            "name": "Isaiah Hartenstein",
+            "height": "7'0",
+            "weight": 249,
+            "position": "F-C",
+            "team": 8,
+            "price": 9.52
+      },
+      {
+            "_id": "413b",
+            "name": "Vincent Poirier",
+            "position": "C",
+            "team": 23,
+            "price": 9.48
+      },
+      {
+            "_id": "413c",
+            "name": "Daniel Gafford",
+            "position": "F",
+            "team": 5,
+            "price": 9.54,
+            "last_price": 9.44
+      },
+      {
+            "_id": "413d",
+            "name": "Darius Bazley",
+            "position": "F",
+            "team": 21,
+            "price": 9.75,
+            "last_price": 9.4
+      },
+      {
+            "_id": "413e",
+            "name": "Nicolas Claxton",
+            "position": "F-C",
+            "team": 3,
+            "price": 9.36
+      },
+      {
+            "_id": "413f",
+            "name": "Alen Smailagic",
+            "position": "F",
+            "team": 10,
+            "price": 9.27
+      },
+      {
+            "_id": "4140",
+            "name": "Chimezie Metu",
+            "height": "6'10",
+            "weight": 225,
+            "position": "F",
+            "team": 26,
+            "price": 9.23
+      },
+      {
+            "_id": "4141",
+            "name": "Tacko Fall",
+            "position": "C",
+            "team": 2,
+            "price": 9.15
+      },
+      {
+            "_id": "4142",
+            "name": "Terance Mann",
+            "position": "G",
+            "team": 13,
+            "price": 9.02
+      },
+      {
+            "_id": "4143",
+            "name": "Thanasis Antetokounmpo",
+            "position": "",
+            "team": 17,
+            "price": 8.98
+      },
+      {
+            "_id": "4144",
+            "name": "KZ Okpala",
+            "position": "F",
+            "team": 16,
+            "price": 8.94
+      },
+      {
+            "_id": "4145",
+            "name": "Mfiondu Kabengele",
+            "position": "F",
+            "team": 13,
+            "price": 8.9
+      },
+      {
+            "_id": "4146",
+            "name": "Yuta Watanabe",
+            "height": "6'9",
+            "weight": 205,
+            "position": "G",
+            "team": 28,
+            "price": 8.85
+      },
+      {
+            "_id": "4147",
+            "name": "Kyle Guy",
+            "position": "G",
+            "team": 26,
+            "price": 8.73
+      },
+      {
+            "_id": "4148",
+            "name": "Isaac Bonga",
+            "height": "6'8",
+            "weight": 180,
+            "position": "G",
+            "team": 30,
+            "price": 8.48
+      },
+      {
+            "_id": "4149",
+            "name": "Jaylen Adams",
+            "height": "6'2",
+            "weight": 190,
+            "position": "G",
+            "team": 17,
+            "price": 8.39
+      },
+      {
+            "_id": "414a",
+            "name": "Matt Thomas",
+            "position": "G",
+            "team": 28,
+            "price": 8.35
+      },
+      {
+            "_id": "414b",
+            "name": "Marques Bolden",
+            "position": "C",
+            "team": 6,
+            "price": 8.02
+      },
+      {
+            "_id": "414c",
+            "name": "Cody Martin",
+            "position": "F",
+            "team": 4,
+            "price": 7.85
+      },
+      {
+            "_id": "414d",
+            "name": "Theo Pinson",
+            "height": "6'6",
+            "weight": 218,
+            "position": "G-F",
+            "team": 20,
+            "price": 7.77
+      },
+      {
+            "_id": "414e",
+            "name": "Terence Davis",
+            "position": "G",
+            "team": 28,
+            "price": 7.64
+      },
+      {
+            "_id": "414f",
+            "name": "John Konchar",
+            "position": "G-F",
+            "team": 15,
+            "price": 7.6
+      },
+      {
+            "_id": "4150",
+            "name": "Tremont Waters",
+            "position": "G",
+            "team": 2,
+            "price": 7.56
+      },
+      {
+            "_id": "4151",
+            "name": "Naz Reid",
+            "position": "F-C",
+            "team": 18,
+            "price": 8.26,
+            "last_price": 7.51
+      },
+      {
+            "_id": "4152",
+            "name": "Kendrick Nunn",
+            "position": "G",
+            "team": 16,
+            "price": 7.47
+      },
+      {
+            "_id": "4153",
+            "name": "Quinndary Weatherspoon",
+            "position": "G",
+            "team": 27,
+            "price": 7.43
+      },
+      {
+            "_id": "4154",
+            "name": "Justin James",
+            "position": "G-F",
+            "team": 26,
+            "price": 7.39
+      },
+      {
+            "_id": "4155",
+            "name": "Brandon Goodwin",
+            "height": "6'2",
+            "weight": 180,
+            "position": "",
+            "team": 1,
+            "price": 7.31
+      },
+      {
+            "_id": "4156",
+            "name": "Drew Eubanks",
+            "height": "6'10",
+            "weight": 245,
+            "position": "F",
+            "team": 27,
+            "price": 7.26
+      },
+      {
+            "_id": "4157",
+            "name": "Edmond Sumner",
+            "height": "6'6",
+            "weight": 176,
+            "position": "G",
+            "team": 12,
+            "price": 7.18
+      },
+      {
+            "_id": "4158",
+            "name": "Kostas Antetokounmpo",
+            "height": "6'10",
+            "weight": 200,
+            "position": "F",
+            "team": 14,
+            "price": 7.14
+      },
+      {
+            "_id": "4159",
+            "name": "Miye Oni",
+            "position": "G",
+            "team": 29,
+            "price": 7.1
+      },
+      {
+            "_id": "415a",
+            "name": "Jalen Lecque",
+            "position": "G",
+            "team": 12,
+            "price": 6.89
+      },
+      {
+            "_id": "415b",
+            "name": "Isaiah Roby",
+            "position": "F",
+            "team": 21,
+            "price": 6.76
+      },
+      {
+            "_id": "415c",
+            "name": "Duncan Robinson",
+            "height": "6'8",
+            "weight": 210,
+            "position": "F",
+            "team": 16,
+            "price": 7.6899999999999995,
+            "last_price": 6.59
+      },
+      {
+            "_id": "415d",
+            "name": "DaQuan Jeffries",
+            "position": "F",
+            "team": 26,
+            "price": 6.55
+      },
+      {
+            "_id": "415e",
+            "name": "Jaylen Nowell",
+            "position": "G",
+            "team": 18,
+            "price": 6.43
+      },
+      {
+            "_id": "415f",
+            "name": "Vlatko Cancar",
+            "position": "F",
+            "team": 8,
+            "price": 6.34
+      },
+      {
+            "_id": "4160",
+            "name": "Caleb Martin",
+            "position": "F",
+            "team": 4,
+            "price": 6.3
+      },
+      {
+            "_id": "4161",
+            "name": "Udonis Haslem",
+            "height": "6'8",
+            "weight": 235,
+            "position": "F",
+            "team": 16,
+            "price": 6.22
+      },
+      {
+            "_id": "4162",
+            "name": "Jordan McLaughlin",
+            "position": "G",
+            "team": 18,
+            "price": 6.01
+      },
+      {
+            "_id": "4163",
+            "name": "Jalen McDaniels",
+            "position": "F",
+            "team": 4,
+            "price": 5.92
+      },
+      {
+            "_id": "4164",
+            "name": "Moses Brown",
+            "position": "C",
+            "team": 21,
+            "price": 5.63
+      },
+      {
+            "_id": "4165",
+            "name": "Amir Coffey",
+            "position": "G",
+            "team": 13,
+            "price": 5.59
+      },
+      {
+            "_id": "4166",
+            "name": "Garrison Mathews",
+            "position": "G",
+            "team": 30,
+            "price": 5.55
+      },
+      {
+            "_id": "4167",
+            "name": "Wenyen Gabriel",
+            "height": "6'9",
+            "weight": 205,
+            "position": "F",
+            "team": 19,
+            "price": 5.51
+      },
+      {
+            "_id": "4168",
+            "name": "Jared Harper",
+            "position": "G",
+            "team": 20,
+            "price": 5.09
+      },
+      {
+            "_id": "4169",
+            "name": "Devontae Cacok",
+            "position": "F-C",
+            "team": 14,
+            "price": 5.05
+      },
+      {
+            "_id": "416a",
+            "name": "Chris Silva",
+            "position": "F",
+            "team": 16,
+            "price": 5
+      },
+      {
+            "_id": "416b",
+            "name": "Luguentz Dort",
+            "position": "G",
+            "team": 21,
+            "price": 4.59
+      },
+      {
+            "_id": "416c",
+            "name": "Mychal Mulder",
+            "position": "G",
+            "team": 10,
+            "price": 4.54
+      },
+      {
+            "_id": "416d",
+            "name": "Rayjon Tucker",
+            "position": "F",
+            "team": 23,
+            "price": 4.5
+      },
+      {
+            "_id": "416e",
+            "name": "Kelan Martin",
+            "position": "F",
+            "team": 12,
+            "price": 4.21
+      },
+      {
+            "_id": "416f",
+            "name": "Jarrell Brantley",
+            "position": "F",
+            "team": 29,
+            "price": 4.17
+      },
+      {
+            "_id": "4170",
+            "name": "Javonte Green",
+            "position": "G-F",
+            "team": 2,
+            "price": 4.04
+      },
+      {
+            "_id": "4171",
+            "name": "Max Strus",
+            "position": "G",
+            "team": 16,
+            "price": 3.54
+      },
+      {
+            "_id": "4172",
+            "name": "Juwan Morgan",
+            "position": "F",
+            "team": 29,
+            "price": 3.5
+      },
+      {
+            "_id": "4173",
+            "name": "Adam Mokoka",
+            "position": "G",
+            "team": 5,
+            "price": 3.21
+      },
+      {
+            "_id": "4174",
+            "name": "Dean Wade",
+            "position": "F",
+            "team": 6,
+            "price": 3
+      },
+      {
+            "_id": "4175",
+            "name": "Draymond Green",
+            "height": "6'7",
+            "weight": 230,
+            "position": "F",
+            "team": 10,
+            "price": 96.69000000000001,
+            "last_price": 94.29
+      },
+      {
+            "_id": "4176",
+            "name": "Larry Nance",
+            "position": "",
+            "team": 6,
+            "price": 65.3,
+            "last_price": 63.5
+      },
+      {
+            "_id": "4177",
+            "name": "Mo Bamba",
+            "height": "7'0",
+            "weight": 221,
+            "position": "C",
+            "team": 22,
+            "price": 41.28
+      },
+      {
+            "_id": "4178",
+            "name": "Cameron Reddish",
+            "position": "F-G",
+            "team": 1,
+            "price": 30.15
+      },
+      {
+            "_id": "4179",
+            "name": "Svi Mykhailiuk",
+            "height": "6'8",
+            "weight": 205,
+            "position": "G",
+            "team": 9,
+            "price": 15.86
+      },
+      {
+            "_id": "417a",
+            "name": "Norvel Pelle",
+            "position": "F",
+            "team": 3,
+            "price": 6.09
+      },
+      {
+            "_id": "417b",
+            "name": "John Wallace",
+            "position": "",
+            "team": 20,
+            "price": 85.43
+      },
+      {
+            "_id": "417c",
+            "name": "Tomas Satoransky",
+            "height": "6'7",
+            "weight": 210,
+            "position": "G-F",
+            "team": 5,
+            "price": 67.07
+      },
+      {
+            "_id": "417d",
+            "name": "Dennis Scott",
+            "position": "",
+            "team": 22,
+            "price": 48.74
+      },
+      {
+            "_id": "417e",
+            "name": "Ivica Zubac",
+            "height": "7'1",
+            "weight": 240,
+            "position": "C",
+            "team": 13,
+            "price": 47.74,
+            "last_price": 44.49
+      },
+      {
+            "_id": "417f",
+            "name": "Pat Connaughton",
+            "height": "6'4",
+            "weight": 209,
+            "position": "G",
+            "team": 17,
+            "price": 37.32
+      },
+      {
+            "_id": "4180",
+            "name": "Danuel House Jr.",
+            "height": "6'7",
+            "weight": 220,
+            "position": "",
+            "team": 11,
+            "price": 26.94
+      },
+      {
+            "_id": "4181",
+            "name": "Troy Brown Jr.",
+            "height": "6'7",
+            "weight": 215,
+            "position": "F",
+            "team": 30,
+            "price": 18.68
+      },
+      {
+            "_id": "4182",
+            "name": "Kevin Porter Jr.",
+            "position": "G",
+            "team": 11,
+            "price": 17.55
+      },
+      {
+            "_id": "4183",
+            "name": "Gary Clark",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 22,
+            "price": 15.58
+      },
+      {
+            "_id": "4184",
+            "name": "Gary Trent Jr.",
+            "position": "G",
+            "team": 25,
+            "price": 14.97,
+            "last_price": 13.32
+      },
+      {
+            "_id": "4185",
+            "name": "Brian Bowen II",
+            "position": "F",
+            "team": 12,
+            "price": 7.89
+      },
+      {
+            "_id": "4186",
+            "name": "Josh Green",
+            "position": "G",
+            "team": 7,
+            "price": 26.04
+      },
+      {
+            "_id": "4187",
+            "name": "Tyrese Haliburton",
+            "position": "G",
+            "team": 26,
+            "price": 98.96,
+            "last_price": 97.91
+      },
+      {
+            "_id": "4188",
+            "name": "LaMelo Ball",
+            "position": "G",
+            "team": 4,
+            "price": 98.44000000000001,
+            "last_price": 95.54
+      },
+      {
+            "_id": "4189",
+            "name": "Xavier Tillman",
+            "position": "F",
+            "team": 15,
+            "price": 93.17
+      },
+      {
+            "_id": "418a",
+            "name": "Jae'Sean Tate",
+            "position": "F",
+            "team": 11,
+            "price": 91.3,
+            "last_price": 90.8
+      },
+      {
+            "_id": "418b",
+            "name": "Desmond Bane",
+            "position": "G",
+            "team": 15,
+            "price": 89.18,
+            "last_price": 88.43
+      },
+      {
+            "_id": "418c",
+            "name": "Patrick Williams",
+            "position": "F",
+            "team": 5,
+            "price": 86.06
+      },
+      {
+            "_id": "418d",
+            "name": "James Wiseman",
+            "position": "C",
+            "team": 10,
+            "price": 83.89,
+            "last_price": 83.69
+      },
+      {
+            "_id": "418e",
+            "name": "Immanuel Quickley",
+            "position": "G",
+            "team": 20,
+            "price": 82.16,
+            "last_price": 81.31
+      },
+      {
+            "_id": "418f",
+            "name": "Payton Pritchard",
+            "position": "G",
+            "team": 2,
+            "price": 78.94
+      },
+      {
+            "_id": "4190",
+            "name": "Cole Anthony",
+            "position": "G",
+            "team": 22,
+            "price": 76.57
+      },
+      {
+            "_id": "4191",
+            "name": "Devin Vassell",
+            "position": "G-F",
+            "team": 27,
+            "price": 74.2
+      },
+      {
+            "_id": "4192",
+            "name": "Anthony Edwards",
+            "position": "G",
+            "team": 18,
+            "price": 71.83,
+            "last_price": 71.83
+      },
+      {
+            "_id": "4193",
+            "name": "Isaiah Stewart",
+            "position": "F-C",
+            "team": 9,
+            "price": 67.66999999999999,
+            "last_price": 67.57
+      },
+      {
+            "_id": "4194",
+            "name": "Deni Avdija",
+            "position": "F",
+            "team": 30,
+            "price": 65.6
+      },
+      {
+            "_id": "4195",
+            "name": "Theo Maledon",
+            "position": "G",
+            "team": 21,
+            "price": 63.62
+      },
+      {
+            "_id": "4196",
+            "name": "Isaac Okoro",
+            "position": "F-G",
+            "team": 6,
+            "price": 61.64
+      },
+      {
+            "_id": "4197",
+            "name": "Tyrese Maxey",
+            "position": "G",
+            "team": 23,
+            "price": 59.67
+      },
+      {
+            "_id": "4198",
+            "name": "Saddiq Bey",
+            "position": "F",
+            "team": 9,
+            "price": 57.69
+      },
+      {
+            "_id": "4199",
+            "name": "Jaden McDaniels",
+            "position": "F",
+            "team": 18,
+            "price": 55.71
+      },
+      {
+            "_id": "419a",
+            "name": "Isaiah Joe",
+            "position": "G",
+            "team": 23,
+            "price": 53.74
+      },
+      {
+            "_id": "419b",
+            "name": "Onyeka Okongwu",
+            "position": "F-C",
+            "team": 1,
+            "price": 49.79
+      },
+      {
+            "_id": "419c",
+            "name": "Precious Achiuwa",
+            "position": "F",
+            "team": 16,
+            "price": 47.81
+      },
+      {
+            "_id": "419d",
+            "name": "Facundo Campazzo",
+            "position": "",
+            "team": 8,
+            "price": 45.83
+      },
+      {
+            "_id": "419e",
+            "name": "Obi Toppin",
+            "position": "F",
+            "team": 20,
+            "price": 43.26
+      },
+      {
+            "_id": "419f",
+            "name": "Paul Reed",
+            "position": "F",
+            "team": 23,
+            "price": 41.7
+      },
+      {
+            "_id": "41a0",
+            "name": "Reggie Perry",
+            "position": "F-C",
+            "team": 3,
+            "price": 40.13
+      },
+      {
+            "_id": "41a1",
+            "name": "CJ Elleby",
+            "position": "F-G",
+            "team": 25,
+            "price": 38.57
+      },
+      {
+            "_id": "41a2",
+            "name": "Daniel Oturu",
+            "position": "C",
+            "team": 13,
+            "price": 37
+      },
+      {
+            "_id": "41a3",
+            "name": "Cassius Winston",
+            "position": "G",
+            "team": 30,
+            "price": 35.43
+      },
+      {
+            "_id": "41a4",
+            "name": "Skylar Mays",
+            "position": "G",
+            "team": 1,
+            "price": 33.87
+      },
+      {
+            "_id": "41a5",
+            "name": "R.J. Hampton",
+            "position": "G",
+            "team": 8,
+            "price": 32.3
+      },
+      {
+            "_id": "41a6",
+            "name": "Saben Lee",
+            "position": "G",
+            "team": 9,
+            "price": 30.74
+      },
+      {
+            "_id": "41a7",
+            "name": "Sam Merrill",
+            "position": "G",
+            "team": 17,
+            "price": 29.17
+      },
+      {
+            "_id": "41a8",
+            "name": "Brodric Thomas",
+            "position": "G",
+            "team": 11,
+            "price": 27.6
+      },
+      {
+            "_id": "41a9",
+            "name": "Jahmi'us Ramsey",
+            "position": "G",
+            "team": 26,
+            "price": 24.15
+      },
+      {
+            "_id": "41aa",
+            "name": "Aaron Nesmith",
+            "position": "G-F",
+            "team": 2,
+            "price": 22.99
+      },
+      {
+            "_id": "41ab",
+            "name": "Elijah Hughes",
+            "position": "G",
+            "team": 29,
+            "price": 21.82
+      },
+      {
+            "_id": "41ac",
+            "name": "Udoka Azubuike",
+            "position": "C-F",
+            "team": 29,
+            "price": 20.65
+      },
+      {
+            "_id": "41ad",
+            "name": "Devon Dotson",
+            "position": "G",
+            "team": 5,
+            "price": 19.48
+      },
+      {
+            "_id": "41ae",
+            "name": "Zeke Nnaji",
+            "position": "F-C",
+            "team": 8,
+            "price": 18.31
+      },
+      {
+            "_id": "41af",
+            "name": "Killian Hayes",
+            "position": "G",
+            "team": 9,
+            "price": 17.14
+      },
+      {
+            "_id": "41b0",
+            "name": "Tre Jones",
+            "position": "G",
+            "team": 27,
+            "price": 15.97
+      },
+      {
+            "_id": "41b1",
+            "name": "Sean McDermott",
+            "position": "F",
+            "team": 15,
+            "price": 14.8
+      },
+      {
+            "_id": "41b2",
+            "name": "Malachi Flynn",
+            "position": "G",
+            "team": 28,
+            "price": 13.63
+      },
+      {
+            "_id": "41b3",
+            "name": "Tyrell Terry",
+            "position": "G",
+            "team": 7,
+            "price": 12.46
+      },
+      {
+            "_id": "41b4",
+            "name": "Cassius Stanley",
+            "position": "G",
+            "team": 12,
+            "price": 11.3
+      },
+      {
+            "_id": "41b5",
+            "name": "Nick Richards",
+            "position": "C",
+            "team": 4,
+            "price": 9.7
+      },
+      {
+            "_id": "41b6",
+            "name": "Jalen Smith",
+            "position": "F-C",
+            "team": 24,
+            "price": 9.36
+      },
+      {
+            "_id": "41b7",
+            "name": "Nico Mannion",
+            "position": "G",
+            "team": 10,
+            "price": 9.01
+      },
+      {
+            "_id": "41b8",
+            "name": "Vernon Carey Jr.",
+            "position": "F-C",
+            "team": 4,
+            "price": 8.66
+      },
+      {
+            "_id": "41b9",
+            "name": "Robert Woodard II",
+            "position": "F",
+            "team": 26,
+            "price": 8.31
+      },
+      {
+            "_id": "41ba",
+            "name": "Tyler Bey",
+            "position": "F",
+            "team": 7,
+            "price": 7.97
+      },
+      {
+            "_id": "41bb",
+            "name": "Jalen Harris",
+            "position": "G",
+            "team": 28,
+            "price": 7.62
+      },
+      {
+            "_id": "41bc",
+            "name": "Ashton Hagans",
+            "position": "G-F",
+            "team": 18,
+            "price": 7.27
+      },
+      {
+            "_id": "41bd",
+            "name": "Ty-Shon Alexander",
+            "position": "G",
+            "team": 24,
+            "price": 6.92
+      },
+      {
+            "_id": "41be",
+            "name": "Carmelo Anthony",
+            "position": "F",
+            "team": 25,
+            "price": 33.839999999999996,
+            "last_price": 33.44
+      },
+      {
+            "_id": "41bf",
+            "name": "Keljin Blevins",
+            "position": "F",
+            "team": 25,
+            "price": 53.63
+      },
+      {
+            "_id": "41c0",
+            "name": "Chris Chiozza",
+            "position": "G",
+            "team": 3,
+            "price": 46.1
+      },
+      {
+            "_id": "41c1",
+            "name": "Marquese Chriss",
+            "height": "6'10",
+            "weight": 240,
+            "position": "F",
+            "team": 10,
+            "price": 66.58
+      },
+      {
+            "_id": "41c2",
+            "name": "Nate Darling",
+            "position": "",
+            "team": 4,
+            "price": 69.44
+      },
+      {
+            "_id": "41c3",
+            "name": "Mamadi Diakite",
+            "position": "F",
+            "team": 17,
+            "price": 34.76
+      },
+      {
+            "_id": "41c4",
+            "name": "Terry Dozier",
+            "position": "",
+            "team": 4,
+            "price": 54.21
+      },
+      {
+            "_id": "41c5",
+            "name": "Trent Forrest",
+            "position": "G",
+            "team": 29,
+            "price": 67.46
+      },
+      {
+            "_id": "41c6",
+            "name": "Anthony Gill",
+            "position": "F",
+            "team": 30,
+            "price": 57.68
+      },
+      {
+            "_id": "41c7",
+            "name": "Josh Hall",
+            "position": "F",
+            "team": 21,
+            "price": 26.88
+      },
+      {
+            "_id": "41c8",
+            "name": "Nate Hinton",
+            "position": "G-F",
+            "team": 7,
+            "price": 39.25
+      },
+      {
+            "_id": "41c9",
+            "name": "Markus Howard",
+            "position": "G",
+            "team": 8,
+            "price": 30.78
+      },
+      {
+            "_id": "41ca",
+            "name": "Mason Jones",
+            "position": "G",
+            "team": 11,
+            "price": 28.82
+      },
+      {
+            "_id": "41cb",
+            "name": "Nathan Knight",
+            "position": "F-C",
+            "team": 1,
+            "price": 56.9
+      },
+      {
+            "_id": "41cc",
+            "name": "Kira Lewis Jr.",
+            "position": "G",
+            "team": 19,
+            "price": 61.34
+      },
+      {
+            "_id": "41cd",
+            "name": "Timothe Luwawu-Cabarrot",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G-F",
+            "team": 3,
+            "price": 33.85
+      },
+      {
+            "_id": "41ce",
+            "name": "Will Magnay",
+            "position": "C",
+            "team": 19,
+            "price": 26.93
+      },
+      {
+            "_id": "41cf",
+            "name": "Karim Mane",
+            "position": "G",
+            "team": 22,
+            "price": 34.89
+      },
+      {
+            "_id": "41d0",
+            "name": "Naji Marshall",
+            "position": "F",
+            "team": 19,
+            "price": 30.79
+      },
+      {
+            "_id": "41d1",
+            "name": "Bob Martin",
+            "position": "",
+            "team": 13,
+            "price": 41.03
+      },
+      {
+            "_id": "41d2",
+            "name": "Desmond Mason",
+            "position": "G",
+            "team": 21,
+            "price": 40.19
+      },
+      {
+            "_id": "41d3",
+            "name": "Chris Mills",
+            "position": "",
+            "team": 6,
+            "price": 36.72
+      },
+      {
+            "_id": "41d4",
+            "name": "Jordan Nwora",
+            "position": "F",
+            "team": 17,
+            "price": 34.77
+      },
+      {
+            "_id": "41d5",
+            "name": "Aleksej Pokusevski",
+            "position": "C",
+            "team": 21,
+            "price": 51.76
+      },
+      {
+            "_id": "41d6",
+            "name": "Jontay Porter",
+            "position": "C-F",
+            "team": 15,
+            "price": 32.72
+      },
+      {
+            "_id": "41d7",
+            "name": "Grant Riller",
+            "position": "G",
+            "team": 4,
+            "price": 48.07
+      },
+      {
+            "_id": "41d8",
+            "name": "Jay Scrubb",
+            "position": "G",
+            "team": 13,
+            "price": 33.82
+      },
+      {
+            "_id": "41d9",
+            "name": "Iman Shumpert",
+            "height": "6'5",
+            "weight": 215,
+            "position": "G",
+            "team": 3,
+            "price": 35.08
+      },
+      {
+            "_id": "41da",
+            "name": "Deividas Sirvydis",
+            "position": "G",
+            "team": 9,
+            "price": 30.21
+      },
+      {
+            "_id": "41db",
+            "name": "Lamar Stevens",
+            "position": "F",
+            "team": 6,
+            "price": 52.18
+      },
+      {
+            "_id": "41dc",
+            "name": "Killian Tillie",
+            "position": "F-C",
+            "team": 15,
+            "price": 35.7
+      },
+      {
+            "_id": "41dd",
+            "name": "Juan Toscano-Anderson",
+            "position": "F",
+            "team": 10,
+            "price": 29.44
+      },
+      {
+            "_id": "41de",
+            "name": "Anthony Tucker",
+            "position": "",
+            "team": 30,
+            "price": 31.66
+      },
+      {
+            "_id": "41df",
+            "name": "Gabe Vincent",
+            "position": "G",
+            "team": 16,
+            "price": 32.06
+      },
+      {
+            "_id": "41e0",
+            "name": "Moritz Wagner",
+            "height": "6'11",
+            "weight": 245,
+            "position": "C",
+            "team": 30,
+            "price": 32.2
+      },
+      {
+            "_id": "41e1",
+            "name": "Paul Watson",
+            "position": "G",
+            "team": 28,
+            "price": 38.93
+      },
+      {
+            "_id": "41e2",
+            "name": "Greg Whittington",
+            "position": "F",
+            "team": 8,
+            "price": 62.35
+      },
+      {
+            "_id": "41e3",
+            "name": "Herb Williams",
+            "position": "",
+            "team": 7,
+            "price": 62.01
+      }
 ]

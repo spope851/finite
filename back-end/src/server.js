@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
 const MongoClient = require('mongodb').MongoClient
-const ObjectId = require('mongodb').ObjectId
+let ObjectId = require('mongodb').ObjectId
 const app = express()
 
 const port = process.env.PORT || 3001;
@@ -13,7 +13,6 @@ const FINITE_DB = 'finite'
 const USER_TABLE = 'users'
 const TEAMS_TABLE = 'teams'
 const TRADE_TABLE = 'trades'
-const LEADER_TABLE = 'leaders'
 const PLAYER_TABLE = 'players'
 const POSITION_TABLE = 'positions'
 const USER_ENDPOINT = '/api/users'

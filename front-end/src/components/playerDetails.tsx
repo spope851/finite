@@ -3,11 +3,12 @@ import styled from 'styled-components'
 
 interface OwnProps {
   price:number
-  position:string
+  position?:string
   height?:string
   weight?:number
   teamId:number
   teamName:string
+  last_price?:number
   trade: (price:number) => void
 }
 

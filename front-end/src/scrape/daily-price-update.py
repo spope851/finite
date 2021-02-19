@@ -60,6 +60,6 @@ for item in x:
 
 print(players)
 
-# handle = open("player-info.json", "w", encoding="utf8")
-# json.dump(players, handle, indent=6, ensure_ascii=False)
-# handle.close()
+handle = open("player-info.json", "w", encoding="utf8")
+json.dump(players, handle, indent=6, ensure_ascii=False)
+handle.close()
