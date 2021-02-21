@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { GearIcon } from '../assets/gear';
+import { Gear } from '../assets/gear';
 import { Position } from './buttons/trade-button';
 import { IPlayer, Player } from './player';
 import { ITeam } from './team';
@@ -104,8 +104,9 @@ export const Account:React.FC = () => {
     <>
       {user
         ? <>  
+            <Gear onClick={() => setShowSettings(!showSettings)}/>
             {showSettings
-             ? <AccountButtons>
+             && <AccountButtons>
                 <table className="table">
                   <tbody>
                     <tr>
@@ -123,9 +124,6 @@ export const Account:React.FC = () => {
                       </td>
                       <td>
                         <button disabled={disabled} className="nav-link" onClick={logout}>Logout</button>
-                      </td>
-                      <td>
-                        <GearIcon onClick={() => setShowSettings(false)}/>
                       </td>
                     </tr>
                   </tbody>  
@@ -149,29 +147,34 @@ export const Account:React.FC = () => {
                         }}/>
                     </div>
                   : ''}
-               </AccountButtons>
-             : <GearIcon onClick={() => setShowSettings(true)}/>}
-            <>
-              <p>{`Username: ${user.username}`}</p>
-              <p>{`Cash: $${Number(user.cash).toFixed(2)}`}</p>
-              <p>{`Equity: $${calculating ? '{..}' : Number(stockValue).toFixed(2)}`}</p>
+               </AccountButtons>}
+            <AccountInfo>
+              <p>
+                <span className={'px-5'}>{`Username: ${user.username}`}</span>
+                <span className={'px-5'}>{`Cash: $${Number(user.cash).toFixed(2)}`}</span>
+                <span className={'px-5'}>{`Equity: $${calculating ? '{..}' : Number(stockValue).toFixed(2)}`}</span>
+              </p>
               <h1>Portfilio:</h1>
-              <div className="row">
+              <Divider />
+              <div className="row justify-content-around">
                 {positions && positions.map((position:AccountPosition) =>
-                  <Player 
-                    _id={position.player._id} 
-                    height={position.player.height} 
-                    weight={position.player.weight} 
-                    position={position.player.position} 
-                    price={position.player.price} 
-                    team={position.player.team}
-                    name={`${position.player.name} (${position.quantity})
-                      $${(position.player.price * position.quantity).toFixed(2)}`} 
-                    key={position.player._id}
-                    teamName={position.team.full_name}/>
-                )}
+                  <div className={'mw-33 px-2'}>
+                    <Player 
+                      _id={position.player._id} 
+                      height={position.player.height} 
+                      weight={position.player.weight} 
+                      position={position.player.position} 
+                      price={position.player.price} 
+                      last_price={position.player.last_price} 
+                      team={position.player.team}
+                      name={`${position.player.name} (${position.quantity})
+                        $${(position.player.price * position.quantity).toFixed(2)}`} 
+                      key={position.player._id}
+                      teamName={position.team.full_name}
+                      image={position.player.image && position.player.image}/>
+                  </div>)}
               </div>
-            </>
+            </AccountInfo>
           </>
         : <a href={'/login'}>Login</a>
       }
@@ -182,4 +185,16 @@ export const Account:React.FC = () => {
 const AccountButtons = styled.div`
 & {
   width: 550px;
+  margin: auto;
+}`
+
+const AccountInfo = styled.div`
+& {
+  margin-top: 26px;
+}`
+
+const Divider = styled.div`
+& {
+  border-bottom: solid 1px #000;
+  margin: 20px;
 }`

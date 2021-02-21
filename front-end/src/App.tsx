@@ -50,20 +50,23 @@ export const App:React.FC = () => {
         <div className="card-body">
           {players.length
             ? <div className="row">
-              {players.map((player:IPlayer) =>
-                <Player 
-                  _id={player._id} 
-                  height={player.height && player.height}
-                  weight={player.weight && player.weight}
-                  position={player.position && player.position}
-                  team={player.team}
-                  price={player.price}
-                  last_price={player.last_price && player.last_price}
-                  teamName={(teams && teams[player.team - 1].full_name)}
-                  name={player.name} 
-                  key={player._id}/>)}
+                {players.map((player:IPlayer) =>
+                  <div className={'col-sm-4'}>
+                    <Player 
+                      _id={player._id} 
+                      height={player.height && player.height}
+                      weight={player.weight && player.weight}
+                      position={player.position && player.position}
+                      team={player.team}
+                      price={player.price}
+                      last_price={player.last_price && player.last_price}
+                      teamName={(teams && teams[player.team - 1].full_name)}
+                      name={player.name} 
+                      key={player._id}
+                      image={player.image && player.image}/>
+                  </div>)}
               </div>
-            : <button onClick={populatePlayers}>DB is empty, click here to populate</button>}
+              : <button onClick={populatePlayers}>DB is empty, click here to populate</button>}
       </div>
     </div>
   )

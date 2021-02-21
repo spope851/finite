@@ -6,3 +6,4 @@ Timesheet.ods
 get-pip.py
 .vscode/
 settings.json
+geckodriver.log

@@ -9,7 +9,6 @@ interface OwnProps {
   teamId:number
   teamName:string
   last_price?:number
-  trade: (price:number) => void
 }
 
 export const PlayerDetails:React.FC<OwnProps> = (props) => {
@@ -18,20 +17,10 @@ export const PlayerDetails:React.FC<OwnProps> = (props) => {
   
   return (
     <>
-      <p><span>Price: <Price onClick={e => e.target === e.currentTarget && props.trade(price)}>{`$${price.toFixed(2)}`}</Price></span></p>
       <p>{'Position: '+position}</p>
       <p>{height ? 'Height: '+height : ''}</p>
       <p>{weight ? 'Weight: '+weight : ''}</p>
-      {window.location.pathname.indexOf('team') === -1? <><span>Team: </span><a href={"/teams/"+teamId}>{teamName}</a></> : <p></p>}
+      {window.location.pathname.indexOf('team') === -1? <p><span>Team: </span><a href={"/teams/"+teamId}>{teamName}</a></p> : ''}
     </>
   )
 }
-
-const Price = styled.span`
-&& {
-  color:green;
-  :hover {
-    text-shadow: 0 0 5px #00ff00;
-    cursor: pointer;
-  }
-}`

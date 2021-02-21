@@ -19,7 +19,6 @@ interface OwnProps {
     quantity:number
     player:Player
     buy?:boolean
-    // onClick: (set:boolean) => void
 }
 
 let axios = require('axios');
@@ -113,10 +112,10 @@ console.log(position);
     return (
         <StyledButton 
             onClick={e => trade()}
-            disabled={user && 
+            disabled={!quantity || (user && 
                 buy 
                     ? Number(user.cash) <= (price * quantity)
-                    : disableSell || position && position.quantity < quantity}>
+                    : disableSell || position && position.quantity < quantity)}>
             {buy ? 'Buy' : 'Sell'}
         </StyledButton>
     )
