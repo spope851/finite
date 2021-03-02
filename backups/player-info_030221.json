@@ -149,10 +149,7 @@
             "weight": 248,
             "position": "C",
             "team": 18,
-            "price": {
-                  "1": 96.86,
-                  "2": 96.86
-            },
+            "price": {"1": 96.86},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626157.png"
       },
       {
@@ -162,10 +159,7 @@
             "weight": 232,
             "position": "G-F",
             "team": 16,
-            "price": {
-                  "1": 96.57,
-                  "2": 96.57
-            },
+            "price": {"1": 96.57},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202710.png"
       },
       {
@@ -188,10 +182,7 @@
             "weight": 250,
             "position": "F",
             "team": 9,
-            "price": {
-                  "1": 96,
-                  "2": 96
-            },
+            "price": {"1": 96},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201933.png"
       },
       {
@@ -253,10 +244,7 @@
             "weight": 184,
             "position": "G",
             "team": 2,
-            "price": {
-                  "1": 94.57,
-                  "2": 94.57
-            },
+            "price": {"1": 94.57},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202689.png"
       },
       {
@@ -266,10 +254,7 @@
             "weight": 215,
             "position": "G",
             "team": 10,
-            "price": {
-                  "1": 94,
-                  "2": 94
-            },
+            "price": {"1": 94},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202691.png"
       },
       {
@@ -474,10 +459,7 @@
             "weight": 260,
             "position": "F",
             "team": 27,
-            "price": {
-                  "1": 89.43,
-                  "2": 89.43
-            },
+            "price": {"1": 89.43},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200746.png"
       },
       {
@@ -487,10 +469,7 @@
             "weight": 240,
             "position": "F-C",
             "team": 7,
-            "price": {
-                  "1": 89.14,
-                  "2": 89.14
-            },
+            "price": {"1": 89.14},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png"
       },
       {
@@ -500,10 +479,7 @@
             "weight": 251,
             "position": "F-C",
             "team": 6,
-            "price": {
-                  "1": 88.86,
-                  "2": 88.86
-            },
+            "price": {"1": 88.86},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201567.png"
       },
       {
@@ -513,10 +489,7 @@
             "weight": 207,
             "position": "G",
             "team": 8,
-            "price": {
-                  "1": 88.57,
-                  "2": 88.57
-            },
+            "price": {"1": 88.57},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627750.png"
       },
       {
@@ -578,10 +551,7 @@
             "weight": 220,
             "position": "F",
             "team": 22,
-            "price": {
-                  "1": 87.14,
-                  "2": 87.14
-            },
+            "price": {"1": 87.14},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203932.png"
       },
       {
@@ -656,10 +626,7 @@
             "weight": 275,
             "position": "C",
             "team": 25,
-            "price": {
-                  "1": 85.14,
-                  "2": 85.14
-            },
+            "price": {"1": 85.14},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203994.png"
       },
       {
@@ -797,10 +764,7 @@
             "weight": 198,
             "position": "F",
             "team": 5,
-            "price": {
-                  "1": 82,
-                  "2": 82
-            },
+            "price": {"1": 82},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203490.png"
       },
       {
@@ -849,10 +813,7 @@
             "weight": 242,
             "position": "F-C",
             "team": 15,
-            "price": {
-                  "1": 80.86,
-                  "2": 80.86
-            },
+            "price": {"1": 80.86},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628991.png"
       },
       {
@@ -862,10 +823,7 @@
             "weight": 205,
             "position": "G",
             "team": 19,
-            "price": {
-                  "1": 80.57,
-                  "2": 80.57
-            },
+            "price": {"1": 80.57},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202339.png"
       },
       {
@@ -888,10 +846,7 @@
             "weight": 204,
             "position": "G",
             "team": 12,
-            "price": {
-                  "1": 80,
-                  "2": 80
-            },
+            "price": {"1": 80},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627747.png"
       },
       {
@@ -901,10 +856,7 @@
             "weight": 200,
             "position": "G-F",
             "team": 7,
-            "price": {
-                  "1": 79.71,
-                  "2": 79.71
-            },
+            "price": {"1": 79.71},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626196.png"
       },
       {
@@ -992,10 +944,7 @@
             "weight": 234,
             "position": "F",
             "team": 26,
-            "price": {
-                  "1": 77.14,
-                  "2": 77.14
-            },
+            "price": {"1": 77.14},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628963.png"
       },
       {
@@ -1031,10 +980,7 @@
             "weight": 265,
             "position": "F-C",
             "team": 29,
-            "price": {
-                  "1": 76.29,
-                  "2": 76.29
-            },
+            "price": {"1": 76.29},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202324.png"
       },
       {
@@ -1044,10 +990,7 @@
             "weight": 210,
             "position": "G",
             "team": 3,
-            "price": {
-                  "1": 76,
-                  "2": 76
-            },
+            "price": {"1": 76},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203915.png"
       },
       {
@@ -1070,10 +1013,7 @@
             "weight": 215,
             "position": "G-F",
             "team": 23,
-            "price": {
-                  "1": 75.43,
-                  "2": 75.43
-            },
+            "price": {"1": 75.43},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201980.png"
       },
       {
@@ -1096,10 +1036,7 @@
             "weight": 200,
             "position": "G",
             "team": 19,
-            "price": {
-                  "1": 74.86,
-                  "2": 74.86
-            },
+            "price": {"1": 74.86},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200755.png"
       },
       {
@@ -1122,10 +1059,7 @@
             "weight": 225,
             "position": "F",
             "team": 15,
-            "price": {
-                  "1": 74.29,
-                  "2": 74.29
-            },
+            "price": {"1": 74.29},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626159.png"
       },
       {
@@ -1161,10 +1095,7 @@
             "weight": 205,
             "position": "G",
             "team": 1,
-            "price": {
-                  "1": 73.43,
-                  "2": 73.43
-            },
+            "price": {"1": 73.43},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203992.png"
       },
       {
@@ -1200,10 +1131,7 @@
             "weight": 190,
             "position": "G",
             "team": 16,
-            "price": {
-                  "1": 72.57,
-                  "2": 72.57
-            },
+            "price": {"1": 72.57},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201609.png"
       },
       {
@@ -1213,10 +1141,7 @@
             "weight": 190,
             "position": "G",
             "team": 19,
-            "price": {
-                  "1": 72.29,
-                  "2": 72.29
-            },
+            "price": {"1": 72.29},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628366.png"
       },
       {
@@ -1226,10 +1151,7 @@
             "weight": 220,
             "position": "F",
             "team": 22,
-            "price": {
-                  "1": 72,
-                  "2": 72
-            },
+            "price": {"1": 72},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202329.png"
       },
       {
@@ -1239,10 +1161,7 @@
             "weight": 220,
             "position": "F",
             "team": 10,
-            "price": {
-                  "1": 69.45,
-                  "2": 69.45
-            },
+            "price": {"1": 69.45},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626172.png"
       },
       {
@@ -1252,10 +1171,7 @@
             "weight": 190,
             "position": "G",
             "team": 27,
-            "price": {
-                  "1": 69.21,
-                  "2": 69.21
-            },
+            "price": {"1": 69.21},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png"
       },
       {
@@ -1278,10 +1194,7 @@
             "weight": 205,
             "position": "G-F",
             "team": 22,
-            "price": {
-                  "1": 68.74,
-                  "2": 68.74
-            },
+            "price": {"1": 68.74},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203095.png"
       },
       {
@@ -1343,10 +1256,7 @@
             "weight": 230,
             "position": "F",
             "team": 27,
-            "price": {
-                  "1": 67.55,
-                  "2": 67.55
-            },
+            "price": {"1": 67.55},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200752.png"
       },
       {
@@ -1369,10 +1279,7 @@
             "weight": 223,
             "position": "F",
             "team": 24,
-            "price": {
-                  "1": 66.6,
-                  "2": 66.6
-            },
+            "price": {"1": 66.6},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203967.png"
       },
       {
@@ -1382,10 +1289,7 @@
             "weight": 270,
             "position": "C",
             "team": 11,
-            "price": {
-                  "1": 66.36,
-                  "2": 66.36
-            },
+            "price": {"1": 66.36},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202326.png"
       },
       {
@@ -1408,10 +1312,7 @@
             "weight": 210,
             "position": "F",
             "team": 22,
-            "price": {
-                  "1": 65.88,
-                  "2": 65.88
-            },
+            "price": {"1": 65.88},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628371.png"
       },
       {
@@ -1433,10 +1334,7 @@
             "weight": 215,
             "position": "F",
             "team": 12,
-            "price": {
-                  "1": 65.4,
-                  "2": 65.4
-            },
+            "price": {"1": 65.4},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203933.png"
       },
       {
@@ -1459,10 +1357,7 @@
             "weight": 265,
             "position": "C",
             "team": 26,
-            "price": {
-                  "1": 64.93,
-                  "2": 64.93
-            },
+            "price": {"1": 64.93},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202355.png"
       },
       {
@@ -1485,10 +1380,7 @@
             "weight": 188,
             "position": "G",
             "team": 3,
-            "price": {
-                  "1": 64.45,
-                  "2": 64.45
-            },
+            "price": {"1": 64.45},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629013.png"
       },
       {
@@ -1498,10 +1390,7 @@
             "weight": 208,
             "position": "G",
             "team": 13,
-            "price": {
-                  "1": 64.21,
-                  "2": 64.21
-            },
+            "price": {"1": 64.21},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202704.png"
       },
       {
@@ -1511,10 +1400,7 @@
             "weight": 185,
             "position": "G",
             "team": 12,
-            "price": {
-                  "1": 63.98,
-                  "2": 63.98
-            },
+            "price": {"1": 63.98},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203087.png"
       },
       {
@@ -1524,10 +1410,7 @@
             "weight": 183,
             "position": "G",
             "team": 17,
-            "price": {
-                  "1": 63.74,
-                  "2": 63.74
-            },
+            "price": {"1": 63.74},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201571.png"
       },
       {
@@ -1537,10 +1420,7 @@
             "weight": 195,
             "position": "G",
             "team": 2,
-            "price": {
-                  "1": 63.26,
-                  "2": 63.26
-            },
+            "price": {"1": 63.26},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201952.png"
       },
       {
@@ -1563,10 +1443,7 @@
             "weight": 255,
             "position": "F",
             "team": 5,
-            "price": {
-                  "1": 62.79,
-                  "2": 62.79
-            },
+            "price": {"1": 62.79},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628976.png"
       },
       {
@@ -1576,10 +1453,7 @@
             "weight": 240,
             "position": "C",
             "team": 4,
-            "price": {
-                  "1": 62.55,
-                  "2": 62.55
-            },
+            "price": {"1": 62.55},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203469.png"
       },
       {
@@ -1628,10 +1502,7 @@
             "weight": 240,
             "position": "C",
             "team": 7,
-            "price": {
-                  "1": 61.6,
-                  "2": 61.6
-            },
+            "price": {"1": 61.6},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626161.png"
       },
       {
@@ -1680,10 +1551,7 @@
             "weight": 235,
             "position": "F-C",
             "team": 25,
-            "price": {
-                  "1": 60.64,
-                  "2": 60.64
-            },
+            "price": {"1": 60.64},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628380.png"
       },
       {
@@ -1719,10 +1587,7 @@
             "weight": 234,
             "position": "F",
             "team": 26,
-            "price": {
-                  "1": 59.93,
-                  "2": 59.93
-            },
+            "price": {"1": 59.93},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202357.png"
       },
       {
@@ -1732,10 +1597,7 @@
             "weight": 248,
             "position": "C",
             "team": 30,
-            "price": {
-                  "1": 59.69,
-                  "2": 59.69
-            },
+            "price": {"1": 59.69},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628418.png"
       },
       {
@@ -1745,10 +1607,7 @@
             "weight": 190,
             "position": "G",
             "team": 1,
-            "price": {
-                  "1": 59.21,
-                  "2": 59.21
-            },
+            "price": {"1": 59.21},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628989.png"
       },
       {
@@ -1758,10 +1617,7 @@
             "weight": 190,
             "position": "G",
             "team": 8,
-            "price": {
-                  "1": 58.98,
-                  "2": 58.98
-            },
+            "price": {"1": 58.98},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203115.png"
       },
       {
@@ -1784,10 +1640,7 @@
             "weight": 230,
             "position": "F",
             "team": 15,
-            "price": {
-                  "1": 58.5,
-                  "2": 58.5
-            },
+            "price": {"1": 58.5},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203937.png"
       },
       {
@@ -1797,10 +1650,7 @@
             "weight": 260,
             "position": "C-F",
             "team": 28,
-            "price": {
-                  "1": 58.26,
-                  "2": 58.26
-            },
+            "price": {"1": 58.26},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203382.png"
       },
       {
@@ -1823,10 +1673,7 @@
             "weight": 205,
             "position": "F",
             "team": 10,
-            "price": {
-                  "1": 57.79,
-                  "2": 57.79
-            },
+            "price": {"1": 57.79},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626162.png"
       },
       {
@@ -1836,10 +1683,7 @@
             "weight": 235,
             "position": "F",
             "team": 24,
-            "price": {
-                  "1": 57.55,
-                  "2": 57.55
-            },
+            "price": {"1": 57.55},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203109.png"
       },
       {
@@ -1886,10 +1730,7 @@
             "weight": 225,
             "position": "F",
             "team": 4,
-            "price": {
-                  "1": 56.36,
-                  "2": 56.36
-            },
+            "price": {"1": 56.36},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628970.png"
       },
       {
@@ -1910,10 +1751,7 @@
             "name": "Markieff Morris",
             "position": "F",
             "team": 14,
-            "price": {
-                  "1": 55.88,
-                  "2": 55.88
-            },
+            "price": {"1": 55.88},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202693.png"
       },
       {
@@ -1947,10 +1785,7 @@
             "weight": 220,
             "position": "F",
             "team": 6,
-            "price": {
-                  "1": 55.17,
-                  "2": 55.17
-            },
+            "price": {"1": 55.17},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627752.png"
       },
       {
@@ -1960,10 +1795,7 @@
             "weight": 240,
             "position": "F",
             "team": 16,
-            "price": {
-                  "1": 54.93,
-                  "2": 54.93
-            },
+            "price": {"1": 54.93},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203482.png"
       },
       {
@@ -2038,10 +1870,7 @@
             "weight": 240,
             "position": "F-C",
             "team": 7,
-            "price": {
-                  "1": 53.26,
-                  "2": 53.26
-            },
+            "price": {"1": 53.26},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203939.png"
       },
       {
@@ -2051,10 +1880,7 @@
             "weight": 206,
             "position": "G",
             "team": 25,
-            "price": {
-                  "1": 53.02,
-                  "2": 53.02
-            },
+            "price": {"1": 53.02},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203918.png"
       },
       {
@@ -2064,10 +1890,7 @@
             "weight": 240,
             "position": "F",
             "team": 7,
-            "price": {
-                  "1": 52.79,
-                  "2": 52.79
-            },
+            "price": {"1": 52.79},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201949.png"
       },
       {
@@ -2090,10 +1913,7 @@
             "weight": 188,
             "position": "G",
             "team": 21,
-            "price": {
-                  "1": 52.31,
-                  "2": 52.31
-            },
+            "price": {"1": 52.31},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201588.png"
       },
       {
@@ -2103,10 +1923,7 @@
             "weight": 201,
             "position": "G",
             "team": 10,
-            "price": {
-                  "1": 52.07,
-                  "2": 52.07
-            },
+            "price": {"1": 52.07},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203145.png"
       },
       {
@@ -2116,10 +1933,7 @@
             "weight": 215,
             "position": "F",
             "team": 6,
-            "price": {
-                  "1": 51.83,
-                  "2": 51.83
-            },
+            "price": {"1": 51.83},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626224.png"
       },
       {
@@ -2129,10 +1943,7 @@
             "weight": 220,
             "position": "F",
             "team": 16,
-            "price": {
-                  "1": 51.6,
-                  "2": 51.6
-            },
+            "price": {"1": 51.6},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203090.png"
       },
       {
@@ -2142,10 +1953,7 @@
             "weight": 195,
             "position": "G",
             "team": 9,
-            "price": {
-                  "1": 51.36,
-                  "2": 51.36
-            },
+            "price": {"1": 51.36},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628372.png"
       },
       {
@@ -2166,10 +1974,7 @@
             "weight": 191,
             "position": "G",
             "team": 24,
-            "price": {
-                  "1": 50.88,
-                  "2": 50.88
-            },
+            "price": {"1": 50.88},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202734.png"
       },
       {
@@ -2218,10 +2023,7 @@
             "weight": 200,
             "position": "G",
             "team": 20,
-            "price": {
-                  "1": 49.93,
-                  "2": 49.93
-            },
+            "price": {"1": 49.93},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203085.png"
       },
       {
@@ -2231,10 +2033,7 @@
             "weight": 270,
             "position": "C",
             "team": 6,
-            "price": {
-                  "1": 49.69,
-                  "2": 49.69
-            },
+            "price": {"1": 49.69},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201580.png"
       },
       {
@@ -2270,10 +2069,7 @@
             "weight": 200,
             "position": "G",
             "team": 20,
-            "price": {
-                  "1": 48.98,
-                  "2": 48.98
-            },
+            "price": {"1": 48.98},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201565.png"
       },
       {
@@ -2283,10 +2079,7 @@
             "weight": 215,
             "position": "F",
             "team": 21,
-            "price": {
-                  "1": 48.26,
-                  "2": 48.26
-            },
+            "price": {"1": 48.26},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2772.png"
       },
       {
@@ -2296,10 +2089,7 @@
             "weight": 225,
             "position": "C",
             "team": 18,
-            "price": {
-                  "1": 48.02,
-                  "2": 48.02
-            },
+            "price": {"1": 48.02},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202334.png"
       },
       {
@@ -2309,10 +2099,7 @@
             "weight": 250,
             "position": "F",
             "team": 3,
-            "price": {
-                  "1": 47.79,
-                  "2": 47.79
-            },
+            "price": {"1": 47.79},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203943.png"
       },
       {
@@ -2322,10 +2109,7 @@
             "weight": 215,
             "position": "F-G",
             "team": 28,
-            "price": {
-                  "1": 47.55,
-                  "2": 47.55
-            },
+            "price": {"1": 47.55},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626181.png"
       },
       {
@@ -2335,10 +2119,7 @@
             "weight": 227,
             "position": "F",
             "team": 8,
-            "price": {
-                  "1": 47.31,
-                  "2": 47.31
-            },
+            "price": {"1": 47.31},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203210.png"
       },
       {
@@ -2348,10 +2129,7 @@
             "weight": 232,
             "position": "F",
             "team": 20,
-            "price": {
-                  "1": 47.07,
-                  "2": 47.07
-            },
+            "price": {"1": 47.07},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201959.png"
       },
       {
@@ -2361,10 +2139,7 @@
             "weight": 193,
             "position": "G",
             "team": 26,
-            "price": {
-                  "1": 46.83,
-                  "2": 46.83
-            },
+            "price": {"1": 46.83},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202709.png"
       },
       {
@@ -2374,10 +2149,7 @@
             "weight": 190,
             "position": "G",
             "team": 3,
-            "price": {
-                  "1": 46.6,
-                  "2": 46.6
-            },
+            "price": {"1": 46.6},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204020.png"
       },
       {
@@ -2387,10 +2159,7 @@
             "weight": 205,
             "position": "G-F",
             "team": 20,
-            "price": {
-                  "1": 46.36,
-                  "2": 46.36
-            },
+            "price": {"1": 46.36},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203493.png"
       },
       {
@@ -2411,10 +2180,7 @@
             "name": "Darius Garland",
             "position": "G",
             "team": 6,
-            "price": {
-                  "1": 45.88,
-                  "2": 45.88
-            },
+            "price": {"1": 45.88},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629636.png"
       },
       {
@@ -2424,10 +2190,7 @@
             "weight": 212,
             "position": "G",
             "team": 18,
-            "price": {
-                  "1": 44.68,
-                  "2": 44.68
-            },
+            "price": {"1": 44.68},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629006.png"
       },
       {
@@ -2437,10 +2200,7 @@
             "weight": 250,
             "position": "C",
             "team": 30,
-            "price": {
-                  "1": 44.3,
-                  "2": 44.3
-            },
+            "price": {"1": 44.3},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203458.png"
       },
       {
@@ -2461,10 +2221,7 @@
             "name": "Jarrett Culver",
             "position": "G",
             "team": 18,
-            "price": {
-                  "1": 43.74,
-                  "2": 43.74
-            },
+            "price": {"1": 43.74},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629633.png"
       },
       {
@@ -2487,10 +2244,7 @@
             "weight": 185,
             "position": "G",
             "team": 20,
-            "price": {
-                  "1": 43.36,
-                  "2": 43.36
-            },
+            "price": {"1": 43.36},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203901.png"
       },
       {
@@ -2500,10 +2254,7 @@
             "weight": 240,
             "position": "F-C",
             "team": 25,
-            "price": {
-                  "1": 42.98,
-                  "2": 42.98
-            },
+            "price": {"1": 42.98},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628385.png"
       },
       {
@@ -2513,10 +2264,7 @@
             "weight": 230,
             "position": "F",
             "team": 18,
-            "price": {
-                  "1": 42.79,
-                  "2": 42.79
-            },
+            "price": {"1": 42.79},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627823.png"
       },
       {
@@ -2563,10 +2311,7 @@
             "weight": 215,
             "position": "F",
             "team": 17,
-            "price": {
-                  "1": 41.85,
-                  "2": 41.85
-            },
+            "price": {"1": 41.85},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628470.png"
       },
       {
@@ -2574,10 +2319,7 @@
             "name": "Wesley Matthews",
             "position": "G-F",
             "team": 14,
-            "price": {
-                  "1": 41.66,
-                  "2": 41.66
-            },
+            "price": {"1": 41.66},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202083.png"
       },
       {
@@ -2587,10 +2329,7 @@
             "weight": 195,
             "position": "G-F",
             "team": 5,
-            "price": {
-                  "1": 41.47,
-                  "2": 41.47
-            },
+            "price": {"1": 41.47},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202066.png"
       },
       {
@@ -2611,10 +2350,7 @@
             "weight": 175,
             "position": "G",
             "team": 30,
-            "price": {
-                  "1": 40.91,
-                  "2": 40.91
-            },
+            "price": {"1": 40.91},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202397.png"
       },
       {
@@ -2624,11 +2360,8 @@
             "weight": 240,
             "position": "C",
             "team": 19,
-            "price": {
-                  "1": 40.53,
-                  "2": 40.53
-            },
-            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626195.png"
+            "price": {"1": 40.53,
+            "image": "http}s://cdn.nba.com/headshots/nba/latest/260x190/1626195.png"
       },
       {
             "_id": "40bd",
@@ -2637,10 +2370,7 @@
             "weight": 290,
             "position": "C",
             "team": 7,
-            "price": {
-                  "1": 40.34,
-                  "2": 40.34
-            },
+            "price": {"1": 40.34},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626246.png"
       },
       {
@@ -2661,10 +2391,7 @@
             "weight": 200,
             "position": "G",
             "team": 22,
-            "price": {
-                  "1": 39.96,
-                  "2": 39.96
-            },
+            "price": {"1": 39.96},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628365.png"
       },
       {
@@ -2674,10 +2401,7 @@
             "weight": 245,
             "position": "F",
             "team": 26,
-            "price": {
-                  "1": 39.77,
-                  "2": 39.77
-            },
+            "price": {"1": 39.77},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203953.png"
       },
       {
@@ -2687,10 +2411,7 @@
             "weight": 190,
             "position": "G",
             "team": 23,
-            "price": {
-                  "1": 39.58,
-                  "2": 39.58
-            },
+            "price": {"1": 39.58},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628390.png"
       },
       {
@@ -2739,10 +2460,7 @@
             "weight": 190,
             "position": "G",
             "team": 11,
-            "price": {
-                  "1": 38.64,
-                  "2": 38.64
-            },
+            "price": {"1": 38.64},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203957.png"
       },
       {
@@ -2752,10 +2470,7 @@
             "weight": 210,
             "position": "F",
             "team": 8,
-            "price": {
-                  "1": 38.45,
-                  "2": 38.45
-            },
+            "price": {"1": 38.45},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629008.png"
       },
       {
@@ -2765,10 +2480,7 @@
             "weight": 215,
             "position": "F",
             "team": 20,
-            "price": {
-                  "1": 38.26,
-                  "2": 38.26
-            }
+            "price": {"1": 38.26}
       },
       {
             "_id": "40c8",
@@ -2788,10 +2500,7 @@
             "name": "Coby White",
             "position": "G",
             "team": 5,
-            "price": {
-                  "1": 37.89,
-                  "2": 37.89
-            },
+            "price": {"1": 37.89},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629632.png"
       },
       {
@@ -2801,10 +2510,7 @@
             "weight": 237,
             "position": "F",
             "team": 14,
-            "price": {
-                  "1": 37.7,
-                  "2": 37.7
-            },
+            "price": {"1": 37.7},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201162.png"
       },
       {
@@ -2814,10 +2520,7 @@
             "weight": 237,
             "position": "F",
             "team": 23,
-            "price": {
-                  "1": 37.51,
-                  "2": 37.51
-            },
+            "price": {"1": 37.51},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203118.png"
       },
       {
@@ -2827,10 +2530,7 @@
             "weight": 214,
             "position": "G",
             "team": 20,
-            "price": {
-                  "1": 37.13,
-                  "2": 37.13
-            },
+            "price": {"1": 37.13},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202692.png"
       },
       {
@@ -2840,10 +2540,7 @@
             "weight": 185,
             "position": "G",
             "team": 12,
-            "price": {
-                  "1": 36.75,
-                  "2": 36.75
-            },
+            "price": {"1": 36.75},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628988.png"
       },
       {
@@ -2853,10 +2550,7 @@
             "weight": 186,
             "position": "G",
             "team": 1,
-            "price": {
-                  "1": 36.57,
-                  "2": 36.57
-            },
+            "price": {"1": 36.57},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200765.png"
       },
       {
@@ -2866,10 +2560,7 @@
             "weight": 180,
             "position": "G",
             "team": 16,
-            "price": {
-                  "1": 36.19,
-                  "2": 36.19
-            },
+            "price": {"1": 36.19},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202340.png"
       },
       {
@@ -2877,10 +2568,7 @@
             "name": "Nickeil Alexander-Walker",
             "position": "G",
             "team": 19,
-            "price": {
-                  "1": 36,
-                  "2": 36
-            },
+            "price": {"1": 36},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629638.png"
       },
       {
@@ -2890,10 +2578,7 @@
             "weight": 200,
             "position": "G",
             "team": 20,
-            "price": {
-                  "1": 35.81,
-                  "2": 35.81
-            },
+            "price": {"1": 35.81},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628373.png"
       },
       {
@@ -2903,10 +2588,7 @@
             "weight": 210,
             "position": "F",
             "team": 22,
-            "price": {
-                  "1": 35.62,
-                  "2": 35.62
-            },
+            "price": {"1": 35.62},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203516.png"
       },
       {
@@ -2916,10 +2598,7 @@
             "weight": 205,
             "position": "G",
             "team": 1,
-            "price": {
-                  "1": 35.43,
-                  "2": 35.43
-            },
+            "price": {"1": 35.43},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627739.png"
       },
       {
@@ -2929,10 +2608,7 @@
             "weight": 255,
             "position": "F-C",
             "team": 16,
-            "price": {
-                  "1": 35.06,
-                  "2": 35.06
-            },
+            "price": {"1": 35.06},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203086.png"
       },
       {
@@ -2942,10 +2618,7 @@
             "weight": 202,
             "position": "G",
             "team": 3,
-            "price": {
-                  "1": 34.87,
-                  "2": 34.87
-            },
+            "price": {"1": 34.87},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628971.png"
       },
       {
@@ -2966,10 +2639,7 @@
             "name": "Tyler Herro",
             "position": "G",
             "team": 16,
-            "price": {
-                  "1": 34.49,
-                  "2": 34.49
-            },
+            "price": {"1": 34.49},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629639.png"
       },
       {
@@ -2979,10 +2649,7 @@
             "weight": 200,
             "position": "F-G",
             "team": 9,
-            "price": {
-                  "1": 34.3,
-                  "2": 34.3
-            },
+            "price": {"1": 34.3},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203585.png"
       },
       {
@@ -3018,10 +2685,7 @@
             "weight": 205,
             "position": "G",
             "team": 27,
-            "price": {
-                  "1": 33.17,
-                  "2": 33.17
-            },
+            "price": {"1": 33.17},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629022.png"
       },
       {
@@ -3031,10 +2695,7 @@
             "weight": 213,
             "position": "G",
             "team": 1,
-            "price": {
-                  "1": 32.98,
-                  "2": 32.98
-            },
+            "price": {"1": 32.98},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203503.png"
       },
       {
@@ -3044,10 +2705,7 @@
             "weight": 231,
             "position": "F",
             "team": 17,
-            "price": {
-                  "1": 32.79,
-                  "2": 32.79
-            },
+            "price": {"1": 32.79},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628391.png"
       },
       {
@@ -3057,10 +2715,7 @@
             "weight": 210,
             "position": "F",
             "team": 21,
-            "price": {
-                  "1": 32.6,
-                  "2": 32.6
-            },
+            "price": {"1": 32.6},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628382.png"
       },
       {
@@ -3070,10 +2725,7 @@
             "weight": 186,
             "position": "G",
             "team": 14,
-            "price": {
-                  "1": 32.42,
-                  "2": 32.42
-            },
+            "price": {"1": 32.42},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627936.png"
       },
       {
@@ -3081,10 +2733,7 @@
             "name": "Rui Hachimura",
             "position": "F",
             "team": 30,
-            "price": {
-                  "1": 32.04,
-                  "2": 32.04
-            },
+            "price": {"1": 32.04},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629060.png"
       },
       {
@@ -3107,10 +2756,7 @@
             "weight": 245,
             "position": "F",
             "team": 28,
-            "price": {
-                  "1": 31.28,
-                  "2": 31.28
-            },
+            "price": {"1": 31.28},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626169.png"
       },
       {
@@ -3120,10 +2766,7 @@
             "weight": 175,
             "position": "G",
             "team": 7,
-            "price": {
-                  "1": 31.09,
-                  "2": 31.09
-            },
+            "price": {"1": 31.09},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203504.png"
       },
       {
@@ -3133,10 +2776,7 @@
             "weight": 252,
             "position": "C",
             "team": 15,
-            "price": {
-                  "1": 30.53,
-                  "2": 30.53
-            },
+            "price": {"1": 30.53},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203476.png"
       },
       {
@@ -3146,10 +2786,7 @@
             "weight": 210,
             "position": "F",
             "team": 11,
-            "price": {
-                  "1": 29.96,
-                  "2": 29.96
-            },
+            "price": {"1": 29.96},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629066.png"
       },
       {
@@ -3159,10 +2796,7 @@
             "weight": 185,
             "position": "G",
             "team": 25,
-            "price": {
-                  "1": 29.77,
-                  "2": 29.77
-            },
+            "price": {"1": 29.77},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629014.png"
       },
       {
@@ -3170,10 +2804,7 @@
             "name": "Jaxson Hayes",
             "position": "C",
             "team": 19,
-            "price": {
-                  "1": 29.58,
-                  "2": 29.58
-            },
+            "price": {"1": 29.58},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629637.png"
       },
       {
@@ -3183,10 +2814,7 @@
             "weight": 215,
             "position": "F",
             "team": 18,
-            "price": {
-                  "1": 29.4,
-                  "2": 29.4
-            },
+            "price": {"1": 29.4},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627774.png"
       },
       {
@@ -3209,10 +2837,7 @@
             "weight": 224,
             "position": "F",
             "team": 30,
-            "price": {
-                  "1": 28.83,
-                  "2": 28.83
-            },
+            "price": {"1": 28.83},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628395.png"
       },
       {
@@ -3222,10 +2847,7 @@
             "weight": 225,
             "position": "F",
             "team": 21,
-            "price": {
-                  "1": 28.64,
-                  "2": 28.64
-            },
+            "price": {"1": 28.64},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203121.png"
       },
       {
@@ -3235,10 +2857,7 @@
             "weight": 210,
             "position": "G",
             "team": 5,
-            "price": {
-                  "1": 28.45,
-                  "2": 28.45
-            },
+            "price": {"1": 28.45},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627756.png"
       },
       {
@@ -3261,10 +2880,7 @@
             "weight": 234,
             "position": "F",
             "team": 27,
-            "price": {
-                  "1": 28.08,
-                  "2": 28.08
-            },
+            "price": {"1": 28.08},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626168.png"
       },
       {
@@ -3274,10 +2890,7 @@
             "weight": 210,
             "position": "F",
             "team": 28,
-            "price": {
-                  "1": 27.89,
-                  "2": 27.89
-            },
+            "price": {"1": 27.89},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627761.png"
       },
       {
@@ -3287,10 +2900,7 @@
             "weight": 200,
             "position": "G",
             "team": 24,
-            "price": {
-                  "1": 27.7,
-                  "2": 27.7
-            },
+            "price": {"1": 27.7},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204038.png"
       },
       {
@@ -3300,10 +2910,7 @@
             "weight": 240,
             "position": "C-F",
             "team": 2,
-            "price": {
-                  "1": 27.32,
-                  "2": 27.32
-            },
+            "price": {"1": 27.32},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629057.png"
       },
       {
@@ -3313,10 +2920,7 @@
             "weight": 215,
             "position": "F",
             "team": 14,
-            "price": {
-                  "1": 26.38,
-                  "2": 26.38
-            },
+            "price": {"1": 26.38},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628035.png"
       },
       {
@@ -3337,10 +2941,7 @@
             "weight": 242,
             "position": "F-C",
             "team": 24,
-            "price": {
-                  "1": 26,
-                  "2": 26
-            },
+            "price": {"1": 26},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626163.png"
       },
       {
@@ -3350,10 +2951,7 @@
             "weight": 200,
             "position": "F-G",
             "team": 25,
-            "price": {
-                  "1": 25.15,
-                  "2": 25.15
-            },
+            "price": {"1": 25.15},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627884.png"
       },
       {
@@ -3376,10 +2974,7 @@
             "weight": 179,
             "position": "G",
             "team": 14,
-            "price": {
-                  "1": 24.87,
-                  "2": 24.87
-            },
+            "price": {"1": 24.87},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626188.png"
       },
       {
@@ -3387,10 +2982,7 @@
             "name": "Grant Williams",
             "position": "F",
             "team": 2,
-            "price": {
-                  "1": 24.73,
-                  "2": 24.73
-            },
+            "price": {"1": 24.73},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629684.png"
       },
       {
@@ -3400,10 +2992,7 @@
             "weight": 200,
             "position": "G",
             "team": 5,
-            "price": {
-                  "1": 24.59,
-                  "2": 24.59
-            },
+            "price": {"1": 24.59},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627853.png"
       },
       {
@@ -3413,10 +3002,7 @@
             "weight": 275,
             "position": "C",
             "team": 9,
-            "price": {
-                  "1": 24.17,
-                  "2": 24.17
-            },
+            "price": {"1": 24.17},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626143.png"
       },
       {
@@ -3437,10 +3023,7 @@
             "weight": 240,
             "position": "F-C",
             "team": 21,
-            "price": {
-                  "1": 23.89,
-                  "2": 23.89
-            },
+            "price": {"1": 23.89},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203488.png"
       },
       {
@@ -3450,10 +3033,7 @@
             "weight": 210,
             "position": "G",
             "team": 6,
-            "price": {
-                  "1": 23.75,
-                  "2": 23.75
-            },
+            "price": {"1": 23.75},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628422.png"
       },
       {
@@ -3463,10 +3043,7 @@
             "weight": 230,
             "position": "F",
             "team": 13,
-            "price": {
-                  "1": 23.32,
-                  "2": 23.32
-            },
+            "price": {"1": 23.32},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202335.png"
       },
       {
@@ -3476,10 +3053,7 @@
             "weight": 179,
             "position": "G",
             "team": 30,
-            "price": {
-                  "1": 23.04,
-                  "2": 23.04
-            },
+            "price": {"1": 23.04},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203526.png"
       },
       {
@@ -3489,10 +3063,7 @@
             "weight": 190,
             "position": "G-F",
             "team": 23,
-            "price": {
-                  "1": 22.9,
-                  "2": 22.9
-            },
+            "price": {"1": 22.9},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627788.png"
       },
       {
@@ -3502,10 +3073,7 @@
             "weight": 230,
             "position": "F",
             "team": 29,
-            "price": {
-                  "1": 22.76,
-                  "2": 22.76
-            },
+            "price": {"1": 22.76},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627777.png"
       },
       {
@@ -3515,10 +3083,7 @@
             "weight": 197,
             "position": "F",
             "team": 5,
-            "price": {
-                  "1": 22.48,
-                  "2": 22.48
-            },
+            "price": {"1": 22.48},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628990.png"
       },
       {
@@ -3528,10 +3093,7 @@
             "weight": 241,
             "position": "F",
             "team": 2,
-            "price": {
-                  "1": 22.2,
-                  "2": 22.2
-            },
+            "price": {"1": 22.2},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628400.png"
       },
       {
@@ -3541,10 +3103,7 @@
             "weight": 185,
             "position": "",
             "team": 28,
-            "price": {
-                  "1": 22.06,
-                  "2": 22.06
-            },
+            "price": {"1": 22.06},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627775.png"
       },
       {
@@ -3567,10 +3126,7 @@
             "weight": 250,
             "position": "F-C",
             "team": 5,
-            "price": {
-                  "1": 21.49,
-                  "2": 21.49
-            },
+            "price": {"1": 21.49},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628436.png"
       },
       {
@@ -3580,10 +3136,7 @@
             "weight": 195,
             "position": "F",
             "team": 7,
-            "price": {
-                  "1": 21.35,
-                  "2": 21.35
-            },
+            "price": {"1": 21.35},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628411.png"
       },
       {
@@ -3593,10 +3146,7 @@
             "weight": 200,
             "position": "G",
             "team": 6,
-            "price": {
-                  "1": 21.21,
-                  "2": 21.21
-            },
+            "price": {"1": 21.21},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203521.png"
       },
       {
@@ -3606,10 +3156,7 @@
             "weight": 200,
             "position": "G",
             "team": 15,
-            "price": {
-                  "1": 21.07,
-                  "2": 21.07
-            },
+            "price": {"1": 21.07},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629001.png"
       },
       {
@@ -3617,10 +3164,7 @@
             "name": "Michael Carter-Williams",
             "position": "G",
             "team": 22,
-            "price": {
-                  "1": 20.93,
-                  "2": 20.93
-            },
+            "price": {"1": 20.93},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203487.png"
       },
       {
@@ -3656,10 +3200,7 @@
             "weight": 170,
             "position": "G",
             "team": 9,
-            "price": {
-                  "1": 20.23,
-                  "2": 20.23
-            },
+            "price": {"1": 20.23},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204025.png"
       },
       {
@@ -3669,10 +3210,7 @@
             "weight": 205,
             "position": "G",
             "team": 9,
-            "price": {
-                  "1": 20.08,
-                  "2": 20.08
-            },
+            "price": {"1": 20.08},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628402.png"
       },
       {
@@ -3680,10 +3218,7 @@
             "name": "Ty Jerome",
             "position": "G",
             "team": 21,
-            "price": {
-                  "1": 19.94,
-                  "2": 19.94
-            },
+            "price": {"1": 19.94},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629660.png"
       },
       {
@@ -3693,10 +3228,7 @@
             "weight": 222,
             "position": "G-F",
             "team": 26,
-            "price": {
-                  "1": 19.8,
-                  "2": 19.8
-            },
+            "price": {"1": 19.8},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203922.png"
       },
       {
@@ -3706,10 +3238,7 @@
             "weight": 225,
             "position": "F",
             "team": 1,
-            "price": {
-                  "1": 19.66,
-                  "2": 19.66
-            },
+            "price": {"1": 19.66},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203524.png"
       },
       {
@@ -3730,10 +3259,7 @@
             "weight": 210,
             "position": "G-F",
             "team": 21,
-            "price": {
-                  "1": 19.38,
-                  "2": 19.38
-            },
+            "price": {"1": 19.38},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629026.png"
       },
       {
@@ -3741,10 +3267,7 @@
             "name": "Romeo Langford",
             "position": "G",
             "team": 2,
-            "price": {
-                  "1": 18.96,
-                  "2": 18.96
-            },
+            "price": 18.96,
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629641.png"
       },
       {
@@ -3765,10 +3288,7 @@
             "name": "Nassir Little",
             "position": "F",
             "team": 25,
-            "price": {
-                  "1": 17.97,
-                  "2": 17.97
-            },
+            "price": {"1": 17.97},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629642.png"
       },
       {
@@ -3776,10 +3296,7 @@
             "name": "Carsen Edwards",
             "position": "G",
             "team": 2,
-            "price": {
-                  "1": 17.83,
-                  "2": 17.83
-            },
+            "price": {"1": 17.83},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629035.png"
       },
       {
@@ -3787,10 +3304,7 @@
             "name": "Goga Bitadze",
             "position": "C",
             "team": 12,
-            "price": {
-                  "1": 17.41,
-                  "2": 17.41
-            },
+            "price": {"1": 17.41},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629048.png"
       },
       {
@@ -3800,10 +3314,7 @@
             "weight": 198,
             "position": "G",
             "team": 21,
-            "price": {
-                  "1": 16.99,
-                  "2": 16.99
-            },
+            "price": {"1": 16.99},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628977.png"
       },
       {
@@ -3813,10 +3324,7 @@
             "weight": 245,
             "position": "C",
             "team": 24,
-            "price": {
-                  "1": 16.85,
-                  "2": 16.85
-            },
+            "price": {"1": 16.85},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627745.png"
       },
       {
@@ -3824,10 +3332,7 @@
             "name": "Bruno Fernando",
             "position": "F",
             "team": 1,
-            "price": {
-                  "1": 16.42,
-                  "2": 16.42
-            },
+            "price": {"1": 16.42},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628981.png"
       },
       {
@@ -3837,10 +3342,7 @@
             "weight": 190,
             "position": "G",
             "team": 29,
-            "price": {
-                  "1": 16.28,
-                  "2": 16.28
-            },
+            "price": {"1": 16.28},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627885.png"
       },
       {
@@ -3850,10 +3352,7 @@
             "weight": 200,
             "position": "F",
             "team": 9,
-            "price": {
-                  "1": 16.14,
-                  "2": 16.14
-            },
+            "price": {"1": 16.14},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628367.png"
       },
       {
@@ -3863,10 +3362,7 @@
             "weight": 215,
             "position": "G",
             "team": 19,
-            "price": {
-                  "1": 16,
-                  "2": 16
-            },
+            "price": {"1": 16},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628414.png"
       },
       {
@@ -3876,10 +3372,7 @@
             "weight": 229,
             "position": "F",
             "team": 27,
-            "price": {
-                  "1": 15.72,
-                  "2": 15.72
-            },
+            "price": {"1": 15.72},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628966.png"
       },
       {
@@ -3887,10 +3380,7 @@
             "name": "Sekou Doumbouya",
             "position": "F",
             "team": 9,
-            "price": {
-                  "1": 15.44,
-                  "2": 15.44
-            },
+            "price": {"1": 15.44},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629635.png"
       },
       {
@@ -3900,10 +3390,7 @@
             "weight": 198,
             "position": "G",
             "team": 15,
-            "price": {
-                  "1": 15.15,
-                  "2": 15.15
-            },
+            "price": {"1": 15.15},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628960.png"
       },
       {
@@ -3913,10 +3400,7 @@
             "weight": 214,
             "position": "F",
             "team": 18,
-            "price": {
-                  "1": 15.01,
-                  "2": 15.01
-            },
+            "price": {"1": 15.01},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629020.png"
       },
       {
@@ -3939,10 +3423,7 @@
             "weight": 265,
             "position": "F-C",
             "team": 5,
-            "price": {
-                  "1": 14.59,
-                  "2": 14.59
-            },
+            "price": {"1": 14.59},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626245.png"
       },
       {
@@ -3950,10 +3431,7 @@
             "name": "Chuma Okeke",
             "position": "F",
             "team": 22,
-            "price": {
-                  "1": 14.45,
-                  "2": 14.45
-            },
+            "price": 14.45,
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629643.png"
       },
       {
@@ -3961,10 +3439,7 @@
             "name": "Dylan Windler",
             "position": "G-F",
             "team": 6,
-            "price": {
-                  "1": 14.31,
-                  "2": 14.31
-            },
+            "price": {"1": 14.31},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629685.png"
       },
       {
@@ -3972,10 +3447,7 @@
             "name": "Bol Bol",
             "position": "C",
             "team": 8,
-            "price": {
-                  "1": 14.03,
-                  "2": 14.03
-            },
+            "price": {"1": 14.03},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629626.png"
       },
       {
@@ -3983,10 +3455,7 @@
             "name": "JaKarr Sampson",
             "position": "",
             "team": 12,
-            "price": {
-                  "1": 13.61,
-                  "2": 13.61
-            },
+            "price": {"1": 13.61},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203960.png"
       },
       {
@@ -3994,10 +3463,7 @@
             "name": "Luka Samanic",
             "position": "F",
             "team": 27,
-            "price": {
-                  "1": 13.18,
-                  "2": 13.18
-            },
+            "price": {"1": 13.18},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629677.png"
       },
       {
@@ -4007,10 +3473,7 @@
             "weight": 196,
             "position": "G",
             "team": 24,
-            "price": {
-                  "1": 12.9,
-                  "2": 12.9
-            },
+            "price": {"1": 12.9},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628975.png"
       },
       {
@@ -4018,10 +3481,7 @@
             "name": "Ignas Brazdeikis",
             "position": "F",
             "team": 20,
-            "price": {
-                  "1": 12.76,
-                  "2": 12.76
-            },
+            "price": {"1": 12.76},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629649.png"
       },
       {
@@ -4031,10 +3491,7 @@
             "weight": 225,
             "position": "F",
             "team": 24,
-            "price": {
-                  "1": 12.62,
-                  "2": 12.62
-            },
+            "price": {"1": 12.62},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627846.png"
       },
       {
@@ -4042,10 +3499,7 @@
             "name": "Nicolo Melli",
             "position": "F",
             "team": 19,
-            "price": {
-                  "1": 12.34,
-                  "2": 12.34
-            },
+            "price": {"1": 12.34},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629740.png"
       },
       {
@@ -4053,10 +3507,7 @@
             "name": "Keldon Johnson",
             "position": "F",
             "team": 27,
-            "price": {
-                  "1": 12.2,
-                  "2": 12.2
-            },
+            "price": {"1": 12.2},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629640.png"
       },
       {
@@ -4066,10 +3517,7 @@
             "weight": 207,
             "position": "G",
             "team": 23,
-            "price": {
-                  "1": 12.06,
-                  "2": 12.06
-            },
+            "price": {"1": 12.06},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629003.png"
       },
       {
@@ -4077,10 +3525,7 @@
             "name": "Eric Paschall",
             "position": "F",
             "team": 10,
-            "price": {
-                  "1": 11.92,
-                  "2": 11.92
-            },
+            "price": {"1": 11.92},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629672.png"
       },
       {
@@ -4090,10 +3535,7 @@
             "weight": 190,
             "position": "G",
             "team": 30,
-            "price": {
-                  "1": 11.63,
-                  "2": 11.63
-            },
+            "price": {"1": 11.63},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629010.png"
       },
       {
@@ -4101,10 +3543,7 @@
             "name": "Ben McLemore",
             "position": "G",
             "team": 11,
-            "price": {
-                  "1": 11.49,
-                  "2": 11.49
-            },
+            "price": {"1": 11.49},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203463.png"
       },
       {
@@ -4114,10 +3553,7 @@
             "weight": 210,
             "position": "G",
             "team": 10,
-            "price": {
-                  "1": 11.21,
-                  "2": 11.21
-            },
+            "price": {"1": 11.21},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202954.png"
       },
       {
@@ -4138,10 +3574,7 @@
             "name": "Jordan Poole",
             "position": "G",
             "team": 10,
-            "price": {
-                  "1": 9.9,
-                  "2": 9.9
-            },
+            "price": {"1": 9.9},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629673.png"
       },
       {
@@ -4162,10 +3595,7 @@
             "name": "Talen Horton-Tucker",
             "position": "G",
             "team": 14,
-            "price": {
-                  "1": 9.77,
-                  "2": 9.77
-            },
+            "price": {"1": 9.77},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629659.png"
       },
       {
@@ -4175,10 +3605,7 @@
             "weight": 248,
             "position": "C",
             "team": 23,
-            "price": {
-                  "1": 9.73,
-                  "2": 9.73
-            },
+            "price": {"1": 9.73},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628396.png"
       },
       {
@@ -4186,10 +3613,7 @@
             "name": "Cameron Payne",
             "position": "G",
             "team": 24,
-            "price": {
-                  "1": 9.61,
-                  "2": 9.61
-            },
+            "price": {"1": 9.61},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626166.png"
       },
       {
@@ -4199,10 +3623,7 @@
             "weight": 249,
             "position": "F-C",
             "team": 8,
-            "price": {
-                  "1": 9.52,
-                  "2": 9.52
-            },
+            "price": {"1": 9.52},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628392.png"
       },
       {
@@ -4210,10 +3631,7 @@
             "name": "Vincent Poirier",
             "position": "C",
             "team": 23,
-            "price": {
-                  "1": 9.48,
-                  "2": 9.48
-            },
+            "price": {"1": 9.48},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629738.png"
       },
       {
@@ -4243,10 +3661,7 @@
             "name": "Nicolas Claxton",
             "position": "F-C",
             "team": 3,
-            "price": {
-                  "1": 9.36,
-                  "2": 9.36
-            },
+            "price": {"1": 9.36},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629651.png"
       },
       {
@@ -4254,10 +3669,7 @@
             "name": "Alen Smailagic",
             "position": "F",
             "team": 10,
-            "price": {
-                  "1": 9.27,
-                  "2": 9.27
-            },
+            "price": {"1": 9.27},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629346.png"
       },
       {
@@ -4267,10 +3679,7 @@
             "weight": 225,
             "position": "F",
             "team": 26,
-            "price": {
-                  "1": 9.23,
-                  "2": 9.23
-            },
+            "price": {"1": 9.23},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629002.png"
       },
       {
@@ -4278,10 +3687,7 @@
             "name": "Tacko Fall",
             "position": "C",
             "team": 2,
-            "price": {
-                  "1": 9.15,
-                  "2": 9.15
-            },
+            "price": 9.15,
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629605.png"
       },
       {
@@ -4289,10 +3695,7 @@
             "name": "Terance Mann",
             "position": "G",
             "team": 13,
-            "price": {
-                  "1": 9.02,
-                  "2": 9.02
-            },
+            "price": {"1": 9.02},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629611.png"
       },
       {
@@ -4300,10 +3703,7 @@
             "name": "Thanasis Antetokounmpo",
             "position": "",
             "team": 17,
-            "price": {
-                  "1": 8.98,
-                  "2": 8.98
-            },
+            "price": {"1": 8.98},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203648.png"
       },
       {
@@ -4311,10 +3711,7 @@
             "name": "KZ Okpala",
             "position": "F",
             "team": 16,
-            "price": {
-                  "1": 8.94,
-                  "2": 8.94
-            },
+            "price": {"1": 8.94},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629644.png"
       },
       {
@@ -4322,10 +3719,7 @@
             "name": "Mfiondu Kabengele",
             "position": "F",
             "team": 13,
-            "price": {
-                  "1": 8.9,
-                  "2": 8.9
-            },
+            "price": {"1": 8.9},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629662.png"
       },
       {
@@ -4335,10 +3729,7 @@
             "weight": 205,
             "position": "G",
             "team": 28,
-            "price": {
-                  "1": 8.85,
-                  "2": 8.85
-            },
+            "price": {"1": 8.85},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629139.png"
       },
       {
@@ -4346,10 +3737,7 @@
             "name": "Kyle Guy",
             "position": "G",
             "team": 26,
-            "price": {
-                  "1": 8.73,
-                  "2": 8.73
-            },
+            "price": {"1": 8.73},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629657.png"
       },
       {
@@ -4359,10 +3747,7 @@
             "weight": 180,
             "position": "G",
             "team": 30,
-            "price": {
-                  "1": 8.48,
-                  "2": 8.48
-            },
+            "price": {"1": 8.48},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629067.png"
       },
       {
@@ -4372,10 +3757,7 @@
             "weight": 190,
             "position": "G",
             "team": 17,
-            "price": {
-                  "1": 8.39,
-                  "2": 8.39
-            },
+            "price": {"1": 8.39},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629121.png"
       },
       {
@@ -4383,10 +3765,7 @@
             "name": "Matt Thomas",
             "position": "G",
             "team": 28,
-            "price": {
-                  "1": 8.35,
-                  "2": 8.35
-            },
+            "price": {"1": 8.35},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629744.png"
       },
       {
@@ -4394,10 +3773,7 @@
             "name": "Marques Bolden",
             "position": "C",
             "team": 6,
-            "price": {
-                  "1": 8.02,
-                  "2": 8.02
-            },
+            "price": {"1": 8.02},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629716.png"
       },
       {
@@ -4405,10 +3781,7 @@
             "name": "Cody Martin",
             "position": "F",
             "team": 4,
-            "price": {
-                  "1": 7.85,
-                  "2": 7.85
-            },
+            "price": {"1": 7.85},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628998.png"
       },
       {
@@ -4418,10 +3791,7 @@
             "weight": 218,
             "position": "G-F",
             "team": 20,
-            "price": {
-                  "1": 7.77,
-                  "2": 7.77
-            },
+            "price": {"1": 7.77},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629033.png"
       },
       {
@@ -4429,10 +3799,7 @@
             "name": "Terence Davis",
             "position": "G",
             "team": 28,
-            "price": {
-                  "1": 7.64,
-                  "2": 7.64
-            },
+            "price": {"1": 7.64},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629056.png"
       },
       {
@@ -4440,10 +3807,7 @@
             "name": "John Konchar",
             "position": "G-F",
             "team": 15,
-            "price": {
-                  "1": 7.6,
-                  "2": 7.6
-            },
+            "price": {"1": 7.6},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629723.png"
       },
       {
@@ -4451,10 +3815,7 @@
             "name": "Tremont Waters",
             "position": "G",
             "team": 2,
-            "price": {
-                  "1": 7.56,
-                  "2": 7.56
-            },
+            "price": {"1": 7.56},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629682.png"
       },
       {
@@ -4473,10 +3834,7 @@
             "name": "Kendrick Nunn",
             "position": "G",
             "team": 16,
-            "price": {
-                  "1": 7.47,
-                  "2": 7.47
-            },
+            "price": {"1": 7.47},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629134.png"
       },
       {
@@ -4484,10 +3842,7 @@
             "name": "Quinndary Weatherspoon",
             "position": "G",
             "team": 27,
-            "price": {
-                  "1": 7.43,
-                  "2": 7.43
-            },
+            "price": {"1": 7.43},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629683.png"
       },
       {
@@ -4495,10 +3850,7 @@
             "name": "Justin James",
             "position": "G-F",
             "team": 26,
-            "price": {
-                  "1": 7.39,
-                  "2": 7.39
-            },
+            "price": {"1": 7.39},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629713.png"
       },
       {
@@ -4508,10 +3860,7 @@
             "weight": 180,
             "position": "",
             "team": 1,
-            "price": {
-                  "1": 7.31,
-                  "2": 7.31
-            },
+            "price": {"1": 7.31},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629164.png"
       },
       {
@@ -4521,10 +3870,7 @@
             "weight": 245,
             "position": "F",
             "team": 27,
-            "price": {
-                  "1": 7.26,
-                  "2": 7.26
-            },
+            "price": {"1": 7.26},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629234.png"
       },
       {
@@ -4534,10 +3880,7 @@
             "weight": 176,
             "position": "G",
             "team": 12,
-            "price": {
-                  "1": 7.18,
-                  "2": 7.18
-            },
+            "price": {"1": 7.18},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628410.png"
       },
       {
@@ -4547,10 +3890,7 @@
             "weight": 200,
             "position": "F",
             "team": 14,
-            "price": {
-                  "1": 7.14,
-                  "2": 7.14
-            },
+            "price": {"1": 7.14},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628961.png"
       },
       {
@@ -4558,10 +3898,7 @@
             "name": "Miye Oni",
             "position": "G",
             "team": 29,
-            "price": {
-                  "1": 7.1,
-                  "2": 7.1
-            },
+            "price": {"1": 7.1},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629671.png"
       },
       {
@@ -4569,10 +3906,7 @@
             "name": "Jalen Lecque",
             "position": "G",
             "team": 12,
-            "price": {
-                  "1": 6.89,
-                  "2": 6.89
-            },
+            "price": {"1": 6.89},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629665.png"
       },
       {
@@ -4580,10 +3914,7 @@
             "name": "Isaiah Roby",
             "position": "F",
             "team": 21,
-            "price": {
-                  "1": 6.76,
-                  "2": 6.76
-            },
+            "price": {"1": 6.76},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629676.png"
       },
       {
@@ -4604,10 +3935,7 @@
             "name": "DaQuan Jeffries",
             "position": "F",
             "team": 26,
-            "price": {
-                  "1": 6.55,
-                  "2": 6.55
-            },
+            "price": {"1": 6.55},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629610.png"
       },
       {
@@ -4615,10 +3943,7 @@
             "name": "Jaylen Nowell",
             "position": "G",
             "team": 18,
-            "price": {
-                  "1": 6.43,
-                  "2": 6.43
-            },
+            "price": {"1": 6.43},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629669.png"
       },
       {
@@ -4626,10 +3951,7 @@
             "name": "Vlatko Cancar",
             "position": "F",
             "team": 8,
-            "price": {
-                  "1": 6.34,
-                  "2": 6.34
-            },
+            "price": {"1": 6.34},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628427.png"
       },
       {
@@ -4637,10 +3959,7 @@
             "name": "Caleb Martin",
             "position": "F",
             "team": 4,
-            "price": {
-                  "1": 6.3,
-                  "2": 6.3
-            },
+            "price": {"1": 6.3},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628997.png"
       },
       {
@@ -4650,10 +3969,7 @@
             "weight": 235,
             "position": "F",
             "team": 16,
-            "price": {
-                  "1": 6.22,
-                  "2": 6.22
-            },
+            "price": {"1": 6.22},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2617.png"
       },
       {
@@ -4661,10 +3977,7 @@
             "name": "Jordan McLaughlin",
             "position": "G",
             "team": 18,
-            "price": {
-                  "1": 6.01,
-                  "2": 6.01
-            },
+            "price": {"1": 6.01},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629162.png"
       },
       {
@@ -4672,10 +3985,7 @@
             "name": "Jalen McDaniels",
             "position": "F",
             "team": 4,
-            "price": {
-                  "1": 5.92,
-                  "2": 5.92
-            },
+            "price": {"1": 5.92},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629667.png"
       },
       {
@@ -4683,10 +3993,7 @@
             "name": "Moses Brown",
             "position": "C",
             "team": 21,
-            "price": {
-                  "1": 5.63,
-                  "2": 5.63
-            },
+            "price": {"1": 5.63},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629650.png"
       },
       {
@@ -4694,10 +4001,7 @@
             "name": "Amir Coffey",
             "position": "G",
             "team": 13,
-            "price": {
-                  "1": 5.59,
-                  "2": 5.59
-            },
+            "price": {"1": 5.59},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629599.png"
       },
       {
@@ -4705,10 +4009,7 @@
             "name": "Garrison Mathews",
             "position": "G",
             "team": 30,
-            "price": {
-                  "1": 5.55,
-                  "2": 5.55
-            },
+            "price": {"1": 5.55},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629726.png"
       },
       {
@@ -4718,10 +4019,7 @@
             "weight": 205,
             "position": "F",
             "team": 19,
-            "price": {
-                  "1": 5.51,
-                  "2": 5.51
-            },
+            "price": {"1": 5.51},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629117.png"
       },
       {
@@ -4729,10 +4027,7 @@
             "name": "Jared Harper",
             "position": "G",
             "team": 20,
-            "price": {
-                  "1": 5.09,
-                  "2": 5.09
-            },
+            "price": {"1": 5.09},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629607.png"
       },
       {
@@ -4740,10 +4035,7 @@
             "name": "Devontae Cacok",
             "position": "F-C",
             "team": 14,
-            "price": {
-                  "1": 5.05,
-                  "2": 5.05
-            },
+            "price": {"1": 5.05},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629719.png"
       },
       {
@@ -4751,10 +4043,7 @@
             "name": "Chris Silva",
             "position": "F",
             "team": 16,
-            "price": {
-                  "1": 5,
-                  "2": 5
-            },
+            "price": {"1": 5},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629735.png"
       },
       {
@@ -4762,10 +4051,7 @@
             "name": "Luguentz Dort",
             "position": "G",
             "team": 21,
-            "price": {
-                  "1": 4.59,
-                  "2": 4.59
-            },
+            "price": {"1": 4.59},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629652.png"
       },
       {
@@ -4773,10 +4059,7 @@
             "name": "Mychal Mulder",
             "position": "G",
             "team": 10,
-            "price": {
-                  "1": 4.54,
-                  "2": 4.54
-            },
+            "price": {"1": 4.54},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628539.png"
       },
       {
@@ -4784,10 +4067,7 @@
             "name": "Rayjon Tucker",
             "position": "F",
             "team": 23,
-            "price": {
-                  "1": 4.5,
-                  "2": 4.5
-            },
+            "price": {"1": 4.5},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629730.png"
       },
       {
@@ -4795,10 +4075,7 @@
             "name": "Kelan Martin",
             "position": "F",
             "team": 12,
-            "price": {
-                  "1": 4.21,
-                  "2": 4.21
-            },
+            "price": {"1": 4.21},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629103.png"
       },
       {
@@ -4806,10 +4083,7 @@
             "name": "Jarrell Brantley",
             "position": "F",
             "team": 29,
-            "price": {
-                  "1": 4.17,
-                  "2": 4.17
-            },
+            "price": {"1": 4.17},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629714.png"
       },
       {
@@ -4817,10 +4091,7 @@
             "name": "Javonte Green",
             "position": "G-F",
             "team": 2,
-            "price": {
-                  "1": 4.04,
-                  "2": 4.04
-            },
+            "price": {"1": 4.04},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629750.png"
       },
       {
@@ -4828,10 +4099,7 @@
             "name": "Max Strus",
             "position": "G",
             "team": 16,
-            "price": {
-                  "1": 3.54,
-                  "2": 3.54
-            },
+            "price": {"1": 3.54},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629622.png"
       },
       {
@@ -4839,10 +4107,7 @@
             "name": "Juwan Morgan",
             "position": "F",
             "team": 29,
-            "price": {
-                  "1": 3.5,
-                  "2": 3.5
-            },
+            "price": {"1": 3.5},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629752.png"
       },
       {
@@ -4850,10 +4115,7 @@
             "name": "Adam Mokoka",
             "position": "G",
             "team": 5,
-            "price": {
-                  "1": 3.21,
-                  "2": 3.21
-            },
+            "price": {"1": 3.21},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629690.png"
       },
       {
@@ -4861,10 +4123,7 @@
             "name": "Dean Wade",
             "position": "F",
             "team": 6,
-            "price": {
-                  "1": 3,
-                  "2": 3
-            },
+            "price": {"1": 3},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629731.png"
       },
       {
@@ -4897,10 +4156,7 @@
             "weight": 221,
             "position": "C",
             "team": 22,
-            "price": {
-                  "1": 41.28,
-                  "2": 41.28
-            },
+            "price": {"1": 41.28},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628964.png"
       },
       {
@@ -4908,10 +4164,7 @@
             "name": "Cameron Reddish",
             "position": "F-G",
             "team": 1,
-            "price": {
-                  "1": 30.15,
-                  "2": 30.15
-            }
+            "price": {"1": 30.15}
       },
       {
             "_id": "4179",
@@ -4920,10 +4173,7 @@
             "weight": 205,
             "position": "G",
             "team": 9,
-            "price": {
-                  "1": 15.86,
-                  "2": 15.86
-            },
+            "price": {"1": 15.86},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629004.png"
       },
       {
@@ -4931,10 +4181,7 @@
             "name": "Norvel Pelle",
             "position": "F",
             "team": 3,
-            "price": {
-                  "1": 6.09,
-                  "2": 6.09
-            },
+            "price": {"1": 6.09},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203658.png"
       },
       {
@@ -4942,10 +4189,7 @@
             "name": "John Wallace",
             "position": "",
             "team": 20,
-            "price": {
-                  "1": 85.43,
-                  "2": 85.43
-            }
+            "price": {"1": 85.43}
       },
       {
             "_id": "417c",
@@ -4954,10 +4198,7 @@
             "weight": 210,
             "position": "G-F",
             "team": 5,
-            "price": {
-                  "1": 67.07,
-                  "2": 67.07
-            },
+            "price": {"1": 67.07},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203107.png"
       },
       {
@@ -4965,10 +4206,7 @@
             "name": "Dennis Scott",
             "position": "",
             "team": 22,
-            "price": {
-                  "1": 48.74,
-                  "2": 48.74
-            }
+            "price": {"1": 48.74}
       },
       {
             "_id": "417e",
@@ -4990,10 +4228,7 @@
             "weight": 209,
             "position": "G",
             "team": 17,
-            "price": {
-                  "1": 37.32,
-                  "2": 37.32
-            },
+            "price": {"1": 37.32},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626192.png"
       },
       {
@@ -5003,10 +4238,7 @@
             "weight": 220,
             "position": "",
             "team": 11,
-            "price": {
-                  "1": 26.94,
-                  "2": 26.94
-            },
+            "price": {"1": 26.94},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627863.png"
       },
       {
@@ -5016,10 +4248,7 @@
             "weight": 215,
             "position": "F",
             "team": 30,
-            "price": {
-                  "1": 18.68,
-                  "2": 18.68
-            },
+            "price": {"1": 18.68},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628972.png"
       },
       {
@@ -5027,10 +4256,7 @@
             "name": "Kevin Porter Jr.",
             "position": "G",
             "team": 11,
-            "price": {
-                  "1": 17.55,
-                  "2": 17.55
-            },
+            "price": {"1": 17.55},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629645.png"
       },
       {
@@ -5040,10 +4266,7 @@
             "weight": 225,
             "position": "F",
             "team": 22,
-            "price": {
-                  "1": 15.58,
-                  "2": 15.58
-            },
+            "price": {"1": 15.58},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629109.png"
       },
       {
@@ -5062,10 +4285,7 @@
             "name": "Brian Bowen II",
             "position": "F",
             "team": 12,
-            "price": {
-                  "1": 7.89,
-                  "2": 7.89
-            },
+            "price": {"1": 7.89},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628968.png"
       },
       {
@@ -5073,10 +4293,7 @@
             "name": "Josh Green",
             "position": "G",
             "team": 7,
-            "price": {
-                  "1": 26.04,
-                  "2": 26.04
-            },
+            "price": {"1": 26.04},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630182.png"
       },
       {
@@ -5106,10 +4323,7 @@
             "name": "Xavier Tillman",
             "position": "F",
             "team": 15,
-            "price": {
-                  "1": 93.17,
-                  "2": 93.17
-            },
+            "price": {"1": 93.17},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630214.png"
       },
       {
@@ -5139,10 +4353,7 @@
             "name": "Patrick Williams",
             "position": "F",
             "team": 5,
-            "price": {
-                  "1": 86.06,
-                  "2": 86.06
-            },
+            "price": {"1": 86.06},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630172.png"
       },
       {
@@ -5172,10 +4383,7 @@
             "name": "Payton Pritchard",
             "position": "G",
             "team": 2,
-            "price": {
-                  "1": 78.94,
-                  "2": 78.94
-            },
+            "price": {"1": 78.94},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630202.png"
       },
       {
@@ -5183,10 +4391,7 @@
             "name": "Cole Anthony",
             "position": "G",
             "team": 22,
-            "price": {
-                  "1": 76.57,
-                  "2": 76.57
-            },
+            "price": {"1": 76.57},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630175.png"
       },
       {
@@ -5194,10 +4399,7 @@
             "name": "Devin Vassell",
             "position": "G-F",
             "team": 27,
-            "price": {
-                  "1": 74.2,
-                  "2": 74.2
-            },
+            "price": {"1": 74.2},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630170.png"
       },
       {
@@ -5227,10 +4429,7 @@
             "name": "Deni Avdija",
             "position": "F",
             "team": 30,
-            "price": {
-                  "1": 65.6,
-                  "2": 65.6
-            },
+            "price": {"1": 65.6},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630166.png"
       },
       {
@@ -5238,10 +4437,7 @@
             "name": "Theo Maledon",
             "position": "G",
             "team": 21,
-            "price": {
-                  "1": 63.62,
-                  "2": 63.62
-            },
+            "price": {"1": 63.62},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630177.png"
       },
       {
@@ -5249,10 +4445,7 @@
             "name": "Isaac Okoro",
             "position": "F-G",
             "team": 6,
-            "price": {
-                  "1": 61.64,
-                  "2": 61.64
-            },
+            "price": {"1": 61.64},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630171.png"
       },
       {
@@ -5260,10 +4453,7 @@
             "name": "Tyrese Maxey",
             "position": "G",
             "team": 23,
-            "price": {
-                  "1": 59.67,
-                  "2": 59.67
-            },
+            "price": {"1": 59.67},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630178.png"
       },
       {
@@ -5271,10 +4461,7 @@
             "name": "Saddiq Bey",
             "position": "F",
             "team": 9,
-            "price": {
-                  "1": 57.69,
-                  "2": 57.69
-            },
+            "price": {"1": 57.69},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630180.png"
       },
       {
@@ -5282,10 +4469,7 @@
             "name": "Jaden McDaniels",
             "position": "F",
             "team": 18,
-            "price": {
-                  "1": 55.71,
-                  "2": 55.71
-            },
+            "price": {"1": 55.71},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630183.png"
       },
       {
@@ -5293,10 +4477,7 @@
             "name": "Isaiah Joe",
             "position": "G",
             "team": 23,
-            "price": {
-                  "1": 53.74,
-                  "2": 53.74
-            },
+            "price": {"1": 53.74},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630198.png"
       },
       {
@@ -5304,10 +4485,7 @@
             "name": "Onyeka Okongwu",
             "position": "F-C",
             "team": 1,
-            "price": {
-                  "1": 49.79,
-                  "2": 49.79
-            },
+            "price": {"1": 49.79},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630168.png"
       },
       {
@@ -5315,10 +4493,7 @@
             "name": "Precious Achiuwa",
             "position": "F",
             "team": 16,
-            "price": {
-                  "1": 47.81,
-                  "2": 47.81
-            },
+            "price": {"1": 47.81},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630173.png"
       },
       {
@@ -5326,10 +4501,7 @@
             "name": "Facundo Campazzo",
             "position": "",
             "team": 8,
-            "price": {
-                  "1": 45.83,
-                  "2": 45.83
-            },
+            "price": {"1": 45.83},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630267.png"
       },
       {
@@ -5337,10 +4509,7 @@
             "name": "Obi Toppin",
             "position": "F",
             "team": 20,
-            "price": {
-                  "1": 43.26,
-                  "2": 43.26
-            },
+            "price": {"1": 43.26},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630167.png"
       },
       {
@@ -5348,10 +4517,7 @@
             "name": "Paul Reed",
             "position": "F",
             "team": 23,
-            "price": {
-                  "1": 41.7,
-                  "2": 41.7
-            },
+            "price": {"1": 41.7},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630194.png"
       },
       {
@@ -5359,10 +4525,7 @@
             "name": "Reggie Perry",
             "position": "F-C",
             "team": 3,
-            "price": {
-                  "1": 40.13,
-                  "2": 40.13
-            },
+            "price": {"1": 40.13},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629617.png"
       },
       {
@@ -5370,10 +4533,7 @@
             "name": "CJ Elleby",
             "position": "F-G",
             "team": 25,
-            "price": {
-                  "1": 38.57,
-                  "2": 38.57
-            },
+            "price": {"1": 38.57},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629604.png"
       },
       {
@@ -5381,10 +4541,7 @@
             "name": "Daniel Oturu",
             "position": "C",
             "team": 13,
-            "price": {
-                  "1": 37,
-                  "2": 37
-            },
+            "price": {"1": 37},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630187.png"
       },
       {
@@ -5392,10 +4549,7 @@
             "name": "Cassius Winston",
             "position": "G",
             "team": 30,
-            "price": {
-                  "1": 35.43,
-                  "2": 35.43
-            },
+            "price": {"1": 35.43},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630216.png"
       },
       {
@@ -5403,10 +4557,7 @@
             "name": "Skylar Mays",
             "position": "G",
             "team": 1,
-            "price": {
-                  "1": 33.87,
-                  "2": 33.87
-            },
+            "price": {"1": 33.87},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630219.png"
       },
       {
@@ -5414,10 +4565,7 @@
             "name": "R.J. Hampton",
             "position": "G",
             "team": 8,
-            "price": {
-                  "1": 32.3,
-                  "2": 32.3
-            },
+            "price": {"1": 32.3},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630181.png"
       },
       {
@@ -5425,10 +4573,7 @@
             "name": "Saben Lee",
             "position": "G",
             "team": 9,
-            "price": {
-                  "1": 30.74,
-                  "2": 30.74
-            },
+            "price": {"1": 30.74},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630240.png"
       },
       {
@@ -5436,10 +4581,7 @@
             "name": "Sam Merrill",
             "position": "G",
             "team": 17,
-            "price": {
-                  "1": 29.17,
-                  "2": 29.17
-            },
+            "price": {"1": 29.17},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630241.png"
       },
       {
@@ -5447,10 +4589,7 @@
             "name": "Brodric Thomas",
             "position": "G",
             "team": 11,
-            "price": {
-                  "1": 27.6,
-                  "2": 27.6
-            },
+            "price": {"1": 27.6},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630271.png"
       },
       {
@@ -5458,10 +4597,7 @@
             "name": "Jahmi'us Ramsey",
             "position": "G",
             "team": 26,
-            "price": {
-                  "1": 24.15,
-                  "2": 24.15
-            },
+            "price": {"1": 24.15},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630186.png"
       },
       {
@@ -5469,10 +4605,7 @@
             "name": "Aaron Nesmith",
             "position": "G-F",
             "team": 2,
-            "price": {
-                  "1": 22.99,
-                  "2": 22.99
-            },
+            "price": {"1": 22.99},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630174.png"
       },
       {
@@ -5480,10 +4613,7 @@
             "name": "Elijah Hughes",
             "position": "G",
             "team": 29,
-            "price": {
-                  "1": 21.82,
-                  "2": 21.82
-            },
+            "price": {"1": 21.82},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630190.png"
       },
       {
@@ -5491,10 +4621,7 @@
             "name": "Udoka Azubuike",
             "position": "C-F",
             "team": 29,
-            "price": {
-                  "1": 20.65,
-                  "2": 20.65
-            },
+            "price": {"1": 20.65},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628962.png"
       },
       {
@@ -5502,10 +4629,7 @@
             "name": "Devon Dotson",
             "position": "G",
             "team": 5,
-            "price": {
-                  "1": 19.48,
-                  "2": 19.48
-            },
+            "price": {"1": 19.48},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629653.png"
       },
       {
@@ -5513,10 +4637,7 @@
             "name": "Zeke Nnaji",
             "position": "F-C",
             "team": 8,
-            "price": {
-                  "1": 18.31,
-                  "2": 18.31
-            },
+            "price": {"1": 18.31},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630192.png"
       },
       {
@@ -5524,10 +4645,7 @@
             "name": "Killian Hayes",
             "position": "G",
             "team": 9,
-            "price": {
-                  "1": 17.14,
-                  "2": 17.14
-            },
+            "price": {"1": 17.14},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630165.png"
       },
       {
@@ -5535,10 +4653,7 @@
             "name": "Tre Jones",
             "position": "G",
             "team": 27,
-            "price": {
-                  "1": 15.97,
-                  "2": 15.97
-            },
+            "price": {"1": 15.97},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630200.png"
       },
       {
@@ -5546,10 +4661,7 @@
             "name": "Sean McDermott",
             "position": "F",
             "team": 15,
-            "price": {
-                  "1": 14.8,
-                  "2": 14.8
-            },
+            "price": {"1": 14.8},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630253.png"
       },
       {
@@ -5557,10 +4669,7 @@
             "name": "Malachi Flynn",
             "position": "G",
             "team": 28,
-            "price": {
-                  "1": 13.63,
-                  "2": 13.63
-            },
+            "price": {"1": 13.63},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630201.png"
       },
       {
@@ -5568,10 +4677,7 @@
             "name": "Tyrell Terry",
             "position": "G",
             "team": 7,
-            "price": {
-                  "1": 12.46,
-                  "2": 12.46
-            },
+            "price": {"1": 12.46},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630179.png"
       },
       {
@@ -5579,10 +4685,7 @@
             "name": "Cassius Stanley",
             "position": "G",
             "team": 12,
-            "price": {
-                  "1": 11.3,
-                  "2": 11.3
-            },
+            "price": {"1": 11.3},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630199.png"
       },
       {
@@ -5590,10 +4693,7 @@
             "name": "Nick Richards",
             "position": "C",
             "team": 4,
-            "price": {
-                  "1": 9.7,
-                  "2": 9.7
-            },
+            "price": {"1": 9.7},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630208.png"
       },
       {
@@ -5601,10 +4701,7 @@
             "name": "Jalen Smith",
             "position": "F-C",
             "team": 24,
-            "price": {
-                  "1": 9.36,
-                  "2": 9.36
-            },
+            "price": {"1": 9.36},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630188.png"
       },
       {
@@ -5612,10 +4709,7 @@
             "name": "Nico Mannion",
             "position": "G",
             "team": 10,
-            "price": {
-                  "1": 9.01,
-                  "2": 9.01
-            },
+            "price": {"1": 9.01},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630185.png"
       },
       {
@@ -5623,10 +4717,7 @@
             "name": "Vernon Carey Jr.",
             "position": "F-C",
             "team": 4,
-            "price": {
-                  "1": 8.66,
-                  "2": 8.66
-            },
+            "price": {"1": 8.66},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630176.png"
       },
       {
@@ -5634,10 +4725,7 @@
             "name": "Robert Woodard II",
             "position": "F",
             "team": 26,
-            "price": {
-                  "1": 8.31,
-                  "2": 8.31
-            },
+            "price": {"1": 8.31},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630218.png"
       },
       {
@@ -5645,10 +4733,7 @@
             "name": "Tyler Bey",
             "position": "F",
             "team": 7,
-            "price": {
-                  "1": 7.97,
-                  "2": 7.97
-            },
+            "price": {"1": 7.97},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630189.png"
       },
       {
@@ -5656,10 +4741,7 @@
             "name": "Jalen Harris",
             "position": "G",
             "team": 28,
-            "price": {
-                  "1": 7.62,
-                  "2": 7.62
-            },
+            "price": {"1": 7.62},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630223.png"
       },
       {
@@ -5667,10 +4749,7 @@
             "name": "Ashton Hagans",
             "position": "G-F",
             "team": 18,
-            "price": {
-                  "1": 7.27,
-                  "2": 7.27
-            },
+            "price": {"1": 7.27},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630204.png"
       },
       {
@@ -5678,10 +4757,7 @@
             "name": "Ty-Shon Alexander",
             "position": "G",
             "team": 24,
-            "price": {
-                  "1": 6.92,
-                  "2": 6.92
-            },
+            "price": {"1": 6.92},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630234.png"
       },
       {
@@ -5700,10 +4776,7 @@
             "name": "Keljin Blevins",
             "position": "F",
             "team": 25,
-            "price": {
-                  "1": 53.63,
-                  "2": 53.63
-            },
+            "price": {"1": 53.63},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629833.png"
       },
       {
@@ -5711,10 +4784,7 @@
             "name": "Chris Chiozza",
             "position": "G",
             "team": 3,
-            "price": {
-                  "1": 46.1,
-                  "2": 46.1
-            },
+            "price": {"1": 46.1},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629185.png"
       },
       {
@@ -5724,10 +4794,7 @@
             "weight": 240,
             "position": "F",
             "team": 10,
-            "price": {
-                  "1": 66.58,
-                  "2": 66.58
-            },
+            "price": {"1": 66.58},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627737.png"
       },
       {
@@ -5735,10 +4802,7 @@
             "name": "Nate Darling",
             "position": "",
             "team": 4,
-            "price": {
-                  "1": 69.44,
-                  "2": 69.44
-            },
+            "price": {"1": 69.44},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630268.png"
       },
       {
@@ -5746,10 +4810,7 @@
             "name": "Mamadi Diakite",
             "position": "F",
             "team": 17,
-            "price": {
-                  "1": 34.76,
-                  "2": 34.76
-            },
+            "price": {"1": 34.76},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629603.png"
       },
       {
@@ -5757,20 +4818,14 @@
             "name": "Terry Dozier",
             "position": "",
             "team": 4,
-            "price": {
-                  "1": 54.21,
-                  "2": 54.21
-            }
+            "price": {"1": 54.21}
       },
       {
             "_id": "41c5",
             "name": "Trent Forrest",
             "position": "G",
             "team": 29,
-            "price": {
-                  "1": 67.46,
-                  "2": 67.46
-            },
+            "price": {"1": 67.46},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630235.png"
       },
       {
@@ -5778,10 +4833,7 @@
             "name": "Anthony Gill",
             "position": "F",
             "team": 30,
-            "price": {
-                  "1": 57.68,
-                  "2": 57.68
-            },
+            "price": {"1": 57.68},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630264.png"
       },
       {
@@ -5789,10 +4841,7 @@
             "name": "Josh Hall",
             "position": "F",
             "team": 21,
-            "price": {
-                  "1": 26.88,
-                  "2": 26.88
-            },
+            "price": {"1": 26.88},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630221.png"
       },
       {
@@ -5800,10 +4849,7 @@
             "name": "Nate Hinton",
             "position": "G-F",
             "team": 7,
-            "price": {
-                  "1": 39.25,
-                  "2": 39.25
-            },
+            "price": {"1": 39.25},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630207.png"
       },
       {
@@ -5811,10 +4857,7 @@
             "name": "Markus Howard",
             "position": "G",
             "team": 8,
-            "price": {
-                  "1": 30.78,
-                  "2": 30.78
-            },
+            "price": {"1": 30.78},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630210.png"
       },
       {
@@ -5822,10 +4865,7 @@
             "name": "Mason Jones",
             "position": "G",
             "team": 11,
-            "price": {
-                  "1": 28.82,
-                  "2": 28.82
-            },
+            "price": {"1": 28.82},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630222.png"
       },
       {
@@ -5833,10 +4873,7 @@
             "name": "Nathan Knight",
             "position": "F-C",
             "team": 1,
-            "price": {
-                  "1": 56.9,
-                  "2": 56.9
-            },
+            "price": {"1": 56.9},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630233.png"
       },
       {
@@ -5844,10 +4881,7 @@
             "name": "Kira Lewis Jr.",
             "position": "G",
             "team": 19,
-            "price": {
-                  "1": 61.34,
-                  "2": 61.34
-            },
+            "price": {"1": 61.34},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630184.png"
       },
       {
@@ -5857,10 +4891,7 @@
             "weight": 210,
             "position": "G-F",
             "team": 3,
-            "price": {
-                  "1": 33.85,
-                  "2": 33.85
-            },
+            "price": {"1": 33.85},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627789.png"
       },
       {
@@ -5868,10 +4899,7 @@
             "name": "Will Magnay",
             "position": "C",
             "team": 19,
-            "price": {
-                  "1": 26.93,
-                  "2": 26.93
-            },
+            "price": {"1": 26.93},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630266.png"
       },
       {
@@ -5879,10 +4907,7 @@
             "name": "Karim Mane",
             "position": "G",
             "team": 22,
-            "price": {
-                  "1": 34.89,
-                  "2": 34.89
-            },
+            "price": {"1": 34.89},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630211.png"
       },
       {
@@ -5890,10 +4915,7 @@
             "name": "Naji Marshall",
             "position": "F",
             "team": 19,
-            "price": {
-                  "1": 30.79,
-                  "2": 30.79
-            },
+            "price": {"1": 30.79},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630230.png"
       },
       {
@@ -5901,40 +4923,28 @@
             "name": "Bob Martin",
             "position": "",
             "team": 13,
-            "price": {
-                  "1": 41.03,
-                  "2": 41.03
-            }
+            "price": {"1": 41.03}
       },
       {
             "_id": "41d2",
             "name": "Desmond Mason",
             "position": "G",
             "team": 21,
-            "price": {
-                  "1": 40.19,
-                  "2": 40.19
-            }
+            "price": {"1": 40.19}
       },
       {
             "_id": "41d3",
             "name": "Chris Mills",
             "position": "",
             "team": 6,
-            "price": {
-                  "1": 36.72,
-                  "2": 36.72
-            }
+            "price": {"1": 36.72}
       },
       {
             "_id": "41d4",
             "name": "Jordan Nwora",
             "position": "F",
             "team": 17,
-            "price": {
-                  "1": 34.77,
-                  "2": 34.77
-            },
+            "price": {"1": 34.77},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629670.png"
       },
       {
@@ -5942,10 +4952,7 @@
             "name": "Aleksej Pokusevski",
             "position": "C",
             "team": 21,
-            "price": {
-                  "1": 51.76,
-                  "2": 51.76
-            },
+            "price": {"1": 51.76},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630197.png"
       },
       {
@@ -5953,10 +4960,7 @@
             "name": "Jontay Porter",
             "position": "C-F",
             "team": 15,
-            "price": {
-                  "1": 32.72,
-                  "2": 32.72
-            },
+            "price": {"1": 32.72},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629007.png"
       },
       {
@@ -5964,10 +4968,7 @@
             "name": "Grant Riller",
             "position": "G",
             "team": 4,
-            "price": {
-                  "1": 48.07,
-                  "2": 48.07
-            },
+            "price": {"1": 48.07},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630203.png"
       },
       {
@@ -5975,10 +4976,7 @@
             "name": "Jay Scrubb",
             "position": "G",
             "team": 13,
-            "price": {
-                  "1": 33.82,
-                  "2": 33.82
-            },
+            "price": {"1": 33.82},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630206.png"
       },
       {
@@ -5988,10 +4986,7 @@
             "weight": 215,
             "position": "G",
             "team": 3,
-            "price": {
-                  "1": 35.08,
-                  "2": 35.08
-            },
+            "price": {"1": 35.08},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202697.png"
       },
       {
@@ -5999,10 +4994,7 @@
             "name": "Deividas Sirvydis",
             "position": "G",
             "team": 9,
-            "price": {
-                  "1": 30.21,
-                  "2": 30.21
-            },
+            "price": {"1": 30.21},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629686.png"
       },
       {
@@ -6010,10 +5002,7 @@
             "name": "Lamar Stevens",
             "position": "F",
             "team": 6,
-            "price": {
-                  "1": 52.18,
-                  "2": 52.18
-            },
+            "price": {"1": 52.18},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630205.png"
       },
       {
@@ -6021,10 +5010,7 @@
             "name": "Killian Tillie",
             "position": "F-C",
             "team": 15,
-            "price": {
-                  "1": 35.7,
-                  "2": 35.7
-            },
+            "price": {"1": 35.7},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629681.png"
       },
       {
@@ -6032,10 +5018,7 @@
             "name": "Juan Toscano-Anderson",
             "position": "F",
             "team": 10,
-            "price": {
-                  "1": 29.44,
-                  "2": 29.44
-            },
+            "price": {"1": 29.44},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629308.png"
       },
       {
@@ -6043,20 +5026,14 @@
             "name": "Anthony Tucker",
             "position": "",
             "team": 30,
-            "price": {
-                  "1": 31.66,
-                  "2": 31.66
-            }
+            "price": {"1": 31.66}
       },
       {
             "_id": "41df",
             "name": "Gabe Vincent",
             "position": "G",
             "team": 16,
-            "price": {
-                  "1": 32.06,
-                  "2": 32.06
-            },
+            "price": {"1": 32.06},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629216.png"
       },
       {
@@ -6066,10 +5043,7 @@
             "weight": 245,
             "position": "C",
             "team": 30,
-            "price": {
-                  "1": 32.2,
-                  "2": 32.2
-            },
+            "price": {"1": 32.2},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629021.png"
       },
       {
@@ -6077,10 +5051,7 @@
             "name": "Paul Watson",
             "position": "G",
             "team": 28,
-            "price": {
-                  "1": 38.93,
-                  "2": 38.93
-            },
+            "price": {"1": 38.93},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628778.png"
       },
       {
@@ -6088,10 +5059,7 @@
             "name": "Greg Whittington",
             "position": "F",
             "team": 8,
-            "price": {
-                  "1": 62.35,
-                  "2": 62.35
-            },
+            "price": {"1": 62.35},
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204222.png"
       },
       {
@@ -6099,9 +5067,6 @@
             "name": "Herb Williams",
             "position": "",
             "team": 7,
-            "price": {
-                  "1": 62.01,
-                  "2": 62.01
-            }
+            "price": {"1": 62.01}
       }
 ]

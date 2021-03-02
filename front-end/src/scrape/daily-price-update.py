@@ -55,8 +55,8 @@ x = [{"name": i["player"], "add": dictionary[i["key"]]} for i in leaders]
 for item in x:
     for player in players:
         if unidecode.unidecode(player["name"]).replace(' Jr.','') == item["name"]:
-            player["last_price"] = player["price"]
-            player["price"] = player["price"] + item["add"]
+            player["price"] = {1: player["last_price"], 2: player["last_price"] + item["add"]}
+            del player["last_price"]
 
 print(players)
 
