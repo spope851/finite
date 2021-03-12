@@ -51,7 +51,7 @@ export const App:React.FC = () => {
           {players.length
             ? <div className="row">
                 {players.map((player:IPlayer) =>
-                  <div className={'col-sm-4'}>
+                  <div className={'col-sm-4'} key={player._id}>
                     <Player 
                       _id={player._id} 
                       height={player.height && player.height}
@@ -59,10 +59,8 @@ export const App:React.FC = () => {
                       position={player.position && player.position}
                       team={player.team}
                       price={player.price}
-                      last_price={player.last_price && player.last_price}
                       teamName={(teams && teams[player.team - 1].full_name)}
                       name={player.name} 
-                      key={player._id}
                       image={player.image && player.image}/>
                   </div>)}
               </div>

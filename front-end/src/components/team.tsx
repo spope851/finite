@@ -60,16 +60,19 @@ export const Team:React.FC<OwnProps> = (props) => {
         <h2>Players</h2>
         <div className="row">
           {response && response.players.map((player:IPlayer) => 
-            <Player 
-              _id={player._id} 
-              height={player.height && player.height}
-              weight={player.weight && player.weight}
-              position={player.position}
-              team={player.team}
-              teamName={(response && response.full_name) || ''}
-              price={player.price}
-              name={player.name} 
-              key={player._id}/>
+            <div className={'col-sm-4'}>
+              <Player 
+                _id={player._id} 
+                height={player.height && player.height}
+                weight={player.weight && player.weight}
+                position={player.position}
+                team={player.team}
+                teamName={(response && response.full_name) || ''}
+                price={player.price}
+                name={player.name} 
+                image={player.image} 
+                key={player._id}/>
+            </div>
           )}
         </div>
       </div>

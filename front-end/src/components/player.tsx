@@ -13,8 +13,7 @@ export interface IPlayer {
     weight?:number
     position?:string
     team:number
-    price:number
-    last_price?:number
+    price:{[key:string]: number}
     image?:string
 }
 
@@ -22,7 +21,7 @@ interface OwnProps extends IPlayer {
   teamName?:string
 }
 
-export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position, team, teamName, price, last_price, image }) => {
+export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position, team, teamName, price, image }) => {
   
   const [playerDetails, setDetails] = useState<boolean>(false)
   const [trade, setTrade] = useState<boolean>(false)
@@ -46,14 +45,18 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
     id: _id,
     name: name
   }
+  
+  const WEEKS =  Object.keys(price)
+  const WEEK = WEEKS[WEEKS.length - 1]
+  const PREV_WEEK = WEEKS[WEEKS.length - 2]
 
-  const PRICE_CHANGE = last_price ? Math.abs(price - last_price).toFixed(2) : ''
+  const PRICE_CHANGE = Math.abs(price[WEEK] - price[PREV_WEEK]).toFixed(2)
   const DEFAULT_IMAGE = 'https://i.pinimg.com/474x/7e/00/1d/7e001dc786dcb43a48347d35543bbed9.jpg'
   
   return (
     <div  className={`card w-100 my-1
-      ${last_price && price > last_price ? 'border-success' : 
-        last_price && price < last_price ? 'border-danger' : ''}`}>
+      ${price[WEEK] > price[PREV_WEEK] ? 'border-success' : 
+        price[WEEK] < price[PREV_WEEK] ? 'border-danger' : ''}`}>
       <div className={`card-header pb-0`}>
         <img id={_id} height="100px" src={image ? image : DEFAULT_IMAGE}
            onError={() => document.getElementById(_id)?.setAttribute('src', DEFAULT_IMAGE) }/>
@@ -85,13 +88,13 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
             </BuySellForm>}
       </div>
       <div className="card-body pt-3 pb-0">
-        <Price onClick={e => toggleTrade(price)}>
-          <span className={'price'}>{`$${price.toFixed(2)}`}</span>
+        <Price onClick={e => toggleTrade(price[WEEK.toString()])}>
+          <span className={'price'}>{`$${price[WEEK.toString()].toFixed(2)}`}</span>
           <span className={`
-            ${last_price && price > last_price ? 'text-success' : 
-              last_price && price < last_price ? 'text-danger' : ''}`}>
-              {` ${last_price && price > last_price ? `(+$${PRICE_CHANGE})` : 
-                    last_price && price < last_price ? `(-$${PRICE_CHANGE})` : ''}`}
+            ${price[WEEK] > price[PREV_WEEK] ? 'text-success' : 
+              price[WEEK] < price[PREV_WEEK] ? 'text-danger' : ''}`}>
+              {` ${price[WEEK] > price[PREV_WEEK] ? `(+$${PRICE_CHANGE})` : 
+                   price[WEEK] < price[PREV_WEEK] ? `(-$${PRICE_CHANGE})` : ''}`}
           </span>
         </Price>
         {playerDetails && (
@@ -101,8 +104,7 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
             weight={weight && weight}
             teamId={team} 
             teamName={teamName || ''}
-            price={price}
-            last_price={last_price && last_price}/>)}
+            price={price}/>)}
       </div>
     </div>
   )

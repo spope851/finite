@@ -165,10 +165,9 @@ export const Account:React.FC = () => {
                       weight={position.player.weight} 
                       position={position.player.position} 
                       price={position.player.price} 
-                      last_price={position.player.last_price} 
                       team={position.player.team}
                       name={`${position.player.name} (${position.quantity})
-                        $${(position.player.price * position.quantity).toFixed(2)}`} 
+                        $${(position.player.price[Object.keys(position.player.price)[Object.keys(position.player.price).length - 1]] * position.quantity).toFixed(2)}`} 
                       key={position.player._id}
                       teamName={position.team.full_name}
                       image={position.player.image && position.player.image}/>

@@ -2,12 +2,12 @@ require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
 const MongoClient = require('mongodb').MongoClient
-let ObjectId = require('mongodb').ObjectId
+const ObjectId = require('mongodb').ObjectId
 const app = express()
 
 const port = process.env.PORT || 3001;
 const HOST = process.env.MODE === 'dev' ? process.env.HOST_DEV : process.env.HOST_PROD
-const MONGO_URL = `mongodb://admin:password@${HOST}:27017`
+const MONGO_URL = `mongodb://myUserAdmin:password@${HOST}:27017`
 const MONGO_OPTIONS = { useUnifiedTopology: true, authSource: 'admin' }
 const FINITE_DB = 'finite'
 const USER_TABLE = 'users'
@@ -175,7 +175,7 @@ async function signup(client,body) {
 
 async function trade(client,body) {
   await client.db(FINITE_DB).collection(TRADE_TABLE).insertOne({
-    "user_id": ObjectId(body.user_id),
+    "user_id": new ObjectId(body.user_id),
     "buy": body.buy,
     "timestamp": body.timestamp,
     "player_id": body.player_id,
@@ -186,7 +186,7 @@ async function trade(client,body) {
 
 async function newPosition(client,body) {
   await client.db(FINITE_DB).collection(POSITION_TABLE).insertOne({
-    "user_id": ObjectId(body.user_id),
+    "user_id": new ObjectId(body.user_id),
     "player_id": body.player_id,
     "quantity": body.quantity,
   })
