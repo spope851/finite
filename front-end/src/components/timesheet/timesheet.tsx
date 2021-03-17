@@ -11,12 +11,20 @@ export interface clock {
 
 const Goal = styled.div`
 && {
-  width: 120px;
+  width: 175px;
 }`
 
 const GoalTable = styled.table`
 && {
   width: 500px;
+}`
+
+const TimeTable = styled.div`
+&& {
+  display: block;
+  position: relative;
+  max-height: 650px;
+  overflow: auto;
 }`
 
 export const Timesheet: React.FC<clock[]> = () => {
@@ -57,13 +65,13 @@ export const Timesheet: React.FC<clock[]> = () => {
       }
     }
   })
-  
+
   return (
     <>
       <div className="d-flex align-items-center justify-content-center p-3">
         <Goal className="input-group m-3">
           <div className="input-group-prepend">
-            <span className="input-group-text">Goal</span>
+            <span className="input-group-text">Goal (hours)</span>
           </div>
           <input 
             className="form-control"
@@ -79,48 +87,47 @@ export const Timesheet: React.FC<clock[]> = () => {
               <th>Weekend</th>
             </tr>
             <tr>
-              <td className={`table-${TIME_THIS_WEEK > goal ? "success" : "danger"}`}>{TIME_THIS_WEEK}</td>
-              <td className={`table-${TIME_THIS_WEEK_END > goal ? "success" : "danger"}`}>{TIME_THIS_WEEK_END}</td>
+              <td className={`table-${TIME_THIS_WEEK > goal ? "success" : "danger"}`}>{TIME_THIS_WEEK.toFixed(2)}</td>
+              <td className={`table-${TIME_THIS_WEEK_END > goal ? "success" : "danger"}`}>{TIME_THIS_WEEK_END.toFixed(2)}</td>
             </tr>
           </thead>
         </GoalTable>
+        {data[0].out
+          ? <button 
+              className="btn btn-outline-primary m-3" 
+              type="button"
+              onClick={clockIn}>Clock In</button>
+          : <button
+              tabIndex={6}
+              className="btn btn-outline-primary m-3" 
+              type="button"
+              onClick={clockOut}>Clock Out</button>}
       </div>
-      <table className="table">
-        <thead className="thead-light">
-          <tr>
-            <th>Date</th>
-            <th>IN</th>
-            <th>OUT</th>
-            <th>Duration</th>
-            <th>Accomplished</th>
-          </tr>
-        </thead>
-        {data.map((time: clock) => {
-          return (
-            <tr key={time.accomplished}>
-              <td>{`${new Date(time.in).getMonth() + 1}/${new Date(time.in).getUTCDate()}/${new Date(time.in).getFullYear()}`}</td>
-              <td>{`${new Date(time.in).getHours()}:${new Date(time.in).getUTCMinutes() < 10 ? 0 : ''}${new Date(time.in).getUTCMinutes()}`}</td>
-              {time.out && <td>{`${new Date(time.out).getHours()}:${new Date(time.out).getUTCMinutes() < 10 ? 0 : ''}${new Date(time.out).getUTCMinutes()}`}</td>}
-              {time.out && <td>{`${duration(time.in, time.out)}`}</td>}
-              {time.accomplished && <td>{time.accomplished}</td>}
+      {data[0].out ? '' : <div className="mx-3 mb-4"><textarea tabIndex={5} className='form-control' placeholder='What did we accomplish?' onChange={e => setAccomplished(e.target.value)} /></div> }
+      <TimeTable>
+        <table className="table">
+          <thead className="thead-light">
+            <tr>
+              <th>Date</th>
+              <th>IN</th>
+              <th>OUT</th>
+              <th>Duration</th>
+              <th>Accomplished</th>
             </tr>
-          )
-        })}
-      </table>
-      {data[data.length - 1].out
-       ? <button 
-          className="btn btn-outline-primary my-2 my-sm-0" 
-          type="button"
-          onClick={clockIn}>Clock In</button>
-       : <form
-          onSubmit={clockOut}
-          className="form my-2 my-lg-0 px-5" >
-            <textarea className='form-control' placeholder='What did we accomplish?' onChange={e => setAccomplished(e.target.value)} /><br />
-            <button 
-              className="btn btn-outline-primary my-2 my-sm-0" 
-              type="submit">Clock Out</button>
-          </form>
-       }
+          </thead>
+          {data.map((time: clock) => {
+            return (
+              <tr key={time.accomplished}>
+                <td>{`${new Date(time.in).getMonth() + 1}/${new Date(time.in).getUTCDate()}/${new Date(time.in).getFullYear()}`}</td>
+                <td>{`${new Date(time.in).getHours()}:${new Date(time.in).getUTCMinutes() < 10 ? 0 : ''}${new Date(time.in).getUTCMinutes()}`}</td>
+                {time.out && <td>{`${new Date(time.out).getHours()}:${new Date(time.out).getUTCMinutes() < 10 ? 0 : ''}${new Date(time.out).getUTCMinutes()}`}</td>}
+                {time.out && <td>{`${duration(time.in, time.out)}`}</td>}
+                {time.accomplished && <td>{time.accomplished}</td>}
+              </tr>
+            )
+          })}
+        </table>
+      </TimeTable>
     </>
   )
 }

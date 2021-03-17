@@ -357,27 +357,21 @@ app.post(TIMESHEET, (req, res) => {
 
   if (req.body.clock_in) {
     fs.readFile(file, (err, data) => {
-      if (err) {
-          console.log('Error writing file', err)
-      } else {
-          console.log('Successfully wrote file')
-      }
+      if (err) throw err
+      else res.send('nice')
       let content = data.toString()
-      const sub = content.substring(0, content.length - 1)
-      const buf = new Buffer.from(sub + ',' + JSON.stringify(req.body.clock_in) + ']')
+      const sub = content.substring(1, content.length)
+      const buf = new Buffer.from('[' + JSON.stringify(req.body.clock_in) + ',' + sub)
       const fd = fs.openSync(file,'r+')
       fs.writeSync(fd, buf, 0)
     })
   } else {
     fs.readFile(file, (err, data) => {
-      if (err) {
-          console.log('Error writing file', err)
-      } else {
-          console.log('Successfully wrote file')
-      }
+      if (err) throw err
+      else res.send('nice')
       let content = data.toString()
-      const sub = content.substring(0, content.length - 2);
-      const buf = new Buffer.from(sub + ', "out":' + JSON.stringify(req.body.clock_out.out) + ',"accomplished":' + JSON.stringify(req.body.clock_out.accomplished) + '}]')
+      const sub = content.substring(2, content.length);
+      const buf = new Buffer.from('[{"out":' + JSON.stringify(req.body.clock_out.out) + ',"accomplished":' + JSON.stringify(req.body.clock_out.accomplished) + ',' + sub)
       const fd = fs.openSync(file,'r+')
       fs.writeSync(fd, buf, 0)
     })
