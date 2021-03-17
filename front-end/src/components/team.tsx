@@ -38,7 +38,6 @@ export const Team:React.FC<OwnProps> = (props) => {
         "team":id
       }
     })
-    console.log(data)
     data.data[0] && 
     setResponse(data.data[0])
   }
@@ -60,7 +59,7 @@ export const Team:React.FC<OwnProps> = (props) => {
         <h2>Players</h2>
         <div className="row">
           {response && response.players.map((player:IPlayer) => 
-            <div className={'col-sm-4'}>
+            <div className={'col-sm-4'} key={player._id}>
               <Player 
                 _id={player._id} 
                 height={player.height && player.height}
@@ -71,7 +70,7 @@ export const Team:React.FC<OwnProps> = (props) => {
                 price={player.price}
                 name={player.name} 
                 image={player.image} 
-                key={player._id}/>
+              />
             </div>
           )}
         </div>

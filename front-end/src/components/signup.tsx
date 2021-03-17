@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { UserProps } from './user';
-import { Redirect } from 'react-router-dom'
 
 let axios = require('axios');
 
@@ -8,7 +7,6 @@ const MONGO_EXPRESS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost
 
 export const Signup:React.FC = () => {
   const [unavailable, setUnavailable] = useState<boolean>(false)
-  const [loggedIn, setLoggedIn] = useState<boolean>(false)
   const [presentUser, setPresentUser] = useState<string>()
   const [presentUPW, setPresentUPW] = useState<string>()
   
@@ -34,7 +32,6 @@ export const Signup:React.FC = () => {
         "cash": '0',
         "stockValue": '0'
         })
-    setLoggedIn(true)
   }
 
   const usernameEntered = (val:string) => {
@@ -43,27 +40,28 @@ export const Signup:React.FC = () => {
   }
 
     return (
-      <div>
-        {loggedIn && <Redirect from={'/login'} to={'/app'} /> }
-        <h2>Sign Up:</h2>
+      <form className="form-inline m-2 justify-content-center mt-5" onSubmit={() => presentUser && presentUPW && storeUser(presentUser, presentUPW)}>
+        <h2 className="mr-2">Sign Up:</h2>
         <br />
-        <input 
+        <input
+          className="form-control mr-sm-2"
+          aria-label="Username"
           type="text" 
           placeholder="Username" 
           onChange={e => usernameEntered(e.target.value)}  
         />
         <input
+          className="form-control mr-sm-2"
+          aria-label="Password" 
           type="password" 
           placeholder="Password" 
           onChange={e => setPresentUPW(e.target.value)} 
         />
-        <input 
-          onClick={() => presentUser && presentUPW && storeUser(presentUser, presentUPW)} 
-          type="button" 
-          value="Create Account"
-          disabled={!presentUser || !presentUPW || unavailable}
-        />
-        {unavailable && <p style={{color:'red'}}>{`This username is taken :( Please try another`}</p>}
-      </div>
+        <button
+          className="btn btn-outline-primary my-2 my-sm-0" 
+          type="submit"
+          disabled={!presentUser || !presentUPW || unavailable}>Create Account</button>
+        {unavailable && <span className="text-danger ml-1">{`This username is taken :( Please try another`}</span>}
+      </form>
     )
 }

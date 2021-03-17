@@ -107,7 +107,6 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
         alert(`${buy ? 'Bought' : 'Sold'} ${quantity} shares of ${player.name} at $${price.toFixed(2)} for $${(price * quantity).toFixed(2)}`)
         storeTrade()
     }
-console.log(position);
 
     return (
         <StyledButton 

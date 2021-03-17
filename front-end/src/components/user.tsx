@@ -19,35 +19,33 @@ interface OwnProps {
 export const User:React.FC<OwnProps> = (props) => {
 
   const { user, noUsers } = props
+  
+  const value = user ? `$${user && ((Number(user.cash) + Number(user.stockValue)).toFixed(2) || 0)}` : ''
 
   const message =
-    `Logged in as:  
-    ${user
+    `${user
       ? user.username 
-      : 'Guest'}, Welcome!`
+      : 'Guest'}: `
 
-  const value = `Account Value: $${user && ((Number(user.cash) + Number(user.stockValue)).toFixed(2) || 0)}`
 
   return (
     <>
       <Card className="card text-dark">
-          {message} 
-          {user 
-           ? ''
-           : <span>Click <a href='/login'>here</a> to sign up for an account</span>}
+          <span>
+            {message} 
+            {user 
+            ? ''
+            : <span>Click <a href='/login'>here</a> to sign up for an account</span>}
+            <span className={`text-success`}>{value}</span>
+           </span>
       </Card>
-      <br />
       {noUsers && <button onClick={populateUsers}>No users in DB. Click here to add some for testing</button>}
-      {user &&
-        <Card className="card text-dark">
-          {value} 
-        </Card>}
     </>
   )
 }
 
 const Card = styled.div`
 & {
-  margin-top: 20px;
+  margin: 10px;
   padding: 10px;
 }`

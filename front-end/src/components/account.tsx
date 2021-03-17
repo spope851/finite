@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Gear } from '../assets/gear';
 import { Position } from './buttons/trade-button';
 import { IPlayer, Player } from './player';
+import { Signup } from './signup';
 import { ITeam } from './team';
 import { UserProps } from './user';
 
@@ -113,17 +114,23 @@ export const Account:React.FC = () => {
                       <td>
                         <button 
                           disabled={disabled} 
-                          className="nav-link" 
+                          className="btn btn-outline-primary my-2 my-sm-0" 
                           onClick={()=> {
                             setChangepw(true)
                             setDisabled(true)
                           }}>Change Password</button>
                       </td>
                       <td>
-                        <button disabled={disabled} className="nav-link" onClick={deleteAccount}>Delete Account</button>
+                        <button 
+                          className="btn btn-outline-primary my-2 my-sm-0"
+                          disabled={disabled}
+                          onClick={deleteAccount}>Delete Account</button>
                       </td>
                       <td>
-                        <button disabled={disabled} className="nav-link" onClick={logout}>Logout</button>
+                        <button
+                          disabled={disabled}
+                          className="btn btn-outline-primary my-2 my-sm-0"
+                          onClick={logout}>Logout</button>
                       </td>
                     </tr>
                   </tbody>  
@@ -158,7 +165,7 @@ export const Account:React.FC = () => {
               <Divider />
               <div className="row justify-content-around">
                 {positions && positions.map((position:AccountPosition) =>
-                  <div className={'mw-33 px-2'}>
+                  <div className={'mw-33 px-2'} key={position.player._id}>
                     <Player 
                       _id={position.player._id} 
                       height={position.player.height} 
@@ -166,16 +173,17 @@ export const Account:React.FC = () => {
                       position={position.player.position} 
                       price={position.player.price} 
                       team={position.player.team}
-                      name={`${position.player.name} (${position.quantity})
-                        $${(position.player.price[Object.keys(position.player.price)[Object.keys(position.player.price).length - 1]] * position.quantity).toFixed(2)}`} 
-                      key={position.player._id}
+                      name={position.player.name}
                       teamName={position.team.full_name}
-                      image={position.player.image && position.player.image}/>
+                      image={position.player.image && position.player.image}
+                      value={`(${position.quantity})
+                        $${(position.player.price[Object.keys(position.player.price)[Object.keys(position.player.price).length - 1]] * position.quantity).toFixed(2)}`}
+                    />
                   </div>)}
               </div>
             </AccountInfo>
           </>
-        : <a href={'/login'}>Login</a>
+        : <Signup />
       }
     </>
   )

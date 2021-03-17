@@ -17,8 +17,6 @@ export const UserContextProvider = (props:any) => {
         })
     },[users])
 
-    console.log(users);
-    
     return (
         <>
             {users && (

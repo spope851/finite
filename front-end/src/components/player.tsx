@@ -1,9 +1,9 @@
-import * as React from 'react';
-import { useState } from 'react';
-import { useEffect } from 'react';
-import styled from 'styled-components';
-import { ChangingChevron } from '../assets/changing-chevron';
-import { TradeButton } from './buttons/trade-button';
+import * as React from 'react'
+import { useState } from 'react'
+import { useEffect } from 'react'
+import styled from 'styled-components'
+import { ChangingChevron } from '../assets/changing-chevron'
+import { TradeButton } from './buttons/trade-button'
 import { PlayerDetails } from './playerDetails'
 
 export interface IPlayer {
@@ -15,13 +15,14 @@ export interface IPlayer {
     team:number
     price:{[key:string]: number}
     image?:string
+    value?:string
 }
 
 interface OwnProps extends IPlayer {
   teamName?:string
 }
 
-export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position, team, teamName, price, image }) => {
+export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position, team, teamName, price, image, value }) => {
   
   const [playerDetails, setDetails] = useState<boolean>(false)
   const [trade, setTrade] = useState<boolean>(false)
@@ -58,8 +59,9 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
       ${price[WEEK] > price[PREV_WEEK] ? 'border-success' : 
         price[WEEK] < price[PREV_WEEK] ? 'border-danger' : ''}`}>
       <div className={`card-header pb-0`}>
+        <p>{value}</p>
         <img id={_id} height="100px" src={image ? image : DEFAULT_IMAGE}
-           onError={() => document.getElementById(_id)?.setAttribute('src', DEFAULT_IMAGE) }/>
+           onError={() => document.getElementById(_id)?.setAttribute('src', DEFAULT_IMAGE) } alt={name} />
         <p>
           {name} 
           <span>
@@ -82,13 +84,13 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
               <br />
               <QuantityInput 
                 type={"number"}
-                onChange={e => setQuantity(e.target.value)}
+                onChange={(e: { target: { value: string } }) => setQuantity(e.target.value)}
                 placeholder={'How many?'}
                 min={1}/>
             </BuySellForm>}
       </div>
       <div className="card-body pt-3 pb-0">
-        <Price onClick={e => toggleTrade(price[WEEK.toString()])}>
+        <Price onClick={() => toggleTrade(price[WEEK.toString()])}>
           <span className={'price'}>{`$${price[WEEK.toString()].toFixed(2)}`}</span>
           <span className={`
             ${price[WEEK] > price[PREV_WEEK] ? 'text-success' : 

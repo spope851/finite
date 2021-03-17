@@ -7,7 +7,7 @@ const app = express()
 
 const port = process.env.PORT || 3001;
 const HOST = process.env.MODE === 'dev' ? process.env.HOST_DEV : process.env.HOST_PROD
-const MONGO_URL = `mongodb://myUserAdmin:password@${HOST}:27017`
+const MONGO_URL = `mongodb://spope:password@${HOST}:27017`
 const MONGO_OPTIONS = { useUnifiedTopology: true, authSource: 'admin' }
 const FINITE_DB = 'finite'
 const USER_TABLE = 'users'
@@ -45,7 +45,7 @@ async function getTeams(response,client,id) {
   response.send(responses)
 }
 
-async function getPlayers(response,client,team) {
+async function getPlayers(response,client,team,term) {
   let responses = []
   let cursor = 
     team
@@ -60,7 +60,7 @@ async function getPlayers(response,client,team) {
           }
         }
       ])
-      : client.db(FINITE_DB).collection(PLAYER_TABLE).find()
+      : client.db(FINITE_DB).collection(PLAYER_TABLE).find({"name": new RegExp(term, "i")})
   
   await cursor.forEach( el => {
     responses.push(el)
@@ -254,13 +254,13 @@ app.get(TEAM_ENDPOINT, (req, res) => {
 })
 
 app.get(PLAYER_ENDPOINT, (req, res) => {
-  console.log('GET player(s)  ',`team:${req.headers.team}`)
+  console.log('GET player(s)  ',`team:${req.headers.team}`,`term:${req.headers.term}`)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
-    if (req.headers.team){
+    if (req.headers.team) {
       getPlayers(res, client, req.headers.team)
     } else {
-      getPlayers(res, client)
+      getPlayers(res, client, undefined, req.headers.term)
     }
   })
 })
@@ -301,6 +301,14 @@ app.put(USER_ENDPOINT, (req, res) => {
 })
 
 app.put(PLAYER_ENDPOINT, (req, res) => {
+  console.log('PUT   ',req.body)  
+  MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
+    if (err) throw err
+    if (req.body.function === 'populate'){populate(client, req.body)}
+  })
+})
+
+app.put(TEAM_ENDPOINT, (req, res) => {
   console.log('PUT   ',req.body)  
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err
