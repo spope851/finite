@@ -4,6 +4,7 @@ const bodyParser = require('body-parser')
 const MongoClient = require('mongodb').MongoClient
 const ObjectId = require('mongodb').ObjectId
 const app = express()
+const fs = require('fs')
 
 const port = process.env.PORT || 3001;
 const HOST = process.env.MODE === 'dev' ? process.env.HOST_DEV : process.env.HOST_PROD
@@ -15,6 +16,7 @@ const TEAMS_TABLE = 'teams'
 const TRADE_TABLE = 'trades'
 const PLAYER_TABLE = 'players'
 const POSITION_TABLE = 'positions'
+const TIMESHEET = '/time'
 const USER_ENDPOINT = '/api/users'
 const TEAM_ENDPOINT = '/api/teams'
 const TRADE_ENDPOINT = '/api/trades'
@@ -346,6 +348,40 @@ app.post(POSITION_ENDPOINT, (req, res) => {
     if (err) throw err  
     newPosition(client, req.body)      
   })
+})
+
+app.post(TIMESHEET, (req, res) => {
+  console.log('POST  ',req.body)
+
+  const file = '../../front-end/src/components/timesheet/timesheet.json'
+
+  if (req.body.clock_in) {
+    fs.readFile(file, (err, data) => {
+      if (err) {
+          console.log('Error writing file', err)
+      } else {
+          console.log('Successfully wrote file')
+      }
+      let content = data.toString()
+      const sub = content.substring(0, content.length - 1)
+      const buf = new Buffer.from(sub + ',' + JSON.stringify(req.body.clock_in) + ']')
+      const fd = fs.openSync(file,'r+')
+      fs.writeSync(fd, buf, 0)
+    })
+  } else {
+    fs.readFile(file, (err, data) => {
+      if (err) {
+          console.log('Error writing file', err)
+      } else {
+          console.log('Successfully wrote file')
+      }
+      let content = data.toString()
+      const sub = content.substring(0, content.length - 2);
+      const buf = new Buffer.from(sub + ', "out":' + JSON.stringify(req.body.clock_out.out) + ',"accomplished":' + JSON.stringify(req.body.clock_out.accomplished) + '}]')
+      const fd = fs.openSync(file,'r+')
+      fs.writeSync(fd, buf, 0)
+    })
+  }
 })
 
 app.delete(USER_ENDPOINT, (req, res) => {
