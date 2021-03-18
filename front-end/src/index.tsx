@@ -17,6 +17,7 @@ import { Login } from './components/login'
 import { onThatTab } from './functions/on-that-tab'
 import { FixedHeader } from './components/wrappers/header'
 import { App } from './App';
+import { Timesheet } from './components/timesheet/timesheet';
 
 export const Index:React.FC = () => {
   
@@ -89,6 +90,9 @@ ReactDOM.render(
           <Route path="/app" component={App} />
           <Switch>
               <Route path="/teams/:id" component={TeamRoutes} />
+          </Switch>
+          <Switch>
+              <Route exact path="/time" component={Timesheet} />
           </Switch>
       </Router>
     </div>,
