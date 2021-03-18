@@ -1,55 +1,80 @@
 import React, { useEffect, useState } from 'react';
-import { Player } from './player'
+import { Player, IPlayer } from './player'
+
+let axios = require('axios');
 
 interface OwnProps {
-  
+  id:string
+}
+
+export interface ITeam {
+    _id:string
+    id:number
+    abbreviation:string
+    city:string
+    conference:string
+    division:string
+    full_name:string
+    name:string
+}
+
+interface TeamProfile extends ITeam {
+  players:IPlayer[]
 }
 
 export const Team:React.FC<OwnProps> = (props) => {
   
-  let teamID = window.location.pathname.replace('/teams/','')
+  const { id } = props
   
-  const [allPlayers, setAllPlayers] = useState<any[]>()
-    
+  const [response, setResponse] = useState<TeamProfile>()
+      
   useEffect(() => {
-    fetchUser()
+      fetchPlayers()
   },[])
   
-  const fetchUser = async () => {
-    const data = await fetch(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`)
-    const jsnData = await data.json()
-    setAllPlayers(jsnData)
+  const fetchPlayers = async () => {
+    const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`, {
+      headers: {
+        "team":id
+      }
+    })
+    data.data[0] && 
+    setResponse(data.data[0])
   }
-  
-  let players:any[] = []
-  
-  allPlayers && allPlayers.forEach((player, i) => {
-    if(player.data[0].team.id.toString() === teamID){
-      players.push(i)
-    }
-  })
-  
+
   return (
     <div className="card col-12">
-      <div className="card-header">{allPlayers && allPlayers[players[0]].data[0].team.name}</div>
+      <div className="card-header">{response && response.name}</div>
       <div className="card-body">
         <table className="table">
           <tbody>
             <tr>
-              <td>{allPlayers && 'City: '+allPlayers[players[0]].data[0].team.city}</td>
-              <td>{allPlayers && 'Conference: '+allPlayers[players[0]].data[0].team.conference}</td>
-              <td>{allPlayers && 'Division: '+allPlayers[players[0]].data[0].team.division}</td>
+              <td>{response && 'City: '+response.city}</td>
+              <td>{response && 'Conference: '+response.conference}</td>
+              <td>{response && 'Division: '+response.division}</td>
             </tr>
           </tbody>
         </table>
         <br />
         <h2>Players</h2>
         <div className="row">
-          {players.map((el, i) => 
-            <Player details={allPlayers && allPlayers[el].data[0]} name={allPlayers && allPlayers[el].data[0].first_name+' '+allPlayers[el].data[0].last_name} key={i}/>
+          {response && response.players.map((player:IPlayer) => 
+            <div className={'col-sm-4'} key={player._id}>
+              <Player 
+                _id={player._id} 
+                height={player.height && player.height}
+                weight={player.weight && player.weight}
+                position={player.position}
+                team={player.team}
+                teamName={(response && response.full_name) || ''}
+                price={player.price}
+                name={player.name} 
+                image={player.image} 
+              />
+            </div>
           )}
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,0 +1,5072 @@
+[
+      {
+            "_id": "3ff1",
+            "name": "Giannis Antetokounmpo",
+            "height": "6'11",
+            "weight": 242,
+            "position": "F",
+            "team": 17,
+            "price": {
+                  "1": 100,
+                  "2": 118.5
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203507.png"
+      },
+      {
+            "_id": "3ff2",
+            "name": "Stephen Curry",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 10,
+            "price": {
+                  "1": 99.71,
+                  "2": 115.06
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201939.png"
+      },
+      {
+            "_id": "3ff3",
+            "name": "Kawhi Leonard",
+            "height": "6'7",
+            "weight": 230,
+            "position": "F",
+            "team": 13,
+            "price": {
+                  "1": 99.43,
+                  "2": 108.88000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202695.png"
+      },
+      {
+            "_id": "3ff4",
+            "name": "James Harden",
+            "height": "6'5",
+            "weight": 220,
+            "position": "G",
+            "team": 3,
+            "price": {
+                  "1": 99.14,
+                  "2": 107.34
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201935.png"
+      },
+      {
+            "_id": "3ff5",
+            "name": "LeBron James",
+            "height": "6'8",
+            "weight": 250,
+            "position": "F",
+            "team": 14,
+            "price": {
+                  "1": 98.86,
+                  "2": 114.36
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2544.png"
+      },
+      {
+            "_id": "3ff6",
+            "name": "Anthony Davis",
+            "height": "6'10",
+            "weight": 253,
+            "position": "F-C",
+            "team": 14,
+            "price": {
+                  "1": 98.57,
+                  "2": 106.32
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203076.png"
+      },
+      {
+            "_id": "3ff7",
+            "name": "Kevin Durant",
+            "height": "6'9",
+            "weight": 240,
+            "position": "F",
+            "team": 3,
+            "price": {
+                  "1": 98.29,
+                  "2": 100.89
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201142.png"
+      },
+      {
+            "_id": "3ff8",
+            "name": "Nikola Jokic",
+            "height": "7'0",
+            "weight": 250,
+            "position": "C",
+            "team": 8,
+            "price": {
+                  "1": 98,
+                  "2": 120.15
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203999.png"
+      },
+      {
+            "_id": "3ff9",
+            "name": "Joel Embiid",
+            "height": "7'0",
+            "weight": 250,
+            "position": "F-C",
+            "team": 23,
+            "price": {
+                  "1": 97.71,
+                  "2": 112.31
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203954.png"
+      },
+      {
+            "_id": "3ffa",
+            "name": "Damian Lillard",
+            "height": "6'3",
+            "weight": 195,
+            "position": "G",
+            "team": 25,
+            "price": {
+                  "1": 97.43,
+                  "2": 113.13000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203081.png"
+      },
+      {
+            "_id": "3ffb",
+            "name": "Paul George",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 13,
+            "price": {
+                  "1": 97.14,
+                  "2": 101.09
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202331.png"
+      },
+      {
+            "_id": "3ffc",
+            "name": "Karl-Anthony Towns",
+            "height": "7'0",
+            "weight": 248,
+            "position": "C",
+            "team": 18,
+            "price": {"1": 96.86},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626157.png"
+      },
+      {
+            "_id": "3ffd",
+            "name": "Jimmy Butler",
+            "height": "6'8",
+            "weight": 232,
+            "position": "G-F",
+            "team": 16,
+            "price": {"1": 96.57},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202710.png"
+      },
+      {
+            "_id": "3ffe",
+            "name": "Rudy Gobert",
+            "height": "7'1",
+            "weight": 245,
+            "position": "C",
+            "team": 29,
+            "price": {
+                  "1": 96.29,
+                  "2": 110.44
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203497.png"
+      },
+      {
+            "_id": "3fff",
+            "name": "Blake Griffin",
+            "height": "6'10",
+            "weight": 250,
+            "position": "F",
+            "team": 9,
+            "price": {"1": 96},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201933.png"
+      },
+      {
+            "_id": "4000",
+            "name": "Ben Simmons",
+            "height": "6'10",
+            "weight": 230,
+            "position": "G-F",
+            "team": 23,
+            "price": {
+                  "1": 95.71,
+                  "2": 101.85999999999999
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627732.png"
+      },
+      {
+            "_id": "4001",
+            "name": "Kyrie Irving",
+            "height": "6'3",
+            "weight": 193,
+            "position": "G",
+            "team": 3,
+            "price": {
+                  "1": 95.43,
+                  "2": 97.83000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202681.png"
+      },
+      {
+            "_id": "4002",
+            "name": "Russell Westbrook",
+            "height": "6'3",
+            "weight": 200,
+            "position": "G",
+            "team": 30,
+            "price": {
+                  "1": 95.14,
+                  "2": 98.09
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201566.png"
+      },
+      {
+            "_id": "4003",
+            "name": "Bradley Beal",
+            "height": "6'5",
+            "weight": 207,
+            "position": "G",
+            "team": 30,
+            "price": {
+                  "1": 94.86,
+                  "2": 105.16
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203078.png"
+      },
+      {
+            "_id": "4004",
+            "name": "Kemba Walker",
+            "height": "6'1",
+            "weight": 184,
+            "position": "G",
+            "team": 2,
+            "price": {"1": 94.57},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202689.png"
+      },
+      {
+            "_id": "4005",
+            "name": "Klay Thompson",
+            "height": "6'7",
+            "weight": 215,
+            "position": "G",
+            "team": 10,
+            "price": {"1": 94},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202691.png"
+      },
+      {
+            "_id": "4006",
+            "name": "Victor Oladipo",
+            "height": "6'4",
+            "weight": 210,
+            "position": "G",
+            "team": 11,
+            "price": {
+                  "1": 93.71,
+                  "2": 93.91
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203506.png"
+      },
+      {
+            "_id": "4007",
+            "name": "Luka Doncic",
+            "height": "6'7",
+            "weight": 218,
+            "position": "F-G",
+            "team": 7,
+            "price": {
+                  "1": 93.43,
+                  "2": 112.38
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629029.png"
+      },
+      {
+            "_id": "4008",
+            "name": "Jrue Holiday",
+            "height": "6'4",
+            "weight": 205,
+            "position": "G",
+            "team": 17,
+            "price": {
+                  "1": 93.14,
+                  "2": 95.79
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201950.png"
+      },
+      {
+            "_id": "4009",
+            "name": "Al Horford",
+            "height": "6'10",
+            "weight": 245,
+            "position": "C-F",
+            "team": 21,
+            "price": {
+                  "1": 92.86,
+                  "2": 93.11
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201143.png"
+      },
+      {
+            "_id": "400a",
+            "name": "Pascal Siakam",
+            "height": "6'9",
+            "weight": 230,
+            "position": "F",
+            "team": 28,
+            "price": {
+                  "1": 92.57,
+                  "2": 93.32
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627783.png"
+      },
+      {
+            "_id": "400b",
+            "name": "Kyle Lowry",
+            "height": "6'1",
+            "weight": 196,
+            "position": "G",
+            "team": 28,
+            "price": {
+                  "1": 92.29,
+                  "2": 92.74000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200768.png"
+      },
+      {
+            "_id": "400c",
+            "name": "Devin Booker",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 24,
+            "price": {
+                  "1": 92,
+                  "2": 93.05
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626164.png"
+      },
+      {
+            "_id": "400d",
+            "name": "Andre Drummond",
+            "height": "6'11",
+            "weight": 279,
+            "position": "C",
+            "team": 6,
+            "price": {
+                  "1": 91.71,
+                  "2": 102.80999999999999
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203083.png"
+      },
+      {
+            "_id": "400e",
+            "name": "Chris Paul",
+            "height": "6'0",
+            "weight": 175,
+            "position": "G",
+            "team": 24,
+            "price": {
+                  "1": 91.43,
+                  "2": 94.48
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/101108.png"
+      },
+      {
+            "_id": "400f",
+            "name": "Nikola Vucevic",
+            "height": "7'0",
+            "weight": 260,
+            "position": "C",
+            "team": 22,
+            "price": {
+                  "1": 91.14,
+                  "2": 101.99
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202696.png"
+      },
+      {
+            "_id": "4010",
+            "name": "Khris Middleton",
+            "height": "6'8",
+            "weight": 222,
+            "position": "F",
+            "team": 17,
+            "price": {
+                  "1": 90.86,
+                  "2": 93.01
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203114.png"
+      },
+      {
+            "_id": "4011",
+            "name": "CJ McCollum",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 25,
+            "price": {
+                  "1": 90.57,
+                  "2": 91.27
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203468.png"
+      },
+      {
+            "_id": "4012",
+            "name": "De'Aaron Fox",
+            "height": "6'3",
+            "weight": 175,
+            "position": "G",
+            "team": 26,
+            "price": {
+                  "1": 90.29,
+                  "2": 93.04
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628368.png"
+      },
+      {
+            "_id": "4013",
+            "name": "Mike Conley",
+            "height": "6'1",
+            "weight": 175,
+            "position": "G",
+            "team": 29,
+            "price": {
+                  "1": 90,
+                  "2": 90.95
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201144.png"
+      },
+      {
+            "_id": "4014",
+            "name": "Donovan Mitchell",
+            "height": "6'3",
+            "weight": 215,
+            "position": "G",
+            "team": 29,
+            "price": {
+                  "1": 89.71,
+                  "2": 92.96
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628378.png"
+      },
+      {
+            "_id": "4015",
+            "name": "LaMarcus Aldridge",
+            "height": "6'11",
+            "weight": 260,
+            "position": "F",
+            "team": 27,
+            "price": {"1": 89.43},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200746.png"
+      },
+      {
+            "_id": "4016",
+            "name": "Kristaps Porzingis",
+            "height": "7'3",
+            "weight": 240,
+            "position": "F-C",
+            "team": 7,
+            "price": {"1": 89.14},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png"
+      },
+      {
+            "_id": "4017",
+            "name": "Kevin Love",
+            "height": "6'10",
+            "weight": 251,
+            "position": "F-C",
+            "team": 6,
+            "price": {"1": 88.86},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201567.png"
+      },
+      {
+            "_id": "4018",
+            "name": "Jamal Murray",
+            "height": "6'4",
+            "weight": 207,
+            "position": "G",
+            "team": 8,
+            "price": {"1": 88.57},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627750.png"
+      },
+      {
+            "_id": "4019",
+            "name": "Tobias Harris",
+            "height": "6'9",
+            "weight": 235,
+            "position": "F",
+            "team": 23,
+            "price": {
+                  "1": 88.29,
+                  "2": 88.69000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202699.png"
+      },
+      {
+            "_id": "401a",
+            "name": "Danilo Gallinari",
+            "height": "6'10",
+            "weight": 225,
+            "position": "F",
+            "team": 1,
+            "price": {
+                  "1": 88,
+                  "2": 88.7
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201568.png"
+      },
+      {
+            "_id": "401b",
+            "name": "DeMar DeRozan",
+            "height": "6'7",
+            "weight": 220,
+            "position": "G",
+            "team": 27,
+            "price": {
+                  "1": 87.71,
+                  "2": 91.50999999999999
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201942.png"
+      },
+      {
+            "_id": "401c",
+            "name": "D'Angelo Russell",
+            "height": "6'5",
+            "weight": 198,
+            "position": "G",
+            "team": 18,
+            "price": {
+                  "1": 87.43,
+                  "2": 87.48
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626156.png"
+      },
+      {
+            "_id": "401d",
+            "name": "Aaron Gordon",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 22,
+            "price": {"1": 87.14},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203932.png"
+      },
+      {
+            "_id": "401e",
+            "name": "Trae Young",
+            "height": "6'2",
+            "weight": 180,
+            "position": "G",
+            "team": 1,
+            "price": {
+                  "1": 86.86,
+                  "2": 95.36
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629027.png"
+      },
+      {
+            "_id": "401f",
+            "name": "Myles Turner",
+            "height": "6'11",
+            "weight": 250,
+            "position": "C-F",
+            "team": 12,
+            "price": {
+                  "1": 86.57,
+                  "2": 93.07
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626167.png"
+      },
+      {
+            "_id": "4020",
+            "name": "John Collins",
+            "height": "6'10",
+            "weight": 235,
+            "position": "F-C",
+            "team": 1,
+            "price": {
+                  "1": 86.29,
+                  "2": 86.94000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628381.png"
+      },
+      {
+            "_id": "4021",
+            "name": "Jayson Tatum",
+            "height": "6'8",
+            "weight": 208,
+            "position": "F",
+            "team": 2,
+            "price": {
+                  "1": 86,
+                  "2": 87.35
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628369.png"
+      },
+      {
+            "_id": "4022",
+            "name": "Clint Capela",
+            "height": "6'10",
+            "weight": 240,
+            "position": "C",
+            "team": 1,
+            "price": {
+                  "1": 85.71,
+                  "2": 95.41
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203991.png"
+      },
+      {
+            "_id": "4023",
+            "name": "Jusuf Nurkic",
+            "height": "7'0",
+            "weight": 275,
+            "position": "C",
+            "team": 25,
+            "price": {"1": 85.14},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203994.png"
+      },
+      {
+            "_id": "4024",
+            "name": "Buddy Hield",
+            "height": "6'4",
+            "weight": 214,
+            "position": "G",
+            "team": 26,
+            "price": {
+                  "1": 84.86,
+                  "2": 87.01
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627741.png"
+      },
+      {
+            "_id": "4025",
+            "name": "Lauri Markkanen",
+            "height": "7'0",
+            "weight": 240,
+            "position": "F",
+            "team": 5,
+            "price": {
+                  "1": 84.57,
+                  "2": 86.27
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628374.png"
+      },
+      {
+            "_id": "4026",
+            "name": "Paul Millsap",
+            "height": "6'8",
+            "weight": 246,
+            "position": "F",
+            "team": 8,
+            "price": {
+                  "1": 84.29,
+                  "2": 84.39
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200794.png"
+      },
+      {
+            "_id": "4027",
+            "name": "Malcolm Brogdon",
+            "height": "6'5",
+            "weight": 229,
+            "position": "G",
+            "team": 12,
+            "price": {
+                  "1": 84,
+                  "2": 88.8
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627763.png"
+      },
+      {
+            "_id": "4028",
+            "name": "Julius Randle",
+            "height": "6'9",
+            "weight": 250,
+            "position": "F",
+            "team": 20,
+            "price": {
+                  "1": 83.71,
+                  "2": 95.11
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203944.png"
+      },
+      {
+            "_id": "4029",
+            "name": "Deandre Ayton",
+            "height": "7'1",
+            "weight": 250,
+            "position": "C",
+            "team": 24,
+            "price": {
+                  "1": 83.43,
+                  "2": 90.18
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629028.png"
+      },
+      {
+            "_id": "402a",
+            "name": "Joe Ingles",
+            "height": "6'8",
+            "weight": 226,
+            "position": "F",
+            "team": 29,
+            "price": {
+                  "1": 83.14,
+                  "2": 84.99
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204060.png"
+      },
+      {
+            "_id": "402b",
+            "name": "Zion Williamson",
+            "position": "F",
+            "team": 19,
+            "price": {
+                  "1": 82.86,
+                  "2": 89.96
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629627.png"
+      },
+      {
+            "_id": "402c",
+            "name": "Zach LaVine",
+            "height": "6'5",
+            "weight": 200,
+            "position": "G",
+            "team": 5,
+            "price": {
+                  "1": 82.57,
+                  "2": 89.07
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203897.png"
+      },
+      {
+            "_id": "402d",
+            "name": "Brook Lopez",
+            "height": "7'0",
+            "weight": 270,
+            "position": "C",
+            "team": 17,
+            "price": {
+                  "1": 82.29,
+                  "2": 83.54
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201572.png"
+      },
+      {
+            "_id": "402e",
+            "name": "Otto Porter Jr.",
+            "height": "6'8",
+            "weight": 198,
+            "position": "F",
+            "team": 5,
+            "price": {"1": 82},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203490.png"
+      },
+      {
+            "_id": "402f",
+            "name": "Marc Gasol",
+            "height": "7'1",
+            "weight": 255,
+            "position": "C",
+            "team": 14,
+            "price": {
+                  "1": 81.71,
+                  "2": 84.21
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201188.png"
+      },
+      {
+            "_id": "4030",
+            "name": "Gary Harris",
+            "height": "6'4",
+            "weight": 210,
+            "position": "G",
+            "team": 8,
+            "price": {
+                  "1": 81.43,
+                  "2": 81.93
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203914.png"
+      },
+      {
+            "_id": "4031",
+            "name": "Steven Adams",
+            "height": "7'0",
+            "weight": 265,
+            "position": "C",
+            "team": 19,
+            "price": {
+                  "1": 81.14,
+                  "2": 83.69
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203500.png"
+      },
+      {
+            "_id": "4032",
+            "name": "Jaren Jackson Jr.",
+            "height": "6'11",
+            "weight": 242,
+            "position": "F-C",
+            "team": 15,
+            "price": {"1": 80.86},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628991.png"
+      },
+      {
+            "_id": "4033",
+            "name": "Eric Bledsoe",
+            "height": "6'1",
+            "weight": 205,
+            "position": "G",
+            "team": 19,
+            "price": {"1": 80.57},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202339.png"
+      },
+      {
+            "_id": "4034",
+            "name": "Bojan Bogdanovic",
+            "height": "6'8",
+            "weight": 216,
+            "position": "F",
+            "team": 29,
+            "price": {
+                  "1": 80.29,
+                  "2": 80.69000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202711.png"
+      },
+      {
+            "_id": "4035",
+            "name": "Caris LeVert",
+            "height": "6'7",
+            "weight": 204,
+            "position": "G",
+            "team": 12,
+            "price": {"1": 80},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627747.png"
+      },
+      {
+            "_id": "4036",
+            "name": "Josh Richardson",
+            "height": "6'6",
+            "weight": 200,
+            "position": "G-F",
+            "team": 7,
+            "price": {"1": 79.71},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626196.png"
+      },
+      {
+            "_id": "4037",
+            "name": "Montrezl Harrell",
+            "height": "6'8",
+            "weight": 240,
+            "position": "F-C",
+            "team": 14,
+            "price": {
+                  "1": 79.43,
+                  "2": 84.68
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626149.png"
+      },
+      {
+            "_id": "4038",
+            "name": "Marcus Smart",
+            "height": "6'4",
+            "weight": 220,
+            "position": "G",
+            "team": 2,
+            "price": {
+                  "1": 79.14,
+                  "2": 79.89
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203935.png"
+      },
+      {
+            "_id": "4039",
+            "name": "Domantas Sabonis",
+            "height": "6'11",
+            "weight": 240,
+            "position": "F",
+            "team": 12,
+            "price": {
+                  "1": 78.86,
+                  "2": 86.21000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627734.png"
+      },
+      {
+            "_id": "403a",
+            "name": "Bam Adebayo",
+            "height": "6'10",
+            "weight": 255,
+            "position": "C-F",
+            "team": 16,
+            "price": {
+                  "1": 78.57,
+                  "2": 81.66999999999999
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628389.png"
+      },
+      {
+            "_id": "403b",
+            "name": "Robert Covington",
+            "height": "6'9",
+            "weight": 225,
+            "position": "F",
+            "team": 25,
+            "price": {
+                  "1": 78.29,
+                  "2": 80.14
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203496.png"
+      },
+      {
+            "_id": "403c",
+            "name": "Eric Gordon",
+            "height": "6'4",
+            "weight": 215,
+            "position": "G",
+            "team": 11,
+            "price": {
+                  "1": 77.43,
+                  "2": 77.73
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201569.png"
+      },
+      {
+            "_id": "403d",
+            "name": "Marvin Bagley III",
+            "height": "6'11",
+            "weight": 234,
+            "position": "F",
+            "team": 26,
+            "price": {"1": 77.14},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628963.png"
+      },
+      {
+            "_id": "403e",
+            "name": "Jarrett Allen",
+            "height": "6'11",
+            "weight": 237,
+            "position": "C",
+            "team": 6,
+            "price": {
+                  "1": 76.86,
+                  "2": 86.21
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628386.png"
+      },
+      {
+            "_id": "403f",
+            "name": "Jaylen Brown",
+            "height": "6'7",
+            "weight": 220,
+            "position": "G",
+            "team": 2,
+            "price": {
+                  "1": 76.57,
+                  "2": 80.72
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627759.png"
+      },
+      {
+            "_id": "4040",
+            "name": "Derrick Favors",
+            "height": "6'10",
+            "weight": 265,
+            "position": "F-C",
+            "team": 29,
+            "price": {"1": 76.29},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202324.png"
+      },
+      {
+            "_id": "4041",
+            "name": "Spencer Dinwiddie",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 3,
+            "price": {"1": 76},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203915.png"
+      },
+      {
+            "_id": "4042",
+            "name": "Mitchell Robinson",
+            "height": "7'1",
+            "weight": 240,
+            "position": "C",
+            "team": 20,
+            "price": {
+                  "1": 75.71,
+                  "2": 84.06
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629011.png"
+      },
+      {
+            "_id": "4043",
+            "name": "Danny Green",
+            "height": "6'6",
+            "weight": 215,
+            "position": "G-F",
+            "team": 23,
+            "price": {"1": 75.43},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201980.png"
+      },
+      {
+            "_id": "4044",
+            "name": "Shai Gilgeous-Alexander",
+            "height": "6'6",
+            "weight": 181,
+            "position": "G",
+            "team": 21,
+            "price": {
+                  "1": 75.14,
+                  "2": 75.49
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628983.png"
+      },
+      {
+            "_id": "4045",
+            "name": "JJ Redick",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 19,
+            "price": {"1": 74.86},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200755.png"
+      },
+      {
+            "_id": "4046",
+            "name": "Patrick Beverley",
+            "height": "6'1",
+            "weight": 185,
+            "position": "G",
+            "team": 13,
+            "price": {
+                  "1": 74.57,
+                  "2": 74.57
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201976.png"
+      },
+      {
+            "_id": "4047",
+            "name": "Justise Winslow",
+            "height": "6'7",
+            "weight": 225,
+            "position": "F",
+            "team": 15,
+            "price": {"1": 74.29},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626159.png"
+      },
+      {
+            "_id": "4048",
+            "name": "Dejounte Murray",
+            "height": "6'5",
+            "weight": 170,
+            "position": "G",
+            "team": 27,
+            "price": {
+                  "1": 74,
+                  "2": 75.85
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627749.png"
+      },
+      {
+            "_id": "4049",
+            "name": "Brandon Ingram",
+            "height": "6'9",
+            "weight": 190,
+            "position": "F",
+            "team": 19,
+            "price": {
+                  "1": 73.71,
+                  "2": 76.21
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627742.png"
+      },
+      {
+            "_id": "404a",
+            "name": "Bogdan Bogdanovic",
+            "height": "6'6",
+            "weight": 205,
+            "position": "G",
+            "team": 1,
+            "price": {"1": 73.43},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203992.png"
+      },
+      {
+            "_id": "404b",
+            "name": "Gordon Hayward",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 4,
+            "price": {
+                  "1": 73.14,
+                  "2": 74.14
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202330.png"
+      },
+      {
+            "_id": "404c",
+            "name": "Ricky Rubio",
+            "height": "6'4",
+            "weight": 190,
+            "position": "G",
+            "team": 18,
+            "price": {
+                  "1": 72.86,
+                  "2": 73.71
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201937.png"
+      },
+      {
+            "_id": "404d",
+            "name": "Goran Dragic",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 16,
+            "price": {"1": 72.57},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201609.png"
+      },
+      {
+            "_id": "404e",
+            "name": "Lonzo Ball",
+            "height": "6'6",
+            "weight": 190,
+            "position": "G",
+            "team": 19,
+            "price": {"1": 72.29},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628366.png"
+      },
+      {
+            "_id": "404f",
+            "name": "Al-Farouq Aminu",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 22,
+            "price": {"1": 72},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202329.png"
+      },
+      {
+            "_id": "4050",
+            "name": "Kevon Looney",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 10,
+            "price": {"1": 69.45},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626172.png"
+      },
+      {
+            "_id": "4051",
+            "name": "Derrick White",
+            "height": "6'4",
+            "weight": 190,
+            "position": "G",
+            "team": 27,
+            "price": {"1": 69.21},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png"
+      },
+      {
+            "_id": "4052",
+            "name": "Thaddeus Young",
+            "height": "6'8",
+            "weight": 221,
+            "position": "F",
+            "team": 5,
+            "price": {
+                  "1": 68.98,
+                  "2": 70.48
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201152.png"
+      },
+      {
+            "_id": "4053",
+            "name": "Evan Fournier",
+            "height": "6'7",
+            "weight": 205,
+            "position": "G-F",
+            "team": 22,
+            "price": {"1": 68.74},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203095.png"
+      },
+      {
+            "_id": "4054",
+            "name": "Fred VanVleet",
+            "height": "6'0",
+            "weight": 195,
+            "position": "G",
+            "team": 28,
+            "price": {
+                  "1": 68.5,
+                  "2": 75.3
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627832.png"
+      },
+      {
+            "_id": "4055",
+            "name": "Jonas Valanciunas",
+            "height": "7'0",
+            "weight": 265,
+            "position": "C",
+            "team": 15,
+            "price": {
+                  "1": 68.26,
+                  "2": 71.21000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202685.png"
+      },
+      {
+            "_id": "4056",
+            "name": "Joe Harris",
+            "height": "6'6",
+            "weight": 218,
+            "position": "F-G",
+            "team": 3,
+            "price": {
+                  "1": 68.02,
+                  "2": 72.82
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203925.png"
+      },
+      {
+            "_id": "4057",
+            "name": "Andre Iguodala",
+            "height": "6'6",
+            "weight": 215,
+            "position": "G-F",
+            "team": 16,
+            "price": {
+                  "1": 67.79,
+                  "2": 69.09
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2738.png"
+      },
+      {
+            "_id": "4058",
+            "name": "Rudy Gay",
+            "height": "6'8",
+            "weight": 230,
+            "position": "F",
+            "team": 27,
+            "price": {"1": 67.55},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200752.png"
+      },
+      {
+            "_id": "4059",
+            "name": "Jerami Grant",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 9,
+            "price": {
+                  "1": 66.83,
+                  "2": 71.08
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203924.png"
+      },
+      {
+            "_id": "405a",
+            "name": "Dario Saric",
+            "height": "6'10",
+            "weight": 223,
+            "position": "F",
+            "team": 24,
+            "price": {"1": 66.6},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203967.png"
+      },
+      {
+            "_id": "405b",
+            "name": "DeMarcus Cousins",
+            "height": "6'11",
+            "weight": 270,
+            "position": "C",
+            "team": 11,
+            "price": {"1": 66.36},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202326.png"
+      },
+      {
+            "_id": "405c",
+            "name": "Serge Ibaka",
+            "height": "6'10",
+            "weight": 235,
+            "position": "F-C",
+            "team": 13,
+            "price": {
+                  "1": 66.12,
+                  "2": 67.22
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201586.png"
+      },
+      {
+            "_id": "405d",
+            "name": "Jonathan Isaac",
+            "height": "6'10",
+            "weight": 210,
+            "position": "F",
+            "team": 22,
+            "price": {"1": 65.88},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628371.png"
+      },
+      {
+            "_id": "405e",
+            "name": "Marcus Morris",
+            "height": "6'9",
+            "weight": 235,
+            "position": "F",
+            "team": 13,
+            "price": {
+                  "1": 65.64,
+                  "2": 66.49
+            }
+      },
+      {
+            "_id": "405f",
+            "name": "T.J. Warren",
+            "height": "6'8",
+            "weight": 215,
+            "position": "F",
+            "team": 12,
+            "price": {"1": 65.4},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203933.png"
+      },
+      {
+            "_id": "4060",
+            "name": "Harrison Barnes",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 26,
+            "price": {
+                  "1": 65.17,
+                  "2": 66.02
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203084.png"
+      },
+      {
+            "_id": "4061",
+            "name": "Hassan Whiteside",
+            "height": "7'0",
+            "weight": 265,
+            "position": "C",
+            "team": 26,
+            "price": {"1": 64.93},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202355.png"
+      },
+      {
+            "_id": "4062",
+            "name": "Kyle Kuzma",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 14,
+            "price": {
+                  "1": 64.69,
+                  "2": 64.94
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628398.png"
+      },
+      {
+            "_id": "4063",
+            "name": "Landry Shamet",
+            "height": "6'5",
+            "weight": 188,
+            "position": "G",
+            "team": 3,
+            "price": {"1": 64.45},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629013.png"
+      },
+      {
+            "_id": "4064",
+            "name": "Reggie Jackson",
+            "height": "6'3",
+            "weight": 208,
+            "position": "G",
+            "team": 13,
+            "price": {"1": 64.21},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202704.png"
+      },
+      {
+            "_id": "4065",
+            "name": "Jeremy Lamb",
+            "height": "6'5",
+            "weight": 185,
+            "position": "G",
+            "team": 12,
+            "price": {"1": 63.98},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203087.png"
+      },
+      {
+            "_id": "4066",
+            "name": "D.J. Augustin",
+            "height": "6'0",
+            "weight": 183,
+            "position": "G",
+            "team": 17,
+            "price": {"1": 63.74},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201571.png"
+      },
+      {
+            "_id": "4067",
+            "name": "Jeff Teague",
+            "height": "6'2",
+            "weight": 195,
+            "position": "G",
+            "team": 2,
+            "price": {"1": 63.26},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201952.png"
+      },
+      {
+            "_id": "4068",
+            "name": "Monte Morris",
+            "height": "6'3",
+            "weight": 175,
+            "position": "G",
+            "team": 8,
+            "price": {
+                  "1": 63.02,
+                  "2": 63.77
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628420.png"
+      },
+      {
+            "_id": "4069",
+            "name": "Wendell Carter Jr.",
+            "height": "6'10",
+            "weight": 255,
+            "position": "F",
+            "team": 5,
+            "price": {"1": 62.79},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628976.png"
+      },
+      {
+            "_id": "406a",
+            "name": "Cody Zeller",
+            "height": "7'0",
+            "weight": 240,
+            "position": "C",
+            "team": 4,
+            "price": {"1": 62.55},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203469.png"
+      },
+      {
+            "_id": "406b",
+            "name": "DeAndre Jordan",
+            "height": "6'11",
+            "weight": 265,
+            "position": "C",
+            "team": 3,
+            "price": {
+                  "1": 62.31,
+                  "2": 64.86
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201599.png"
+      },
+      {
+            "_id": "406c",
+            "name": "Mikal Bridges",
+            "height": "6'7",
+            "weight": 210,
+            "position": "F",
+            "team": 24,
+            "price": {
+                  "1": 62.07,
+                  "2": 63.07
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628969.png"
+      },
+      {
+            "_id": "406d",
+            "name": "Terrence Ross",
+            "height": "6'7",
+            "weight": 206,
+            "position": "G-F",
+            "team": 22,
+            "price": {
+                  "1": 61.83,
+                  "2": 61.98
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203082.png"
+      },
+      {
+            "_id": "406e",
+            "name": "Willie Cauley-Stein",
+            "height": "7'0",
+            "weight": 240,
+            "position": "C",
+            "team": 7,
+            "price": {"1": 61.6},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626161.png"
+      },
+      {
+            "_id": "406f",
+            "name": "Delon Wright",
+            "height": "6'5",
+            "weight": 183,
+            "position": "G",
+            "team": 9,
+            "price": {
+                  "1": 61.36,
+                  "2": 62.36
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626153.png"
+      },
+      {
+            "_id": "4070",
+            "name": "Nicolas Batum",
+            "height": "6'8",
+            "weight": 200,
+            "position": "F-G",
+            "team": 13,
+            "price": {
+                  "1": 61.12,
+                  "2": 64.11999999999999
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201587.png"
+      },
+      {
+            "_id": "4071",
+            "name": "Andrew Wiggins",
+            "height": "6'8",
+            "weight": 194,
+            "position": "F-G",
+            "team": 10,
+            "price": {
+                  "1": 60.88,
+                  "2": 61.63
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203952.png"
+      },
+      {
+            "_id": "4072",
+            "name": "Zach Collins",
+            "height": "7'0",
+            "weight": 235,
+            "position": "F-C",
+            "team": 25,
+            "price": {"1": 60.64},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628380.png"
+      },
+      {
+            "_id": "4073",
+            "name": "OG Anunoby",
+            "height": "6'8",
+            "weight": 232,
+            "position": "F",
+            "team": 28,
+            "price": {
+                  "1": 60.4,
+                  "2": 61.55
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628384.png"
+      },
+      {
+            "_id": "4074",
+            "name": "Collin Sexton",
+            "height": "6'2",
+            "weight": 190,
+            "position": "G",
+            "team": 6,
+            "price": {
+                  "1": 60.17,
+                  "2": 60.57
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629012.png"
+      },
+      {
+            "_id": "4075",
+            "name": "Nemanja Bjelica",
+            "height": "6'10",
+            "weight": 234,
+            "position": "F",
+            "team": 26,
+            "price": {"1": 59.93},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202357.png"
+      },
+      {
+            "_id": "4076",
+            "name": "Thomas Bryant",
+            "height": "6'11",
+            "weight": 248,
+            "position": "C",
+            "team": 30,
+            "price": {"1": 59.69},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628418.png"
+      },
+      {
+            "_id": "4077",
+            "name": "Kevin Huerter",
+            "height": "6'7",
+            "weight": 190,
+            "position": "G",
+            "team": 1,
+            "price": {"1": 59.21},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628989.png"
+      },
+      {
+            "_id": "4078",
+            "name": "Will Barton",
+            "height": "6'6",
+            "weight": 190,
+            "position": "G",
+            "team": 8,
+            "price": {"1": 58.98},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203115.png"
+      },
+      {
+            "_id": "4079",
+            "name": "Malik Beasley",
+            "height": "6'5",
+            "weight": 195,
+            "position": "G",
+            "team": 18,
+            "price": {
+                  "1": 58.74,
+                  "2": 60.89
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627736.png"
+      },
+      {
+            "_id": "407a",
+            "name": "Kyle Anderson",
+            "height": "6'9",
+            "weight": 230,
+            "position": "F",
+            "team": 15,
+            "price": {"1": 58.5},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203937.png"
+      },
+      {
+            "_id": "407b",
+            "name": "Aron Baynes",
+            "height": "6'10",
+            "weight": 260,
+            "position": "C-F",
+            "team": 28,
+            "price": {"1": 58.26},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203382.png"
+      },
+      {
+            "_id": "407c",
+            "name": "Davis Bertans",
+            "height": "6'10",
+            "weight": 225,
+            "position": "F",
+            "team": 30,
+            "price": {
+                  "1": 58.02,
+                  "2": 58.77
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202722.png"
+      },
+      {
+            "_id": "407d",
+            "name": "Kelly Oubre Jr.",
+            "height": "6'7",
+            "weight": 205,
+            "position": "F",
+            "team": 10,
+            "price": {"1": 57.79},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626162.png"
+      },
+      {
+            "_id": "407e",
+            "name": "Jae Crowder",
+            "height": "6'6",
+            "weight": 235,
+            "position": "F",
+            "team": 24,
+            "price": {"1": 57.55},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203109.png"
+      },
+      {
+            "_id": "407f",
+            "name": "Mason Plumlee",
+            "height": "6'11",
+            "weight": 235,
+            "position": "F-C",
+            "team": 9,
+            "price": {
+                  "1": 57.31,
+                  "2": 60.260000000000005
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203486.png"
+      },
+      {
+            "_id": "4080",
+            "name": "Jakob Poeltl",
+            "height": "7'0",
+            "weight": 230,
+            "position": "C",
+            "team": 27,
+            "price": {
+                  "1": 57.07,
+                  "2": 60.37
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627751.png"
+      },
+      {
+            "_id": "4081",
+            "name": "Enes Kanter",
+            "position": "C",
+            "team": 25,
+            "price": {
+                  "1": 56.83,
+                  "2": 63.23
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202683.png"
+      },
+      {
+            "_id": "4082",
+            "name": "Miles Bridges",
+            "height": "6'7",
+            "weight": 225,
+            "position": "F",
+            "team": 4,
+            "price": {"1": 56.36},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628970.png"
+      },
+      {
+            "_id": "4083",
+            "name": "Luke Kennard",
+            "height": "6'5",
+            "weight": 206,
+            "position": "G",
+            "team": 13,
+            "price": {
+                  "1": 56.12,
+                  "2": 56.419999999999995
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628379.png"
+      },
+      {
+            "_id": "4084",
+            "name": "Markieff Morris",
+            "position": "F",
+            "team": 14,
+            "price": {"1": 55.88},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202693.png"
+      },
+      {
+            "_id": "4085",
+            "name": "Ja Morant",
+            "position": "G",
+            "team": 15,
+            "price": {
+                  "1": 55.64,
+                  "2": 56.34
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629630.png"
+      },
+      {
+            "_id": "4086",
+            "name": "Bryn Forbes",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 17,
+            "price": {
+                  "1": 55.4,
+                  "2": 56.0
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627854.png"
+      },
+      {
+            "_id": "4087",
+            "name": "Taurean Prince",
+            "height": "6'8",
+            "weight": 220,
+            "position": "F",
+            "team": 6,
+            "price": {"1": 55.17},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627752.png"
+      },
+      {
+            "_id": "4088",
+            "name": "Kelly Olynyk",
+            "height": "7'0",
+            "weight": 240,
+            "position": "F",
+            "team": 16,
+            "price": {"1": 54.93},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203482.png"
+      },
+      {
+            "_id": "4089",
+            "name": "Terry Rozier",
+            "height": "6'1",
+            "weight": 190,
+            "position": "G",
+            "team": 4,
+            "price": {
+                  "1": 54.69,
+                  "2": 56.089999999999996
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626179.png"
+      },
+      {
+            "_id": "408a",
+            "name": "Tim Hardaway Jr.",
+            "height": "6'6",
+            "weight": 205,
+            "position": "G",
+            "team": 7,
+            "price": {
+                  "1": 54.45,
+                  "2": 56.25
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203501.png"
+      },
+      {
+            "_id": "408b",
+            "name": "Tristan Thompson",
+            "height": "6'10",
+            "weight": 238,
+            "position": "C-F",
+            "team": 2,
+            "price": {
+                  "1": 54.21,
+                  "2": 56.26
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202684.png"
+      },
+      {
+            "_id": "408c",
+            "name": "Maxi Kleber",
+            "height": "6'11",
+            "weight": 240,
+            "position": "F",
+            "team": 7,
+            "price": {
+                  "1": 53.74,
+                  "2": 54.24
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628467.png"
+      },
+      {
+            "_id": "408d",
+            "name": "Bobby Portis",
+            "height": "6'11",
+            "weight": 250,
+            "position": "F",
+            "team": 17,
+            "price": {
+                  "1": 53.5,
+                  "2": 55.25
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626171.png"
+      },
+      {
+            "_id": "408e",
+            "name": "Dwight Powell",
+            "height": "6'11",
+            "weight": 240,
+            "position": "F-C",
+            "team": 7,
+            "price": {"1": 53.26},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203939.png"
+      },
+      {
+            "_id": "408f",
+            "name": "Rodney Hood",
+            "height": "6'8",
+            "weight": 206,
+            "position": "G",
+            "team": 25,
+            "price": {"1": 53.02},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203918.png"
+      },
+      {
+            "_id": "4090",
+            "name": "James Johnson",
+            "height": "6'8",
+            "weight": 240,
+            "position": "F",
+            "team": 7,
+            "price": {"1": 52.79},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201949.png"
+      },
+      {
+            "_id": "4091",
+            "name": "Seth Curry",
+            "height": "6'2",
+            "weight": 185,
+            "position": "G",
+            "team": 23,
+            "price": {
+                  "1": 52.55,
+                  "2": 53.449999999999996
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203552.png"
+      },
+      {
+            "_id": "4092",
+            "name": "George Hill",
+            "height": "6'3",
+            "weight": 188,
+            "position": "G",
+            "team": 21,
+            "price": {"1": 52.31},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201588.png"
+      },
+      {
+            "_id": "4093",
+            "name": "Kent Bazemore",
+            "height": "6'5",
+            "weight": 201,
+            "position": "G",
+            "team": 10,
+            "price": {"1": 52.07},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203145.png"
+      },
+      {
+            "_id": "4094",
+            "name": "Cedi Osman",
+            "height": "6'8",
+            "weight": 215,
+            "position": "F",
+            "team": 6,
+            "price": {"1": 51.83},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626224.png"
+      },
+      {
+            "_id": "4095",
+            "name": "Maurice Harkless",
+            "height": "6'9",
+            "weight": 220,
+            "position": "F",
+            "team": 16,
+            "price": {"1": 51.6},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203090.png"
+      },
+      {
+            "_id": "4096",
+            "name": "Dennis Smith Jr.",
+            "height": "6'3",
+            "weight": 195,
+            "position": "G",
+            "team": 9,
+            "price": {"1": 51.36},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628372.png"
+      },
+      {
+            "_id": "4097",
+            "name": "RJ Barrett",
+            "position": "F-G",
+            "team": 20,
+            "price": {
+                  "1": 51.12,
+                  "2": 52.22
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629628.png"
+      },
+      {
+            "_id": "4098",
+            "name": "E'Twaun Moore",
+            "height": "6'4",
+            "weight": 191,
+            "position": "G",
+            "team": 24,
+            "price": {"1": 50.88},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202734.png"
+      },
+      {
+            "_id": "4099",
+            "name": "Dwight Howard",
+            "height": "6'11",
+            "weight": 265,
+            "position": "C",
+            "team": 23,
+            "price": {
+                  "1": 50.64,
+                  "2": 51.59
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2730.png"
+      },
+      {
+            "_id": "409a",
+            "name": "Josh Hart",
+            "height": "6'5",
+            "weight": 215,
+            "position": "G",
+            "team": 19,
+            "price": {
+                  "1": 50.4,
+                  "2": 50.75
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628404.png"
+      },
+      {
+            "_id": "409b",
+            "name": "Royce O'Neale",
+            "height": "6'6",
+            "weight": 226,
+            "position": "F",
+            "team": 29,
+            "price": {
+                  "1": 50.17,
+                  "2": 51.27
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626220.png"
+      },
+      {
+            "_id": "409c",
+            "name": "Austin Rivers",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 20,
+            "price": {"1": 49.93},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203085.png"
+      },
+      {
+            "_id": "409d",
+            "name": "JaVale McGee",
+            "height": "7'0",
+            "weight": 270,
+            "position": "C",
+            "team": 6,
+            "price": {"1": 49.69},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201580.png"
+      },
+      {
+            "_id": "409e",
+            "name": "Tyus Jones",
+            "height": "6'2",
+            "weight": 196,
+            "position": "G",
+            "team": 15,
+            "price": {
+                  "1": 49.45,
+                  "2": 50.150000000000006
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626145.png"
+      },
+      {
+            "_id": "409f",
+            "name": "Kentavious Caldwell-Pope",
+            "height": "6'5",
+            "weight": 205,
+            "position": "G",
+            "team": 14,
+            "price": {
+                  "1": 49.21,
+                  "2": 49.26
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203484.png"
+      },
+      {
+            "_id": "40a0",
+            "name": "Derrick Rose",
+            "height": "6'3",
+            "weight": 200,
+            "position": "G",
+            "team": 20,
+            "price": {"1": 48.98},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201565.png"
+      },
+      {
+            "_id": "40a1",
+            "name": "Trevor Ariza",
+            "height": "6'8",
+            "weight": 215,
+            "position": "F",
+            "team": 21,
+            "price": {"1": 48.26},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2772.png"
+      },
+      {
+            "_id": "40a2",
+            "name": "Ed Davis",
+            "height": "6'10",
+            "weight": 225,
+            "position": "C",
+            "team": 18,
+            "price": {"1": 48.02},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202334.png"
+      },
+      {
+            "_id": "40a3",
+            "name": "Noah Vonleh",
+            "height": "6'9",
+            "weight": 250,
+            "position": "F",
+            "team": 3,
+            "price": {"1": 47.79},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203943.png"
+      },
+      {
+            "_id": "40a4",
+            "name": "Norman Powell",
+            "height": "6'4",
+            "weight": 215,
+            "position": "F-G",
+            "team": 28,
+            "price": {"1": 47.55},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626181.png"
+      },
+      {
+            "_id": "40a5",
+            "name": "JaMychal Green",
+            "height": "6'9",
+            "weight": 227,
+            "position": "F",
+            "team": 8,
+            "price": {"1": 47.31},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203210.png"
+      },
+      {
+            "_id": "40a6",
+            "name": "Taj Gibson",
+            "height": "6'9",
+            "weight": 232,
+            "position": "F",
+            "team": 20,
+            "price": {"1": 47.07},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201959.png"
+      },
+      {
+            "_id": "40a7",
+            "name": "Cory Joseph",
+            "height": "6'3",
+            "weight": 193,
+            "position": "G",
+            "team": 26,
+            "price": {"1": 46.83},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202709.png"
+      },
+      {
+            "_id": "40a8",
+            "name": "Tyler Johnson",
+            "height": "6'4",
+            "weight": 190,
+            "position": "G",
+            "team": 3,
+            "price": {"1": 46.6},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204020.png"
+      },
+      {
+            "_id": "40a9",
+            "name": "Reggie Bullock",
+            "height": "6'7",
+            "weight": 205,
+            "position": "G-F",
+            "team": 20,
+            "price": {"1": 46.36},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203493.png"
+      },
+      {
+            "_id": "40aa",
+            "name": "Robin Lopez",
+            "height": "7'0",
+            "weight": 275,
+            "position": "C",
+            "team": 30,
+            "price": {
+                  "1": 46.12,
+                  "2": 46.37
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201577.png"
+      },
+      {
+            "_id": "40ab",
+            "name": "Darius Garland",
+            "position": "G",
+            "team": 6,
+            "price": {"1": 45.88},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629636.png"
+      },
+      {
+            "_id": "40ac",
+            "name": "Josh Okogie",
+            "height": "6'4",
+            "weight": 212,
+            "position": "G",
+            "team": 18,
+            "price": {"1": 44.68},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629006.png"
+      },
+      {
+            "_id": "40ad",
+            "name": "Alex Len",
+            "height": "7'1",
+            "weight": 250,
+            "position": "C",
+            "team": 30,
+            "price": {"1": 44.3},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203458.png"
+      },
+      {
+            "_id": "40ae",
+            "name": "Jordan Clarkson",
+            "height": "6'5",
+            "weight": 194,
+            "position": "G",
+            "team": 29,
+            "price": {
+                  "1": 44.11,
+                  "2": 45.21
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203903.png"
+      },
+      {
+            "_id": "40af",
+            "name": "Jarrett Culver",
+            "position": "G",
+            "team": 18,
+            "price": {"1": 43.74},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629633.png"
+      },
+      {
+            "_id": "40b0",
+            "name": "Nerlens Noel",
+            "height": "6'11",
+            "weight": 220,
+            "position": "F-C",
+            "team": 20,
+            "price": {
+                  "1": 43.55,
+                  "2": 45.05
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203457.png"
+      },
+      {
+            "_id": "40b1",
+            "name": "Elfrid Payton",
+            "height": "6'4",
+            "weight": 185,
+            "position": "G",
+            "team": 20,
+            "price": {"1": 43.36},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203901.png"
+      },
+      {
+            "_id": "40b2",
+            "name": "Harry Giles III",
+            "height": "6'10",
+            "weight": 240,
+            "position": "F-C",
+            "team": 25,
+            "price": {"1": 42.98},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628385.png"
+      },
+      {
+            "_id": "40b3",
+            "name": "Juancho Hernangomez",
+            "height": "6'9",
+            "weight": 230,
+            "position": "F",
+            "team": 18,
+            "price": {"1": 42.79},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627823.png"
+      },
+      {
+            "_id": "40b4",
+            "name": "Richaun Holmes",
+            "height": "6'10",
+            "weight": 235,
+            "position": "F-C",
+            "team": 26,
+            "price": {
+                  "1": 42.6,
+                  "2": 48.75
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626158.png"
+      },
+      {
+            "_id": "40b5",
+            "name": "Brandon Clarke",
+            "position": "F",
+            "team": 15,
+            "price": {
+                  "1": 42.42,
+                  "2": 43.370000000000005
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629634.png"
+      },
+      {
+            "_id": "40b6",
+            "name": "Jeff Green",
+            "height": "6'9",
+            "weight": 235,
+            "position": "F",
+            "team": 3,
+            "price": {
+                  "1": 42.23,
+                  "2": 42.58
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201145.png"
+      },
+      {
+            "_id": "40b7",
+            "name": "Torrey Craig",
+            "height": "6'7",
+            "weight": 215,
+            "position": "F",
+            "team": 17,
+            "price": {"1": 41.85},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628470.png"
+      },
+      {
+            "_id": "40b8",
+            "name": "Wesley Matthews",
+            "position": "G-F",
+            "team": 14,
+            "price": {"1": 41.66},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202083.png"
+      },
+      {
+            "_id": "40b9",
+            "name": "Garrett Temple",
+            "height": "6'6",
+            "weight": 195,
+            "position": "G-F",
+            "team": 5,
+            "price": {"1": 41.47},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202066.png"
+      },
+      {
+            "_id": "40ba",
+            "name": "De'Andre Hunter",
+            "position": "F",
+            "team": 1,
+            "price": {
+                  "1": 41.09,
+                  "2": 41.190000000000005
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629631.png"
+      },
+      {
+            "_id": "40bb",
+            "name": "Ish Smith",
+            "height": "6'0",
+            "weight": 175,
+            "position": "G",
+            "team": 30,
+            "price": {"1": 40.91},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202397.png"
+      },
+      {
+            "_id": "40bc",
+            "name": "Willy Hernangomez",
+            "height": "6'11",
+            "weight": 240,
+            "position": "C",
+            "team": 19,
+            "price": {"1": 40.53,
+            "image": "http}s://cdn.nba.com/headshots/nba/latest/260x190/1626195.png"
+      },
+      {
+            "_id": "40bd",
+            "name": "Boban Marjanovic",
+            "height": "7'3",
+            "weight": 290,
+            "position": "C",
+            "team": 7,
+            "price": {"1": 40.34},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626246.png"
+      },
+      {
+            "_id": "40be",
+            "name": "Wayne Ellington",
+            "position": "G",
+            "team": 9,
+            "price": {
+                  "1": 40.15,
+                  "2": 40.35
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201961.png"
+      },
+      {
+            "_id": "40bf",
+            "name": "Markelle Fultz",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 22,
+            "price": {"1": 39.96},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628365.png"
+      },
+      {
+            "_id": "40c0",
+            "name": "Jabari Parker",
+            "height": "6'8",
+            "weight": 245,
+            "position": "F",
+            "team": 26,
+            "price": {"1": 39.77},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203953.png"
+      },
+      {
+            "_id": "40c1",
+            "name": "Terrance Ferguson",
+            "height": "6'7",
+            "weight": 190,
+            "position": "G",
+            "team": 23,
+            "price": {"1": 39.58},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628390.png"
+      },
+      {
+            "_id": "40c2",
+            "name": "Malik Monk",
+            "height": "6'3",
+            "weight": 200,
+            "position": "G",
+            "team": 4,
+            "price": {
+                  "1": 39.4,
+                  "2": 40.35
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628370.png"
+      },
+      {
+            "_id": "40c3",
+            "name": "Jalen Brunson",
+            "height": "6'3",
+            "weight": 190,
+            "position": "G",
+            "team": 7,
+            "price": {
+                  "1": 39.21,
+                  "2": 39.46
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628973.png"
+      },
+      {
+            "_id": "40c4",
+            "name": "Dorian Finney-Smith",
+            "height": "6'8",
+            "weight": 220,
+            "position": "F",
+            "team": 7,
+            "price": {
+                  "1": 38.83,
+                  "2": 38.879999999999995
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627827.png"
+      },
+      {
+            "_id": "40c5",
+            "name": "Dante Exum",
+            "height": "6'6",
+            "weight": 190,
+            "position": "G",
+            "team": 11,
+            "price": {"1": 38.64},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203957.png"
+      },
+      {
+            "_id": "40c6",
+            "name": "Michael Porter Jr.",
+            "height": "6'10",
+            "weight": 210,
+            "position": "F",
+            "team": 8,
+            "price": {"1": 38.45},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629008.png"
+      },
+      {
+            "_id": "40c7",
+            "name": "Kevin Knox",
+            "height": "6'9",
+            "weight": 215,
+            "position": "F",
+            "team": 20,
+            "price": {"1": 38.26}
+      },
+      {
+            "_id": "40c8",
+            "name": "Daniel Theis",
+            "height": "6'8",
+            "weight": 243,
+            "position": "F",
+            "team": 2,
+            "price": {
+                  "1": 38.08,
+                  "2": 40.53
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628464.png"
+      },
+      {
+            "_id": "40c9",
+            "name": "Coby White",
+            "position": "G",
+            "team": 5,
+            "price": {"1": 37.89},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629632.png"
+      },
+      {
+            "_id": "40ca",
+            "name": "Jared Dudley",
+            "height": "6'7",
+            "weight": 237,
+            "position": "F",
+            "team": 14,
+            "price": {"1": 37.7},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201162.png"
+      },
+      {
+            "_id": "40cb",
+            "name": "Mike Scott",
+            "height": "6'8",
+            "weight": 237,
+            "position": "F",
+            "team": 23,
+            "price": {"1": 37.51},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203118.png"
+      },
+      {
+            "_id": "40cc",
+            "name": "Alec Burks",
+            "height": "6'6",
+            "weight": 214,
+            "position": "G",
+            "team": 20,
+            "price": {"1": 37.13},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202692.png"
+      },
+      {
+            "_id": "40cd",
+            "name": "Aaron Holiday",
+            "height": "6'1",
+            "weight": 185,
+            "position": "G",
+            "team": 12,
+            "price": {"1": 36.75},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628988.png"
+      },
+      {
+            "_id": "40ce",
+            "name": "Rajon Rondo",
+            "height": "6'1",
+            "weight": 186,
+            "position": "G",
+            "team": 1,
+            "price": {"1": 36.57},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200765.png"
+      },
+      {
+            "_id": "40cf",
+            "name": "Avery Bradley",
+            "height": "6'2",
+            "weight": 180,
+            "position": "G",
+            "team": 16,
+            "price": {"1": 36.19},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202340.png"
+      },
+      {
+            "_id": "40d0",
+            "name": "Nickeil Alexander-Walker",
+            "position": "G",
+            "team": 19,
+            "price": {"1": 36},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629638.png"
+      },
+      {
+            "_id": "40d1",
+            "name": "Frank Ntilikina",
+            "height": "6'6",
+            "weight": 200,
+            "position": "G",
+            "team": 20,
+            "price": {"1": 35.81},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628373.png"
+      },
+      {
+            "_id": "40d2",
+            "name": "James Ennis III",
+            "height": "6'7",
+            "weight": 210,
+            "position": "F",
+            "team": 22,
+            "price": {"1": 35.62},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203516.png"
+      },
+      {
+            "_id": "40d3",
+            "name": "Kris Dunn",
+            "height": "6'4",
+            "weight": 205,
+            "position": "G",
+            "team": 1,
+            "price": {"1": 35.43},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627739.png"
+      },
+      {
+            "_id": "40d4",
+            "name": "Meyers Leonard",
+            "height": "7'1",
+            "weight": 255,
+            "position": "F-C",
+            "team": 16,
+            "price": {"1": 35.06},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203086.png"
+      },
+      {
+            "_id": "40d5",
+            "name": "Bruce Brown",
+            "height": "6'5",
+            "weight": 202,
+            "position": "G",
+            "team": 3,
+            "price": {"1": 34.87},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628971.png"
+      },
+      {
+            "_id": "40d6",
+            "name": "Khem Birch",
+            "height": "6'9",
+            "weight": 233,
+            "position": "C",
+            "team": 22,
+            "price": {
+                  "1": 34.68,
+                  "2": 35.68
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203920.png"
+      },
+      {
+            "_id": "40d7",
+            "name": "Tyler Herro",
+            "position": "G",
+            "team": 16,
+            "price": {"1": 34.49},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629639.png"
+      },
+      {
+            "_id": "40d8",
+            "name": "Rodney McGruder",
+            "height": "6'4",
+            "weight": 200,
+            "position": "F-G",
+            "team": 9,
+            "price": {"1": 34.3},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203585.png"
+      },
+      {
+            "_id": "40d9",
+            "name": "Doug McDermott",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 12,
+            "price": {
+                  "1": 33.74,
+                  "2": 34.24
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203926.png"
+      },
+      {
+            "_id": "40da",
+            "name": "Justin Holiday",
+            "height": "6'6",
+            "weight": 181,
+            "position": "F-G",
+            "team": 12,
+            "price": {
+                  "1": 33.36,
+                  "2": 34.11
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203200.png"
+      },
+      {
+            "_id": "40db",
+            "name": "Lonnie Walker IV",
+            "height": "6'5",
+            "weight": 205,
+            "position": "G",
+            "team": 27,
+            "price": {"1": 33.17},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629022.png"
+      },
+      {
+            "_id": "40dc",
+            "name": "Tony Snell",
+            "height": "6'7",
+            "weight": 213,
+            "position": "G",
+            "team": 1,
+            "price": {"1": 32.98},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203503.png"
+      },
+      {
+            "_id": "40dd",
+            "name": "D.J. Wilson",
+            "height": "6'10",
+            "weight": 231,
+            "position": "F",
+            "team": 17,
+            "price": {"1": 32.79},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628391.png"
+      },
+      {
+            "_id": "40de",
+            "name": "Justin Jackson",
+            "height": "6'8",
+            "weight": 210,
+            "position": "F",
+            "team": 21,
+            "price": {"1": 32.6},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628382.png"
+      },
+      {
+            "_id": "40df",
+            "name": "Alex Caruso",
+            "height": "6'5",
+            "weight": 186,
+            "position": "G",
+            "team": 14,
+            "price": {"1": 32.42},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627936.png"
+      },
+      {
+            "_id": "40e0",
+            "name": "Rui Hachimura",
+            "position": "F",
+            "team": 30,
+            "price": {"1": 32.04},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629060.png"
+      },
+      {
+            "_id": "40e1",
+            "name": "Dillon Brooks",
+            "height": "6'6",
+            "weight": 220,
+            "position": "G-F",
+            "team": 15,
+            "price": {
+                  "1": 31.66,
+                  "2": 31.91
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628415.png"
+      },
+      {
+            "_id": "40e2",
+            "name": "Stanley Johnson",
+            "height": "6'7",
+            "weight": 245,
+            "position": "F",
+            "team": 28,
+            "price": {"1": 31.28},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626169.png"
+      },
+      {
+            "_id": "40e3",
+            "name": "Trey Burke",
+            "height": "6'1",
+            "weight": 175,
+            "position": "G",
+            "team": 7,
+            "price": {"1": 31.09},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203504.png"
+      },
+      {
+            "_id": "40e4",
+            "name": "Gorgui Dieng",
+            "height": "6'11",
+            "weight": 252,
+            "position": "C",
+            "team": 15,
+            "price": {"1": 30.53},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203476.png"
+      },
+      {
+            "_id": "40e5",
+            "name": "Rodions Kurucs",
+            "height": "6'9",
+            "weight": 210,
+            "position": "F",
+            "team": 11,
+            "price": {"1": 29.96},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629066.png"
+      },
+      {
+            "_id": "40e6",
+            "name": "Anfernee Simons",
+            "height": "6'4",
+            "weight": 185,
+            "position": "G",
+            "team": 25,
+            "price": {"1": 29.77},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629014.png"
+      },
+      {
+            "_id": "40e7",
+            "name": "Jaxson Hayes",
+            "position": "C",
+            "team": 19,
+            "price": {"1": 29.58},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629637.png"
+      },
+      {
+            "_id": "40e8",
+            "name": "Jake Layman",
+            "height": "6'9",
+            "weight": 215,
+            "position": "F",
+            "team": 18,
+            "price": {"1": 29.4},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627774.png"
+      },
+      {
+            "_id": "40e9",
+            "name": "Sterling Brown",
+            "height": "6'6",
+            "weight": 232,
+            "position": "G",
+            "team": 11,
+            "price": {
+                  "1": 29.02,
+                  "2": 29.02
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628425.png"
+      },
+      {
+            "_id": "40ea",
+            "name": "Jordan Bell",
+            "height": "6'9",
+            "weight": 224,
+            "position": "F",
+            "team": 30,
+            "price": {"1": 28.83},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628395.png"
+      },
+      {
+            "_id": "40eb",
+            "name": "Darius Miller",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 21,
+            "price": {"1": 28.64},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203121.png"
+      },
+      {
+            "_id": "40ec",
+            "name": "Denzel Valentine",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 5,
+            "price": {"1": 28.45},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627756.png"
+      },
+      {
+            "_id": "40ed",
+            "name": "T.J. McConnell",
+            "height": "6'2",
+            "weight": 190,
+            "position": "G",
+            "team": 12,
+            "price": {
+                  "1": 28.26,
+                  "2": 32.760000000000005
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204456.png"
+      },
+      {
+            "_id": "40ee",
+            "name": "Trey Lyles",
+            "height": "6'10",
+            "weight": 234,
+            "position": "F",
+            "team": 27,
+            "price": {"1": 28.08},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626168.png"
+      },
+      {
+            "_id": "40ef",
+            "name": "DeAndre' Bembry",
+            "height": "6'6",
+            "weight": 210,
+            "position": "F",
+            "team": 28,
+            "price": {"1": 27.89},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627761.png"
+      },
+      {
+            "_id": "40f0",
+            "name": "Langston Galloway",
+            "height": "6'2",
+            "weight": 200,
+            "position": "G",
+            "team": 24,
+            "price": {"1": 27.7},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204038.png"
+      },
+      {
+            "_id": "40f1",
+            "name": "Robert Williams III",
+            "height": "6'10",
+            "weight": 240,
+            "position": "C-F",
+            "team": 2,
+            "price": {"1": 27.32},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629057.png"
+      },
+      {
+            "_id": "40f2",
+            "name": "Alfonzo McKinnie",
+            "height": "6'8",
+            "weight": 215,
+            "position": "F",
+            "team": 14,
+            "price": {"1": 26.38},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628035.png"
+      },
+      {
+            "_id": "40f3",
+            "name": "Matisse Thybulle",
+            "position": "G-F",
+            "team": 23,
+            "price": {
+                  "1": 26.19,
+                  "2": 26.84
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629680.png"
+      },
+      {
+            "_id": "40f4",
+            "name": "Frank Kaminsky",
+            "height": "7'0",
+            "weight": 242,
+            "position": "F-C",
+            "team": 24,
+            "price": {"1": 26},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626163.png"
+      },
+      {
+            "_id": "40f5",
+            "name": "Derrick Jones Jr.",
+            "height": "6'7",
+            "weight": 200,
+            "position": "F-G",
+            "team": 25,
+            "price": {"1": 25.15},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627884.png"
+      },
+      {
+            "_id": "40f6",
+            "name": "David Nwaba",
+            "height": "6'4",
+            "weight": 219,
+            "position": "G",
+            "team": 11,
+            "price": {
+                  "1": 25.01,
+                  "2": 25.360000000000003
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628021.png"
+      },
+      {
+            "_id": "40f7",
+            "name": "Quinn Cook",
+            "height": "6'2",
+            "weight": 179,
+            "position": "G",
+            "team": 14,
+            "price": {"1": 24.87},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626188.png"
+      },
+      {
+            "_id": "40f8",
+            "name": "Grant Williams",
+            "position": "F",
+            "team": 2,
+            "price": {"1": 24.73},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629684.png"
+      },
+      {
+            "_id": "40f9",
+            "name": "Ryan Arcidiacono",
+            "height": "6'3",
+            "weight": 200,
+            "position": "G",
+            "team": 5,
+            "price": {"1": 24.59},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627853.png"
+      },
+      {
+            "_id": "40fa",
+            "name": "Jahlil Okafor",
+            "height": "6'11",
+            "weight": 275,
+            "position": "C",
+            "team": 9,
+            "price": {"1": 24.17},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626143.png"
+      },
+      {
+            "_id": "40fb",
+            "name": "Cameron Johnson",
+            "position": "F",
+            "team": 24,
+            "price": {
+                  "1": 24.03,
+                  "2": 24.03
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629661.png"
+      },
+      {
+            "_id": "40fc",
+            "name": "Mike Muscala",
+            "height": "6'11",
+            "weight": 240,
+            "position": "F-C",
+            "team": 21,
+            "price": {"1": 23.89},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203488.png"
+      },
+      {
+            "_id": "40fd",
+            "name": "Damyean Dotson",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 6,
+            "price": {"1": 23.75},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628422.png"
+      },
+      {
+            "_id": "40fe",
+            "name": "Patrick Patterson",
+            "height": "6'9",
+            "weight": 230,
+            "position": "F",
+            "team": 13,
+            "price": {"1": 23.32},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202335.png"
+      },
+      {
+            "_id": "40ff",
+            "name": "Raul Neto",
+            "height": "6'1",
+            "weight": 179,
+            "position": "G",
+            "team": 30,
+            "price": {"1": 23.04},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203526.png"
+      },
+      {
+            "_id": "4100",
+            "name": "Furkan Korkmaz",
+            "height": "6'7",
+            "weight": 190,
+            "position": "G-F",
+            "team": 23,
+            "price": {"1": 22.9},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627788.png"
+      },
+      {
+            "_id": "4101",
+            "name": "Georges Niang",
+            "height": "6'8",
+            "weight": 230,
+            "position": "F",
+            "team": 29,
+            "price": {"1": 22.76},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627777.png"
+      },
+      {
+            "_id": "4102",
+            "name": "Chandler Hutchison",
+            "height": "6'7",
+            "weight": 197,
+            "position": "F",
+            "team": 5,
+            "price": {"1": 22.48},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628990.png"
+      },
+      {
+            "_id": "4103",
+            "name": "Semi Ojeleye",
+            "height": "6'7",
+            "weight": 241,
+            "position": "F",
+            "team": 2,
+            "price": {"1": 22.2},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628400.png"
+      },
+      {
+            "_id": "4104",
+            "name": "Patrick McCaw",
+            "height": "6'7",
+            "weight": 185,
+            "position": "",
+            "team": 28,
+            "price": {"1": 22.06},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627775.png"
+      },
+      {
+            "_id": "4105",
+            "name": "Dwayne Bacon",
+            "height": "6'7",
+            "weight": 221,
+            "position": "G-F",
+            "team": 22,
+            "price": {
+                  "1": 21.63,
+                  "2": 22.279999999999998
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628407.png"
+      },
+      {
+            "_id": "4106",
+            "name": "Luke Kornet",
+            "height": "7'1",
+            "weight": 250,
+            "position": "F-C",
+            "team": 5,
+            "price": {"1": 21.49},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628436.png"
+      },
+      {
+            "_id": "4107",
+            "name": "Wes Iwundu",
+            "height": "6'7",
+            "weight": 195,
+            "position": "F",
+            "team": 7,
+            "price": {"1": 21.35},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628411.png"
+      },
+      {
+            "_id": "4108",
+            "name": "Matthew Dellavedova",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 6,
+            "price": {"1": 21.21},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203521.png"
+      },
+      {
+            "_id": "4109",
+            "name": "De'Anthony Melton",
+            "height": "6'4",
+            "weight": 200,
+            "position": "G",
+            "team": 15,
+            "price": {"1": 21.07},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629001.png"
+      },
+      {
+            "_id": "410a",
+            "name": "Michael Carter-Williams",
+            "position": "G",
+            "team": 22,
+            "price": {"1": 20.93},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203487.png"
+      },
+      {
+            "_id": "410b",
+            "name": "Donte DiVincenzo",
+            "height": "6'4",
+            "weight": 203,
+            "position": "G",
+            "team": 17,
+            "price": {
+                  "1": 20.79,
+                  "2": 21.04
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628978.png"
+      },
+      {
+            "_id": "410c",
+            "name": "Christian Wood",
+            "height": "6'10",
+            "weight": 214,
+            "position": "F",
+            "team": 11,
+            "price": {
+                  "1": 20.51,
+                  "2": 23.11
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626174.png"
+      },
+      {
+            "_id": "410d",
+            "name": "Tim Frazier",
+            "height": "6'1",
+            "weight": 170,
+            "position": "G",
+            "team": 9,
+            "price": {"1": 20.23},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204025.png"
+      },
+      {
+            "_id": "410e",
+            "name": "Frank Jackson",
+            "height": "6'3",
+            "weight": 205,
+            "position": "G",
+            "team": 9,
+            "price": {"1": 20.08},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628402.png"
+      },
+      {
+            "_id": "410f",
+            "name": "Ty Jerome",
+            "position": "G",
+            "team": 21,
+            "price": {"1": 19.94},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629660.png"
+      },
+      {
+            "_id": "4110",
+            "name": "Glenn Robinson III",
+            "height": "6'6",
+            "weight": 222,
+            "position": "G-F",
+            "team": 26,
+            "price": {"1": 19.8},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203922.png"
+      },
+      {
+            "_id": "4111",
+            "name": "Solomon Hill",
+            "height": "6'7",
+            "weight": 225,
+            "position": "F",
+            "team": 1,
+            "price": {"1": 19.66},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203524.png"
+      },
+      {
+            "_id": "4112",
+            "name": "P.J. Washington",
+            "position": "F",
+            "team": 4,
+            "price": {
+                  "1": 19.52,
+                  "2": 19.97
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629023.png"
+      },
+      {
+            "_id": "4113",
+            "name": "Kenrich Williams",
+            "height": "6'7",
+            "weight": 210,
+            "position": "G-F",
+            "team": 21,
+            "price": {"1": 19.38},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629026.png"
+      },
+      {
+            "_id": "4114",
+            "name": "Romeo Langford",
+            "position": "G",
+            "team": 2,
+            "price": 18.96,
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629641.png"
+      },
+      {
+            "_id": "4115",
+            "name": "Bismack Biyombo",
+            "height": "6'9",
+            "weight": 255,
+            "position": "C",
+            "team": 4,
+            "price": {
+                  "1": 18.54,
+                  "2": 19.54
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202687.png"
+      },
+      {
+            "_id": "4116",
+            "name": "Nassir Little",
+            "position": "F",
+            "team": 25,
+            "price": {"1": 17.97},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629642.png"
+      },
+      {
+            "_id": "4117",
+            "name": "Carsen Edwards",
+            "position": "G",
+            "team": 2,
+            "price": {"1": 17.83},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629035.png"
+      },
+      {
+            "_id": "4118",
+            "name": "Goga Bitadze",
+            "position": "C",
+            "team": 12,
+            "price": {"1": 17.41},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629048.png"
+      },
+      {
+            "_id": "4119",
+            "name": "Hamidou Diallo",
+            "height": "6'5",
+            "weight": 198,
+            "position": "G",
+            "team": 21,
+            "price": {"1": 16.99},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628977.png"
+      },
+      {
+            "_id": "411a",
+            "name": "Damian Jones",
+            "height": "7'0",
+            "weight": 245,
+            "position": "C",
+            "team": 24,
+            "price": {"1": 16.85},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627745.png"
+      },
+      {
+            "_id": "411b",
+            "name": "Bruno Fernando",
+            "position": "F",
+            "team": 1,
+            "price": {"1": 16.42},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628981.png"
+      },
+      {
+            "_id": "411c",
+            "name": "Shaquille Harrison",
+            "height": "6'4",
+            "weight": 190,
+            "position": "G",
+            "team": 29,
+            "price": {"1": 16.28},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627885.png"
+      },
+      {
+            "_id": "411d",
+            "name": "Josh Jackson",
+            "height": "6'8",
+            "weight": 200,
+            "position": "F",
+            "team": 9,
+            "price": {"1": 16.14},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628367.png"
+      },
+      {
+            "_id": "411e",
+            "name": "Sindarius Thornwell",
+            "height": "6'5",
+            "weight": 215,
+            "position": "G",
+            "team": 19,
+            "price": {"1": 16},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628414.png"
+      },
+      {
+            "_id": "411f",
+            "name": "Keita Bates-Diop",
+            "height": "6'9",
+            "weight": 229,
+            "position": "F",
+            "team": 27,
+            "price": {"1": 15.72},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628966.png"
+      },
+      {
+            "_id": "4120",
+            "name": "Sekou Doumbouya",
+            "position": "F",
+            "team": 9,
+            "price": {"1": 15.44},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629635.png"
+      },
+      {
+            "_id": "4121",
+            "name": "Grayson Allen",
+            "height": "6'5",
+            "weight": 198,
+            "position": "G",
+            "team": 15,
+            "price": {"1": 15.15},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628960.png"
+      },
+      {
+            "_id": "4122",
+            "name": "Jarred Vanderbilt",
+            "height": "6'9",
+            "weight": 214,
+            "position": "F",
+            "team": 18,
+            "price": {"1": 15.01},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629020.png"
+      },
+      {
+            "_id": "4123",
+            "name": "Devonte' Graham",
+            "height": "6'2",
+            "weight": 185,
+            "position": "G",
+            "team": 4,
+            "price": {
+                  "1": 14.87,
+                  "2": 15.37
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628984.png"
+      },
+      {
+            "_id": "4124",
+            "name": "Cristiano Felicio",
+            "height": "6'10",
+            "weight": 265,
+            "position": "F-C",
+            "team": 5,
+            "price": {"1": 14.59},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626245.png"
+      },
+      {
+            "_id": "4125",
+            "name": "Chuma Okeke",
+            "position": "F",
+            "team": 22,
+            "price": 14.45,
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629643.png"
+      },
+      {
+            "_id": "4126",
+            "name": "Dylan Windler",
+            "position": "G-F",
+            "team": 6,
+            "price": {"1": 14.31},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629685.png"
+      },
+      {
+            "_id": "4127",
+            "name": "Bol Bol",
+            "position": "C",
+            "team": 8,
+            "price": {"1": 14.03},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629626.png"
+      },
+      {
+            "_id": "4128",
+            "name": "JaKarr Sampson",
+            "position": "",
+            "team": 12,
+            "price": {"1": 13.61},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203960.png"
+      },
+      {
+            "_id": "4129",
+            "name": "Luka Samanic",
+            "position": "F",
+            "team": 27,
+            "price": {"1": 13.18},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629677.png"
+      },
+      {
+            "_id": "412a",
+            "name": "Jevon Carter",
+            "height": "6'2",
+            "weight": 196,
+            "position": "G",
+            "team": 24,
+            "price": {"1": 12.9},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628975.png"
+      },
+      {
+            "_id": "412b",
+            "name": "Ignas Brazdeikis",
+            "position": "F",
+            "team": 20,
+            "price": {"1": 12.76},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629649.png"
+      },
+      {
+            "_id": "412c",
+            "name": "Abdel Nader",
+            "height": "6'6",
+            "weight": 225,
+            "position": "F",
+            "team": 24,
+            "price": {"1": 12.62},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627846.png"
+      },
+      {
+            "_id": "412d",
+            "name": "Nicolo Melli",
+            "position": "F",
+            "team": 19,
+            "price": {"1": 12.34},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629740.png"
+      },
+      {
+            "_id": "412e",
+            "name": "Keldon Johnson",
+            "position": "F",
+            "team": 27,
+            "price": {"1": 12.2},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629640.png"
+      },
+      {
+            "_id": "412f",
+            "name": "Shake Milton",
+            "height": "6'6",
+            "weight": 207,
+            "position": "G",
+            "team": 23,
+            "price": {"1": 12.06},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629003.png"
+      },
+      {
+            "_id": "4130",
+            "name": "Eric Paschall",
+            "position": "F",
+            "team": 10,
+            "price": {"1": 11.92},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629672.png"
+      },
+      {
+            "_id": "4131",
+            "name": "Jerome Robinson",
+            "height": "6'5",
+            "weight": 190,
+            "position": "G",
+            "team": 30,
+            "price": {"1": 11.63},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629010.png"
+      },
+      {
+            "_id": "4132",
+            "name": "Ben McLemore",
+            "position": "G",
+            "team": 11,
+            "price": {"1": 11.49},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203463.png"
+      },
+      {
+            "_id": "4133",
+            "name": "Brad Wanamaker",
+            "height": "6'4",
+            "weight": 210,
+            "position": "G",
+            "team": 10,
+            "price": {"1": 11.21},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202954.png"
+      },
+      {
+            "_id": "4134",
+            "name": "Chris Boucher",
+            "height": "6'10",
+            "weight": 200,
+            "position": "F",
+            "team": 28,
+            "price": {
+                  "1": 9.94,
+                  "2": 15.34
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628449.png"
+      },
+      {
+            "_id": "4135",
+            "name": "Jordan Poole",
+            "position": "G",
+            "team": 10,
+            "price": {"1": 9.9},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629673.png"
+      },
+      {
+            "_id": "4136",
+            "name": "Damion Lee",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G",
+            "team": 10,
+            "price": {
+                  "1": 9.86,
+                  "2": 10.309999999999999
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627814.png"
+      },
+      {
+            "_id": "4137",
+            "name": "Talen Horton-Tucker",
+            "position": "G",
+            "team": 14,
+            "price": {"1": 9.77},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629659.png"
+      },
+      {
+            "_id": "4138",
+            "name": "Tony Bradley",
+            "height": "6'10",
+            "weight": 248,
+            "position": "C",
+            "team": 23,
+            "price": {"1": 9.73},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628396.png"
+      },
+      {
+            "_id": "4139",
+            "name": "Cameron Payne",
+            "position": "G",
+            "team": 24,
+            "price": {"1": 9.61},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626166.png"
+      },
+      {
+            "_id": "413a",
+            "name": "Isaiah Hartenstein",
+            "height": "7'0",
+            "weight": 249,
+            "position": "F-C",
+            "team": 8,
+            "price": {"1": 9.52},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628392.png"
+      },
+      {
+            "_id": "413b",
+            "name": "Vincent Poirier",
+            "position": "C",
+            "team": 23,
+            "price": {"1": 9.48},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629738.png"
+      },
+      {
+            "_id": "413c",
+            "name": "Daniel Gafford",
+            "position": "F",
+            "team": 5,
+            "price": {
+                  "1": 9.44,
+                  "2": 9.54
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629655.png"
+      },
+      {
+            "_id": "413d",
+            "name": "Darius Bazley",
+            "position": "F",
+            "team": 21,
+            "price": {
+                  "1": 9.4,
+                  "2": 9.75
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629647.png"
+      },
+      {
+            "_id": "413e",
+            "name": "Nicolas Claxton",
+            "position": "F-C",
+            "team": 3,
+            "price": {"1": 9.36},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629651.png"
+      },
+      {
+            "_id": "413f",
+            "name": "Alen Smailagic",
+            "position": "F",
+            "team": 10,
+            "price": {"1": 9.27},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629346.png"
+      },
+      {
+            "_id": "4140",
+            "name": "Chimezie Metu",
+            "height": "6'10",
+            "weight": 225,
+            "position": "F",
+            "team": 26,
+            "price": {"1": 9.23},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629002.png"
+      },
+      {
+            "_id": "4141",
+            "name": "Tacko Fall",
+            "position": "C",
+            "team": 2,
+            "price": 9.15,
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629605.png"
+      },
+      {
+            "_id": "4142",
+            "name": "Terance Mann",
+            "position": "G",
+            "team": 13,
+            "price": {"1": 9.02},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629611.png"
+      },
+      {
+            "_id": "4143",
+            "name": "Thanasis Antetokounmpo",
+            "position": "",
+            "team": 17,
+            "price": {"1": 8.98},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203648.png"
+      },
+      {
+            "_id": "4144",
+            "name": "KZ Okpala",
+            "position": "F",
+            "team": 16,
+            "price": {"1": 8.94},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629644.png"
+      },
+      {
+            "_id": "4145",
+            "name": "Mfiondu Kabengele",
+            "position": "F",
+            "team": 13,
+            "price": {"1": 8.9},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629662.png"
+      },
+      {
+            "_id": "4146",
+            "name": "Yuta Watanabe",
+            "height": "6'9",
+            "weight": 205,
+            "position": "G",
+            "team": 28,
+            "price": {"1": 8.85},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629139.png"
+      },
+      {
+            "_id": "4147",
+            "name": "Kyle Guy",
+            "position": "G",
+            "team": 26,
+            "price": {"1": 8.73},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629657.png"
+      },
+      {
+            "_id": "4148",
+            "name": "Isaac Bonga",
+            "height": "6'8",
+            "weight": 180,
+            "position": "G",
+            "team": 30,
+            "price": {"1": 8.48},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629067.png"
+      },
+      {
+            "_id": "4149",
+            "name": "Jaylen Adams",
+            "height": "6'2",
+            "weight": 190,
+            "position": "G",
+            "team": 17,
+            "price": {"1": 8.39},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629121.png"
+      },
+      {
+            "_id": "414a",
+            "name": "Matt Thomas",
+            "position": "G",
+            "team": 28,
+            "price": {"1": 8.35},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629744.png"
+      },
+      {
+            "_id": "414b",
+            "name": "Marques Bolden",
+            "position": "C",
+            "team": 6,
+            "price": {"1": 8.02},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629716.png"
+      },
+      {
+            "_id": "414c",
+            "name": "Cody Martin",
+            "position": "F",
+            "team": 4,
+            "price": {"1": 7.85},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628998.png"
+      },
+      {
+            "_id": "414d",
+            "name": "Theo Pinson",
+            "height": "6'6",
+            "weight": 218,
+            "position": "G-F",
+            "team": 20,
+            "price": {"1": 7.77},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629033.png"
+      },
+      {
+            "_id": "414e",
+            "name": "Terence Davis",
+            "position": "G",
+            "team": 28,
+            "price": {"1": 7.64},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629056.png"
+      },
+      {
+            "_id": "414f",
+            "name": "John Konchar",
+            "position": "G-F",
+            "team": 15,
+            "price": {"1": 7.6},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629723.png"
+      },
+      {
+            "_id": "4150",
+            "name": "Tremont Waters",
+            "position": "G",
+            "team": 2,
+            "price": {"1": 7.56},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629682.png"
+      },
+      {
+            "_id": "4151",
+            "name": "Naz Reid",
+            "position": "F-C",
+            "team": 18,
+            "price": {
+                  "1": 7.51,
+                  "2": 8.26
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629675.png"
+      },
+      {
+            "_id": "4152",
+            "name": "Kendrick Nunn",
+            "position": "G",
+            "team": 16,
+            "price": {"1": 7.47},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629134.png"
+      },
+      {
+            "_id": "4153",
+            "name": "Quinndary Weatherspoon",
+            "position": "G",
+            "team": 27,
+            "price": {"1": 7.43},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629683.png"
+      },
+      {
+            "_id": "4154",
+            "name": "Justin James",
+            "position": "G-F",
+            "team": 26,
+            "price": {"1": 7.39},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629713.png"
+      },
+      {
+            "_id": "4155",
+            "name": "Brandon Goodwin",
+            "height": "6'2",
+            "weight": 180,
+            "position": "",
+            "team": 1,
+            "price": {"1": 7.31},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629164.png"
+      },
+      {
+            "_id": "4156",
+            "name": "Drew Eubanks",
+            "height": "6'10",
+            "weight": 245,
+            "position": "F",
+            "team": 27,
+            "price": {"1": 7.26},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629234.png"
+      },
+      {
+            "_id": "4157",
+            "name": "Edmond Sumner",
+            "height": "6'6",
+            "weight": 176,
+            "position": "G",
+            "team": 12,
+            "price": {"1": 7.18},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628410.png"
+      },
+      {
+            "_id": "4158",
+            "name": "Kostas Antetokounmpo",
+            "height": "6'10",
+            "weight": 200,
+            "position": "F",
+            "team": 14,
+            "price": {"1": 7.14},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628961.png"
+      },
+      {
+            "_id": "4159",
+            "name": "Miye Oni",
+            "position": "G",
+            "team": 29,
+            "price": {"1": 7.1},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629671.png"
+      },
+      {
+            "_id": "415a",
+            "name": "Jalen Lecque",
+            "position": "G",
+            "team": 12,
+            "price": {"1": 6.89},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629665.png"
+      },
+      {
+            "_id": "415b",
+            "name": "Isaiah Roby",
+            "position": "F",
+            "team": 21,
+            "price": {"1": 6.76},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629676.png"
+      },
+      {
+            "_id": "415c",
+            "name": "Duncan Robinson",
+            "height": "6'8",
+            "weight": 210,
+            "position": "F",
+            "team": 16,
+            "price": {
+                  "1": 6.59,
+                  "2": 7.6899999999999995
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629130.png"
+      },
+      {
+            "_id": "415d",
+            "name": "DaQuan Jeffries",
+            "position": "F",
+            "team": 26,
+            "price": {"1": 6.55},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629610.png"
+      },
+      {
+            "_id": "415e",
+            "name": "Jaylen Nowell",
+            "position": "G",
+            "team": 18,
+            "price": {"1": 6.43},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629669.png"
+      },
+      {
+            "_id": "415f",
+            "name": "Vlatko Cancar",
+            "position": "F",
+            "team": 8,
+            "price": {"1": 6.34},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628427.png"
+      },
+      {
+            "_id": "4160",
+            "name": "Caleb Martin",
+            "position": "F",
+            "team": 4,
+            "price": {"1": 6.3},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628997.png"
+      },
+      {
+            "_id": "4161",
+            "name": "Udonis Haslem",
+            "height": "6'8",
+            "weight": 235,
+            "position": "F",
+            "team": 16,
+            "price": {"1": 6.22},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2617.png"
+      },
+      {
+            "_id": "4162",
+            "name": "Jordan McLaughlin",
+            "position": "G",
+            "team": 18,
+            "price": {"1": 6.01},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629162.png"
+      },
+      {
+            "_id": "4163",
+            "name": "Jalen McDaniels",
+            "position": "F",
+            "team": 4,
+            "price": {"1": 5.92},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629667.png"
+      },
+      {
+            "_id": "4164",
+            "name": "Moses Brown",
+            "position": "C",
+            "team": 21,
+            "price": {"1": 5.63},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629650.png"
+      },
+      {
+            "_id": "4165",
+            "name": "Amir Coffey",
+            "position": "G",
+            "team": 13,
+            "price": {"1": 5.59},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629599.png"
+      },
+      {
+            "_id": "4166",
+            "name": "Garrison Mathews",
+            "position": "G",
+            "team": 30,
+            "price": {"1": 5.55},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629726.png"
+      },
+      {
+            "_id": "4167",
+            "name": "Wenyen Gabriel",
+            "height": "6'9",
+            "weight": 205,
+            "position": "F",
+            "team": 19,
+            "price": {"1": 5.51},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629117.png"
+      },
+      {
+            "_id": "4168",
+            "name": "Jared Harper",
+            "position": "G",
+            "team": 20,
+            "price": {"1": 5.09},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629607.png"
+      },
+      {
+            "_id": "4169",
+            "name": "Devontae Cacok",
+            "position": "F-C",
+            "team": 14,
+            "price": {"1": 5.05},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629719.png"
+      },
+      {
+            "_id": "416a",
+            "name": "Chris Silva",
+            "position": "F",
+            "team": 16,
+            "price": {"1": 5},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629735.png"
+      },
+      {
+            "_id": "416b",
+            "name": "Luguentz Dort",
+            "position": "G",
+            "team": 21,
+            "price": {"1": 4.59},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629652.png"
+      },
+      {
+            "_id": "416c",
+            "name": "Mychal Mulder",
+            "position": "G",
+            "team": 10,
+            "price": {"1": 4.54},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628539.png"
+      },
+      {
+            "_id": "416d",
+            "name": "Rayjon Tucker",
+            "position": "F",
+            "team": 23,
+            "price": {"1": 4.5},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629730.png"
+      },
+      {
+            "_id": "416e",
+            "name": "Kelan Martin",
+            "position": "F",
+            "team": 12,
+            "price": {"1": 4.21},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629103.png"
+      },
+      {
+            "_id": "416f",
+            "name": "Jarrell Brantley",
+            "position": "F",
+            "team": 29,
+            "price": {"1": 4.17},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629714.png"
+      },
+      {
+            "_id": "4170",
+            "name": "Javonte Green",
+            "position": "G-F",
+            "team": 2,
+            "price": {"1": 4.04},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629750.png"
+      },
+      {
+            "_id": "4171",
+            "name": "Max Strus",
+            "position": "G",
+            "team": 16,
+            "price": {"1": 3.54},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629622.png"
+      },
+      {
+            "_id": "4172",
+            "name": "Juwan Morgan",
+            "position": "F",
+            "team": 29,
+            "price": {"1": 3.5},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629752.png"
+      },
+      {
+            "_id": "4173",
+            "name": "Adam Mokoka",
+            "position": "G",
+            "team": 5,
+            "price": {"1": 3.21},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629690.png"
+      },
+      {
+            "_id": "4174",
+            "name": "Dean Wade",
+            "position": "F",
+            "team": 6,
+            "price": {"1": 3},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629731.png"
+      },
+      {
+            "_id": "4175",
+            "name": "Draymond Green",
+            "height": "6'7",
+            "weight": 230,
+            "position": "F",
+            "team": 10,
+            "price": {
+                  "1": 94.29,
+                  "2": 96.69000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203110.png"
+      },
+      {
+            "_id": "4176",
+            "name": "Larry Nance",
+            "position": "",
+            "team": 6,
+            "price": {
+                  "1": 63.5,
+                  "2": 65.3
+            }
+      },
+      {
+            "_id": "4177",
+            "name": "Mo Bamba",
+            "height": "7'0",
+            "weight": 221,
+            "position": "C",
+            "team": 22,
+            "price": {"1": 41.28},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628964.png"
+      },
+      {
+            "_id": "4178",
+            "name": "Cameron Reddish",
+            "position": "F-G",
+            "team": 1,
+            "price": {"1": 30.15}
+      },
+      {
+            "_id": "4179",
+            "name": "Svi Mykhailiuk",
+            "height": "6'8",
+            "weight": 205,
+            "position": "G",
+            "team": 9,
+            "price": {"1": 15.86},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629004.png"
+      },
+      {
+            "_id": "417a",
+            "name": "Norvel Pelle",
+            "position": "F",
+            "team": 3,
+            "price": {"1": 6.09},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203658.png"
+      },
+      {
+            "_id": "417b",
+            "name": "John Wallace",
+            "position": "",
+            "team": 20,
+            "price": {"1": 85.43}
+      },
+      {
+            "_id": "417c",
+            "name": "Tomas Satoransky",
+            "height": "6'7",
+            "weight": 210,
+            "position": "G-F",
+            "team": 5,
+            "price": {"1": 67.07},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203107.png"
+      },
+      {
+            "_id": "417d",
+            "name": "Dennis Scott",
+            "position": "",
+            "team": 22,
+            "price": {"1": 48.74}
+      },
+      {
+            "_id": "417e",
+            "name": "Ivica Zubac",
+            "height": "7'1",
+            "weight": 240,
+            "position": "C",
+            "team": 13,
+            "price": {
+                  "1": 44.49,
+                  "2": 47.74
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627826.png"
+      },
+      {
+            "_id": "417f",
+            "name": "Pat Connaughton",
+            "height": "6'4",
+            "weight": 209,
+            "position": "G",
+            "team": 17,
+            "price": {"1": 37.32},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626192.png"
+      },
+      {
+            "_id": "4180",
+            "name": "Danuel House Jr.",
+            "height": "6'7",
+            "weight": 220,
+            "position": "",
+            "team": 11,
+            "price": {"1": 26.94},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627863.png"
+      },
+      {
+            "_id": "4181",
+            "name": "Troy Brown Jr.",
+            "height": "6'7",
+            "weight": 215,
+            "position": "F",
+            "team": 30,
+            "price": {"1": 18.68},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628972.png"
+      },
+      {
+            "_id": "4182",
+            "name": "Kevin Porter Jr.",
+            "position": "G",
+            "team": 11,
+            "price": {"1": 17.55},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629645.png"
+      },
+      {
+            "_id": "4183",
+            "name": "Gary Clark",
+            "height": "6'8",
+            "weight": 225,
+            "position": "F",
+            "team": 22,
+            "price": {"1": 15.58},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629109.png"
+      },
+      {
+            "_id": "4184",
+            "name": "Gary Trent Jr.",
+            "position": "G",
+            "team": 25,
+            "price": {
+                  "1": 13.32,
+                  "2": 14.97
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629018.png"
+      },
+      {
+            "_id": "4185",
+            "name": "Brian Bowen II",
+            "position": "F",
+            "team": 12,
+            "price": {"1": 7.89},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628968.png"
+      },
+      {
+            "_id": "4186",
+            "name": "Josh Green",
+            "position": "G",
+            "team": 7,
+            "price": {"1": 26.04},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630182.png"
+      },
+      {
+            "_id": "4187",
+            "name": "Tyrese Haliburton",
+            "position": "G",
+            "team": 26,
+            "price": {
+                  "1": 97.91,
+                  "2": 98.96
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630169.png"
+      },
+      {
+            "_id": "4188",
+            "name": "LaMelo Ball",
+            "position": "G",
+            "team": 4,
+            "price": {
+                  "1": 95.54,
+                  "2": 98.44000000000001
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630163.png"
+      },
+      {
+            "_id": "4189",
+            "name": "Xavier Tillman",
+            "position": "F",
+            "team": 15,
+            "price": {"1": 93.17},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630214.png"
+      },
+      {
+            "_id": "418a",
+            "name": "Jae'Sean Tate",
+            "position": "F",
+            "team": 11,
+            "price": {
+                  "1": 90.8,
+                  "2": 91.3
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630256.png"
+      },
+      {
+            "_id": "418b",
+            "name": "Desmond Bane",
+            "position": "G",
+            "team": 15,
+            "price": {
+                  "1": 88.43,
+                  "2": 89.18
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630217.png"
+      },
+      {
+            "_id": "418c",
+            "name": "Patrick Williams",
+            "position": "F",
+            "team": 5,
+            "price": {"1": 86.06},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630172.png"
+      },
+      {
+            "_id": "418d",
+            "name": "James Wiseman",
+            "position": "C",
+            "team": 10,
+            "price": {
+                  "1": 83.69,
+                  "2": 83.89
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630164.png"
+      },
+      {
+            "_id": "418e",
+            "name": "Immanuel Quickley",
+            "position": "G",
+            "team": 20,
+            "price": {
+                  "1": 81.31,
+                  "2": 82.16
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630193.png"
+      },
+      {
+            "_id": "418f",
+            "name": "Payton Pritchard",
+            "position": "G",
+            "team": 2,
+            "price": {"1": 78.94},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630202.png"
+      },
+      {
+            "_id": "4190",
+            "name": "Cole Anthony",
+            "position": "G",
+            "team": 22,
+            "price": {"1": 76.57},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630175.png"
+      },
+      {
+            "_id": "4191",
+            "name": "Devin Vassell",
+            "position": "G-F",
+            "team": 27,
+            "price": {"1": 74.2},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630170.png"
+      },
+      {
+            "_id": "4192",
+            "name": "Anthony Edwards",
+            "position": "G",
+            "team": 18,
+            "price": {
+                  "1": 71.83,
+                  "2": 71.83
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630162.png"
+      },
+      {
+            "_id": "4193",
+            "name": "Isaiah Stewart",
+            "position": "F-C",
+            "team": 9,
+            "price": {
+                  "1": 67.57,
+                  "2": 67.66999999999999
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630191.png"
+      },
+      {
+            "_id": "4194",
+            "name": "Deni Avdija",
+            "position": "F",
+            "team": 30,
+            "price": {"1": 65.6},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630166.png"
+      },
+      {
+            "_id": "4195",
+            "name": "Theo Maledon",
+            "position": "G",
+            "team": 21,
+            "price": {"1": 63.62},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630177.png"
+      },
+      {
+            "_id": "4196",
+            "name": "Isaac Okoro",
+            "position": "F-G",
+            "team": 6,
+            "price": {"1": 61.64},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630171.png"
+      },
+      {
+            "_id": "4197",
+            "name": "Tyrese Maxey",
+            "position": "G",
+            "team": 23,
+            "price": {"1": 59.67},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630178.png"
+      },
+      {
+            "_id": "4198",
+            "name": "Saddiq Bey",
+            "position": "F",
+            "team": 9,
+            "price": {"1": 57.69},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630180.png"
+      },
+      {
+            "_id": "4199",
+            "name": "Jaden McDaniels",
+            "position": "F",
+            "team": 18,
+            "price": {"1": 55.71},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630183.png"
+      },
+      {
+            "_id": "419a",
+            "name": "Isaiah Joe",
+            "position": "G",
+            "team": 23,
+            "price": {"1": 53.74},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630198.png"
+      },
+      {
+            "_id": "419b",
+            "name": "Onyeka Okongwu",
+            "position": "F-C",
+            "team": 1,
+            "price": {"1": 49.79},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630168.png"
+      },
+      {
+            "_id": "419c",
+            "name": "Precious Achiuwa",
+            "position": "F",
+            "team": 16,
+            "price": {"1": 47.81},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630173.png"
+      },
+      {
+            "_id": "419d",
+            "name": "Facundo Campazzo",
+            "position": "",
+            "team": 8,
+            "price": {"1": 45.83},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630267.png"
+      },
+      {
+            "_id": "419e",
+            "name": "Obi Toppin",
+            "position": "F",
+            "team": 20,
+            "price": {"1": 43.26},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630167.png"
+      },
+      {
+            "_id": "419f",
+            "name": "Paul Reed",
+            "position": "F",
+            "team": 23,
+            "price": {"1": 41.7},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630194.png"
+      },
+      {
+            "_id": "41a0",
+            "name": "Reggie Perry",
+            "position": "F-C",
+            "team": 3,
+            "price": {"1": 40.13},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629617.png"
+      },
+      {
+            "_id": "41a1",
+            "name": "CJ Elleby",
+            "position": "F-G",
+            "team": 25,
+            "price": {"1": 38.57},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629604.png"
+      },
+      {
+            "_id": "41a2",
+            "name": "Daniel Oturu",
+            "position": "C",
+            "team": 13,
+            "price": {"1": 37},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630187.png"
+      },
+      {
+            "_id": "41a3",
+            "name": "Cassius Winston",
+            "position": "G",
+            "team": 30,
+            "price": {"1": 35.43},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630216.png"
+      },
+      {
+            "_id": "41a4",
+            "name": "Skylar Mays",
+            "position": "G",
+            "team": 1,
+            "price": {"1": 33.87},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630219.png"
+      },
+      {
+            "_id": "41a5",
+            "name": "R.J. Hampton",
+            "position": "G",
+            "team": 8,
+            "price": {"1": 32.3},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630181.png"
+      },
+      {
+            "_id": "41a6",
+            "name": "Saben Lee",
+            "position": "G",
+            "team": 9,
+            "price": {"1": 30.74},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630240.png"
+      },
+      {
+            "_id": "41a7",
+            "name": "Sam Merrill",
+            "position": "G",
+            "team": 17,
+            "price": {"1": 29.17},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630241.png"
+      },
+      {
+            "_id": "41a8",
+            "name": "Brodric Thomas",
+            "position": "G",
+            "team": 11,
+            "price": {"1": 27.6},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630271.png"
+      },
+      {
+            "_id": "41a9",
+            "name": "Jahmi'us Ramsey",
+            "position": "G",
+            "team": 26,
+            "price": {"1": 24.15},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630186.png"
+      },
+      {
+            "_id": "41aa",
+            "name": "Aaron Nesmith",
+            "position": "G-F",
+            "team": 2,
+            "price": {"1": 22.99},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630174.png"
+      },
+      {
+            "_id": "41ab",
+            "name": "Elijah Hughes",
+            "position": "G",
+            "team": 29,
+            "price": {"1": 21.82},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630190.png"
+      },
+      {
+            "_id": "41ac",
+            "name": "Udoka Azubuike",
+            "position": "C-F",
+            "team": 29,
+            "price": {"1": 20.65},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628962.png"
+      },
+      {
+            "_id": "41ad",
+            "name": "Devon Dotson",
+            "position": "G",
+            "team": 5,
+            "price": {"1": 19.48},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629653.png"
+      },
+      {
+            "_id": "41ae",
+            "name": "Zeke Nnaji",
+            "position": "F-C",
+            "team": 8,
+            "price": {"1": 18.31},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630192.png"
+      },
+      {
+            "_id": "41af",
+            "name": "Killian Hayes",
+            "position": "G",
+            "team": 9,
+            "price": {"1": 17.14},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630165.png"
+      },
+      {
+            "_id": "41b0",
+            "name": "Tre Jones",
+            "position": "G",
+            "team": 27,
+            "price": {"1": 15.97},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630200.png"
+      },
+      {
+            "_id": "41b1",
+            "name": "Sean McDermott",
+            "position": "F",
+            "team": 15,
+            "price": {"1": 14.8},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630253.png"
+      },
+      {
+            "_id": "41b2",
+            "name": "Malachi Flynn",
+            "position": "G",
+            "team": 28,
+            "price": {"1": 13.63},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630201.png"
+      },
+      {
+            "_id": "41b3",
+            "name": "Tyrell Terry",
+            "position": "G",
+            "team": 7,
+            "price": {"1": 12.46},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630179.png"
+      },
+      {
+            "_id": "41b4",
+            "name": "Cassius Stanley",
+            "position": "G",
+            "team": 12,
+            "price": {"1": 11.3},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630199.png"
+      },
+      {
+            "_id": "41b5",
+            "name": "Nick Richards",
+            "position": "C",
+            "team": 4,
+            "price": {"1": 9.7},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630208.png"
+      },
+      {
+            "_id": "41b6",
+            "name": "Jalen Smith",
+            "position": "F-C",
+            "team": 24,
+            "price": {"1": 9.36},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630188.png"
+      },
+      {
+            "_id": "41b7",
+            "name": "Nico Mannion",
+            "position": "G",
+            "team": 10,
+            "price": {"1": 9.01},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630185.png"
+      },
+      {
+            "_id": "41b8",
+            "name": "Vernon Carey Jr.",
+            "position": "F-C",
+            "team": 4,
+            "price": {"1": 8.66},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630176.png"
+      },
+      {
+            "_id": "41b9",
+            "name": "Robert Woodard II",
+            "position": "F",
+            "team": 26,
+            "price": {"1": 8.31},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630218.png"
+      },
+      {
+            "_id": "41ba",
+            "name": "Tyler Bey",
+            "position": "F",
+            "team": 7,
+            "price": {"1": 7.97},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630189.png"
+      },
+      {
+            "_id": "41bb",
+            "name": "Jalen Harris",
+            "position": "G",
+            "team": 28,
+            "price": {"1": 7.62},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630223.png"
+      },
+      {
+            "_id": "41bc",
+            "name": "Ashton Hagans",
+            "position": "G-F",
+            "team": 18,
+            "price": {"1": 7.27},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630204.png"
+      },
+      {
+            "_id": "41bd",
+            "name": "Ty-Shon Alexander",
+            "position": "G",
+            "team": 24,
+            "price": {"1": 6.92},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630234.png"
+      },
+      {
+            "_id": "41be",
+            "name": "Carmelo Anthony",
+            "position": "F",
+            "team": 25,
+            "price": {
+                  "1": 33.44,
+                  "2": 33.839999999999996
+            },
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2546.png"
+      },
+      {
+            "_id": "41bf",
+            "name": "Keljin Blevins",
+            "position": "F",
+            "team": 25,
+            "price": {"1": 53.63},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629833.png"
+      },
+      {
+            "_id": "41c0",
+            "name": "Chris Chiozza",
+            "position": "G",
+            "team": 3,
+            "price": {"1": 46.1},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629185.png"
+      },
+      {
+            "_id": "41c1",
+            "name": "Marquese Chriss",
+            "height": "6'10",
+            "weight": 240,
+            "position": "F",
+            "team": 10,
+            "price": {"1": 66.58},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627737.png"
+      },
+      {
+            "_id": "41c2",
+            "name": "Nate Darling",
+            "position": "",
+            "team": 4,
+            "price": {"1": 69.44},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630268.png"
+      },
+      {
+            "_id": "41c3",
+            "name": "Mamadi Diakite",
+            "position": "F",
+            "team": 17,
+            "price": {"1": 34.76},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629603.png"
+      },
+      {
+            "_id": "41c4",
+            "name": "Terry Dozier",
+            "position": "",
+            "team": 4,
+            "price": {"1": 54.21}
+      },
+      {
+            "_id": "41c5",
+            "name": "Trent Forrest",
+            "position": "G",
+            "team": 29,
+            "price": {"1": 67.46},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630235.png"
+      },
+      {
+            "_id": "41c6",
+            "name": "Anthony Gill",
+            "position": "F",
+            "team": 30,
+            "price": {"1": 57.68},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630264.png"
+      },
+      {
+            "_id": "41c7",
+            "name": "Josh Hall",
+            "position": "F",
+            "team": 21,
+            "price": {"1": 26.88},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630221.png"
+      },
+      {
+            "_id": "41c8",
+            "name": "Nate Hinton",
+            "position": "G-F",
+            "team": 7,
+            "price": {"1": 39.25},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630207.png"
+      },
+      {
+            "_id": "41c9",
+            "name": "Markus Howard",
+            "position": "G",
+            "team": 8,
+            "price": {"1": 30.78},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630210.png"
+      },
+      {
+            "_id": "41ca",
+            "name": "Mason Jones",
+            "position": "G",
+            "team": 11,
+            "price": {"1": 28.82},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630222.png"
+      },
+      {
+            "_id": "41cb",
+            "name": "Nathan Knight",
+            "position": "F-C",
+            "team": 1,
+            "price": {"1": 56.9},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630233.png"
+      },
+      {
+            "_id": "41cc",
+            "name": "Kira Lewis Jr.",
+            "position": "G",
+            "team": 19,
+            "price": {"1": 61.34},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630184.png"
+      },
+      {
+            "_id": "41cd",
+            "name": "Timothe Luwawu-Cabarrot",
+            "height": "6'6",
+            "weight": 210,
+            "position": "G-F",
+            "team": 3,
+            "price": {"1": 33.85},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627789.png"
+      },
+      {
+            "_id": "41ce",
+            "name": "Will Magnay",
+            "position": "C",
+            "team": 19,
+            "price": {"1": 26.93},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630266.png"
+      },
+      {
+            "_id": "41cf",
+            "name": "Karim Mane",
+            "position": "G",
+            "team": 22,
+            "price": {"1": 34.89},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630211.png"
+      },
+      {
+            "_id": "41d0",
+            "name": "Naji Marshall",
+            "position": "F",
+            "team": 19,
+            "price": {"1": 30.79},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630230.png"
+      },
+      {
+            "_id": "41d1",
+            "name": "Bob Martin",
+            "position": "",
+            "team": 13,
+            "price": {"1": 41.03}
+      },
+      {
+            "_id": "41d2",
+            "name": "Desmond Mason",
+            "position": "G",
+            "team": 21,
+            "price": {"1": 40.19}
+      },
+      {
+            "_id": "41d3",
+            "name": "Chris Mills",
+            "position": "",
+            "team": 6,
+            "price": {"1": 36.72}
+      },
+      {
+            "_id": "41d4",
+            "name": "Jordan Nwora",
+            "position": "F",
+            "team": 17,
+            "price": {"1": 34.77},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629670.png"
+      },
+      {
+            "_id": "41d5",
+            "name": "Aleksej Pokusevski",
+            "position": "C",
+            "team": 21,
+            "price": {"1": 51.76},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630197.png"
+      },
+      {
+            "_id": "41d6",
+            "name": "Jontay Porter",
+            "position": "C-F",
+            "team": 15,
+            "price": {"1": 32.72},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629007.png"
+      },
+      {
+            "_id": "41d7",
+            "name": "Grant Riller",
+            "position": "G",
+            "team": 4,
+            "price": {"1": 48.07},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630203.png"
+      },
+      {
+            "_id": "41d8",
+            "name": "Jay Scrubb",
+            "position": "G",
+            "team": 13,
+            "price": {"1": 33.82},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630206.png"
+      },
+      {
+            "_id": "41d9",
+            "name": "Iman Shumpert",
+            "height": "6'5",
+            "weight": 215,
+            "position": "G",
+            "team": 3,
+            "price": {"1": 35.08},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202697.png"
+      },
+      {
+            "_id": "41da",
+            "name": "Deividas Sirvydis",
+            "position": "G",
+            "team": 9,
+            "price": {"1": 30.21},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629686.png"
+      },
+      {
+            "_id": "41db",
+            "name": "Lamar Stevens",
+            "position": "F",
+            "team": 6,
+            "price": {"1": 52.18},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630205.png"
+      },
+      {
+            "_id": "41dc",
+            "name": "Killian Tillie",
+            "position": "F-C",
+            "team": 15,
+            "price": {"1": 35.7},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629681.png"
+      },
+      {
+            "_id": "41dd",
+            "name": "Juan Toscano-Anderson",
+            "position": "F",
+            "team": 10,
+            "price": {"1": 29.44},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629308.png"
+      },
+      {
+            "_id": "41de",
+            "name": "Anthony Tucker",
+            "position": "",
+            "team": 30,
+            "price": {"1": 31.66}
+      },
+      {
+            "_id": "41df",
+            "name": "Gabe Vincent",
+            "position": "G",
+            "team": 16,
+            "price": {"1": 32.06},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629216.png"
+      },
+      {
+            "_id": "41e0",
+            "name": "Moritz Wagner",
+            "height": "6'11",
+            "weight": 245,
+            "position": "C",
+            "team": 30,
+            "price": {"1": 32.2},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629021.png"
+      },
+      {
+            "_id": "41e1",
+            "name": "Paul Watson",
+            "position": "G",
+            "team": 28,
+            "price": {"1": 38.93},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628778.png"
+      },
+      {
+            "_id": "41e2",
+            "name": "Greg Whittington",
+            "position": "F",
+            "team": 8,
+            "price": {"1": 62.35},
+            "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204222.png"
+      },
+      {
+            "_id": "41e3",
+            "name": "Herb Williams",
+            "position": "",
+            "team": 7,
+            "price": {"1": 62.01}
+      }
+]

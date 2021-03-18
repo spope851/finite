@@ -16,7 +16,7 @@ def listToString(s):
     return str1
  
 url = "https://en.hispanosnba.com/players/nba-active/"
-FILE = 'playerNames.json'
+FILE = 'player-names.json'
 
 names = []
 for let in alph:
@@ -31,8 +31,9 @@ for let in alph:
             break
     
     for player in players:
+        print(player.string)
         names.append(player.string)
 
-handle = open(FILE, "w")
-json.dump(names, handle, indent=6)
+handle = open(FILE, "w", encoding='utf8')
+json.dump(names, handle, indent=6, ensure_ascii=False)
 handle.close()
