@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useData } from '../services/data.service';
 import { UserProps } from './user';
 
 let axios = require('axios');
@@ -10,16 +11,10 @@ export const Signup:React.FC = () => {
   const [presentUser, setPresentUser] = useState<string>()
   const [presentUPW, setPresentUPW] = useState<string>()
   
-  let nextID:string
-
+  const users = useData('GET', 'users').data
   const hasUser = async (username:string) => {
-    const data = await fetch(MONGO_EXPRESS_API)
-    const jsnData = await data.json()
-
     setUnavailable(false)
-    
-    jsnData.forEach((user:UserProps) => {
-      nextID = user._id
+    users.forEach((user:UserProps) => {
       user.username === username && setUnavailable(true)
     })
   }
@@ -40,7 +35,7 @@ export const Signup:React.FC = () => {
   }
 
     return (
-      <form className="form-inline m-2 justify-content-center mt-5" onSubmit={() => presentUser && presentUPW && storeUser(presentUser, presentUPW)}>
+      <form className="form-inline justify-content-center mt-5 animate__animated animate__bounceInDown animate__delay-1s mt-5" onSubmit={() => presentUser && presentUPW && storeUser(presentUser, presentUPW)}>
         <h2 className="mr-2">Sign Up:</h2>
         <br />
         <input

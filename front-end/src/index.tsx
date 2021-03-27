@@ -1,6 +1,5 @@
-import React, { BaseSyntheticEvent, FormEvent, useState } from 'react'
+import React, { BaseSyntheticEvent, FormEvent } from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import { Account } from './components/account'
 import {
   BrowserRouter as Router,
@@ -10,37 +9,23 @@ import {
   useLocation
 } from "react-router-dom";
 import { User, UserProps } from './components/user'
-import { useEffect } from 'react'
 import { Welcome } from './components/welcome'
 import { TeamRoutes } from './routes/team-routes'
 import { Login } from './components/login'
 import { onThatTab } from './functions/on-that-tab'
 import { FixedHeader } from './components/wrappers/header'
-import { App } from './App';
-import { Timesheet } from './components/timesheet/timesheet';
+import { App } from './App'
+import { Timesheet } from './components/timesheet/timesheet'
+import { PlayerRoutes } from './routes/player-routes'
+import { useData } from './services/data.service'
+import infinity from './assets/Infinity.gif'
 
 export const Index:React.FC = () => {
-  
   let location = useLocation()
   let history = useHistory()
 
-  const [activeUser, setActiveUser] = useState<UserProps>()
-  const [noUsers, setNoUsers] = useState<boolean>(true)
-
-  useEffect(() => {
-    fetchUser()
-  },[])
-  
-  const fetchUser = async () => {
-    const data = await fetch(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`)
-    const jsnData = await data.json()
-    jsnData.length && setNoUsers(false)
-    jsnData.forEach((user:UserProps) => {
-      if (user.signedIn) {
-        setActiveUser(user)
-      }
-    })
-  }
+  const users = useData('GET', 'users')
+  const activeUser = !users.loading && users.data.find((user:UserProps) => user.signedIn === true)
 
   const search = (e: BaseSyntheticEvent) => {
     e.preventDefault()
@@ -54,17 +39,19 @@ export const Index:React.FC = () => {
   return (
     <>
       <FixedHeader className="navbar bg-light">
-        {activeUser
-          ? <User
-              user={activeUser} 
-              noUsers={noUsers}/>
-          : <Login />}
-        <ul className="nav nav-tabs justify-content-center">
+        {users.loading
+          ? <img alt={'loading'} src={infinity} height={50} style={{ marginLeft: "50px" }} />
+          : activeUser
+            ? <User
+                user={activeUser} 
+                noUsers={!users.data.length}/>
+            : <Login />}
+        <ul className="nav nav-tabs justify-content-center animate__animated animate__fadeInDownBig">
           <li className={`nav-item`}><a className={`nav-link ${onThatTab('app') ? 'active' : ''}`} href="/app">App</a></li>
           <li className={`nav-item`}><a className={`nav-link ${onThatTab('account') ? 'active' : ''}`} href="/account">Account</a></li>
         </ul>
         <form 
-          className="form-inline my-2 my-lg-0" 
+          className="form-inline my-2 my-lg-0 animate__animated animate__fadeInDownBig" 
           onSubmit={search}>
           <input 
             className="form-control mr-sm-2" 
@@ -90,6 +77,9 @@ ReactDOM.render(
           <Route path="/app" component={App} />
           <Switch>
               <Route path="/teams/:id" component={TeamRoutes} />
+          </Switch>
+          <Switch>
+              <Route path="/players/:id" component={PlayerRoutes} />
           </Switch>
           <Switch>
               <Route exact path="/time" component={Timesheet} />

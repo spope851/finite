@@ -27,20 +27,20 @@ export const Team:React.FC<OwnProps> = (props) => {
   const { id } = props
   
   const [response, setResponse] = useState<TeamProfile>()
-      
-  useEffect(() => {
-      fetchPlayers()
-  },[])
   
-  const fetchPlayers = async () => {
-    const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`, {
-      headers: {
-        "team":id
-      }
-    })
-    data.data[0] && 
-    setResponse(data.data[0])
-  }
+  useEffect(() => {
+    const fetchPlayers = async () => {
+      const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`, {
+        headers: {
+          "team":id
+        }
+      })
+      data.data[0] && 
+      setResponse(data.data[0])
+    }
+    fetchPlayers()
+  },[id])
+  
 
   return (
     <div className="card col-12">
