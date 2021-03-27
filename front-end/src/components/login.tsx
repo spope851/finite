@@ -1,47 +1,40 @@
-import React, { useState, BaseSyntheticEvent } from 'react';
-import { UserProps } from './user';
-import { onThatTab } from '../functions/on-that-tab';
-
-let axios = require('axios');
+import React, { useState, BaseSyntheticEvent } from 'react'
+import { UserProps } from './user'
+import { onThatTab } from '../functions/on-that-tab'
+import { useData } from '../services/data.service'
+let axios = require('axios')
 
 const MONGO_EXPRESS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
 
 export const Login:React.FC = () => {
-  const [signedUp, setSignedUp] = useState<boolean>(false)
-  const [loggingIn, setLoggingIn] = useState<boolean>(false)
+  const [signedUp, setSignedUp] = useState<boolean>(true)
+  const [incorrectPw, setIncorrectPw] = useState<boolean>(false)
   const [presentUser, setPresentUser] = useState<string>()
   const [presentUPW, setPresentUPW] = useState<string>()
   
-  const hasUser = async (username:string) => {
-    const data = await fetch(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`)
-    const jsnData = await data.json()
-    
-    setSignedUp(false)
-
-    jsnData.forEach((user:UserProps) => {
-      user.username === username && setSignedUp(true)
-    })
+  const users = useData('GET', 'users').data
+  const hasUser = (username:string) => {
+    setSignedUp(users.find((user: UserProps) => user.username === username))
   }
   
-  const fetchUser = async (username:string, password:string) => {
-    const data = await fetch(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`)
-    const jsnData = await data.json()
-
-    jsnData.forEach((user:UserProps) => {
-      user.username === username && user.password !== password && alert('Incorrect Password')
-      if (user.username === username && user.password === password) {
-        axios.put(MONGO_EXPRESS_API, {
-            "function":"login",
-            "_id":user._id
-        })
-      }
+  const fetchUser = (user_id: string) => {
+    axios.put(MONGO_EXPRESS_API, {
+        "function":"login",
+        "_id":user_id
     })
   }
 
   const login = (e: BaseSyntheticEvent) => {
     !signedUp && e.preventDefault()
-    setLoggingIn(true)
-    presentUser && presentUPW && fetchUser(presentUser, presentUPW)
+    presentUser && presentUPW && users.forEach((user:UserProps) => {
+      if (user.username === presentUser && user.password !== presentUPW) {
+        e.preventDefault()
+        setIncorrectPw(true)
+      }
+      if (user.username === presentUser && user.password === presentUPW) {
+        fetchUser(user._id)
+      }
+    })
   }
 
   const usernameEntered = (val:string) => {
@@ -50,17 +43,17 @@ export const Login:React.FC = () => {
   }
 
     return (
-      <form className="form-inline m-2 justify-content-center" onSubmit={login}>
+      <form className="form-inline m-2 justify-content-center animate__animated animate__fadeInDownBig" onSubmit={login}>
         <br />
         <input
-          className="form-control mr-sm-2"
+          className={`form-control mr-sm-2 animate__animated animate__faster ${!signedUp && 'animate__headShake border-danger'}`}
           aria-label="Username"
           type="text" 
           placeholder="Username" 
-          onChange={e => usernameEntered(e.target.value)}  
+          onBlur={e => usernameEntered(e.target.value)}  
         />
         <input
-          className="form-control mr-sm-2"
+          className={`form-control mr-sm-2 animate__animated animate__faster ${incorrectPw && 'animate__headShake border-danger'}`}
           aria-label="Password" 
           type="password" 
           placeholder="Password" 
@@ -71,8 +64,6 @@ export const Login:React.FC = () => {
           type="submit" 
           disabled={!presentUser || !presentUPW}>Login</button>
         {!onThatTab('account') && <><span className="ml-1">or </span><a className="stretched-link ml-1" href={'/account'}>create an account</a></>}
-        {loggingIn && !signedUp && !onThatTab('account') && <span className="text-danger mx-1">We can't find your account</span>}
-        {loggingIn && !signedUp && onThatTab('account') && <span className="text-danger ml-1">We can't find your account. Sign up below!</span>}
       </form>
     )
 }

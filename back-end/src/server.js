@@ -47,7 +47,24 @@ async function getTeams(response,client,id) {
   response.send(responses)
 }
 
-async function getPlayers(response,client,team,term) {
+async function getPlayers(response,client,sort,team,term,player) {
+  let s
+  switch(sort) {
+    case 'nameaz':
+      s = { name: 1 }
+      break
+    case 'nameza':
+      s = { name: -1 }
+      break
+    case 'priceh':
+      s = { price: -1 }
+      break
+    case 'pricel':
+      s = { price: 1 }
+      break
+    default:
+      s = { name: 1 }
+  }
   let responses = []
   let cursor = 
     team
@@ -62,7 +79,9 @@ async function getPlayers(response,client,team,term) {
           }
         }
       ])
-      : client.db(FINITE_DB).collection(PLAYER_TABLE).find({"name": new RegExp(term, "i")})
+      : player
+        ? client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "_id": player })
+        : client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "name": new RegExp(term, "i") }).sort(s)
   
   await cursor.forEach( el => {
     responses.push(el)
@@ -256,13 +275,15 @@ app.get(TEAM_ENDPOINT, (req, res) => {
 })
 
 app.get(PLAYER_ENDPOINT, (req, res) => {
-  console.log('GET player(s)  ',`team:${req.headers.team}`,`term:${req.headers.term}`)
+  console.log('GET player(s)  ',`team:${req.headers.team}`,`term:${req.headers.term}`,`sort:${req.headers.sort}`)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
     if (req.headers.team) {
-      getPlayers(res, client, req.headers.team)
+      getPlayers(res, client, req.headers.sort, req.headers.team)
+    } else if (req.headers.player) {
+      getPlayers(res, client, req.headers.sort, undefined, undefined, req.headers.player)
     } else {
-      getPlayers(res, client, undefined, req.headers.term)
+      getPlayers(res, client, req.headers.sort, undefined, req.headers.term)
     }
   })
 })

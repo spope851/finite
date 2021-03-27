@@ -30,12 +30,9 @@ export const User:React.FC<OwnProps> = (props) => {
 
   return (
     <>
-      <Card className="card text-dark">
+      <Card className="card text-dark animate__animated animate__fadeInDownBig">
           <span>
             {message} 
-            {user 
-            ? ''
-            : <span>Click <a href='/login'>here</a> to sign up for an account</span>}
             <span className={`text-success`}>{value}</span>
            </span>
       </Card>

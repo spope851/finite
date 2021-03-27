@@ -27,6 +27,12 @@ const TimeTable = styled.div`
   overflow: auto;
 }`
 
+const AccomplishedWrapper = styled.div`
+&& {
+  width: 800px;
+  margin: auto;
+}`
+
 export const Timesheet: React.FC<clock[]> = () => {
   const [accomplished, setAccomplished] = useState<string>()
   const [goal, setGoal] = useState<number>(1)
@@ -52,12 +58,18 @@ export const Timesheet: React.FC<clock[]> = () => {
   let TIME_THIS_WEEK_END: number = 0
 
   const TODAY = new Date()
-  const SUNDAY = new Date(new Date().setDate(TODAY.getDate() - TODAY.getDay()))
+  const MONDAY = new Date()
+  if(TODAY.getDay() === 0){
+    MONDAY.setDate(TODAY.getDate() - 7);
+  }
+  else{
+    MONDAY.setDate(TODAY.getDate() - (TODAY.getDay()-1));
+  }
 
   data.forEach((time: clock) => {
     const date = new Date(time.out || '')
     const day = date.getDay()
-    if (time.out && new Date(time.out) > SUNDAY) {
+    if (time.out && new Date(time.out) > MONDAY) {
       if (day > 0 && day < 6) {
         TIME_THIS_WEEK += Number(duration(time.in, time.out))
       } else {
@@ -69,7 +81,7 @@ export const Timesheet: React.FC<clock[]> = () => {
   return (
     <>
       <div className="d-flex align-items-center justify-content-center p-3">
-        <Goal className="input-group m-3">
+        <Goal className={`input-group m-3 ${TIME_THIS_WEEK > goal && TIME_THIS_WEEK_END > goal && 'border rounded border-success'}`}>
           <div className="input-group-prepend">
             <span className="input-group-text">Goal (hours)</span>
           </div>
@@ -80,17 +92,19 @@ export const Timesheet: React.FC<clock[]> = () => {
             style={{width: "60px"}}
             onChange={(e: { target: { value: string } }) => setGoal(Number(e.target.value))}/>
         </Goal>
-        <GoalTable className="table table-bordered m-3">
+        <GoalTable className={`table table-bordered m-3 ${TIME_THIS_WEEK > goal && TIME_THIS_WEEK_END > goal && 'animate__animated animate__tada animate__delay-2s'}`}>
           <thead className="thead-light">
             <tr>
               <th>This Week</th>
               <th>Weekend</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td className={`table-${TIME_THIS_WEEK > goal ? "success" : "danger"}`}>{TIME_THIS_WEEK.toFixed(2)}</td>
               <td className={`table-${TIME_THIS_WEEK_END > goal ? "success" : "danger"}`}>{TIME_THIS_WEEK_END.toFixed(2)}</td>
             </tr>
-          </thead>
+          </tbody>
         </GoalTable>
         {data[0].out
           ? <button 
@@ -103,9 +117,17 @@ export const Timesheet: React.FC<clock[]> = () => {
               type="button"
               onClick={clockOut}>Clock Out</button>}
       </div>
-      {data[0].out ? '' : <div className="mx-3 mb-4"><textarea tabIndex={5} className='form-control' placeholder='What did we accomplish?' onChange={e => setAccomplished(e.target.value)} /></div> }
+      {data[0].out 
+       ? '' 
+       : <AccomplishedWrapper className={'mb-4'}>
+          <textarea
+            tabIndex={5}
+            className='form-control animate__animated animate__lightSpeedInLeft'
+            placeholder='What did we accomplish?'
+            onChange={e => setAccomplished(e.target.value)} />
+         </AccomplishedWrapper> }
       <TimeTable>
-        <table className="table">
+        <table className="table animate__animated animate__zoomIn">
           <thead className="thead-light">
             <tr>
               <th>Date</th>
@@ -115,17 +137,19 @@ export const Timesheet: React.FC<clock[]> = () => {
               <th>Accomplished</th>
             </tr>
           </thead>
+          <tbody>
           {data.map((time: clock) => {
             return (
               <tr key={time.accomplished}>
-                <td>{`${new Date(time.in).getMonth() + 1}/${new Date(time.in).getUTCDate()}/${new Date(time.in).getFullYear()}`}</td>
-                <td>{`${new Date(time.in).getHours()}:${new Date(time.in).getUTCMinutes() < 10 ? 0 : ''}${new Date(time.in).getUTCMinutes()}`}</td>
-                {time.out && <td>{`${new Date(time.out).getHours()}:${new Date(time.out).getUTCMinutes() < 10 ? 0 : ''}${new Date(time.out).getUTCMinutes()}`}</td>}
+                <td>{new Date(time.in).toLocaleDateString()}</td>
+                <td>{new Date(time.in).toLocaleTimeString("en-US", { hour: 'numeric', minute: 'numeric' })}</td>
+                {time.out && <td>{new Date(time.out).toLocaleTimeString("en-US", { hour: 'numeric', minute: 'numeric' })}</td>}
                 {time.out && <td>{`${duration(time.in, time.out)}`}</td>}
                 {time.accomplished && <td>{time.accomplished}</td>}
               </tr>
             )
           })}
+          </tbody>
         </table>
       </TimeTable>
     </>

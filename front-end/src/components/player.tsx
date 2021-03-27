@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import styled from 'styled-components'
 import { ChangingChevron } from '../assets/changing-chevron'
+import { onThatTab } from '../functions/on-that-tab'
 import { TradeButton } from './buttons/trade-button'
 import { PlayerDetails } from './playerDetails'
 
@@ -55,21 +56,23 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
   const DEFAULT_IMAGE = 'https://i.pinimg.com/474x/7e/00/1d/7e001dc786dcb43a48347d35543bbed9.jpg'
   
   return (
-    <div  className={`card w-100 my-1
+    <div  className={`card my-3 animate__animated animate__fadeIn
       ${price[WEEK] > price[PREV_WEEK] ? 'border-success' : 
         price[WEEK] < price[PREV_WEEK] ? 'border-danger' : ''}`}>
       <div className={`card-header pb-0`}>
         <p>{value}</p>
-        <img id={_id} height="100px" src={image ? image : DEFAULT_IMAGE}
-           onError={() => document.getElementById(_id)?.setAttribute('src', DEFAULT_IMAGE) } alt={name} />
-        <p>
-          {name} 
+        <a href={`/players/${_id}`} style={ onThatTab('players') ? { pointerEvents: 'none' } : undefined}>
+          <img id={_id} height="100px" src={image ? image : DEFAULT_IMAGE}
+          onError={() => document.getElementById(_id)?.setAttribute('src', DEFAULT_IMAGE) } alt={name} />
+        </a>
+        <p className={'mb-0'}>
+          {name}
           <span>
             <ChangingChevron onClick={() => toggleDetails()}/>
           </span>
         </p>
         {trade && tradePrice &&
-            <BuySellForm>
+            <BuySellForm className={'animate__animated animate__fadeIn'}>
               <TradeButton 
                 buy
                 price={tradePrice} 
@@ -83,6 +86,7 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
               />
               <br />
               <QuantityInput 
+                className="form-control"
                 type={"number"}
                 onChange={(e: { target: { value: string } }) => setQuantity(e.target.value)}
                 placeholder={'How many?'}
@@ -100,13 +104,16 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
           </span>
         </Price>
         {playerDetails && (
-          <PlayerDetails 
-            height={height && height}
-            position={position && position} 
-            weight={weight && weight}
-            teamId={team} 
-            teamName={teamName || ''}
-            price={price}/>)}
+          <div className={`animate__animated animate__flipInX`}>
+            <PlayerDetails
+              height={height && height}
+              position={position && position} 
+              weight={weight && weight}
+              teamId={team} 
+              teamName={teamName || ''}
+              price={price}/>
+          </div>
+        )}
       </div>
     </div>
   )
@@ -114,7 +121,8 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
 
 const QuantityInput = styled.input`
 && {
-    width: 110px;
+    width: 120px;
+    margin: auto;
 }`
 
 const BuySellForm = styled.div`

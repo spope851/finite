@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import styled from 'styled-components';
-import { Gear } from '../assets/gear';
-import { Position } from './buttons/trade-button';
-import { IPlayer, Player } from './player';
-import { Signup } from './signup';
-import { ITeam } from './team';
-import { UserProps } from './user';
-
-let axios = require('axios');
+import React, { useEffect, useState } from 'react'
+import styled from 'styled-components'
+import { Gear } from '../assets/gear'
+import { useData } from '../services/data.service'
+import { Position } from './buttons/trade-button'
+import { IPlayer, Player } from './player'
+import { Signup } from './signup'
+import { ITeam } from './team'
+import { UserProps } from './user'
+let axios = require('axios')
 
 const USERS_API =  `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
 const TRADES_API =  `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/trades`
@@ -36,45 +36,33 @@ export const Account:React.FC = () => {
   const [showSettings, setShowSettings] = useState<boolean>(false)
   const [calculating, setCalculating] = useState<boolean>(true)
   const [newPassword, setNewPassword] = useState<string>()
-  const [user, setUser] = useState<UserProps>()
   const [positions, setPositions] = useState<AccountPosition[]>()
   const [stockValue, setStockValue] = useState<number>(0)
 
-  useEffect(() => {
-    fetchUser()
-  },[])
+  const users = useData('GET', 'users')
+  const user = !users.loading && users.data.find((user:UserProps) => user.signedIn === true)
   
   useEffect(() => {
+    const fetchTrades = async () => {
+      const data = await axios.get(TRADES_API, {
+        headers: {
+          "function":"userValue",
+          "user_id":user && user._id
+        }
+      })
+      data.data[0] && 
+        setStockValue(data.data[0].stockValue)
+        setCalculating(false)
+      const positions = await axios.get(POSITIONS_API, {
+        headers: {
+          "user_id":user && user._id
+        }
+      })
+      positions.data[0] && setPositions(positions.data)
+    }
     user && fetchTrades()
   },[user])
   
-  const fetchUser = async () => {
-    const data = await fetch(USERS_API)
-    const jsnData = await data.json()
-    jsnData.forEach((user:UserProps) => {
-      if (user.signedIn) {
-        setUser(user)
-      }
-    })
-  }
-  
-  const fetchTrades = async () => {
-    const data = await axios.get(TRADES_API, {
-      headers: {
-        "function":"userValue",
-        "user_id":user && user._id
-      }
-    })
-    data.data[0] && 
-      setStockValue(data.data[0].stockValue)
-      setCalculating(false)
-    const positions = await axios.get(POSITIONS_API, {
-      headers: {
-        "user_id":user && user._id
-      }
-    })
-    positions.data[0] && setPositions(positions.data)
-  }
   
   const logout = () => {
     axios.put(USERS_API, {
@@ -105,55 +93,48 @@ export const Account:React.FC = () => {
     <>
       {user
         ? <>  
-            <Gear onClick={() => setShowSettings(!showSettings)}/>
+            <Gear onClick={() => {
+              setShowSettings(!showSettings)
+              setChangepw(false)
+              setDisabled(false)
+            }}/>
             {showSettings
-             && <AccountButtons>
-                <table className="table">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <button 
-                          disabled={disabled} 
-                          className="btn btn-outline-primary my-2 my-sm-0" 
-                          onClick={()=> {
-                            setChangepw(true)
-                            setDisabled(true)
-                          }}>Change Password</button>
-                      </td>
-                      <td>
-                        <button 
-                          className="btn btn-outline-primary my-2 my-sm-0"
-                          disabled={disabled}
-                          onClick={deleteAccount}>Delete Account</button>
-                      </td>
-                      <td>
+             && <AccountButtons className={'animate__animated animate__fadeInDown'}>
+                  <button 
+                    disabled={disabled} 
+                    className="btn btn-outline-primary m-3" 
+                    onClick={()=> {
+                      setChangepw(true)
+                      setDisabled(true)
+                    }}>Change Password</button>
+                  <button 
+                    className="btn btn-outline-primary m-3"
+                    disabled={disabled}
+                    onClick={deleteAccount}>Delete Account</button>
+                  <button
+                    disabled={disabled}
+                    className="btn btn-outline-primary m-3"
+                    onClick={logout}>Logout</button>
+                  {changepw 
+                    ? <div className={'animate__animated animate__fadeIn'}>  
+                        <input
+                          className="form-control"
+                          type="password" 
+                          placeholder="New Password"
+                          onChange={e => setNewPassword(e.target.value)}/>
                         <button
-                          disabled={disabled}
-                          className="btn btn-outline-primary my-2 my-sm-0"
-                          onClick={logout}>Logout</button>
-                      </td>
-                    </tr>
-                  </tbody>  
-                </table>
-                {changepw 
-                  ? <div>  
-                      <input 
-                        type="password" 
-                        placeholder="New Password"
-                        onChange={e => setNewPassword(e.target.value)}/>
-                      <input 
-                        type="submit" 
-                        value="Confirm"
-                        onClick={changePassword}/>
-                      <input 
-                        type="button" 
-                        value="Cancel"
-                        onClick={() => {
-                          setChangepw(false)
-                          setDisabled(false)
-                        }}/>
-                    </div>
-                  : ''}
+                          className="btn btn-outline-primary m-3" 
+                          type="button" 
+                          onClick={changePassword}>Confirm</button>
+                        <button
+                          className="btn btn-outline-primary m-3"
+                          type="button" 
+                          onClick={() => {
+                            setChangepw(false)
+                            setDisabled(false)
+                          }}>Cancel</button>
+                      </div>
+                    : ''}
                </AccountButtons>}
             <AccountInfo>
               <p>
@@ -161,8 +142,8 @@ export const Account:React.FC = () => {
                 <span className={'px-5'}>{`Cash: $${Number(user.cash).toFixed(2)}`}</span>
                 <span className={'px-5'}>{`Equity: $${calculating ? '{..}' : Number(stockValue).toFixed(2)}`}</span>
               </p>
-              <h1>Portfilio:</h1>
-              <Divider />
+              <h2>Portfilio:</h2>
+              <Divider className="border-light" />
               <div className="row justify-content-around">
                 {positions && positions.map((position:AccountPosition) =>
                   <div className={'mw-33 px-2'} key={position.player._id}>
@@ -202,6 +183,6 @@ const AccountInfo = styled.div`
 
 const Divider = styled.div`
 & {
-  border-bottom: solid 1px #000;
+  border-bottom: solid 3px;
   margin: 20px;
 }`
