@@ -1,6 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { populateUsers } from '../functions/populate-users'
+
+const Card = styled.div`
+& {
+  margin: 10px;
+  padding: 10px;
+}`
 
 export interface UserProps {
   _id:string,
@@ -12,13 +17,11 @@ export interface UserProps {
 }
 
 interface OwnProps {
-  user?:UserProps
-  noUsers:boolean
+  user?:any
 }
 
 export const User:React.FC<OwnProps> = (props) => {
-
-  const { user, noUsers } = props
+  const { user } = props
   
   const value = user ? `$${user && ((Number(user.cash) + Number(user.stockValue)).toFixed(2) || 0)}` : ''
 
@@ -26,7 +29,6 @@ export const User:React.FC<OwnProps> = (props) => {
     `${user
       ? user.username 
       : 'Guest'}: `
-
 
   return (
     <>
@@ -36,13 +38,6 @@ export const User:React.FC<OwnProps> = (props) => {
             <span className={`text-success`}>{value}</span>
            </span>
       </Card>
-      {noUsers && <button onClick={populateUsers}>No users in DB. Click here to add some for testing</button>}
     </>
   )
 }
-
-const Card = styled.div`
-& {
-  margin: 10px;
-  padding: 10px;
-}`

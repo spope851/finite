@@ -16,11 +16,11 @@ import unidecode
 ##################################################
 
 FILE='player-info.json'
-with open(FILE) as data:    
+with open(FILE, encoding="utf8") as data:    
     players = json.load(data)
 
 FILE='season-leaders.json'
-with open(FILE) as data:    
+with open(FILE, encoding="utf8") as data:    
     leaderboards = json.load(data)
 
 ###############################################################
@@ -42,7 +42,7 @@ for key, value in dictionary.items():
     add = 0
     for place in value:
         add += (1-(place * 0.05))
-    # print(key, add)
+    print(key, add)
     dictionary[key] = add
 
 ###############################################################
@@ -55,8 +55,11 @@ x = [{"name": i["player"], "add": dictionary[i["key"]]} for i in leaders]
 for item in x:
     for player in players:
         if unidecode.unidecode(player["name"]).replace(' Jr.','') == item["name"]:
-            player["price"] = {1: player["last_price"], 2: player["last_price"] + item["add"]}
-            del player["last_price"]
+            player["price"]["3"] = player["price"]["2"] + item["add"]
+            
+for player in players:
+    if "3" not in player["price"].keys():
+        player["price"]["3"] = player["price"]["2"]
 
 print(players)
 

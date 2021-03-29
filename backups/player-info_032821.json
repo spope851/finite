@@ -8,8 +8,7 @@
             "team": 17,
             "price": {
                   "1": 100,
-                  "2": 118.5,
-                  "3": 138.95
+                  "2": 118.5
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203507.png"
       },
@@ -22,8 +21,7 @@
             "team": 10,
             "price": {
                   "1": 99.71,
-                  "2": 115.06,
-                  "3": 124.36
+                  "2": 115.06
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201939.png"
       },
@@ -36,8 +34,7 @@
             "team": 13,
             "price": {
                   "1": 99.43,
-                  "2": 108.88000000000001,
-                  "3": 117.43
+                  "2": 108.88000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202695.png"
       },
@@ -50,8 +47,7 @@
             "team": 3,
             "price": {
                   "1": 99.14,
-                  "2": 107.34,
-                  "3": 118.64
+                  "2": 107.34
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201935.png"
       },
@@ -64,8 +60,7 @@
             "team": 14,
             "price": {
                   "1": 98.86,
-                  "2": 114.36,
-                  "3": 124.71000000000001
+                  "2": 114.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2544.png"
       },
@@ -78,8 +73,7 @@
             "team": 14,
             "price": {
                   "1": 98.57,
-                  "2": 106.32,
-                  "3": 106.32
+                  "2": 106.32
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203076.png"
       },
@@ -92,8 +86,7 @@
             "team": 3,
             "price": {
                   "1": 98.29,
-                  "2": 100.89,
-                  "3": 101.74
+                  "2": 100.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201142.png"
       },
@@ -106,8 +99,7 @@
             "team": 8,
             "price": {
                   "1": 98,
-                  "2": 120.15,
-                  "3": 144.55
+                  "2": 120.15
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203999.png"
       },
@@ -120,8 +112,7 @@
             "team": 23,
             "price": {
                   "1": 97.71,
-                  "2": 112.31,
-                  "3": 123.56
+                  "2": 112.31
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203954.png"
       },
@@ -134,8 +125,7 @@
             "team": 25,
             "price": {
                   "1": 97.43,
-                  "2": 113.13000000000001,
-                  "3": 131.08
+                  "2": 113.13000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203081.png"
       },
@@ -148,8 +138,7 @@
             "team": 13,
             "price": {
                   "1": 97.14,
-                  "2": 101.09,
-                  "3": 101.74000000000001
+                  "2": 101.09
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202331.png"
       },
@@ -162,8 +151,7 @@
             "team": 18,
             "price": {
                   "1": 96.86,
-                  "2": 70,
-                  "3": 70.55
+                  "2": 70
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626157.png"
       },
@@ -176,8 +164,7 @@
             "team": 16,
             "price": {
                   "1": 96.57,
-                  "2": 96.57,
-                  "3": 103.02
+                  "2": 96.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202710.png"
       },
@@ -190,8 +177,7 @@
             "team": 29,
             "price": {
                   "1": 96.29,
-                  "2": 110.44,
-                  "3": 128.24
+                  "2": 110.44
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203497.png"
       },
@@ -204,8 +190,7 @@
             "team": 9,
             "price": {
                   "1": 96,
-                  "2": 96,
-                  "3": 96
+                  "2": 96
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201933.png"
       },
@@ -218,8 +203,7 @@
             "team": 23,
             "price": {
                   "1": 95.71,
-                  "2": 101.85999999999999,
-                  "3": 105.90999999999998
+                  "2": 101.85999999999999
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627732.png"
       },
@@ -232,8 +216,7 @@
             "team": 3,
             "price": {
                   "1": 95.43,
-                  "2": 97.83000000000001,
-                  "3": 100.28000000000002
+                  "2": 97.83000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202681.png"
       },
@@ -246,8 +229,7 @@
             "team": 30,
             "price": {
                   "1": 95.14,
-                  "2": 98.09,
-                  "3": 104.39
+                  "2": 98.09
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201566.png"
       },
@@ -260,8 +242,7 @@
             "team": 30,
             "price": {
                   "1": 94.86,
-                  "2": 105.16,
-                  "3": 115.71
+                  "2": 105.16
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203078.png"
       },
@@ -274,8 +255,7 @@
             "team": 2,
             "price": {
                   "1": 94.57,
-                  "2": 94.57,
-                  "3": 95.27
+                  "2": 94.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202689.png"
       },
@@ -288,8 +268,7 @@
             "team": 10,
             "price": {
                   "1": 94,
-                  "2": 94,
-                  "3": 94
+                  "2": 94
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202691.png"
       },
@@ -302,8 +281,7 @@
             "team": 11,
             "price": {
                   "1": 93.71,
-                  "2": 93.91,
-                  "3": 93.91
+                  "2": 93.91
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203506.png"
       },
@@ -316,8 +294,7 @@
             "team": 7,
             "price": {
                   "1": 93.43,
-                  "2": 112.38,
-                  "3": 124.78
+                  "2": 112.38
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629029.png"
       },
@@ -330,8 +307,7 @@
             "team": 17,
             "price": {
                   "1": 93.14,
-                  "2": 95.79,
-                  "3": 97.59
+                  "2": 95.79
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201950.png"
       },
@@ -344,8 +320,7 @@
             "team": 21,
             "price": {
                   "1": 92.86,
-                  "2": 93.11,
-                  "3": 93.11
+                  "2": 93.11
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201143.png"
       },
@@ -358,8 +333,7 @@
             "team": 28,
             "price": {
                   "1": 92.57,
-                  "2": 93.32,
-                  "3": 93.66999999999999
+                  "2": 93.32
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627783.png"
       },
@@ -372,8 +346,7 @@
             "team": 28,
             "price": {
                   "1": 92.29,
-                  "2": 92.74000000000001,
-                  "3": 93.84
+                  "2": 92.74000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200768.png"
       },
@@ -386,8 +359,7 @@
             "team": 24,
             "price": {
                   "1": 92,
-                  "2": 93.05,
-                  "3": 95.3
+                  "2": 93.05
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626164.png"
       },
@@ -400,8 +372,7 @@
             "team": 6,
             "price": {
                   "1": 91.71,
-                  "2": 102.80999999999999,
-                  "3": 102.80999999999999
+                  "2": 102.80999999999999
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203083.png"
       },
@@ -414,8 +385,7 @@
             "team": 24,
             "price": {
                   "1": 91.43,
-                  "2": 94.48,
-                  "3": 98.68
+                  "2": 94.48
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/101108.png"
       },
@@ -428,8 +398,7 @@
             "team": 22,
             "price": {
                   "1": 91.14,
-                  "2": 101.99,
-                  "3": 112.99
+                  "2": 101.99
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202696.png"
       },
@@ -442,8 +411,7 @@
             "team": 17,
             "price": {
                   "1": 90.86,
-                  "2": 93.01,
-                  "3": 93.61
+                  "2": 93.01
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203114.png"
       },
@@ -456,8 +424,7 @@
             "team": 25,
             "price": {
                   "1": 90.57,
-                  "2": 91.27,
-                  "3": 91.27
+                  "2": 91.27
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203468.png"
       },
@@ -470,8 +437,7 @@
             "team": 26,
             "price": {
                   "1": 90.29,
-                  "2": 93.04,
-                  "3": 102.04
+                  "2": 93.04
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628368.png"
       },
@@ -484,8 +450,7 @@
             "team": 29,
             "price": {
                   "1": 90,
-                  "2": 90.95,
-                  "3": 91.35000000000001
+                  "2": 90.95
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201144.png"
       },
@@ -498,8 +463,7 @@
             "team": 29,
             "price": {
                   "1": 89.71,
-                  "2": 92.96,
-                  "3": 98.91
+                  "2": 92.96
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628378.png"
       },
@@ -512,8 +476,7 @@
             "team": 27,
             "price": {
                   "1": 89.43,
-                  "2": 89.43,
-                  "3": 89.43
+                  "2": 89.43
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200746.png"
       },
@@ -526,8 +489,7 @@
             "team": 7,
             "price": {
                   "1": 89.14,
-                  "2": 89.14,
-                  "3": 90.24
+                  "2": 89.14
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png"
       },
@@ -540,8 +502,7 @@
             "team": 6,
             "price": {
                   "1": 88.86,
-                  "2": 88.86,
-                  "3": 88.86
+                  "2": 88.86
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201567.png"
       },
@@ -554,8 +515,7 @@
             "team": 8,
             "price": {
                   "1": 88.57,
-                  "2": 88.57,
-                  "3": 89.66999999999999
+                  "2": 88.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627750.png"
       },
@@ -568,8 +528,7 @@
             "team": 23,
             "price": {
                   "1": 88.29,
-                  "2": 88.69000000000001,
-                  "3": 90.09000000000002
+                  "2": 88.69000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202699.png"
       },
@@ -582,8 +541,7 @@
             "team": 1,
             "price": {
                   "1": 88,
-                  "2": 88.7,
-                  "3": 89.5
+                  "2": 88.7
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201568.png"
       },
@@ -596,8 +554,7 @@
             "team": 27,
             "price": {
                   "1": 87.71,
-                  "2": 91.50999999999999,
-                  "3": 92.91
+                  "2": 91.50999999999999
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201942.png"
       },
@@ -610,8 +567,7 @@
             "team": 18,
             "price": {
                   "1": 87.43,
-                  "2": 87.48,
-                  "3": 87.48
+                  "2": 87.48
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626156.png"
       },
@@ -624,8 +580,7 @@
             "team": 22,
             "price": {
                   "1": 87.14,
-                  "2": 87.14,
-                  "3": 87.14
+                  "2": 87.14
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203932.png"
       },
@@ -638,8 +593,7 @@
             "team": 1,
             "price": {
                   "1": 86.86,
-                  "2": 95.36,
-                  "3": 104.91
+                  "2": 95.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629027.png"
       },
@@ -652,8 +606,7 @@
             "team": 12,
             "price": {
                   "1": 86.57,
-                  "2": 93.07,
-                  "3": 98.57
+                  "2": 93.07
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626167.png"
       },
@@ -666,8 +619,7 @@
             "team": 1,
             "price": {
                   "1": 86.29,
-                  "2": 86.94000000000001,
-                  "3": 89.09000000000002
+                  "2": 86.94000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628381.png"
       },
@@ -680,8 +632,7 @@
             "team": 2,
             "price": {
                   "1": 86,
-                  "2": 87.35,
-                  "3": 90.3
+                  "2": 87.35
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628369.png"
       },
@@ -694,8 +645,7 @@
             "team": 1,
             "price": {
                   "1": 85.71,
-                  "2": 95.41,
-                  "3": 106.41
+                  "2": 95.41
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203991.png"
       },
@@ -708,8 +658,7 @@
             "team": 25,
             "price": {
                   "1": 85.14,
-                  "2": 85.14,
-                  "3": 85.14
+                  "2": 85.14
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203994.png"
       },
@@ -722,8 +671,7 @@
             "team": 26,
             "price": {
                   "1": 84.86,
-                  "2": 87.01,
-                  "3": 89.96000000000001
+                  "2": 87.01
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627741.png"
       },
@@ -736,8 +684,7 @@
             "team": 5,
             "price": {
                   "1": 84.57,
-                  "2": 86.27,
-                  "3": 86.27
+                  "2": 86.27
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628374.png"
       },
@@ -750,8 +697,7 @@
             "team": 8,
             "price": {
                   "1": 84.29,
-                  "2": 84.39,
-                  "3": 84.39
+                  "2": 84.39
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200794.png"
       },
@@ -764,8 +710,7 @@
             "team": 12,
             "price": {
                   "1": 84,
-                  "2": 88.8,
-                  "3": 89.64999999999999
+                  "2": 88.8
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627763.png"
       },
@@ -778,8 +723,7 @@
             "team": 20,
             "price": {
                   "1": 83.71,
-                  "2": 95.11,
-                  "3": 105.41
+                  "2": 95.11
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203944.png"
       },
@@ -792,8 +736,7 @@
             "team": 24,
             "price": {
                   "1": 83.43,
-                  "2": 90.18,
-                  "3": 98.53
+                  "2": 90.18
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629028.png"
       },
@@ -806,8 +749,7 @@
             "team": 29,
             "price": {
                   "1": 83.14,
-                  "2": 84.99,
-                  "3": 90.58999999999999
+                  "2": 84.99
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204060.png"
       },
@@ -818,8 +760,7 @@
             "team": 19,
             "price": {
                   "1": 82.86,
-                  "2": 89.96,
-                  "3": 102.75999999999999
+                  "2": 89.96
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629627.png"
       },
@@ -832,8 +773,7 @@
             "team": 5,
             "price": {
                   "1": 82.57,
-                  "2": 89.07,
-                  "3": 97.66999999999999
+                  "2": 89.07
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203897.png"
       },
@@ -846,8 +786,7 @@
             "team": 17,
             "price": {
                   "1": 82.29,
-                  "2": 83.54,
-                  "3": 84.84
+                  "2": 83.54
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201572.png"
       },
@@ -860,8 +799,7 @@
             "team": 5,
             "price": {
                   "1": 82,
-                  "2": 82,
-                  "3": 82
+                  "2": 82
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203490.png"
       },
@@ -874,8 +812,7 @@
             "team": 14,
             "price": {
                   "1": 81.71,
-                  "2": 84.21,
-                  "3": 84.50999999999999
+                  "2": 84.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201188.png"
       },
@@ -888,8 +825,7 @@
             "team": 8,
             "price": {
                   "1": 81.43,
-                  "2": 81.93,
-                  "3": 81.93
+                  "2": 81.93
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203914.png"
       },
@@ -902,8 +838,7 @@
             "team": 19,
             "price": {
                   "1": 81.14,
-                  "2": 83.69,
-                  "3": 86.44
+                  "2": 83.69
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203500.png"
       },
@@ -916,8 +851,7 @@
             "team": 15,
             "price": {
                   "1": 80.86,
-                  "2": 80.86,
-                  "3": 80.86
+                  "2": 80.86
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628991.png"
       },
@@ -930,8 +864,7 @@
             "team": 19,
             "price": {
                   "1": 80.57,
-                  "2": 80.57,
-                  "3": 80.57
+                  "2": 80.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202339.png"
       },
@@ -944,8 +877,7 @@
             "team": 29,
             "price": {
                   "1": 80.29,
-                  "2": 80.69000000000001,
-                  "3": 80.69000000000001
+                  "2": 80.69000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202711.png"
       },
@@ -958,8 +890,7 @@
             "team": 12,
             "price": {
                   "1": 80,
-                  "2": 80,
-                  "3": 80
+                  "2": 80
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627747.png"
       },
@@ -972,8 +903,7 @@
             "team": 7,
             "price": {
                   "1": 79.71,
-                  "2": 79.71,
-                  "3": 80.36
+                  "2": 79.71
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626196.png"
       },
@@ -986,8 +916,7 @@
             "team": 14,
             "price": {
                   "1": 79.43,
-                  "2": 84.68,
-                  "3": 92.08000000000001
+                  "2": 84.68
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626149.png"
       },
@@ -1000,8 +929,7 @@
             "team": 2,
             "price": {
                   "1": 79.14,
-                  "2": 79.89,
-                  "3": 80.24
+                  "2": 79.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203935.png"
       },
@@ -1014,8 +942,7 @@
             "team": 12,
             "price": {
                   "1": 78.86,
-                  "2": 86.21000000000001,
-                  "3": 94.36000000000001
+                  "2": 86.21000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627734.png"
       },
@@ -1028,8 +955,7 @@
             "team": 16,
             "price": {
                   "1": 78.57,
-                  "2": 81.66999999999999,
-                  "3": 86.07
+                  "2": 81.66999999999999
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628389.png"
       },
@@ -1042,8 +968,7 @@
             "team": 25,
             "price": {
                   "1": 78.29,
-                  "2": 80.14,
-                  "3": 82.69
+                  "2": 80.14
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203496.png"
       },
@@ -1056,8 +981,7 @@
             "team": 11,
             "price": {
                   "1": 77.43,
-                  "2": 77.73,
-                  "3": 77.73
+                  "2": 77.73
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201569.png"
       },
@@ -1070,8 +994,7 @@
             "team": 26,
             "price": {
                   "1": 77.14,
-                  "2": 77.14,
-                  "3": 77.14
+                  "2": 77.14
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628963.png"
       },
@@ -1084,8 +1007,7 @@
             "team": 6,
             "price": {
                   "1": 76.86,
-                  "2": 86.21,
-                  "3": 95.50999999999999
+                  "2": 86.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628386.png"
       },
@@ -1098,8 +1020,7 @@
             "team": 2,
             "price": {
                   "1": 76.57,
-                  "2": 80.72,
-                  "3": 84.27
+                  "2": 80.72
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627759.png"
       },
@@ -1112,8 +1033,7 @@
             "team": 29,
             "price": {
                   "1": 76.29,
-                  "2": 76.29,
-                  "3": 76.29
+                  "2": 76.29
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202324.png"
       },
@@ -1126,8 +1046,7 @@
             "team": 3,
             "price": {
                   "1": 76,
-                  "2": 76,
-                  "3": 76
+                  "2": 76
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203915.png"
       },
@@ -1140,8 +1059,7 @@
             "team": 20,
             "price": {
                   "1": 75.71,
-                  "2": 84.06,
-                  "3": 86.36
+                  "2": 84.06
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629011.png"
       },
@@ -1154,8 +1072,7 @@
             "team": 23,
             "price": {
                   "1": 75.43,
-                  "2": 75.43,
-                  "3": 76.68
+                  "2": 75.43
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201980.png"
       },
@@ -1168,8 +1085,7 @@
             "team": 21,
             "price": {
                   "1": 75.14,
-                  "2": 75.49,
-                  "3": 75.49
+                  "2": 75.49
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628983.png"
       },
@@ -1182,8 +1098,7 @@
             "team": 19,
             "price": {
                   "1": 74.86,
-                  "2": 74.86,
-                  "3": 74.86
+                  "2": 74.86
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200755.png"
       },
@@ -1196,8 +1111,7 @@
             "team": 13,
             "price": {
                   "1": 74.57,
-                  "2": 74.57,
-                  "3": 74.57
+                  "2": 74.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201976.png"
       },
@@ -1210,8 +1124,7 @@
             "team": 15,
             "price": {
                   "1": 74.29,
-                  "2": 74.29,
-                  "3": 74.29
+                  "2": 74.29
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626159.png"
       },
@@ -1224,8 +1137,7 @@
             "team": 27,
             "price": {
                   "1": 74,
-                  "2": 75.85,
-                  "3": 77.1
+                  "2": 75.85
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627749.png"
       },
@@ -1238,8 +1150,7 @@
             "team": 19,
             "price": {
                   "1": 73.71,
-                  "2": 76.21,
-                  "3": 79.50999999999999
+                  "2": 76.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627742.png"
       },
@@ -1252,8 +1163,7 @@
             "team": 1,
             "price": {
                   "1": 73.43,
-                  "2": 73.43,
-                  "3": 73.43
+                  "2": 73.43
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203992.png"
       },
@@ -1266,8 +1176,7 @@
             "team": 4,
             "price": {
                   "1": 73.14,
-                  "2": 74.14,
-                  "3": 74.14
+                  "2": 74.14
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202330.png"
       },
@@ -1280,8 +1189,7 @@
             "team": 18,
             "price": {
                   "1": 72.86,
-                  "2": 73.71,
-                  "3": 75.96
+                  "2": 73.71
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201937.png"
       },
@@ -1294,8 +1202,7 @@
             "team": 16,
             "price": {
                   "1": 72.57,
-                  "2": 72.57,
-                  "3": 72.57
+                  "2": 72.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201609.png"
       },
@@ -1308,8 +1215,7 @@
             "team": 19,
             "price": {
                   "1": 72.29,
-                  "2": 72.29,
-                  "3": 72.49000000000001
+                  "2": 72.29
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628366.png"
       },
@@ -1322,8 +1228,7 @@
             "team": 22,
             "price": {
                   "1": 72,
-                  "2": 72,
-                  "3": 72
+                  "2": 72
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202329.png"
       },
@@ -1336,8 +1241,7 @@
             "team": 10,
             "price": {
                   "1": 69.45,
-                  "2": 69.45,
-                  "3": 69.45
+                  "2": 69.45
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626172.png"
       },
@@ -1350,8 +1254,7 @@
             "team": 27,
             "price": {
                   "1": 69.21,
-                  "2": 69.21,
-                  "3": 69.21
+                  "2": 69.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png"
       },
@@ -1364,8 +1267,7 @@
             "team": 5,
             "price": {
                   "1": 68.98,
-                  "2": 70.48,
-                  "3": 72.63000000000001
+                  "2": 70.48
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201152.png"
       },
@@ -1378,8 +1280,7 @@
             "team": 22,
             "price": {
                   "1": 68.74,
-                  "2": 68.74,
-                  "3": 68.74
+                  "2": 68.74
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203095.png"
       },
@@ -1392,8 +1293,7 @@
             "team": 28,
             "price": {
                   "1": 68.5,
-                  "2": 75.3,
-                  "3": 80.2
+                  "2": 75.3
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627832.png"
       },
@@ -1406,8 +1306,7 @@
             "team": 15,
             "price": {
                   "1": 68.26,
-                  "2": 71.21000000000001,
-                  "3": 76.86000000000001
+                  "2": 71.21000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202685.png"
       },
@@ -1420,8 +1319,7 @@
             "team": 3,
             "price": {
                   "1": 68.02,
-                  "2": 72.82,
-                  "3": 77.27
+                  "2": 72.82
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203925.png"
       },
@@ -1434,8 +1332,7 @@
             "team": 16,
             "price": {
                   "1": 67.79,
-                  "2": 69.09,
-                  "3": 69.99000000000001
+                  "2": 69.09
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2738.png"
       },
@@ -1448,8 +1345,7 @@
             "team": 27,
             "price": {
                   "1": 67.55,
-                  "2": 67.55,
-                  "3": 67.55
+                  "2": 67.55
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200752.png"
       },
@@ -1462,8 +1358,7 @@
             "team": 9,
             "price": {
                   "1": 66.83,
-                  "2": 71.08,
-                  "3": 73.08
+                  "2": 71.08
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203924.png"
       },
@@ -1476,8 +1371,7 @@
             "team": 24,
             "price": {
                   "1": 66.6,
-                  "2": 66.6,
-                  "3": 66.6
+                  "2": 66.6
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203967.png"
       },
@@ -1490,8 +1384,7 @@
             "team": 11,
             "price": {
                   "1": 66.36,
-                  "2": 66.36,
-                  "3": 66.36
+                  "2": 66.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202326.png"
       },
@@ -1504,8 +1397,7 @@
             "team": 13,
             "price": {
                   "1": 66.12,
-                  "2": 67.22,
-                  "3": 67.62
+                  "2": 67.22
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201586.png"
       },
@@ -1518,8 +1410,7 @@
             "team": 22,
             "price": {
                   "1": 65.88,
-                  "2": 65.88,
-                  "3": 65.88
+                  "2": 65.88
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628371.png"
       },
@@ -1532,8 +1423,7 @@
             "team": 13,
             "price": {
                   "1": 65.64,
-                  "2": 66.49,
-                  "3": 67.64
+                  "2": 66.49
             }
       },
       {
@@ -1545,8 +1435,7 @@
             "team": 12,
             "price": {
                   "1": 65.4,
-                  "2": 65.4,
-                  "3": 65.4
+                  "2": 65.4
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203933.png"
       },
@@ -1559,8 +1448,7 @@
             "team": 26,
             "price": {
                   "1": 65.17,
-                  "2": 66.02,
-                  "3": 67.32
+                  "2": 66.02
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203084.png"
       },
@@ -1573,8 +1461,7 @@
             "team": 26,
             "price": {
                   "1": 64.93,
-                  "2": 64.93,
-                  "3": 64.93
+                  "2": 64.93
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202355.png"
       },
@@ -1587,8 +1474,7 @@
             "team": 14,
             "price": {
                   "1": 64.69,
-                  "2": 64.94,
-                  "3": 65.28999999999999
+                  "2": 64.94
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628398.png"
       },
@@ -1601,8 +1487,7 @@
             "team": 3,
             "price": {
                   "1": 64.45,
-                  "2": 64.45,
-                  "3": 64.45
+                  "2": 64.45
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629013.png"
       },
@@ -1615,8 +1500,7 @@
             "team": 13,
             "price": {
                   "1": 64.21,
-                  "2": 64.21,
-                  "3": 64.21
+                  "2": 64.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202704.png"
       },
@@ -1629,8 +1513,7 @@
             "team": 12,
             "price": {
                   "1": 63.98,
-                  "2": 63.98,
-                  "3": 63.98
+                  "2": 63.98
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203087.png"
       },
@@ -1643,8 +1526,7 @@
             "team": 17,
             "price": {
                   "1": 63.74,
-                  "2": 63.74,
-                  "3": 63.74
+                  "2": 63.74
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201571.png"
       },
@@ -1657,8 +1539,7 @@
             "team": 2,
             "price": {
                   "1": 63.26,
-                  "2": 63.26,
-                  "3": 63.26
+                  "2": 63.26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201952.png"
       },
@@ -1671,8 +1552,7 @@
             "team": 8,
             "price": {
                   "1": 63.02,
-                  "2": 63.77,
-                  "3": 64.37
+                  "2": 63.77
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628420.png"
       },
@@ -1685,8 +1565,7 @@
             "team": 5,
             "price": {
                   "1": 62.79,
-                  "2": 62.79,
-                  "3": 62.79
+                  "2": 62.79
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628976.png"
       },
@@ -1699,8 +1578,7 @@
             "team": 4,
             "price": {
                   "1": 62.55,
-                  "2": 62.55,
-                  "3": 62.55
+                  "2": 62.55
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203469.png"
       },
@@ -1713,8 +1591,7 @@
             "team": 3,
             "price": {
                   "1": 62.31,
-                  "2": 64.86,
-                  "3": 67.36
+                  "2": 64.86
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201599.png"
       },
@@ -1727,8 +1604,7 @@
             "team": 24,
             "price": {
                   "1": 62.07,
-                  "2": 63.07,
-                  "3": 65.42
+                  "2": 63.07
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628969.png"
       },
@@ -1741,8 +1617,7 @@
             "team": 22,
             "price": {
                   "1": 61.83,
-                  "2": 61.98,
-                  "3": 62.379999999999995
+                  "2": 61.98
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203082.png"
       },
@@ -1755,8 +1630,7 @@
             "team": 7,
             "price": {
                   "1": 61.6,
-                  "2": 61.6,
-                  "3": 61.6
+                  "2": 61.6
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626161.png"
       },
@@ -1769,8 +1643,7 @@
             "team": 9,
             "price": {
                   "1": 61.36,
-                  "2": 62.36,
-                  "3": 64.11
+                  "2": 62.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626153.png"
       },
@@ -1783,8 +1656,7 @@
             "team": 13,
             "price": {
                   "1": 61.12,
-                  "2": 64.11999999999999,
-                  "3": 64.66999999999999
+                  "2": 64.11999999999999
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201587.png"
       },
@@ -1797,8 +1669,7 @@
             "team": 10,
             "price": {
                   "1": 60.88,
-                  "2": 61.63,
-                  "3": 61.830000000000005
+                  "2": 61.63
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203952.png"
       },
@@ -1811,8 +1682,7 @@
             "team": 25,
             "price": {
                   "1": 60.64,
-                  "2": 60.64,
-                  "3": 60.64
+                  "2": 60.64
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628380.png"
       },
@@ -1825,8 +1695,7 @@
             "team": 28,
             "price": {
                   "1": 60.4,
-                  "2": 61.55,
-                  "3": 62.05
+                  "2": 61.55
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628384.png"
       },
@@ -1839,8 +1708,7 @@
             "team": 6,
             "price": {
                   "1": 60.17,
-                  "2": 60.57,
-                  "3": 62.07
+                  "2": 60.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629012.png"
       },
@@ -1853,8 +1721,7 @@
             "team": 26,
             "price": {
                   "1": 59.93,
-                  "2": 59.93,
-                  "3": 59.93
+                  "2": 59.93
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202357.png"
       },
@@ -1867,8 +1734,7 @@
             "team": 30,
             "price": {
                   "1": 59.69,
-                  "2": 59.69,
-                  "3": 59.69
+                  "2": 59.69
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628418.png"
       },
@@ -1881,8 +1747,7 @@
             "team": 1,
             "price": {
                   "1": 59.21,
-                  "2": 59.21,
-                  "3": 59.36
+                  "2": 59.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628989.png"
       },
@@ -1895,8 +1760,7 @@
             "team": 8,
             "price": {
                   "1": 58.98,
-                  "2": 58.98,
-                  "3": 58.98
+                  "2": 58.98
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203115.png"
       },
@@ -1909,8 +1773,7 @@
             "team": 18,
             "price": {
                   "1": 58.74,
-                  "2": 60.89,
-                  "3": 61.39
+                  "2": 60.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627736.png"
       },
@@ -1923,8 +1786,7 @@
             "team": 15,
             "price": {
                   "1": 58.5,
-                  "2": 58.5,
-                  "3": 58.55
+                  "2": 58.5
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203937.png"
       },
@@ -1937,8 +1799,7 @@
             "team": 28,
             "price": {
                   "1": 58.26,
-                  "2": 58.26,
-                  "3": 58.26
+                  "2": 58.26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203382.png"
       },
@@ -1951,8 +1812,7 @@
             "team": 30,
             "price": {
                   "1": 58.02,
-                  "2": 58.77,
-                  "3": 59.52
+                  "2": 58.77
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202722.png"
       },
@@ -1965,8 +1825,7 @@
             "team": 10,
             "price": {
                   "1": 57.79,
-                  "2": 57.79,
-                  "3": 57.99
+                  "2": 57.79
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626162.png"
       },
@@ -1979,8 +1838,7 @@
             "team": 24,
             "price": {
                   "1": 57.55,
-                  "2": 57.55,
-                  "3": 57.55
+                  "2": 57.55
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203109.png"
       },
@@ -1993,8 +1851,7 @@
             "team": 9,
             "price": {
                   "1": 57.31,
-                  "2": 60.260000000000005,
-                  "3": 65.26
+                  "2": 60.260000000000005
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203486.png"
       },
@@ -2007,8 +1864,7 @@
             "team": 27,
             "price": {
                   "1": 57.07,
-                  "2": 60.37,
-                  "3": 63.72
+                  "2": 60.37
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627751.png"
       },
@@ -2019,8 +1875,7 @@
             "team": 25,
             "price": {
                   "1": 56.83,
-                  "2": 63.23,
-                  "3": 71.47999999999999
+                  "2": 63.23
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202683.png"
       },
@@ -2033,8 +1888,7 @@
             "team": 4,
             "price": {
                   "1": 56.36,
-                  "2": 56.36,
-                  "3": 56.36
+                  "2": 56.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628970.png"
       },
@@ -2047,8 +1901,7 @@
             "team": 13,
             "price": {
                   "1": 56.12,
-                  "2": 56.419999999999995,
-                  "3": 57.169999999999995
+                  "2": 56.419999999999995
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628379.png"
       },
@@ -2059,8 +1912,7 @@
             "team": 14,
             "price": {
                   "1": 55.88,
-                  "2": 55.88,
-                  "3": 55.88
+                  "2": 55.88
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202693.png"
       },
@@ -2071,8 +1923,7 @@
             "team": 15,
             "price": {
                   "1": 55.64,
-                  "2": 56.34,
-                  "3": 57.24
+                  "2": 56.34
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629630.png"
       },
@@ -2085,8 +1936,7 @@
             "team": 17,
             "price": {
                   "1": 55.4,
-                  "2": 56.0,
-                  "3": 57.2
+                  "2": 56.0
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627854.png"
       },
@@ -2099,8 +1949,7 @@
             "team": 6,
             "price": {
                   "1": 55.17,
-                  "2": 55.17,
-                  "3": 55.17
+                  "2": 55.17
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627752.png"
       },
@@ -2113,8 +1962,7 @@
             "team": 16,
             "price": {
                   "1": 54.93,
-                  "2": 54.93,
-                  "3": 55.33
+                  "2": 54.93
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203482.png"
       },
@@ -2127,8 +1975,7 @@
             "team": 4,
             "price": {
                   "1": 54.69,
-                  "2": 56.089999999999996,
-                  "3": 57.239999999999995
+                  "2": 56.089999999999996
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626179.png"
       },
@@ -2141,8 +1988,7 @@
             "team": 7,
             "price": {
                   "1": 54.45,
-                  "2": 56.25,
-                  "3": 58.05
+                  "2": 56.25
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203501.png"
       },
@@ -2155,8 +2001,7 @@
             "team": 2,
             "price": {
                   "1": 54.21,
-                  "2": 56.26,
-                  "3": 56.61
+                  "2": 56.26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202684.png"
       },
@@ -2169,8 +2014,7 @@
             "team": 7,
             "price": {
                   "1": 53.74,
-                  "2": 54.24,
-                  "3": 54.84
+                  "2": 54.24
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628467.png"
       },
@@ -2183,8 +2027,7 @@
             "team": 17,
             "price": {
                   "1": 53.5,
-                  "2": 55.25,
-                  "3": 56.55
+                  "2": 55.25
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626171.png"
       },
@@ -2197,8 +2040,7 @@
             "team": 7,
             "price": {
                   "1": 53.26,
-                  "2": 53.26,
-                  "3": 53.26
+                  "2": 53.26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203939.png"
       },
@@ -2211,8 +2053,7 @@
             "team": 25,
             "price": {
                   "1": 53.02,
-                  "2": 53.02,
-                  "3": 53.02
+                  "2": 53.02
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203918.png"
       },
@@ -2225,8 +2066,7 @@
             "team": 7,
             "price": {
                   "1": 52.79,
-                  "2": 52.79,
-                  "3": 52.79
+                  "2": 52.79
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201949.png"
       },
@@ -2239,8 +2079,7 @@
             "team": 23,
             "price": {
                   "1": 52.55,
-                  "2": 53.449999999999996,
-                  "3": 53.599999999999994
+                  "2": 53.449999999999996
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203552.png"
       },
@@ -2253,8 +2092,7 @@
             "team": 21,
             "price": {
                   "1": 52.31,
-                  "2": 52.31,
-                  "3": 52.31
+                  "2": 52.31
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201588.png"
       },
@@ -2267,8 +2105,7 @@
             "team": 10,
             "price": {
                   "1": 52.07,
-                  "2": 52.07,
-                  "3": 52.07
+                  "2": 52.07
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203145.png"
       },
@@ -2281,8 +2118,7 @@
             "team": 6,
             "price": {
                   "1": 51.83,
-                  "2": 51.83,
-                  "3": 51.83
+                  "2": 51.83
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626224.png"
       },
@@ -2295,8 +2131,7 @@
             "team": 16,
             "price": {
                   "1": 51.6,
-                  "2": 51.6,
-                  "3": 51.6
+                  "2": 51.6
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203090.png"
       },
@@ -2309,8 +2144,7 @@
             "team": 9,
             "price": {
                   "1": 51.36,
-                  "2": 51.36,
-                  "3": 51.36
+                  "2": 51.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628372.png"
       },
@@ -2321,8 +2155,7 @@
             "team": 20,
             "price": {
                   "1": 51.12,
-                  "2": 52.22,
-                  "3": 53.32
+                  "2": 52.22
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629628.png"
       },
@@ -2335,8 +2168,7 @@
             "team": 24,
             "price": {
                   "1": 50.88,
-                  "2": 50.88,
-                  "3": 50.88
+                  "2": 50.88
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202734.png"
       },
@@ -2349,8 +2181,7 @@
             "team": 23,
             "price": {
                   "1": 50.64,
-                  "2": 51.59,
-                  "3": 52.790000000000006
+                  "2": 51.59
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2730.png"
       },
@@ -2363,8 +2194,7 @@
             "team": 19,
             "price": {
                   "1": 50.4,
-                  "2": 50.75,
-                  "3": 51.3
+                  "2": 50.75
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628404.png"
       },
@@ -2377,8 +2207,7 @@
             "team": 29,
             "price": {
                   "1": 50.17,
-                  "2": 51.27,
-                  "3": 51.720000000000006
+                  "2": 51.27
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626220.png"
       },
@@ -2391,8 +2220,7 @@
             "team": 20,
             "price": {
                   "1": 49.93,
-                  "2": 49.93,
-                  "3": 49.93
+                  "2": 49.93
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203085.png"
       },
@@ -2405,8 +2233,7 @@
             "team": 6,
             "price": {
                   "1": 49.69,
-                  "2": 49.69,
-                  "3": 49.89
+                  "2": 49.69
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201580.png"
       },
@@ -2419,8 +2246,7 @@
             "team": 15,
             "price": {
                   "1": 49.45,
-                  "2": 50.150000000000006,
-                  "3": 50.95
+                  "2": 50.150000000000006
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626145.png"
       },
@@ -2433,8 +2259,7 @@
             "team": 14,
             "price": {
                   "1": 49.21,
-                  "2": 49.26,
-                  "3": 49.26
+                  "2": 49.26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203484.png"
       },
@@ -2447,8 +2272,7 @@
             "team": 20,
             "price": {
                   "1": 48.98,
-                  "2": 48.98,
-                  "3": 48.98
+                  "2": 48.98
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201565.png"
       },
@@ -2461,8 +2285,7 @@
             "team": 21,
             "price": {
                   "1": 48.26,
-                  "2": 48.26,
-                  "3": 48.26
+                  "2": 48.26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2772.png"
       },
@@ -2475,8 +2298,7 @@
             "team": 18,
             "price": {
                   "1": 48.02,
-                  "2": 48.02,
-                  "3": 48.02
+                  "2": 48.02
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202334.png"
       },
@@ -2489,8 +2311,7 @@
             "team": 3,
             "price": {
                   "1": 47.79,
-                  "2": 47.79,
-                  "3": 47.79
+                  "2": 47.79
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203943.png"
       },
@@ -2503,8 +2324,7 @@
             "team": 28,
             "price": {
                   "1": 47.55,
-                  "2": 47.55,
-                  "3": 48.949999999999996
+                  "2": 47.55
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626181.png"
       },
@@ -2517,8 +2337,7 @@
             "team": 8,
             "price": {
                   "1": 47.31,
-                  "2": 47.31,
-                  "3": 47.31
+                  "2": 47.31
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203210.png"
       },
@@ -2531,8 +2350,7 @@
             "team": 20,
             "price": {
                   "1": 47.07,
-                  "2": 47.07,
-                  "3": 47.07
+                  "2": 47.07
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201959.png"
       },
@@ -2545,8 +2363,7 @@
             "team": 26,
             "price": {
                   "1": 46.83,
-                  "2": 46.83,
-                  "3": 46.83
+                  "2": 46.83
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202709.png"
       },
@@ -2559,8 +2376,7 @@
             "team": 3,
             "price": {
                   "1": 46.6,
-                  "2": 46.6,
-                  "3": 46.6
+                  "2": 46.6
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204020.png"
       },
@@ -2573,8 +2389,7 @@
             "team": 20,
             "price": {
                   "1": 46.36,
-                  "2": 46.36,
-                  "3": 46.36
+                  "2": 46.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203493.png"
       },
@@ -2587,8 +2402,7 @@
             "team": 30,
             "price": {
                   "1": 46.12,
-                  "2": 46.37,
-                  "3": 46.769999999999996
+                  "2": 46.37
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201577.png"
       },
@@ -2599,8 +2413,7 @@
             "team": 6,
             "price": {
                   "1": 45.88,
-                  "2": 45.88,
-                  "3": 45.88
+                  "2": 45.88
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629636.png"
       },
@@ -2613,8 +2426,7 @@
             "team": 18,
             "price": {
                   "1": 44.68,
-                  "2": 44.68,
-                  "3": 44.68
+                  "2": 44.68
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629006.png"
       },
@@ -2627,8 +2439,7 @@
             "team": 30,
             "price": {
                   "1": 44.3,
-                  "2": 44.3,
-                  "3": 44.3
+                  "2": 44.3
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203458.png"
       },
@@ -2641,8 +2452,7 @@
             "team": 29,
             "price": {
                   "1": 44.11,
-                  "2": 45.21,
-                  "3": 47.46
+                  "2": 45.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203903.png"
       },
@@ -2653,8 +2463,7 @@
             "team": 18,
             "price": {
                   "1": 43.74,
-                  "2": 43.74,
-                  "3": 43.74
+                  "2": 43.74
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629633.png"
       },
@@ -2667,8 +2476,7 @@
             "team": 20,
             "price": {
                   "1": 43.55,
-                  "2": 45.05,
-                  "3": 49.65
+                  "2": 45.05
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203457.png"
       },
@@ -2681,8 +2489,7 @@
             "team": 20,
             "price": {
                   "1": 43.36,
-                  "2": 43.36,
-                  "3": 43.36
+                  "2": 43.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203901.png"
       },
@@ -2695,8 +2502,7 @@
             "team": 25,
             "price": {
                   "1": 42.98,
-                  "2": 42.98,
-                  "3": 42.98
+                  "2": 42.98
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628385.png"
       },
@@ -2709,8 +2515,7 @@
             "team": 18,
             "price": {
                   "1": 42.79,
-                  "2": 42.79,
-                  "3": 42.79
+                  "2": 42.79
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627823.png"
       },
@@ -2723,8 +2528,7 @@
             "team": 26,
             "price": {
                   "1": 42.6,
-                  "2": 48.75,
-                  "3": 56.05
+                  "2": 48.75
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626158.png"
       },
@@ -2735,8 +2539,7 @@
             "team": 15,
             "price": {
                   "1": 42.42,
-                  "2": 43.370000000000005,
-                  "3": 44.32000000000001
+                  "2": 43.370000000000005
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629634.png"
       },
@@ -2749,8 +2552,7 @@
             "team": 3,
             "price": {
                   "1": 42.23,
-                  "2": 42.58,
-                  "3": 42.58
+                  "2": 42.58
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201145.png"
       },
@@ -2763,8 +2565,7 @@
             "team": 17,
             "price": {
                   "1": 41.85,
-                  "2": 41.85,
-                  "3": 41.85
+                  "2": 41.85
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628470.png"
       },
@@ -2775,8 +2576,7 @@
             "team": 14,
             "price": {
                   "1": 41.66,
-                  "2": 41.66,
-                  "3": 41.66
+                  "2": 41.66
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202083.png"
       },
@@ -2789,8 +2589,7 @@
             "team": 5,
             "price": {
                   "1": 41.47,
-                  "2": 41.47,
-                  "3": 41.47
+                  "2": 41.47
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202066.png"
       },
@@ -2801,8 +2600,7 @@
             "team": 1,
             "price": {
                   "1": 41.09,
-                  "2": 41.190000000000005,
-                  "3": 41.190000000000005
+                  "2": 41.190000000000005
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629631.png"
       },
@@ -2815,8 +2613,7 @@
             "team": 30,
             "price": {
                   "1": 40.91,
-                  "2": 40.91,
-                  "3": 40.91
+                  "2": 40.91
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202397.png"
       },
@@ -2829,8 +2626,7 @@
             "team": 19,
             "price": {
                   "1": 40.53,
-                  "2": 40.53,
-                  "3": 40.53
+                  "2": 40.53
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626195.png"
       },
@@ -2843,8 +2639,7 @@
             "team": 7,
             "price": {
                   "1": 40.34,
-                  "2": 40.34,
-                  "3": 40.34
+                  "2": 40.34
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626246.png"
       },
@@ -2855,8 +2650,7 @@
             "team": 9,
             "price": {
                   "1": 40.15,
-                  "2": 40.35,
-                  "3": 40.6
+                  "2": 40.35
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201961.png"
       },
@@ -2869,8 +2663,7 @@
             "team": 22,
             "price": {
                   "1": 39.96,
-                  "2": 39.96,
-                  "3": 39.96
+                  "2": 39.96
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628365.png"
       },
@@ -2883,8 +2676,7 @@
             "team": 26,
             "price": {
                   "1": 39.77,
-                  "2": 39.77,
-                  "3": 39.77
+                  "2": 39.77
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203953.png"
       },
@@ -2897,8 +2689,7 @@
             "team": 23,
             "price": {
                   "1": 39.58,
-                  "2": 39.58,
-                  "3": 39.58
+                  "2": 39.58
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628390.png"
       },
@@ -2911,8 +2702,7 @@
             "team": 4,
             "price": {
                   "1": 39.4,
-                  "2": 40.35,
-                  "3": 40.35
+                  "2": 40.35
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628370.png"
       },
@@ -2925,8 +2715,7 @@
             "team": 7,
             "price": {
                   "1": 39.21,
-                  "2": 39.46,
-                  "3": 39.46
+                  "2": 39.46
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628973.png"
       },
@@ -2939,8 +2728,7 @@
             "team": 7,
             "price": {
                   "1": 38.83,
-                  "2": 38.879999999999995,
-                  "3": 38.879999999999995
+                  "2": 38.879999999999995
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627827.png"
       },
@@ -2953,8 +2741,7 @@
             "team": 11,
             "price": {
                   "1": 38.64,
-                  "2": 38.64,
-                  "3": 38.64
+                  "2": 38.64
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203957.png"
       },
@@ -2967,8 +2754,7 @@
             "team": 8,
             "price": {
                   "1": 38.45,
-                  "2": 38.45,
-                  "3": 40.050000000000004
+                  "2": 38.45
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629008.png"
       },
@@ -2981,8 +2767,7 @@
             "team": 20,
             "price": {
                   "1": 38.26,
-                  "2": 38.26,
-                  "3": 38.26
+                  "2": 38.26
             }
       },
       {
@@ -2994,8 +2779,7 @@
             "team": 2,
             "price": {
                   "1": 38.08,
-                  "2": 40.53,
-                  "3": 40.63
+                  "2": 40.53
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628464.png"
       },
@@ -3006,8 +2790,7 @@
             "team": 5,
             "price": {
                   "1": 37.89,
-                  "2": 37.89,
-                  "3": 38.34
+                  "2": 37.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629632.png"
       },
@@ -3020,8 +2803,7 @@
             "team": 14,
             "price": {
                   "1": 37.7,
-                  "2": 37.7,
-                  "3": 37.7
+                  "2": 37.7
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/201162.png"
       },
@@ -3034,8 +2816,7 @@
             "team": 23,
             "price": {
                   "1": 37.51,
-                  "2": 37.51,
-                  "3": 37.51
+                  "2": 37.51
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203118.png"
       },
@@ -3048,8 +2829,7 @@
             "team": 20,
             "price": {
                   "1": 37.13,
-                  "2": 37.13,
-                  "3": 37.13
+                  "2": 37.13
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202692.png"
       },
@@ -3062,8 +2842,7 @@
             "team": 12,
             "price": {
                   "1": 36.75,
-                  "2": 36.75,
-                  "3": 36.75
+                  "2": 36.75
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628988.png"
       },
@@ -3076,8 +2855,7 @@
             "team": 1,
             "price": {
                   "1": 36.57,
-                  "2": 36.57,
-                  "3": 36.57
+                  "2": 36.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/200765.png"
       },
@@ -3090,8 +2868,7 @@
             "team": 16,
             "price": {
                   "1": 36.19,
-                  "2": 36.19,
-                  "3": 36.19
+                  "2": 36.19
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202340.png"
       },
@@ -3102,8 +2879,7 @@
             "team": 19,
             "price": {
                   "1": 36,
-                  "2": 36,
-                  "3": 36
+                  "2": 36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629638.png"
       },
@@ -3116,8 +2892,7 @@
             "team": 20,
             "price": {
                   "1": 35.81,
-                  "2": 35.81,
-                  "3": 35.81
+                  "2": 35.81
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628373.png"
       },
@@ -3130,8 +2905,7 @@
             "team": 22,
             "price": {
                   "1": 35.62,
-                  "2": 35.62,
-                  "3": 35.62
+                  "2": 35.62
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203516.png"
       },
@@ -3144,8 +2918,7 @@
             "team": 1,
             "price": {
                   "1": 35.43,
-                  "2": 35.43,
-                  "3": 35.43
+                  "2": 35.43
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627739.png"
       },
@@ -3158,8 +2931,7 @@
             "team": 16,
             "price": {
                   "1": 35.06,
-                  "2": 35.06,
-                  "3": 35.06
+                  "2": 35.06
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203086.png"
       },
@@ -3172,8 +2944,7 @@
             "team": 3,
             "price": {
                   "1": 34.87,
-                  "2": 34.87,
-                  "3": 34.87
+                  "2": 34.87
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628971.png"
       },
@@ -3186,8 +2957,7 @@
             "team": 22,
             "price": {
                   "1": 34.68,
-                  "2": 35.68,
-                  "3": 36.63
+                  "2": 35.68
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203920.png"
       },
@@ -3198,8 +2968,7 @@
             "team": 16,
             "price": {
                   "1": 34.49,
-                  "2": 34.49,
-                  "3": 34.49
+                  "2": 34.49
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629639.png"
       },
@@ -3212,8 +2981,7 @@
             "team": 9,
             "price": {
                   "1": 34.3,
-                  "2": 34.3,
-                  "3": 34.3
+                  "2": 34.3
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203585.png"
       },
@@ -3226,8 +2994,7 @@
             "team": 12,
             "price": {
                   "1": 33.74,
-                  "2": 34.24,
-                  "3": 35.29
+                  "2": 34.24
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203926.png"
       },
@@ -3240,8 +3007,7 @@
             "team": 12,
             "price": {
                   "1": 33.36,
-                  "2": 34.11,
-                  "3": 34.11
+                  "2": 34.11
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203200.png"
       },
@@ -3254,8 +3020,7 @@
             "team": 27,
             "price": {
                   "1": 33.17,
-                  "2": 33.17,
-                  "3": 33.17
+                  "2": 33.17
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629022.png"
       },
@@ -3268,8 +3033,7 @@
             "team": 1,
             "price": {
                   "1": 32.98,
-                  "2": 32.98,
-                  "3": 33.93
+                  "2": 32.98
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203503.png"
       },
@@ -3282,8 +3046,7 @@
             "team": 17,
             "price": {
                   "1": 32.79,
-                  "2": 32.79,
-                  "3": 32.79
+                  "2": 32.79
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628391.png"
       },
@@ -3296,8 +3059,7 @@
             "team": 21,
             "price": {
                   "1": 32.6,
-                  "2": 32.6,
-                  "3": 32.6
+                  "2": 32.6
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628382.png"
       },
@@ -3310,8 +3072,7 @@
             "team": 14,
             "price": {
                   "1": 32.42,
-                  "2": 32.42,
-                  "3": 32.42
+                  "2": 32.42
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627936.png"
       },
@@ -3322,8 +3083,7 @@
             "team": 30,
             "price": {
                   "1": 32.04,
-                  "2": 32.04,
-                  "3": 32.04
+                  "2": 32.04
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629060.png"
       },
@@ -3336,8 +3096,7 @@
             "team": 15,
             "price": {
                   "1": 31.66,
-                  "2": 31.91,
-                  "3": 32.46
+                  "2": 31.91
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628415.png"
       },
@@ -3350,8 +3109,7 @@
             "team": 28,
             "price": {
                   "1": 31.28,
-                  "2": 31.28,
-                  "3": 31.28
+                  "2": 31.28
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626169.png"
       },
@@ -3364,8 +3122,7 @@
             "team": 7,
             "price": {
                   "1": 31.09,
-                  "2": 31.09,
-                  "3": 31.09
+                  "2": 31.09
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203504.png"
       },
@@ -3378,8 +3135,7 @@
             "team": 15,
             "price": {
                   "1": 30.53,
-                  "2": 30.53,
-                  "3": 30.53
+                  "2": 30.53
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203476.png"
       },
@@ -3392,8 +3148,7 @@
             "team": 11,
             "price": {
                   "1": 29.96,
-                  "2": 29.96,
-                  "3": 29.96
+                  "2": 29.96
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629066.png"
       },
@@ -3406,8 +3161,7 @@
             "team": 25,
             "price": {
                   "1": 29.77,
-                  "2": 29.77,
-                  "3": 29.77
+                  "2": 29.77
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629014.png"
       },
@@ -3418,8 +3172,7 @@
             "team": 19,
             "price": {
                   "1": 29.58,
-                  "2": 29.58,
-                  "3": 29.58
+                  "2": 29.58
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629637.png"
       },
@@ -3432,8 +3185,7 @@
             "team": 18,
             "price": {
                   "1": 29.4,
-                  "2": 29.4,
-                  "3": 29.4
+                  "2": 29.4
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627774.png"
       },
@@ -3446,8 +3198,7 @@
             "team": 11,
             "price": {
                   "1": 29.02,
-                  "2": 29.02,
-                  "3": 29.02
+                  "2": 29.02
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628425.png"
       },
@@ -3460,8 +3211,7 @@
             "team": 30,
             "price": {
                   "1": 28.83,
-                  "2": 28.83,
-                  "3": 28.83
+                  "2": 28.83
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628395.png"
       },
@@ -3474,8 +3224,7 @@
             "team": 21,
             "price": {
                   "1": 28.64,
-                  "2": 28.64,
-                  "3": 28.64
+                  "2": 28.64
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203121.png"
       },
@@ -3488,8 +3237,7 @@
             "team": 5,
             "price": {
                   "1": 28.45,
-                  "2": 28.45,
-                  "3": 28.45
+                  "2": 28.45
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627756.png"
       },
@@ -3502,8 +3250,7 @@
             "team": 12,
             "price": {
                   "1": 28.26,
-                  "2": 32.760000000000005,
-                  "3": 36.96000000000001
+                  "2": 32.760000000000005
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204456.png"
       },
@@ -3516,8 +3263,7 @@
             "team": 27,
             "price": {
                   "1": 28.08,
-                  "2": 28.08,
-                  "3": 28.08
+                  "2": 28.08
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626168.png"
       },
@@ -3530,8 +3276,7 @@
             "team": 28,
             "price": {
                   "1": 27.89,
-                  "2": 27.89,
-                  "3": 27.89
+                  "2": 27.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627761.png"
       },
@@ -3544,8 +3289,7 @@
             "team": 24,
             "price": {
                   "1": 27.7,
-                  "2": 27.7,
-                  "3": 27.7
+                  "2": 27.7
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204038.png"
       },
@@ -3558,8 +3302,7 @@
             "team": 2,
             "price": {
                   "1": 27.32,
-                  "2": 27.32,
-                  "3": 27.32
+                  "2": 27.32
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629057.png"
       },
@@ -3572,8 +3315,7 @@
             "team": 14,
             "price": {
                   "1": 26.38,
-                  "2": 26.38,
-                  "3": 26.38
+                  "2": 26.38
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628035.png"
       },
@@ -3584,8 +3326,7 @@
             "team": 23,
             "price": {
                   "1": 26.19,
-                  "2": 26.84,
-                  "3": 28.09
+                  "2": 26.84
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629680.png"
       },
@@ -3598,8 +3339,7 @@
             "team": 24,
             "price": {
                   "1": 26,
-                  "2": 26,
-                  "3": 26
+                  "2": 26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626163.png"
       },
@@ -3612,8 +3352,7 @@
             "team": 25,
             "price": {
                   "1": 25.15,
-                  "2": 25.15,
-                  "3": 25.15
+                  "2": 25.15
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627884.png"
       },
@@ -3626,8 +3365,7 @@
             "team": 11,
             "price": {
                   "1": 25.01,
-                  "2": 25.360000000000003,
-                  "3": 25.360000000000003
+                  "2": 25.360000000000003
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628021.png"
       },
@@ -3640,8 +3378,7 @@
             "team": 14,
             "price": {
                   "1": 24.87,
-                  "2": 24.87,
-                  "3": 24.87
+                  "2": 24.87
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626188.png"
       },
@@ -3652,8 +3389,7 @@
             "team": 2,
             "price": {
                   "1": 24.73,
-                  "2": 24.73,
-                  "3": 24.73
+                  "2": 24.73
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629684.png"
       },
@@ -3666,8 +3402,7 @@
             "team": 5,
             "price": {
                   "1": 24.59,
-                  "2": 24.59,
-                  "3": 24.59
+                  "2": 24.59
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627853.png"
       },
@@ -3680,8 +3415,7 @@
             "team": 9,
             "price": {
                   "1": 24.17,
-                  "2": 24.17,
-                  "3": 24.17
+                  "2": 24.17
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626143.png"
       },
@@ -3692,8 +3426,7 @@
             "team": 24,
             "price": {
                   "1": 24.03,
-                  "2": 24.03,
-                  "3": 24.18
+                  "2": 24.03
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629661.png"
       },
@@ -3706,8 +3439,7 @@
             "team": 21,
             "price": {
                   "1": 23.89,
-                  "2": 23.89,
-                  "3": 23.89
+                  "2": 23.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203488.png"
       },
@@ -3720,8 +3452,7 @@
             "team": 6,
             "price": {
                   "1": 23.75,
-                  "2": 23.75,
-                  "3": 23.75
+                  "2": 23.75
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628422.png"
       },
@@ -3734,8 +3465,7 @@
             "team": 13,
             "price": {
                   "1": 23.32,
-                  "2": 23.32,
-                  "3": 23.32
+                  "2": 23.32
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202335.png"
       },
@@ -3748,8 +3478,7 @@
             "team": 30,
             "price": {
                   "1": 23.04,
-                  "2": 23.04,
-                  "3": 23.04
+                  "2": 23.04
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203526.png"
       },
@@ -3762,8 +3491,7 @@
             "team": 23,
             "price": {
                   "1": 22.9,
-                  "2": 22.9,
-                  "3": 22.9
+                  "2": 22.9
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627788.png"
       },
@@ -3776,8 +3504,7 @@
             "team": 29,
             "price": {
                   "1": 22.76,
-                  "2": 22.76,
-                  "3": 22.76
+                  "2": 22.76
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627777.png"
       },
@@ -3790,8 +3517,7 @@
             "team": 5,
             "price": {
                   "1": 22.48,
-                  "2": 22.48,
-                  "3": 22.48
+                  "2": 22.48
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628990.png"
       },
@@ -3804,8 +3530,7 @@
             "team": 2,
             "price": {
                   "1": 22.2,
-                  "2": 22.2,
-                  "3": 22.2
+                  "2": 22.2
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628400.png"
       },
@@ -3818,8 +3543,7 @@
             "team": 28,
             "price": {
                   "1": 22.06,
-                  "2": 22.06,
-                  "3": 22.06
+                  "2": 22.06
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627775.png"
       },
@@ -3832,8 +3556,7 @@
             "team": 22,
             "price": {
                   "1": 21.63,
-                  "2": 22.279999999999998,
-                  "3": 22.979999999999997
+                  "2": 22.279999999999998
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628407.png"
       },
@@ -3846,8 +3569,7 @@
             "team": 5,
             "price": {
                   "1": 21.49,
-                  "2": 21.49,
-                  "3": 21.49
+                  "2": 21.49
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628436.png"
       },
@@ -3860,8 +3582,7 @@
             "team": 7,
             "price": {
                   "1": 21.35,
-                  "2": 21.35,
-                  "3": 21.35
+                  "2": 21.35
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628411.png"
       },
@@ -3874,8 +3595,7 @@
             "team": 6,
             "price": {
                   "1": 21.21,
-                  "2": 21.21,
-                  "3": 21.21
+                  "2": 21.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203521.png"
       },
@@ -3888,8 +3608,7 @@
             "team": 15,
             "price": {
                   "1": 21.07,
-                  "2": 21.07,
-                  "3": 21.32
+                  "2": 21.07
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629001.png"
       },
@@ -3900,8 +3619,7 @@
             "team": 22,
             "price": {
                   "1": 20.93,
-                  "2": 20.93,
-                  "3": 20.93
+                  "2": 20.93
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203487.png"
       },
@@ -3914,8 +3632,7 @@
             "team": 17,
             "price": {
                   "1": 20.79,
-                  "2": 21.04,
-                  "3": 21.04
+                  "2": 21.04
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628978.png"
       },
@@ -3928,8 +3645,7 @@
             "team": 11,
             "price": {
                   "1": 20.51,
-                  "2": 23.11,
-                  "3": 24.11
+                  "2": 23.11
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626174.png"
       },
@@ -3942,8 +3658,7 @@
             "team": 9,
             "price": {
                   "1": 20.23,
-                  "2": 20.23,
-                  "3": 20.23
+                  "2": 20.23
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204025.png"
       },
@@ -3956,8 +3671,7 @@
             "team": 9,
             "price": {
                   "1": 20.08,
-                  "2": 20.08,
-                  "3": 20.08
+                  "2": 20.08
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628402.png"
       },
@@ -3968,8 +3682,7 @@
             "team": 21,
             "price": {
                   "1": 19.94,
-                  "2": 19.94,
-                  "3": 19.94
+                  "2": 19.94
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629660.png"
       },
@@ -3982,8 +3695,7 @@
             "team": 26,
             "price": {
                   "1": 19.8,
-                  "2": 19.8,
-                  "3": 19.8
+                  "2": 19.8
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203922.png"
       },
@@ -3996,8 +3708,7 @@
             "team": 1,
             "price": {
                   "1": 19.66,
-                  "2": 19.66,
-                  "3": 19.66
+                  "2": 19.66
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203524.png"
       },
@@ -4008,8 +3719,7 @@
             "team": 4,
             "price": {
                   "1": 19.52,
-                  "2": 19.97,
-                  "3": 20.919999999999998
+                  "2": 19.97
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629023.png"
       },
@@ -4022,8 +3732,7 @@
             "team": 21,
             "price": {
                   "1": 19.38,
-                  "2": 19.38,
-                  "3": 19.38
+                  "2": 19.38
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629026.png"
       },
@@ -4034,8 +3743,7 @@
             "team": 2,
             "price": {
                   "1": 18.96,
-                  "2": 18.96,
-                  "3": 18.96
+                  "2": 18.96
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629641.png"
       },
@@ -4048,8 +3756,7 @@
             "team": 4,
             "price": {
                   "1": 18.54,
-                  "2": 19.54,
-                  "3": 20.64
+                  "2": 19.54
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202687.png"
       },
@@ -4060,8 +3767,7 @@
             "team": 25,
             "price": {
                   "1": 17.97,
-                  "2": 17.97,
-                  "3": 17.97
+                  "2": 17.97
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629642.png"
       },
@@ -4072,8 +3778,7 @@
             "team": 2,
             "price": {
                   "1": 17.83,
-                  "2": 17.83,
-                  "3": 17.83
+                  "2": 17.83
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629035.png"
       },
@@ -4084,8 +3789,7 @@
             "team": 12,
             "price": {
                   "1": 17.41,
-                  "2": 17.41,
-                  "3": 17.41
+                  "2": 17.41
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629048.png"
       },
@@ -4098,8 +3802,7 @@
             "team": 21,
             "price": {
                   "1": 16.99,
-                  "2": 16.99,
-                  "3": 16.99
+                  "2": 16.99
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628977.png"
       },
@@ -4112,8 +3815,7 @@
             "team": 24,
             "price": {
                   "1": 16.85,
-                  "2": 16.85,
-                  "3": 16.85
+                  "2": 16.85
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627745.png"
       },
@@ -4124,8 +3826,7 @@
             "team": 1,
             "price": {
                   "1": 16.42,
-                  "2": 16.42,
-                  "3": 16.42
+                  "2": 16.42
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628981.png"
       },
@@ -4138,8 +3839,7 @@
             "team": 29,
             "price": {
                   "1": 16.28,
-                  "2": 16.28,
-                  "3": 16.28
+                  "2": 16.28
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627885.png"
       },
@@ -4152,8 +3852,7 @@
             "team": 9,
             "price": {
                   "1": 16.14,
-                  "2": 16.14,
-                  "3": 16.14
+                  "2": 16.14
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628367.png"
       },
@@ -4166,8 +3865,7 @@
             "team": 19,
             "price": {
                   "1": 16,
-                  "2": 16,
-                  "3": 16
+                  "2": 16
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628414.png"
       },
@@ -4180,8 +3878,7 @@
             "team": 27,
             "price": {
                   "1": 15.72,
-                  "2": 15.72,
-                  "3": 15.72
+                  "2": 15.72
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628966.png"
       },
@@ -4192,8 +3889,7 @@
             "team": 9,
             "price": {
                   "1": 15.44,
-                  "2": 15.44,
-                  "3": 15.44
+                  "2": 15.44
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629635.png"
       },
@@ -4206,8 +3902,7 @@
             "team": 15,
             "price": {
                   "1": 15.15,
-                  "2": 15.15,
-                  "3": 15.15
+                  "2": 15.15
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628960.png"
       },
@@ -4220,8 +3915,7 @@
             "team": 18,
             "price": {
                   "1": 15.01,
-                  "2": 15.01,
-                  "3": 15.01
+                  "2": 15.01
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629020.png"
       },
@@ -4234,8 +3928,7 @@
             "team": 4,
             "price": {
                   "1": 14.87,
-                  "2": 15.37,
-                  "3": 15.37
+                  "2": 15.37
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628984.png"
       },
@@ -4248,8 +3941,7 @@
             "team": 5,
             "price": {
                   "1": 14.59,
-                  "2": 14.59,
-                  "3": 14.59
+                  "2": 14.59
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626245.png"
       },
@@ -4260,8 +3952,7 @@
             "team": 22,
             "price": {
                   "1": 14.45,
-                  "2": 14.45,
-                  "3": 14.45
+                  "2": 14.45
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629643.png"
       },
@@ -4272,8 +3963,7 @@
             "team": 6,
             "price": {
                   "1": 14.31,
-                  "2": 14.31,
-                  "3": 14.31
+                  "2": 14.31
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629685.png"
       },
@@ -4284,8 +3974,7 @@
             "team": 8,
             "price": {
                   "1": 14.03,
-                  "2": 14.03,
-                  "3": 14.03
+                  "2": 14.03
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629626.png"
       },
@@ -4296,8 +3985,7 @@
             "team": 12,
             "price": {
                   "1": 13.61,
-                  "2": 13.61,
-                  "3": 13.61
+                  "2": 13.61
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203960.png"
       },
@@ -4308,8 +3996,7 @@
             "team": 27,
             "price": {
                   "1": 13.18,
-                  "2": 13.18,
-                  "3": 13.18
+                  "2": 13.18
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629677.png"
       },
@@ -4322,8 +4009,7 @@
             "team": 24,
             "price": {
                   "1": 12.9,
-                  "2": 12.9,
-                  "3": 12.9
+                  "2": 12.9
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628975.png"
       },
@@ -4334,8 +4020,7 @@
             "team": 20,
             "price": {
                   "1": 12.76,
-                  "2": 12.76,
-                  "3": 12.76
+                  "2": 12.76
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629649.png"
       },
@@ -4348,8 +4033,7 @@
             "team": 24,
             "price": {
                   "1": 12.62,
-                  "2": 12.62,
-                  "3": 12.62
+                  "2": 12.62
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627846.png"
       },
@@ -4360,8 +4044,7 @@
             "team": 19,
             "price": {
                   "1": 12.34,
-                  "2": 12.34,
-                  "3": 12.34
+                  "2": 12.34
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629740.png"
       },
@@ -4372,8 +4055,7 @@
             "team": 27,
             "price": {
                   "1": 12.2,
-                  "2": 12.2,
-                  "3": 12.2
+                  "2": 12.2
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629640.png"
       },
@@ -4386,8 +4068,7 @@
             "team": 23,
             "price": {
                   "1": 12.06,
-                  "2": 12.06,
-                  "3": 12.06
+                  "2": 12.06
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629003.png"
       },
@@ -4398,8 +4079,7 @@
             "team": 10,
             "price": {
                   "1": 11.92,
-                  "2": 11.92,
-                  "3": 11.92
+                  "2": 11.92
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629672.png"
       },
@@ -4412,8 +4092,7 @@
             "team": 30,
             "price": {
                   "1": 11.63,
-                  "2": 11.63,
-                  "3": 11.63
+                  "2": 11.63
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629010.png"
       },
@@ -4424,8 +4103,7 @@
             "team": 11,
             "price": {
                   "1": 11.49,
-                  "2": 11.49,
-                  "3": 11.49
+                  "2": 11.49
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203463.png"
       },
@@ -4438,8 +4116,7 @@
             "team": 10,
             "price": {
                   "1": 11.21,
-                  "2": 11.21,
-                  "3": 11.21
+                  "2": 11.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202954.png"
       },
@@ -4452,8 +4129,7 @@
             "team": 28,
             "price": {
                   "1": 9.94,
-                  "2": 15.34,
-                  "3": 20.24
+                  "2": 15.34
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628449.png"
       },
@@ -4464,8 +4140,7 @@
             "team": 10,
             "price": {
                   "1": 9.9,
-                  "2": 9.9,
-                  "3": 9.9
+                  "2": 9.9
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629673.png"
       },
@@ -4478,8 +4153,7 @@
             "team": 10,
             "price": {
                   "1": 9.86,
-                  "2": 10.309999999999999,
-                  "3": 10.309999999999999
+                  "2": 10.309999999999999
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627814.png"
       },
@@ -4490,8 +4164,7 @@
             "team": 14,
             "price": {
                   "1": 9.77,
-                  "2": 9.77,
-                  "3": 9.77
+                  "2": 9.77
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629659.png"
       },
@@ -4504,8 +4177,7 @@
             "team": 23,
             "price": {
                   "1": 9.73,
-                  "2": 9.73,
-                  "3": 9.73
+                  "2": 9.73
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628396.png"
       },
@@ -4516,8 +4188,7 @@
             "team": 24,
             "price": {
                   "1": 9.61,
-                  "2": 9.61,
-                  "3": 9.61
+                  "2": 9.61
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626166.png"
       },
@@ -4530,8 +4201,7 @@
             "team": 8,
             "price": {
                   "1": 9.52,
-                  "2": 9.52,
-                  "3": 9.52
+                  "2": 9.52
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628392.png"
       },
@@ -4542,8 +4212,7 @@
             "team": 23,
             "price": {
                   "1": 9.48,
-                  "2": 9.48,
-                  "3": 9.48
+                  "2": 9.48
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629738.png"
       },
@@ -4554,8 +4223,7 @@
             "team": 5,
             "price": {
                   "1": 9.44,
-                  "2": 9.54,
-                  "3": 9.59
+                  "2": 9.54
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629655.png"
       },
@@ -4566,8 +4234,7 @@
             "team": 21,
             "price": {
                   "1": 9.4,
-                  "2": 9.75,
-                  "3": 9.75
+                  "2": 9.75
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629647.png"
       },
@@ -4578,8 +4245,7 @@
             "team": 3,
             "price": {
                   "1": 9.36,
-                  "2": 9.36,
-                  "3": 9.36
+                  "2": 9.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629651.png"
       },
@@ -4590,8 +4256,7 @@
             "team": 10,
             "price": {
                   "1": 9.27,
-                  "2": 9.27,
-                  "3": 9.27
+                  "2": 9.27
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629346.png"
       },
@@ -4604,8 +4269,7 @@
             "team": 26,
             "price": {
                   "1": 9.23,
-                  "2": 9.23,
-                  "3": 9.23
+                  "2": 9.23
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629002.png"
       },
@@ -4616,8 +4280,7 @@
             "team": 2,
             "price": {
                   "1": 9.15,
-                  "2": 9.15,
-                  "3": 9.15
+                  "2": 9.15
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629605.png"
       },
@@ -4628,8 +4291,7 @@
             "team": 13,
             "price": {
                   "1": 9.02,
-                  "2": 9.02,
-                  "3": 9.02
+                  "2": 9.02
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629611.png"
       },
@@ -4640,8 +4302,7 @@
             "team": 17,
             "price": {
                   "1": 8.98,
-                  "2": 8.98,
-                  "3": 8.98
+                  "2": 8.98
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203648.png"
       },
@@ -4652,8 +4313,7 @@
             "team": 16,
             "price": {
                   "1": 8.94,
-                  "2": 8.94,
-                  "3": 8.94
+                  "2": 8.94
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629644.png"
       },
@@ -4664,8 +4324,7 @@
             "team": 13,
             "price": {
                   "1": 8.9,
-                  "2": 8.9,
-                  "3": 8.9
+                  "2": 8.9
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629662.png"
       },
@@ -4678,8 +4337,7 @@
             "team": 28,
             "price": {
                   "1": 8.85,
-                  "2": 8.85,
-                  "3": 8.85
+                  "2": 8.85
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629139.png"
       },
@@ -4690,8 +4348,7 @@
             "team": 26,
             "price": {
                   "1": 8.73,
-                  "2": 8.73,
-                  "3": 8.73
+                  "2": 8.73
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629657.png"
       },
@@ -4704,8 +4361,7 @@
             "team": 30,
             "price": {
                   "1": 8.48,
-                  "2": 8.48,
-                  "3": 8.48
+                  "2": 8.48
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629067.png"
       },
@@ -4718,8 +4374,7 @@
             "team": 17,
             "price": {
                   "1": 8.39,
-                  "2": 8.39,
-                  "3": 8.39
+                  "2": 8.39
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629121.png"
       },
@@ -4730,8 +4385,7 @@
             "team": 28,
             "price": {
                   "1": 8.35,
-                  "2": 8.35,
-                  "3": 8.35
+                  "2": 8.35
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629744.png"
       },
@@ -4742,8 +4396,7 @@
             "team": 6,
             "price": {
                   "1": 8.02,
-                  "2": 8.02,
-                  "3": 8.02
+                  "2": 8.02
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629716.png"
       },
@@ -4754,8 +4407,7 @@
             "team": 4,
             "price": {
                   "1": 7.85,
-                  "2": 7.85,
-                  "3": 7.85
+                  "2": 7.85
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628998.png"
       },
@@ -4768,8 +4420,7 @@
             "team": 20,
             "price": {
                   "1": 7.77,
-                  "2": 7.77,
-                  "3": 7.77
+                  "2": 7.77
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629033.png"
       },
@@ -4780,8 +4431,7 @@
             "team": 28,
             "price": {
                   "1": 7.64,
-                  "2": 7.64,
-                  "3": 7.64
+                  "2": 7.64
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629056.png"
       },
@@ -4792,8 +4442,7 @@
             "team": 15,
             "price": {
                   "1": 7.6,
-                  "2": 7.6,
-                  "3": 7.6
+                  "2": 7.6
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629723.png"
       },
@@ -4804,8 +4453,7 @@
             "team": 2,
             "price": {
                   "1": 7.56,
-                  "2": 7.56,
-                  "3": 7.56
+                  "2": 7.56
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629682.png"
       },
@@ -4816,8 +4464,7 @@
             "team": 18,
             "price": {
                   "1": 7.51,
-                  "2": 8.26,
-                  "3": 8.76
+                  "2": 8.26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629675.png"
       },
@@ -4828,8 +4475,7 @@
             "team": 16,
             "price": {
                   "1": 7.47,
-                  "2": 7.47,
-                  "3": 7.47
+                  "2": 7.47
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629134.png"
       },
@@ -4840,8 +4486,7 @@
             "team": 27,
             "price": {
                   "1": 7.43,
-                  "2": 7.43,
-                  "3": 7.43
+                  "2": 7.43
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629683.png"
       },
@@ -4852,8 +4497,7 @@
             "team": 26,
             "price": {
                   "1": 7.39,
-                  "2": 7.39,
-                  "3": 7.39
+                  "2": 7.39
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629713.png"
       },
@@ -4866,8 +4510,7 @@
             "team": 1,
             "price": {
                   "1": 7.31,
-                  "2": 7.31,
-                  "3": 7.31
+                  "2": 7.31
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629164.png"
       },
@@ -4880,8 +4523,7 @@
             "team": 27,
             "price": {
                   "1": 7.26,
-                  "2": 7.26,
-                  "3": 7.26
+                  "2": 7.26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629234.png"
       },
@@ -4894,8 +4536,7 @@
             "team": 12,
             "price": {
                   "1": 7.18,
-                  "2": 7.18,
-                  "3": 7.18
+                  "2": 7.18
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628410.png"
       },
@@ -4908,8 +4549,7 @@
             "team": 14,
             "price": {
                   "1": 7.14,
-                  "2": 7.14,
-                  "3": 7.14
+                  "2": 7.14
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628961.png"
       },
@@ -4920,8 +4560,7 @@
             "team": 29,
             "price": {
                   "1": 7.1,
-                  "2": 7.1,
-                  "3": 7.1
+                  "2": 7.1
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629671.png"
       },
@@ -4932,8 +4571,7 @@
             "team": 12,
             "price": {
                   "1": 6.89,
-                  "2": 6.89,
-                  "3": 6.89
+                  "2": 6.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629665.png"
       },
@@ -4944,8 +4582,7 @@
             "team": 21,
             "price": {
                   "1": 6.76,
-                  "2": 6.76,
-                  "3": 6.76
+                  "2": 6.76
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629676.png"
       },
@@ -4958,8 +4595,7 @@
             "team": 16,
             "price": {
                   "1": 6.59,
-                  "2": 7.6899999999999995,
-                  "3": 9.94
+                  "2": 7.6899999999999995
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629130.png"
       },
@@ -4970,8 +4606,7 @@
             "team": 26,
             "price": {
                   "1": 6.55,
-                  "2": 6.55,
-                  "3": 6.55
+                  "2": 6.55
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629610.png"
       },
@@ -4982,8 +4617,7 @@
             "team": 18,
             "price": {
                   "1": 6.43,
-                  "2": 6.43,
-                  "3": 6.43
+                  "2": 6.43
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629669.png"
       },
@@ -4994,8 +4628,7 @@
             "team": 8,
             "price": {
                   "1": 6.34,
-                  "2": 6.34,
-                  "3": 6.34
+                  "2": 6.34
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628427.png"
       },
@@ -5006,8 +4639,7 @@
             "team": 4,
             "price": {
                   "1": 6.3,
-                  "2": 6.3,
-                  "3": 6.3
+                  "2": 6.3
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628997.png"
       },
@@ -5020,8 +4652,7 @@
             "team": 16,
             "price": {
                   "1": 6.22,
-                  "2": 6.22,
-                  "3": 6.22
+                  "2": 6.22
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2617.png"
       },
@@ -5032,8 +4663,7 @@
             "team": 18,
             "price": {
                   "1": 6.01,
-                  "2": 6.01,
-                  "3": 6.01
+                  "2": 6.01
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629162.png"
       },
@@ -5044,8 +4674,7 @@
             "team": 4,
             "price": {
                   "1": 5.92,
-                  "2": 5.92,
-                  "3": 5.92
+                  "2": 5.92
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629667.png"
       },
@@ -5056,8 +4685,7 @@
             "team": 21,
             "price": {
                   "1": 5.63,
-                  "2": 5.63,
-                  "3": 5.63
+                  "2": 5.63
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629650.png"
       },
@@ -5068,8 +4696,7 @@
             "team": 13,
             "price": {
                   "1": 5.59,
-                  "2": 5.59,
-                  "3": 5.59
+                  "2": 5.59
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629599.png"
       },
@@ -5080,8 +4707,7 @@
             "team": 30,
             "price": {
                   "1": 5.55,
-                  "2": 5.55,
-                  "3": 5.55
+                  "2": 5.55
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629726.png"
       },
@@ -5094,8 +4720,7 @@
             "team": 19,
             "price": {
                   "1": 5.51,
-                  "2": 5.51,
-                  "3": 5.51
+                  "2": 5.51
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629117.png"
       },
@@ -5106,8 +4731,7 @@
             "team": 20,
             "price": {
                   "1": 5.09,
-                  "2": 5.09,
-                  "3": 5.09
+                  "2": 5.09
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629607.png"
       },
@@ -5118,8 +4742,7 @@
             "team": 14,
             "price": {
                   "1": 5.05,
-                  "2": 5.05,
-                  "3": 5.05
+                  "2": 5.05
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629719.png"
       },
@@ -5130,8 +4753,7 @@
             "team": 16,
             "price": {
                   "1": 5,
-                  "2": 5,
-                  "3": 5
+                  "2": 5
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629735.png"
       },
@@ -5142,8 +4764,7 @@
             "team": 21,
             "price": {
                   "1": 4.59,
-                  "2": 4.59,
-                  "3": 4.59
+                  "2": 4.59
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629652.png"
       },
@@ -5154,8 +4775,7 @@
             "team": 10,
             "price": {
                   "1": 4.54,
-                  "2": 4.54,
-                  "3": 4.54
+                  "2": 4.54
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628539.png"
       },
@@ -5166,8 +4786,7 @@
             "team": 23,
             "price": {
                   "1": 4.5,
-                  "2": 4.5,
-                  "3": 4.5
+                  "2": 4.5
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629730.png"
       },
@@ -5178,8 +4797,7 @@
             "team": 12,
             "price": {
                   "1": 4.21,
-                  "2": 4.21,
-                  "3": 4.21
+                  "2": 4.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629103.png"
       },
@@ -5190,8 +4808,7 @@
             "team": 29,
             "price": {
                   "1": 4.17,
-                  "2": 4.17,
-                  "3": 4.17
+                  "2": 4.17
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629714.png"
       },
@@ -5202,8 +4819,7 @@
             "team": 2,
             "price": {
                   "1": 4.04,
-                  "2": 4.04,
-                  "3": 4.04
+                  "2": 4.04
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629750.png"
       },
@@ -5214,8 +4830,7 @@
             "team": 16,
             "price": {
                   "1": 3.54,
-                  "2": 3.54,
-                  "3": 3.54
+                  "2": 3.54
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629622.png"
       },
@@ -5226,8 +4841,7 @@
             "team": 29,
             "price": {
                   "1": 3.5,
-                  "2": 3.5,
-                  "3": 3.5
+                  "2": 3.5
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629752.png"
       },
@@ -5238,8 +4852,7 @@
             "team": 5,
             "price": {
                   "1": 3.21,
-                  "2": 3.21,
-                  "3": 3.21
+                  "2": 3.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629690.png"
       },
@@ -5250,8 +4863,7 @@
             "team": 6,
             "price": {
                   "1": 3,
-                  "2": 3,
-                  "3": 3
+                  "2": 3
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629731.png"
       },
@@ -5264,8 +4876,7 @@
             "team": 10,
             "price": {
                   "1": 94.29,
-                  "2": 96.69000000000001,
-                  "3": 100.09000000000002
+                  "2": 96.69000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203110.png"
       },
@@ -5276,8 +4887,7 @@
             "team": 6,
             "price": {
                   "1": 63.5,
-                  "2": 65.3,
-                  "3": 66.6
+                  "2": 65.3
             }
       },
       {
@@ -5289,8 +4899,7 @@
             "team": 22,
             "price": {
                   "1": 41.28,
-                  "2": 41.28,
-                  "3": 41.28
+                  "2": 41.28
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628964.png"
       },
@@ -5301,8 +4910,7 @@
             "team": 1,
             "price": {
                   "1": 30.15,
-                  "2": 30.15,
-                  "3": 30.15
+                  "2": 30.15
             }
       },
       {
@@ -5314,8 +4922,7 @@
             "team": 9,
             "price": {
                   "1": 15.86,
-                  "2": 15.86,
-                  "3": 15.86
+                  "2": 15.86
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629004.png"
       },
@@ -5326,8 +4933,7 @@
             "team": 3,
             "price": {
                   "1": 6.09,
-                  "2": 6.09,
-                  "3": 6.09
+                  "2": 6.09
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203658.png"
       },
@@ -5338,8 +4944,7 @@
             "team": 20,
             "price": {
                   "1": 85.43,
-                  "2": 85.43,
-                  "3": 85.43
+                  "2": 85.43
             }
       },
       {
@@ -5351,8 +4956,7 @@
             "team": 5,
             "price": {
                   "1": 67.07,
-                  "2": 67.07,
-                  "3": 67.07
+                  "2": 67.07
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/203107.png"
       },
@@ -5363,8 +4967,7 @@
             "team": 22,
             "price": {
                   "1": 48.74,
-                  "2": 48.74,
-                  "3": 48.74
+                  "2": 48.74
             }
       },
       {
@@ -5376,8 +4979,7 @@
             "team": 13,
             "price": {
                   "1": 44.49,
-                  "2": 47.74,
-                  "3": 52.14
+                  "2": 47.74
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627826.png"
       },
@@ -5390,8 +4992,7 @@
             "team": 17,
             "price": {
                   "1": 37.32,
-                  "2": 37.32,
-                  "3": 37.57
+                  "2": 37.32
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1626192.png"
       },
@@ -5404,8 +5005,7 @@
             "team": 11,
             "price": {
                   "1": 26.94,
-                  "2": 26.94,
-                  "3": 26.94
+                  "2": 26.94
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627863.png"
       },
@@ -5418,8 +5018,7 @@
             "team": 30,
             "price": {
                   "1": 18.68,
-                  "2": 18.68,
-                  "3": 18.68
+                  "2": 18.68
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628972.png"
       },
@@ -5430,8 +5029,7 @@
             "team": 11,
             "price": {
                   "1": 17.55,
-                  "2": 17.55,
-                  "3": 17.55
+                  "2": 17.55
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629645.png"
       },
@@ -5444,8 +5042,7 @@
             "team": 22,
             "price": {
                   "1": 15.58,
-                  "2": 15.58,
-                  "3": 15.58
+                  "2": 15.58
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629109.png"
       },
@@ -5456,8 +5053,7 @@
             "team": 25,
             "price": {
                   "1": 13.32,
-                  "2": 14.97,
-                  "3": 16.52
+                  "2": 14.97
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629018.png"
       },
@@ -5468,8 +5064,7 @@
             "team": 12,
             "price": {
                   "1": 7.89,
-                  "2": 7.89,
-                  "3": 7.89
+                  "2": 7.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628968.png"
       },
@@ -5480,8 +5075,7 @@
             "team": 7,
             "price": {
                   "1": 26.04,
-                  "2": 26.04,
-                  "3": 26.04
+                  "2": 26.04
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630182.png"
       },
@@ -5492,8 +5086,7 @@
             "team": 26,
             "price": {
                   "1": 97.91,
-                  "2": 98.96,
-                  "3": 99.16
+                  "2": 98.96
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630169.png"
       },
@@ -5504,8 +5097,7 @@
             "team": 4,
             "price": {
                   "1": 95.54,
-                  "2": 98.44000000000001,
-                  "3": 100.74000000000001
+                  "2": 98.44000000000001
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630163.png"
       },
@@ -5516,8 +5108,7 @@
             "team": 15,
             "price": {
                   "1": 93.17,
-                  "2": 93.17,
-                  "3": 93.17
+                  "2": 93.17
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630214.png"
       },
@@ -5528,8 +5119,7 @@
             "team": 11,
             "price": {
                   "1": 90.8,
-                  "2": 91.3,
-                  "3": 92.0
+                  "2": 91.3
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630256.png"
       },
@@ -5540,8 +5130,7 @@
             "team": 15,
             "price": {
                   "1": 88.43,
-                  "2": 89.18,
-                  "3": 89.83000000000001
+                  "2": 89.18
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630217.png"
       },
@@ -5552,8 +5141,7 @@
             "team": 5,
             "price": {
                   "1": 86.06,
-                  "2": 86.06,
-                  "3": 86.06
+                  "2": 86.06
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630172.png"
       },
@@ -5564,8 +5152,7 @@
             "team": 10,
             "price": {
                   "1": 83.69,
-                  "2": 83.89,
-                  "3": 83.89
+                  "2": 83.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630164.png"
       },
@@ -5576,8 +5163,7 @@
             "team": 20,
             "price": {
                   "1": 81.31,
-                  "2": 82.16,
-                  "3": 82.46
+                  "2": 82.16
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630193.png"
       },
@@ -5588,8 +5174,7 @@
             "team": 2,
             "price": {
                   "1": 78.94,
-                  "2": 78.94,
-                  "3": 78.94
+                  "2": 78.94
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630202.png"
       },
@@ -5600,8 +5185,7 @@
             "team": 22,
             "price": {
                   "1": 76.57,
-                  "2": 76.57,
-                  "3": 76.57
+                  "2": 76.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630175.png"
       },
@@ -5612,8 +5196,7 @@
             "team": 27,
             "price": {
                   "1": 74.2,
-                  "2": 74.2,
-                  "3": 74.2
+                  "2": 74.2
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630170.png"
       },
@@ -5624,8 +5207,7 @@
             "team": 18,
             "price": {
                   "1": 71.83,
-                  "2": 71.83,
-                  "3": 73.13
+                  "2": 71.83
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630162.png"
       },
@@ -5636,8 +5218,7 @@
             "team": 9,
             "price": {
                   "1": 67.57,
-                  "2": 67.66999999999999,
-                  "3": 67.66999999999999
+                  "2": 67.66999999999999
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630191.png"
       },
@@ -5648,8 +5229,7 @@
             "team": 30,
             "price": {
                   "1": 65.6,
-                  "2": 65.6,
-                  "3": 65.6
+                  "2": 65.6
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630166.png"
       },
@@ -5660,8 +5240,7 @@
             "team": 21,
             "price": {
                   "1": 63.62,
-                  "2": 63.62,
-                  "3": 63.62
+                  "2": 63.62
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630177.png"
       },
@@ -5672,8 +5251,7 @@
             "team": 6,
             "price": {
                   "1": 61.64,
-                  "2": 61.64,
-                  "3": 61.64
+                  "2": 61.64
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630171.png"
       },
@@ -5684,8 +5262,7 @@
             "team": 23,
             "price": {
                   "1": 59.67,
-                  "2": 59.67,
-                  "3": 59.67
+                  "2": 59.67
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630178.png"
       },
@@ -5696,8 +5273,7 @@
             "team": 9,
             "price": {
                   "1": 57.69,
-                  "2": 57.69,
-                  "3": 57.989999999999995
+                  "2": 57.69
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630180.png"
       },
@@ -5708,8 +5284,7 @@
             "team": 18,
             "price": {
                   "1": 55.71,
-                  "2": 55.71,
-                  "3": 55.71
+                  "2": 55.71
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630183.png"
       },
@@ -5720,8 +5295,7 @@
             "team": 23,
             "price": {
                   "1": 53.74,
-                  "2": 53.74,
-                  "3": 53.74
+                  "2": 53.74
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630198.png"
       },
@@ -5732,8 +5306,7 @@
             "team": 1,
             "price": {
                   "1": 49.79,
-                  "2": 49.79,
-                  "3": 49.79
+                  "2": 49.79
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630168.png"
       },
@@ -5744,8 +5317,7 @@
             "team": 16,
             "price": {
                   "1": 47.81,
-                  "2": 47.81,
-                  "3": 47.81
+                  "2": 47.81
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630173.png"
       },
@@ -5756,8 +5328,7 @@
             "team": 8,
             "price": {
                   "1": 45.83,
-                  "2": 45.83,
-                  "3": 45.83
+                  "2": 45.83
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630267.png"
       },
@@ -5768,8 +5339,7 @@
             "team": 20,
             "price": {
                   "1": 43.26,
-                  "2": 43.26,
-                  "3": 43.26
+                  "2": 43.26
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630167.png"
       },
@@ -5780,8 +5350,7 @@
             "team": 23,
             "price": {
                   "1": 41.7,
-                  "2": 41.7,
-                  "3": 41.7
+                  "2": 41.7
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630194.png"
       },
@@ -5792,8 +5361,7 @@
             "team": 3,
             "price": {
                   "1": 40.13,
-                  "2": 40.13,
-                  "3": 40.13
+                  "2": 40.13
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629617.png"
       },
@@ -5804,8 +5372,7 @@
             "team": 25,
             "price": {
                   "1": 38.57,
-                  "2": 38.57,
-                  "3": 38.57
+                  "2": 38.57
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629604.png"
       },
@@ -5816,8 +5383,7 @@
             "team": 13,
             "price": {
                   "1": 37,
-                  "2": 37,
-                  "3": 37
+                  "2": 37
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630187.png"
       },
@@ -5828,8 +5394,7 @@
             "team": 30,
             "price": {
                   "1": 35.43,
-                  "2": 35.43,
-                  "3": 35.43
+                  "2": 35.43
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630216.png"
       },
@@ -5840,8 +5405,7 @@
             "team": 1,
             "price": {
                   "1": 33.87,
-                  "2": 33.87,
-                  "3": 33.87
+                  "2": 33.87
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630219.png"
       },
@@ -5852,8 +5416,7 @@
             "team": 8,
             "price": {
                   "1": 32.3,
-                  "2": 32.3,
-                  "3": 32.3
+                  "2": 32.3
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630181.png"
       },
@@ -5864,8 +5427,7 @@
             "team": 9,
             "price": {
                   "1": 30.74,
-                  "2": 30.74,
-                  "3": 30.74
+                  "2": 30.74
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630240.png"
       },
@@ -5876,8 +5438,7 @@
             "team": 17,
             "price": {
                   "1": 29.17,
-                  "2": 29.17,
-                  "3": 29.17
+                  "2": 29.17
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630241.png"
       },
@@ -5888,8 +5449,7 @@
             "team": 11,
             "price": {
                   "1": 27.6,
-                  "2": 27.6,
-                  "3": 27.6
+                  "2": 27.6
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630271.png"
       },
@@ -5900,8 +5460,7 @@
             "team": 26,
             "price": {
                   "1": 24.15,
-                  "2": 24.15,
-                  "3": 24.15
+                  "2": 24.15
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630186.png"
       },
@@ -5912,8 +5471,7 @@
             "team": 2,
             "price": {
                   "1": 22.99,
-                  "2": 22.99,
-                  "3": 22.99
+                  "2": 22.99
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630174.png"
       },
@@ -5924,8 +5482,7 @@
             "team": 29,
             "price": {
                   "1": 21.82,
-                  "2": 21.82,
-                  "3": 21.82
+                  "2": 21.82
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630190.png"
       },
@@ -5936,8 +5493,7 @@
             "team": 29,
             "price": {
                   "1": 20.65,
-                  "2": 20.65,
-                  "3": 20.65
+                  "2": 20.65
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628962.png"
       },
@@ -5948,8 +5504,7 @@
             "team": 5,
             "price": {
                   "1": 19.48,
-                  "2": 19.48,
-                  "3": 19.48
+                  "2": 19.48
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629653.png"
       },
@@ -5960,8 +5515,7 @@
             "team": 8,
             "price": {
                   "1": 18.31,
-                  "2": 18.31,
-                  "3": 18.31
+                  "2": 18.31
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630192.png"
       },
@@ -5972,8 +5526,7 @@
             "team": 9,
             "price": {
                   "1": 17.14,
-                  "2": 17.14,
-                  "3": 17.14
+                  "2": 17.14
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630165.png"
       },
@@ -5984,8 +5537,7 @@
             "team": 27,
             "price": {
                   "1": 15.97,
-                  "2": 15.97,
-                  "3": 15.97
+                  "2": 15.97
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630200.png"
       },
@@ -5996,8 +5548,7 @@
             "team": 15,
             "price": {
                   "1": 14.8,
-                  "2": 14.8,
-                  "3": 14.8
+                  "2": 14.8
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630253.png"
       },
@@ -6008,8 +5559,7 @@
             "team": 28,
             "price": {
                   "1": 13.63,
-                  "2": 13.63,
-                  "3": 13.63
+                  "2": 13.63
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630201.png"
       },
@@ -6020,8 +5570,7 @@
             "team": 7,
             "price": {
                   "1": 12.46,
-                  "2": 12.46,
-                  "3": 12.46
+                  "2": 12.46
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630179.png"
       },
@@ -6032,8 +5581,7 @@
             "team": 12,
             "price": {
                   "1": 11.3,
-                  "2": 11.3,
-                  "3": 11.3
+                  "2": 11.3
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630199.png"
       },
@@ -6044,8 +5592,7 @@
             "team": 4,
             "price": {
                   "1": 9.7,
-                  "2": 9.7,
-                  "3": 9.7
+                  "2": 9.7
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630208.png"
       },
@@ -6056,8 +5603,7 @@
             "team": 24,
             "price": {
                   "1": 9.36,
-                  "2": 9.36,
-                  "3": 9.36
+                  "2": 9.36
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630188.png"
       },
@@ -6068,8 +5614,7 @@
             "team": 10,
             "price": {
                   "1": 9.01,
-                  "2": 9.01,
-                  "3": 9.01
+                  "2": 9.01
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630185.png"
       },
@@ -6080,8 +5625,7 @@
             "team": 4,
             "price": {
                   "1": 8.66,
-                  "2": 8.66,
-                  "3": 8.66
+                  "2": 8.66
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630176.png"
       },
@@ -6092,8 +5636,7 @@
             "team": 26,
             "price": {
                   "1": 8.31,
-                  "2": 8.31,
-                  "3": 8.31
+                  "2": 8.31
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630218.png"
       },
@@ -6104,8 +5647,7 @@
             "team": 7,
             "price": {
                   "1": 7.97,
-                  "2": 7.97,
-                  "3": 7.97
+                  "2": 7.97
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630189.png"
       },
@@ -6116,8 +5658,7 @@
             "team": 28,
             "price": {
                   "1": 7.62,
-                  "2": 7.62,
-                  "3": 7.62
+                  "2": 7.62
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630223.png"
       },
@@ -6128,8 +5669,7 @@
             "team": 18,
             "price": {
                   "1": 7.27,
-                  "2": 7.27,
-                  "3": 7.27
+                  "2": 7.27
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630204.png"
       },
@@ -6140,8 +5680,7 @@
             "team": 24,
             "price": {
                   "1": 6.92,
-                  "2": 6.92,
-                  "3": 6.92
+                  "2": 6.92
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630234.png"
       },
@@ -6152,8 +5691,7 @@
             "team": 25,
             "price": {
                   "1": 33.44,
-                  "2": 33.839999999999996,
-                  "3": 34.239999999999995
+                  "2": 33.839999999999996
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/2546.png"
       },
@@ -6164,8 +5702,7 @@
             "team": 25,
             "price": {
                   "1": 53.63,
-                  "2": 53.63,
-                  "3": 53.63
+                  "2": 53.63
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629833.png"
       },
@@ -6176,8 +5713,7 @@
             "team": 3,
             "price": {
                   "1": 46.1,
-                  "2": 46.1,
-                  "3": 46.1
+                  "2": 46.1
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629185.png"
       },
@@ -6190,8 +5726,7 @@
             "team": 10,
             "price": {
                   "1": 66.58,
-                  "2": 66.58,
-                  "3": 66.58
+                  "2": 66.58
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627737.png"
       },
@@ -6202,8 +5737,7 @@
             "team": 4,
             "price": {
                   "1": 69.44,
-                  "2": 69.44,
-                  "3": 69.44
+                  "2": 69.44
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630268.png"
       },
@@ -6214,8 +5748,7 @@
             "team": 17,
             "price": {
                   "1": 34.76,
-                  "2": 34.76,
-                  "3": 34.76
+                  "2": 34.76
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629603.png"
       },
@@ -6226,8 +5759,7 @@
             "team": 4,
             "price": {
                   "1": 54.21,
-                  "2": 54.21,
-                  "3": 54.21
+                  "2": 54.21
             }
       },
       {
@@ -6237,8 +5769,7 @@
             "team": 29,
             "price": {
                   "1": 67.46,
-                  "2": 67.46,
-                  "3": 67.46
+                  "2": 67.46
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630235.png"
       },
@@ -6249,8 +5780,7 @@
             "team": 30,
             "price": {
                   "1": 57.68,
-                  "2": 57.68,
-                  "3": 57.68
+                  "2": 57.68
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630264.png"
       },
@@ -6261,8 +5791,7 @@
             "team": 21,
             "price": {
                   "1": 26.88,
-                  "2": 26.88,
-                  "3": 26.88
+                  "2": 26.88
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630221.png"
       },
@@ -6273,8 +5802,7 @@
             "team": 7,
             "price": {
                   "1": 39.25,
-                  "2": 39.25,
-                  "3": 39.25
+                  "2": 39.25
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630207.png"
       },
@@ -6285,8 +5813,7 @@
             "team": 8,
             "price": {
                   "1": 30.78,
-                  "2": 30.78,
-                  "3": 30.78
+                  "2": 30.78
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630210.png"
       },
@@ -6297,8 +5824,7 @@
             "team": 11,
             "price": {
                   "1": 28.82,
-                  "2": 28.82,
-                  "3": 28.82
+                  "2": 28.82
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630222.png"
       },
@@ -6309,8 +5835,7 @@
             "team": 1,
             "price": {
                   "1": 56.9,
-                  "2": 56.9,
-                  "3": 56.9
+                  "2": 56.9
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630233.png"
       },
@@ -6321,8 +5846,7 @@
             "team": 19,
             "price": {
                   "1": 61.34,
-                  "2": 61.34,
-                  "3": 61.34
+                  "2": 61.34
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630184.png"
       },
@@ -6335,8 +5859,7 @@
             "team": 3,
             "price": {
                   "1": 33.85,
-                  "2": 33.85,
-                  "3": 33.85
+                  "2": 33.85
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1627789.png"
       },
@@ -6347,8 +5870,7 @@
             "team": 19,
             "price": {
                   "1": 26.93,
-                  "2": 26.93,
-                  "3": 26.93
+                  "2": 26.93
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630266.png"
       },
@@ -6359,8 +5881,7 @@
             "team": 22,
             "price": {
                   "1": 34.89,
-                  "2": 34.89,
-                  "3": 34.89
+                  "2": 34.89
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630211.png"
       },
@@ -6371,8 +5892,7 @@
             "team": 19,
             "price": {
                   "1": 30.79,
-                  "2": 30.79,
-                  "3": 30.79
+                  "2": 30.79
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630230.png"
       },
@@ -6383,8 +5903,7 @@
             "team": 13,
             "price": {
                   "1": 41.03,
-                  "2": 41.03,
-                  "3": 41.03
+                  "2": 41.03
             }
       },
       {
@@ -6394,8 +5913,7 @@
             "team": 21,
             "price": {
                   "1": 40.19,
-                  "2": 40.19,
-                  "3": 40.19
+                  "2": 40.19
             }
       },
       {
@@ -6405,8 +5923,7 @@
             "team": 6,
             "price": {
                   "1": 36.72,
-                  "2": 36.72,
-                  "3": 36.72
+                  "2": 36.72
             }
       },
       {
@@ -6416,8 +5933,7 @@
             "team": 17,
             "price": {
                   "1": 34.77,
-                  "2": 34.77,
-                  "3": 34.77
+                  "2": 34.77
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629670.png"
       },
@@ -6428,8 +5944,7 @@
             "team": 21,
             "price": {
                   "1": 51.76,
-                  "2": 51.76,
-                  "3": 51.76
+                  "2": 51.76
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630197.png"
       },
@@ -6440,8 +5955,7 @@
             "team": 15,
             "price": {
                   "1": 32.72,
-                  "2": 32.72,
-                  "3": 32.72
+                  "2": 32.72
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629007.png"
       },
@@ -6452,8 +5966,7 @@
             "team": 4,
             "price": {
                   "1": 48.07,
-                  "2": 48.07,
-                  "3": 48.07
+                  "2": 48.07
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630203.png"
       },
@@ -6464,8 +5977,7 @@
             "team": 13,
             "price": {
                   "1": 33.82,
-                  "2": 33.82,
-                  "3": 33.82
+                  "2": 33.82
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630206.png"
       },
@@ -6478,8 +5990,7 @@
             "team": 3,
             "price": {
                   "1": 35.08,
-                  "2": 35.08,
-                  "3": 35.08
+                  "2": 35.08
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/202697.png"
       },
@@ -6490,8 +6001,7 @@
             "team": 9,
             "price": {
                   "1": 30.21,
-                  "2": 30.21,
-                  "3": 30.21
+                  "2": 30.21
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629686.png"
       },
@@ -6502,8 +6012,7 @@
             "team": 6,
             "price": {
                   "1": 52.18,
-                  "2": 52.18,
-                  "3": 52.18
+                  "2": 52.18
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1630205.png"
       },
@@ -6514,8 +6023,7 @@
             "team": 15,
             "price": {
                   "1": 35.7,
-                  "2": 35.7,
-                  "3": 35.7
+                  "2": 35.7
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629681.png"
       },
@@ -6526,8 +6034,7 @@
             "team": 10,
             "price": {
                   "1": 29.44,
-                  "2": 29.44,
-                  "3": 29.44
+                  "2": 29.44
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629308.png"
       },
@@ -6538,8 +6045,7 @@
             "team": 30,
             "price": {
                   "1": 31.66,
-                  "2": 31.66,
-                  "3": 31.66
+                  "2": 31.66
             }
       },
       {
@@ -6549,8 +6055,7 @@
             "team": 16,
             "price": {
                   "1": 32.06,
-                  "2": 32.06,
-                  "3": 32.06
+                  "2": 32.06
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629216.png"
       },
@@ -6563,8 +6068,7 @@
             "team": 30,
             "price": {
                   "1": 32.2,
-                  "2": 32.2,
-                  "3": 32.2
+                  "2": 32.2
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1629021.png"
       },
@@ -6575,8 +6079,7 @@
             "team": 28,
             "price": {
                   "1": 38.93,
-                  "2": 38.93,
-                  "3": 38.93
+                  "2": 38.93
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/1628778.png"
       },
@@ -6587,8 +6090,7 @@
             "team": 8,
             "price": {
                   "1": 62.35,
-                  "2": 62.35,
-                  "3": 62.35
+                  "2": 62.35
             },
             "image": "https://cdn.nba.com/headshots/nba/latest/260x190/204222.png"
       },
@@ -6599,8 +6101,7 @@
             "team": 7,
             "price": {
                   "1": 62.01,
-                  "2": 62.01,
-                  "3": 62.01
+                  "2": 62.01
             }
       }
 ]

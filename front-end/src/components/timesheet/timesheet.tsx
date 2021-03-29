@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import data from './timesheet.json'
 const axios = require('axios')
 
-export interface clock {
+export interface Clock {
   in:string
   out?:string | null
   accomplished?:string | null
@@ -33,7 +33,7 @@ const AccomplishedWrapper = styled.div`
   margin: auto;
 }`
 
-export const Timesheet: React.FC<clock[]> = () => {
+export const Timesheet: React.FC<Clock[]> = () => {
   const [accomplished, setAccomplished] = useState<string>()
   const [goal, setGoal] = useState<number>(1)
 
@@ -60,13 +60,13 @@ export const Timesheet: React.FC<clock[]> = () => {
   const TODAY = new Date()
   const MONDAY = new Date()
   if(TODAY.getDay() === 0){
-    MONDAY.setDate(TODAY.getDate() - 7);
+    MONDAY.setDate(TODAY.getDate() - 6)
   }
   else{
-    MONDAY.setDate(TODAY.getDate() - (TODAY.getDay()-1));
+    MONDAY.setDate(TODAY.getDate() - (TODAY.getDay()-1))
   }
 
-  data.forEach((time: clock) => {
+  data.forEach((time: Clock) => {
     const date = new Date(time.out || '')
     const day = date.getDay()
     if (time.out && new Date(time.out) > MONDAY) {
@@ -138,9 +138,9 @@ export const Timesheet: React.FC<clock[]> = () => {
             </tr>
           </thead>
           <tbody>
-          {data.map((time: clock) => {
+          {data.map((time: Clock) => {
             return (
-              <tr key={time.accomplished}>
+              <tr key={time.in}>
                 <td>{new Date(time.in).toLocaleDateString()}</td>
                 <td>{new Date(time.in).toLocaleTimeString("en-US", { hour: 'numeric', minute: 'numeric' })}</td>
                 {time.out && <td>{new Date(time.out).toLocaleTimeString("en-US", { hour: 'numeric', minute: 'numeric' })}</td>}

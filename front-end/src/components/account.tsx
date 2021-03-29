@@ -40,7 +40,7 @@ export const Account:React.FC = () => {
   const [stockValue, setStockValue] = useState<number>(0)
 
   const users = useData('GET', 'users')
-  const user = !users.loading && users.data.find((user:UserProps) => user.signedIn === true)
+  const user = !users.loading && users.data.find((user:any) => user.signedIn === true)
   
   useEffect(() => {
     const fetchTrades = async () => {
@@ -62,7 +62,6 @@ export const Account:React.FC = () => {
     }
     user && fetchTrades()
   },[user])
-  
   
   const logout = () => {
     axios.put(USERS_API, {
@@ -102,18 +101,18 @@ export const Account:React.FC = () => {
              && <AccountButtons className={'animate__animated animate__fadeInDown'}>
                   <button 
                     disabled={disabled} 
-                    className="btn btn-outline-primary m-3" 
+                    className="btn btn-outline-info m-3" 
                     onClick={()=> {
                       setChangepw(true)
                       setDisabled(true)
                     }}>Change Password</button>
                   <button 
-                    className="btn btn-outline-primary m-3"
+                    className="btn btn-outline-info m-3"
                     disabled={disabled}
                     onClick={deleteAccount}>Delete Account</button>
                   <button
                     disabled={disabled}
-                    className="btn btn-outline-primary m-3"
+                    className="btn btn-outline-info m-3"
                     onClick={logout}>Logout</button>
                   {changepw 
                     ? <div className={'animate__animated animate__fadeIn'}>  
@@ -123,11 +122,11 @@ export const Account:React.FC = () => {
                           placeholder="New Password"
                           onChange={e => setNewPassword(e.target.value)}/>
                         <button
-                          className="btn btn-outline-primary m-3" 
+                          className="btn btn-outline-info m-3" 
                           type="button" 
                           onClick={changePassword}>Confirm</button>
                         <button
-                          className="btn btn-outline-primary m-3"
+                          className="btn btn-outline-info m-3"
                           type="button" 
                           onClick={() => {
                             setChangepw(false)
@@ -144,23 +143,21 @@ export const Account:React.FC = () => {
               </p>
               <h2>Portfilio:</h2>
               <Divider className="border-light" />
-              <div className="row justify-content-around">
+              <div className="d-flex justify-content-center flex-wrap">
                 {positions && positions.map((position:AccountPosition) =>
-                  <div className={'mw-33 px-2'} key={position.player._id}>
-                    <Player 
-                      _id={position.player._id} 
-                      height={position.player.height} 
-                      weight={position.player.weight} 
-                      position={position.player.position} 
-                      price={position.player.price} 
-                      team={position.player.team}
-                      name={position.player.name}
-                      teamName={position.team.full_name}
-                      image={position.player.image && position.player.image}
-                      value={`(${position.quantity})
-                        $${(position.player.price[Object.keys(position.player.price)[Object.keys(position.player.price).length - 1]] * position.quantity).toFixed(2)}`}
-                    />
-                  </div>)}
+                  <Player
+                    key={position.player._id}
+                    _id={position.player._id} 
+                    height={position.player.height} 
+                    weight={position.player.weight} 
+                    position={position.player.position} 
+                    price={position.player.price} 
+                    team={position.player.team}
+                    name={position.player.name}
+                    teamName={position.team.full_name}
+                    image={position.player.image && position.player.image}
+                    value={`(${position.quantity})
+                      $${(position.player.price[Object.keys(position.player.price)[Object.keys(position.player.price).length - 1]] * position.quantity).toFixed(2)}`}/>)}
               </div>
             </AccountInfo>
           </>

@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom'
 import styled from 'styled-components'
 import { onThatTab } from '../functions/on-that-tab'
 import { IPlayer } from './player'
+import { storeUsage } from '../functions/store-player-usage'
 
 const DropDown = styled.ul`
 && {
@@ -75,7 +76,7 @@ export const PlayerSearch: React.FC = () => {
 
   return (
     <FormWrapper 
-      className="form-inline my-2 my-lg-0 animate__animated animate__fadeInDownBig" 
+      className="form-inline my-2 my-lg-0 mr-2 animate__animated animate__fadeInDownBig" 
       onSubmit={search}>
       <InputWrapper>
         <input 
@@ -94,7 +95,7 @@ export const PlayerSearch: React.FC = () => {
                   <a 
                     href={`/players/${player._id}`} 
                     className="text-dark"
-                    onClick={() => setHideDropdown(false)}>
+                    onClick={() => storeUsage(player._id)}>
                       <Player className={'animate__animated animate__fadeIn'}>
                         <NameWrapper>{player.name}</NameWrapper>
                         <img alt={player.name} height={70} src={player.image} />
