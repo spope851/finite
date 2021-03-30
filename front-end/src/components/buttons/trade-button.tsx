@@ -67,7 +67,7 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
             "price": buy ? price : price * -1
         })
         axios.put(USERS_API, {
-            "function":"updateStockValue",
+            "function":"updateCash",
             "_id": user && user._id,
             "tradeValue": buy ? TRADE : TRADE * -1
         })

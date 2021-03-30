@@ -17,7 +17,8 @@ const TRADE_TABLE = 'trades'
 const PLAYER_TABLE = 'players'
 const POSITION_TABLE = 'positions'
 const TIMESHEET = '/time'
-const USER_ENDPOINT = '/api/users'
+const USER_ENDPOINT = '/api/user'
+const USERS_ENDPOINT = '/api/users'
 const TEAM_ENDPOINT = '/api/teams'
 const TRADE_ENDPOINT = '/api/trades'
 const PLAYER_ENDPOINT = '/api/players'
@@ -33,6 +34,60 @@ async function getUsers(response,client) {
     responses.push(el)
   })
   response.send(responses)
+}
+
+
+async function getUser(response,client) {
+  let responses = []
+  let WEEK
+  await client.db(FINITE_DB).collection(PLAYER_TABLE, function(err, collection) {
+    collection.aggregate([{ $limit: 1 },{ $project: { priceCount: { $size: { "$objectToArray": "$price" } } } }]).toArray(async function(err, results) {
+      WEEK = await results[0].priceCount
+      let cursor 
+      await client.db(FINITE_DB).collection(USER_TABLE, function(err, collection) {
+        collection.aggregate([
+          { $match: { signedIn: true } },
+          {
+            $lookup: {
+              from: TRADE_TABLE,
+              localField: "_id",
+              foreignField: "user_id",
+              as: "trades"
+            }
+          },
+          { $unwind: { path: "$trades", preserveNullAndEmptyArrays: true } },
+          {
+            $lookup: {
+              from: PLAYER_TABLE,
+              localField: "trades.player_id",
+              foreignField: "_id",
+              as: "player"
+            }
+          },
+          { $unwind: { path: "$player", preserveNullAndEmptyArrays: true } },
+          {
+            $group: { 
+              _id: { username: "$username", _id: "$_id", cash: "$cash" },
+              equity: {
+                $sum: {
+                  $multiply: [ 
+                    `$player.price.${WEEK}`, 
+                    "$trades.quantity" 
+                  ]
+                }
+              } 
+            } 
+          }
+        ]).toArray(async function(err, results) {
+          cursor = await results
+          await cursor.forEach( el => {
+            responses.push(el)
+          })
+          response.send(responses)
+        })
+      })
+    })
+  })
 }
 
 async function getTeams(response,client,id) {
@@ -145,34 +200,6 @@ async function getTrades(response,client,user_id) {
   response.send(responses)
 }
 
-async function getUserValue(response,client,user_id) {
-  let responses = []
-  let cursor = client.db(FINITE_DB).collection(TRADE_TABLE).aggregate([
-    { 
-      $match: { 
-        user_id: ObjectId(user_id)
-      } 
-    },
-    { 
-      $group: { 
-        _id: null, 
-        stockValue: { 
-          $sum: {
-            $multiply: [ 
-              "$price", 
-              "$quantity" 
-            ] 
-          } 
-        } 
-      } 
-    }
-  ])
-  await cursor.forEach( el => {
-    responses.push(el)
-  })
-  response.send(responses)
-}
-
 async function populate(client,body) {
   await client.db(FINITE_DB).collection(body.table).insertMany(body.records)
 }
@@ -242,23 +269,26 @@ async function updatePosition(client,_id,quantity) {
   )
 }
 
-async function updateStockValue(client,_id,tradeValue) {
+async function updateCash(client,_id,tradeValue) {
   await client.db(FINITE_DB).collection(USER_TABLE).updateOne(
     {_id: ObjectId(_id)},
-    { 
-      $inc: {
-        stockValue: tradeValue,
-        cash: tradeValue * -1,
-      } 
-    }
+    { $inc: { cash: tradeValue * -1 } }
   )
 }
+
+app.get(USERS_ENDPOINT, (req, res) => {
+  console.log('GET user  ',req.body)
+  MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
+    if (err) throw err  
+    getUsers(res, client)      
+  })
+})
 
 app.get(USER_ENDPOINT, (req, res) => {
   console.log('GET user  ',req.body)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
-    getUsers(res, client)      
+    getUser(res, client)      
   })
 })
 
@@ -292,10 +322,7 @@ app.get(TRADE_ENDPOINT, (req, res) => {
   console.log('GET trades  ',req.headers.function, req.headers.user_id)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
-    if (!req.headers.function) {getTrades(res, client, req.headers.user_id)}          
-    if (req.headers.function === 'userValue') {
-      getUserValue(res, client, req.headers.user_id)
-    }      
+    if (!req.headers.function) {getTrades(res, client, req.headers.user_id)}     
   })
 })
 
@@ -311,7 +338,7 @@ app.get(POSITION_ENDPOINT, (req, res) => {
   })
 })
 
-app.put(USER_ENDPOINT, (req, res) => {
+app.put(USERS_ENDPOINT, (req, res) => {
   console.log('PUT   ',req.body)  
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err
@@ -319,7 +346,7 @@ app.put(USER_ENDPOINT, (req, res) => {
     if (req.body.function === 'login'){login(client, req.body._id)}
     if (req.body.function === 'changePassword'){changePassword(client, req.body._id, req.body.newPassword)}
     if (req.body.function === 'populate'){populate(client, req.body)}
-    if (req.body.function === 'updateStockValue'){updateStockValue(client, req.body._id, req.body.tradeValue)}
+    if (req.body.function === 'updateCash'){updateCash(client, req.body._id, req.body.tradeValue)}
   })
 })
 
@@ -347,7 +374,7 @@ app.put(POSITION_ENDPOINT, (req, res) => {
   })
 })
 
-app.post(USER_ENDPOINT, (req, res) => {
+app.post(USERS_ENDPOINT, (req, res) => {
   console.log('POST  ',req.body);
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
@@ -399,7 +426,7 @@ app.post(TIMESHEET, (req, res) => {
   }
 })
 
-app.delete(USER_ENDPOINT, (req, res) => {
+app.delete(USERS_ENDPOINT, (req, res) => {
   console.log('DELETE',req.body);
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  

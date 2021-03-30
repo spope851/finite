@@ -8,26 +8,33 @@ const Card = styled.div`
 }`
 
 export interface UserProps {
-  _id:string,
-  username:string,
-  password:string,
-  signedIn:boolean,
-  cash:string,
-  stockValue:string
+  _id:string
+  username:string
+  password:string
+  signedIn:boolean
+}
+
+export interface ActiveUserProps {
+  _id: {
+    _id:string,
+    cash:string,
+    username:string
+  }
+  equity:string
 }
 
 interface OwnProps {
-  user?:any
+  user?:ActiveUserProps
 }
 
 export const User:React.FC<OwnProps> = (props) => {
   const { user } = props
   
-  const value = user ? `$${user && ((Number(user.cash) + Number(user.stockValue)).toFixed(2) || 0)}` : ''
+  const value = user ? `$${user && ((Number(user._id.cash) + Number(user.equity)).toFixed(2) || 0)}` : ''
 
   const message =
     `${user
-      ? user.username 
+      ? user._id.username 
       : 'Guest'}: `
 
   return (

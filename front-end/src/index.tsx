@@ -7,7 +7,7 @@ import {
   Switch,
   useLocation
 } from "react-router-dom";
-import { User, UserProps } from './components/user'
+import { User, ActiveUserProps } from './components/user'
 import { Welcome } from './components/welcome'
 import { TeamRoutes } from './routes/team-routes'
 import { Login } from './components/login'
@@ -17,32 +17,35 @@ import { App } from './App'
 import { Timesheet } from './components/timesheet/timesheet'
 import { PlayerRoutes } from './routes/player-routes'
 import { useData } from './services/data.service'
-import infinity from './assets/Infinity.gif'
-import { populateUsers } from './functions/populate-users';
-import { PlayerSearch } from './components/player-search';
+// import { populateUsers } from './functions/populate-users'
+import { PlayerSearch } from './components/player-search'
+const infinity = require('./assets/Infinity.gif')
 
 export const Index:React.FC = () => {
   let location = useLocation()
 
-  const users = useData('GET', 'users')
-  const activeUser = !users.loading && users.data.find((user:UserProps) => user.signedIn === true)
+  const userCall = useData('GET', 'user')
+  const user:ActiveUserProps = !userCall.loading && userCall.data[0]
   
   return (
     <>
       <FixedHeader className="nav-tabs d-flex justify-content-between py-0 bg-light">
-        {users.loading
+        {userCall.loading
           ? <img alt={'loading'} src={infinity} height={50} style={{ marginLeft: "50px" }} />
-          : activeUser
-            ? <User user={activeUser}/>
-            : users.data[0]
-              ? <Login />
-              : <button className="btn btn-outline-warning m-2" onClick={populateUsers}>No users in DB. Click here to add some for testing</button>}
+          : user
+            ? <User user={user}/>
+            : <Login />}
         <ul className="nav align-self-end animate__animated animate__fadeInDownBig">
           <li className={`nav-item`}><a className={`nav-link ${onThatTab('app') ? 'active' : ''}`} href="/app">App</a></li>
           <li className={`nav-item`}><a className={`nav-link ${onThatTab('account') ? 'active' : ''}`} href="/account">Account</a></li>
         </ul>
         <PlayerSearch />
       </FixedHeader>
+      {/* <button
+        className="btn btn-outline-warning m-2"
+        onClick={populateUsers}>
+          No users in DB. Click here to add some for testing
+      </button> */}
       {location.pathname === "/"
         ? <Welcome/>
         : ''}

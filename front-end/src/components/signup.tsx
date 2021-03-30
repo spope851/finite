@@ -24,8 +24,7 @@ export const Signup:React.FC = () => {
         "username": username,
         "password": password,
         "signedIn":true,
-        "cash": '0',
-        "stockValue": '0'
+        "cash": '0'
         })
   }
 

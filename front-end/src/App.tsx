@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import stats from './scrape/player-info.json'
-import teams from './scrape/teams.json'
+// import teams from './scrape/teams.json'
 import {Player, IPlayer} from './components/player'
 import { useLocation } from 'react-router-dom'
 import queryString from 'query-string'
-import infinity from './assets/Infinity.gif'
 import { useData } from './services/data.service'
 let axios = require('axios')
+const infinity = require('./assets/Infinity.gif')
 
 const MONGO_EXPRESS_API = `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`
-const MONGO_EXPRESS_API_TEAMS = `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/teams`
+// const MONGO_EXPRESS_API_TEAMS = `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/teams`
 
 const MONGO_DB = {
   players: {"table":"players"},
@@ -25,13 +25,13 @@ const populateDB = () => {
     "records":stats
   })
   // DEV: uncomment if you need to refresh teams...
-  axios.put(MONGO_EXPRESS_API_TEAMS, 
-  {
-    "function":"populate",
-    ...MONGO_DB.teams,
-    "records":teams
-  })
-  document.location.reload()
+  // axios.put(MONGO_EXPRESS_API_TEAMS, 
+  // {
+  //   "function":"populate",
+  //   ...MONGO_DB.teams,
+  //   "records":teams
+  // })
+  // document.location.reload()
 }
 
 export const App:React.FC = () => {
