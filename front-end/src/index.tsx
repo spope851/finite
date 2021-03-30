@@ -17,9 +17,9 @@ import { App } from './App'
 import { Timesheet } from './components/timesheet/timesheet'
 import { PlayerRoutes } from './routes/player-routes'
 import { useData } from './services/data.service'
+import infinity from './assets/Infinity.gif'
 // import { populateUsers } from './functions/populate-users'
 import { PlayerSearch } from './components/player-search'
-const infinity = require('./assets/Infinity.gif')
 
 export const Index:React.FC = () => {
   let location = useLocation()
