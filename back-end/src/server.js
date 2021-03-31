@@ -138,7 +138,7 @@ async function getPlayers(response,client,sort,team,term,player,limit) {
         }
       ])
       : player
-        ? client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "_id": player })
+        ? client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "_id": { $in: [player] } })
         : client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "name": new RegExp(term, "i") }).sort(s).limit(Number(limit) || 0)
   
   await cursor.forEach( el => {

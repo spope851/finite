@@ -23,7 +23,7 @@ const TimeTable = styled.div`
 && {
   display: block;
   position: relative;
-  max-height: 650px;
+  max-height: 600px;
   overflow: auto;
 }`
 

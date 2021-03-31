@@ -105,7 +105,7 @@ export const PlayerSearch: React.FC = () => {
                     // style={{ pointerEvents: 'none' }}
                     href={`/players/${player._id}`} 
                     className="text-dark"
-                    onClick={() => storeUsage(player._id)}>
+                    onClick={() => storeUsage(player._id, player.name)}>
                       <Player className={'animate__animated animate__fadeIn'}>
                         <NameWrapper className="text-muted">{player.name}</NameWrapper>
                         <img alt={player.name} height={70} src={player.image} />

@@ -44,11 +44,14 @@ export const App:React.FC = () => {
   const [sort, setSort] = useState<string | null>('nameaz')
   
   const teams = useData('GET', 'teams').data
+
+  const storage = window.localStorage.getItem("crumbs")
+  const recentInterests = storage && Array.from(JSON.parse(storage)).slice(0,5) as { id:string, name:string }[]
   
   useEffect(() => {
     const fetchPlayers = async () => {
       try {
-        const data = await axios.get(MONGO_EXPRESS_API, { headers: {term: term || '', sort} })
+        const data = await axios.get(MONGO_EXPRESS_API, { headers: { term: term || '', sort } })
         setPlayers(data.data)
       } catch (error) {
         console.warn(error)
@@ -59,8 +62,6 @@ export const App:React.FC = () => {
     }
     fetchPlayers()
   }, [term, sort])
-
-  const storage = window.localStorage.getItem("crumbs")
   
   return (
     <>
@@ -90,13 +91,13 @@ export const App:React.FC = () => {
                   <div className="align-self-center animate__animated animate__fadeIn">
                     <dl className="list-inline mb-0">
                       <dt className="list-inline-item text-muted">Recent Interests:</dt>
-                      {Array.from(JSON.parse(storage)).slice(0,5).map((value) => {
+                      {recentInterests && recentInterests.map((value: { id:string, name:string }) => {
                         return (
                           <dd
-                            key={value as string}
+                            key={value.id as string}
                             className="list-inline-item badge badge-pill badge-light p-1 border">
-                            <a className="text-muted p-1" href={`/players/${value}`}>
-                              {players.find((player:IPlayer) => player._id === value)?.name}
+                            <a className="text-muted p-1" href={`/players/${value.id}`}>
+                              {value.name}
                             </a>
                           </dd>
                         )

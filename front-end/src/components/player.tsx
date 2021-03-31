@@ -64,7 +64,10 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
           price[WEEK] < price[PREV_WEEK] ? 'border-danger' : ''}`}>
         <div className={`card-header pb-0`}>
           <p>{value}</p>
-          <a onClick={() => storeUsage(player.id)} href={`/players/${_id}`} style={ onThatTab('players/') ? { pointerEvents: 'none' } : undefined}>
+          <a
+            onClick={() => storeUsage(player.id, player.name)}
+            href={`/players/${_id}`}
+            style={ onThatTab('players/') ? { pointerEvents: 'none' } : undefined }>
             <img id={_id} height="100px" src={image ? image : DEFAULT_IMAGE}
             onError={() => document.getElementById(_id)?.setAttribute('src', DEFAULT_IMAGE) } alt={name} />
           </a>
