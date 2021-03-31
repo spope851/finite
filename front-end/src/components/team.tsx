@@ -69,8 +69,8 @@ export const Team:React.FC<OwnProps> = (props) => {
                 teamName={(response && response.full_name) || ''}
                 price={player.price}
                 name={player.name} 
-                image={player.image} 
-              />
+                image={player.image}
+                volume={player.volume}/>
             </div>
           )}
         </div>

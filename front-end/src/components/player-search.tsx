@@ -70,7 +70,15 @@ export const PlayerSearch: React.FC = () => {
   }
 
   const change = (e: FormEvent<HTMLInputElement>) => {
-    if (onThatTab('app')) history.push(`?term=${e.currentTarget.value}`)
+    setHideDropdown(false)
+    if (onThatTab('/players', true)) history.push(`?term=${e.currentTarget.value}`)
+    else setTerm(e.currentTarget.value)
+  }
+
+  const blur = (e: FormEvent<HTMLInputElement>) => {
+    console.log(e);
+    
+    if (onThatTab('/players', true)) history.push(`?term=${e.currentTarget.value}`)
     else setTerm(e.currentTarget.value)
   }
 
@@ -84,20 +92,22 @@ export const PlayerSearch: React.FC = () => {
           type="search" 
           placeholder="Search" 
           aria-label="Search"
-          onChange={change}/>
+          onChange={change}
+          onBlur={blur}/>
       </InputWrapper>
-      {!onThatTab('app') && term && !hideDropdown && players &&
+      {!onThatTab('/players', true) && term && !hideDropdown && players &&
         <DropDown className={`p-0 mt-2 bg-white dropdown border rounded animate__animated animate__rotateInUpLeft`}>
           {players.length > 0
           ? players.slice(0,5).map((player: IPlayer) => {
               return (
                 <li key={player._id}>
-                  <a 
+                  <a
+                    // style={{ pointerEvents: 'none' }}
                     href={`/players/${player._id}`} 
                     className="text-dark"
                     onClick={() => storeUsage(player._id)}>
                       <Player className={'animate__animated animate__fadeIn'}>
-                        <NameWrapper>{player.name}</NameWrapper>
+                        <NameWrapper className="text-muted">{player.name}</NameWrapper>
                         <img alt={player.name} height={70} src={player.image} />
                       </Player>
                   </a>

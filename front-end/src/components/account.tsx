@@ -144,7 +144,8 @@ export const Account:React.FC = () => {
                     teamName={position.team.full_name}
                     image={position.player.image && position.player.image}
                     value={`(${position.quantity})
-                      $${(position.player.price[Object.keys(position.player.price)[Object.keys(position.player.price).length - 1]] * position.quantity).toFixed(2)}`}/>)}
+                      $${(position.player.price[Object.keys(position.player.price)[Object.keys(position.player.price).length - 1]] * position.quantity).toFixed(2)}`}
+                    volume={position.player.volume}/>)}
               </div>
             </AccountInfo>
           </>

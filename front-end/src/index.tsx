@@ -4,11 +4,9 @@ import { Account } from './components/account'
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  useLocation
+  Switch
 } from "react-router-dom";
 import { User, ActiveUserProps } from './components/user'
-import { Welcome } from './components/welcome'
 import { TeamRoutes } from './routes/team-routes'
 import { Login } from './components/login'
 import { onThatTab } from './functions/on-that-tab'
@@ -18,12 +16,12 @@ import { Timesheet } from './components/timesheet/timesheet'
 import { PlayerRoutes } from './routes/player-routes'
 import { useData } from './services/data.service'
 import infinity from './assets/Infinity.gif'
-// import { populateUsers } from './functions/populate-users'
 import { PlayerSearch } from './components/player-search'
+import { Home } from './components/home'
+// import { Welcome } from './components/welcome'
+// import { populateUsers } from './functions/populate-users'
 
 export const Index:React.FC = () => {
-  let location = useLocation()
-
   const userCall = useData('GET', 'user')
   const user:ActiveUserProps = !userCall.loading && userCall.data[0]
   
@@ -31,13 +29,36 @@ export const Index:React.FC = () => {
     <>
       <FixedHeader className="nav-tabs d-flex justify-content-between py-0 bg-light">
         {userCall.loading
-          ? <img alt={'loading'} src={infinity} height={50} style={{ marginLeft: "50px" }} />
+          ? <img
+              alt={'loading'}
+              src={infinity}
+              height={50}
+              style={{ marginLeft: "50px" }} />
           : user
             ? <User user={user}/>
             : <Login />}
         <ul className="nav align-self-end animate__animated animate__fadeInDownBig">
-          <li className={`nav-item`}><a className={`nav-link ${onThatTab('app') ? 'active' : ''}`} href="/app">App</a></li>
-          <li className={`nav-item`}><a className={`nav-link ${onThatTab('account') ? 'active' : ''}`} href="/account">Account</a></li>
+          <li className={`nav-item`}>
+            <a
+              className={`navbar-brand text-dark nav-link ${onThatTab('/', true) ? 'active animate__animated animate__pulse animate__delay-2s' : ''}`}
+              href="/">
+                finite
+            </a>
+          </li>
+          <li className={`nav-item`}>
+            <a
+              className={`nav-link text-muted ${onThatTab('players') ? 'active' : ''}`}
+              href="/players">
+                Players
+            </a>
+          </li>
+          <li className={`nav-item`}>
+            <a
+              className={`nav-link text-muted ${onThatTab('account') ? 'active' : ''}`}
+              href="/account">
+                Account
+            </a>
+          </li>
         </ul>
         <PlayerSearch />
       </FixedHeader>
@@ -46,9 +67,7 @@ export const Index:React.FC = () => {
         onClick={populateUsers}>
           No users in DB. Click here to add some for testing
       </button> */}
-      {location.pathname === "/"
-        ? <Welcome/>
-        : ''}
+      {onThatTab('/', true) && <Home/> }
     </>
   )  
 }
@@ -59,7 +78,7 @@ ReactDOM.render(
         <Router>
             <Route path="/" component={Index} />
             <Route path="/account" component={Account} />
-            <Route path="/app" component={App} />
+            <Route path="/players" component={App} />
             <Switch>
                 <Route path="/teams/:id" component={TeamRoutes} />
             </Switch>

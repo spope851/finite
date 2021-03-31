@@ -102,7 +102,7 @@ async function getTeams(response,client,id) {
   response.send(responses)
 }
 
-async function getPlayers(response,client,sort,team,term,player) {
+async function getPlayers(response,client,sort,team,term,player,limit) {
   let s
   switch(sort) {
     case 'nameaz':
@@ -116,6 +116,9 @@ async function getPlayers(response,client,sort,team,term,player) {
       break
     case 'pricel':
       s = { price: 1 }
+      break
+    case 'volume':
+      s = { volume: -1 }
       break
     default:
       s = { name: 1 }
@@ -136,7 +139,7 @@ async function getPlayers(response,client,sort,team,term,player) {
       ])
       : player
         ? client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "_id": player })
-        : client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "name": new RegExp(term, "i") }).sort(s)
+        : client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "name": new RegExp(term, "i") }).sort(s).limit(Number(limit) || 0)
   
   await cursor.forEach( el => {
     responses.push(el)
@@ -202,6 +205,10 @@ async function getTrades(response,client,user_id) {
 
 async function populate(client,body) {
   await client.db(FINITE_DB).collection(body.table).insertMany(body.records)
+}
+
+async function incPlayerVolume(client,body) {
+  await client.db(FINITE_DB).collection(PLAYER_TABLE).updateOne({ _id: body._id }, { $inc: { volume: body.quantity }})
 }
 
 async function logout(client) {
@@ -313,7 +320,7 @@ app.get(PLAYER_ENDPOINT, (req, res) => {
     } else if (req.headers.player) {
       getPlayers(res, client, req.headers.sort, undefined, undefined, req.headers.player)
     } else {
-      getPlayers(res, client, req.headers.sort, undefined, req.headers.term)
+      getPlayers(res, client, req.headers.sort, undefined, req.headers.term, undefined, req.headers.limit)
     }
   })
 })
@@ -355,6 +362,7 @@ app.put(PLAYER_ENDPOINT, (req, res) => {
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err
     if (req.body.function === 'populate'){populate(client, req.body)}
+    else incPlayerVolume(client, req.body)
   })
 })
 

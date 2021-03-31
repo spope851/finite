@@ -27,6 +27,7 @@ interface OwnProps {
 const USERS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
 const TRADES_API = process.env.REACT_APP_MONGO_TRADES || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/trades`
 const POSITIONS_API = process.env.REACT_APP_MONGO_POSITIONS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/positions`
+const PLAYERS_API = process.env.REACT_APP_MONGO_POSITIONS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`
 
 export const TradeButton:React.FC<OwnProps> = (props) => {
     const { price, quantity, buy, player } = props
@@ -70,6 +71,10 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
             "function":"updateCash",
             "_id": user && user._id,
             "tradeValue": buy ? TRADE : TRADE * -1
+        })
+        axios.put(PLAYERS_API, {
+            "_id": player.id,
+            "quantity": Math.abs(quantity)
         })
         if (position) {
             if ( UPDATED_QUANTITY === 0 ) {

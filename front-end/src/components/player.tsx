@@ -18,13 +18,14 @@ export interface IPlayer {
     price:{[key:string]: number}
     image?:string
     value?:string
+    volume:number
 }
 
 interface OwnProps extends IPlayer {
   teamName?:string
 }
 
-export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position, team, teamName, price, image, value }) => {
+export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position, team, teamName, price, image, value, volume }) => {
   
   const [playerDetails, setDetails] = useState<boolean>(false)
   const [trade, setTrade] = useState<boolean>(false)
@@ -33,7 +34,7 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
 
   useEffect(() => {
     setTrade(playerDetails ? trade : false)
-  },[playerDetails])
+  },[playerDetails, trade])
 
   const toggleDetails = () => {
     setDetails(!playerDetails)
@@ -63,11 +64,11 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
           price[WEEK] < price[PREV_WEEK] ? 'border-danger' : ''}`}>
         <div className={`card-header pb-0`}>
           <p>{value}</p>
-          <a onClick={() => storeUsage(player.id)} href={`/players/${_id}`} style={ onThatTab('players') ? { pointerEvents: 'none' } : undefined}>
+          <a onClick={() => storeUsage(player.id)} href={`/players/${_id}`} style={ onThatTab('players/') ? { pointerEvents: 'none' } : undefined}>
             <img id={_id} height="100px" src={image ? image : DEFAULT_IMAGE}
             onError={() => document.getElementById(_id)?.setAttribute('src', DEFAULT_IMAGE) } alt={name} />
           </a>
-          <p className={'card-title mb-0'}>
+          <p className={'card-title mb-0 text-muted'}>
             {name}
             <span>
               <ChangingChevron onClick={() => toggleDetails()}/>
@@ -113,7 +114,8 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
                 weight={weight && weight}
                 teamId={team} 
                 teamName={teamName || ''}
-                price={price}/>
+                price={price}
+                volume={volume}/>
             </div>
           )}
         </div>

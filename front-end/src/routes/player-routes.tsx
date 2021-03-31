@@ -43,7 +43,8 @@ export const PlayerRoutes: React.FC = () => {
                       price={player.price}
                       teamName={(teams && teams[player.team - 1].full_name)}
                       name={player.name} 
-                      image={player.image && player.image}/>}
+                      image={player.image && player.image}
+                      volume={player.volume}/>}
                 </Route>
             </Switch>
         </Router>
