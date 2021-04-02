@@ -16,7 +16,6 @@ export const Gear: React.FC<OwnProps> = (props) => {
 const Floater = styled.svg`
 &{
     float: right;
-    margin: 5px;
     cursor: pointer; 
     transition: 0.2s all; 
     :active { 

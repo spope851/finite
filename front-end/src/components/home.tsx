@@ -5,10 +5,10 @@ import { IPlayer, Player } from './player'
 let axios = require('axios')
 
 const MONGO_EXPRESS_API = `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`
-// const MONGO_EXPRESS_API_TEAMS = `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/teams`
 
 export const Home:React.FC = () => {
   const [players, setPlayers] = useState<IPlayer[]>([])
+  const [news, setNews] = useState<any>()
   const [loading, setLoading] = useState(true)
   
   const teams = useData('GET', 'teams').data
@@ -18,6 +18,8 @@ export const Home:React.FC = () => {
       try {
         const data = await axios.get(MONGO_EXPRESS_API, { headers: { sort: 'volume', limit: 5 } })
         setPlayers(data.data)
+        const news = await axios.get("https://newsapi.org/v2/everything?q=nba&from=2021-04-01&sortBy=publishedAt&apiKey=2d8047d572db474c8c4018db768206a1")
+        setNews(news.data.articles)
       } catch (error) {
         console.warn(error)
       } finally {
@@ -37,32 +39,25 @@ export const Home:React.FC = () => {
       : <>
           <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1" className="active"></li>
               <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
             <div className="carousel-inner">
-              <div className="carousel-item">
-                <img width={300} src={players[0].image} className="d-block w-100" alt="..." />
-                <div className="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-              </div>
-              <div className="carousel-item active">
-                <img width={300} src={players[1].image} className="d-block w-100" alt="..." />
-                <div className="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img width={300} src={players[2].image} className="d-block w-100" alt="..." />
-                <div className="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </div>
+              {news && news.slice(0, 3).map((article:any, idx:number) => {
+                return (
+                  <div className={`carousel-item ${ idx === 1 && "active"}`}>
+                    <img src={article.urlToImage} className="d-block w-100" alt="..." />
+                    <div className="carousel-caption d-none d-md-block">
+                      <a href={article.url} >
+                        <h5>{article.title}</h5>
+                        <p>{article.description}</p>
+                      </a>
+                      <p className="">{article.author && `© ${article.author.split(',')[0]}`}</p>
+                    </div>
+                  </div>                  
+                )
+              })}
             </div>
             <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -73,7 +68,8 @@ export const Home:React.FC = () => {
               <span className="sr-only">Next</span>
             </a>
           </div>
-          <div className="row mx-5 bg-white justify-content-center border-top">
+          <h5 className="h5 text-muted pt-2 mb-0">Trending Players</h5>
+          <div className="row mx-5 bg-white justify-content-center">
             {players.map((player:IPlayer) =>
                   <Player
                     key={player._id}

@@ -12,7 +12,7 @@ export const PlayerRoutes: React.FC = () => {
     
     useEffect(() => {
       const fetchPlayers = async () => {
-        const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`, {
+        const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/player`, {
           headers: {player: id}
         })
         

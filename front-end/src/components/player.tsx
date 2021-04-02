@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { useState } from 'react'
-import { useEffect } from 'react'
 import styled from 'styled-components'
 import { ChangingChevron } from '../assets/changing-chevron'
 import { onThatTab } from '../functions/on-that-tab'
@@ -29,21 +28,7 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
   
   const [playerDetails, setDetails] = useState<boolean>(false)
   const [trade, setTrade] = useState<boolean>(false)
-  const [tradePrice, setTradePrice] = useState<number>()
   const [quantity, setQuantity] = useState<string>('0')
-
-  useEffect(() => {
-    setTrade(playerDetails ? trade : false)
-  },[playerDetails, trade])
-
-  const toggleDetails = () => {
-    setDetails(!playerDetails)
-  }
-
-  const toggleTrade = (price:number) => {
-    setTrade(!trade)
-    setTradePrice(price)
-  }
 
   const player = {
     id: _id,
@@ -58,7 +43,7 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
   const DEFAULT_IMAGE = 'https://i.pinimg.com/474x/7e/00/1d/7e001dc786dcb43a48347d35543bbed9.jpg'
   
   return (
-    <div className={'col'} style={{ minWidth: "250px", maxWidth: "280px" }}>
+    <div className={'col'} style={{ minWidth: "261px", maxWidth: "280px" }}>
       <div  className={`card my-3 animate__animated animate__fadeIn
         ${price[WEEK] > price[PREV_WEEK] ? 'border-success' : 
           price[WEEK] < price[PREV_WEEK] ? 'border-danger' : ''}`}>
@@ -74,19 +59,19 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
           <p className={'card-title mb-0 text-muted'}>
             {name}
             <span>
-              <ChangingChevron onClick={() => toggleDetails()}/>
+              <ChangingChevron onClick={() => setDetails(!playerDetails)}/>
             </span>
           </p>
-          {trade && tradePrice &&
+          {trade &&
               <BuySellForm className={'animate__animated animate__fadeIn'}>
                 <TradeButton 
                   buy
-                  price={tradePrice} 
+                  price={price[WEEK.toString()]}
                   quantity={Number(quantity)}
                   player={player}
                 />
                 <TradeButton 
-                  price={tradePrice} 
+                  price={price[WEEK.toString()]} 
                   quantity={Number(quantity)}
                   player={player}
                 />
@@ -100,7 +85,7 @@ export const Player:React.FC<OwnProps> = ({ _id, name, height, weight, position,
               </BuySellForm>}
         </div>
         <div className="card-body text-muted pt-3 pb-0">
-          <Price onClick={() => toggleTrade(price[WEEK.toString()])}>
+          <Price onClick={() => setTrade(!trade)}>
             <span className={'price'}>{`$${price[WEEK.toString()].toFixed(2)}`}</span>
             <span className={`
               ${price[WEEK] > price[PREV_WEEK] ? 'text-success' : 

@@ -21,7 +21,8 @@ const USER_ENDPOINT = '/api/user'
 const USERS_ENDPOINT = '/api/users'
 const TEAM_ENDPOINT = '/api/teams'
 const TRADE_ENDPOINT = '/api/trades'
-const PLAYER_ENDPOINT = '/api/players'
+const PLAYER_ENDPOINT = '/api/player'
+const PLAYERS_ENDPOINT = '/api/players'
 const POSITION_ENDPOINT = '/api/positions'
 
 app.use(bodyParser.json({limit: '50mb'}));
@@ -112,10 +113,10 @@ async function getPlayers(response,client,sort,team,term,player,limit) {
       s = { name: -1 }
       break
     case 'priceh':
-      s = { price: -1 }
+      s = { latestPrice: -1 }
       break
     case 'pricel':
-      s = { price: 1 }
+      s = { latestPrice: 1 }
       break
     case 'volume':
       s = { volume: -1 }
@@ -139,7 +140,12 @@ async function getPlayers(response,client,sort,team,term,player,limit) {
       ])
       : player
         ? client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "_id": { $in: [player] } })
-        : client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "name": new RegExp(term, "i") }).sort(s).limit(Number(limit) || 0)
+        : client.db(FINITE_DB).collection(PLAYER_TABLE).aggregate([
+            { $match: { "name": new RegExp(term, "i") } },
+            { $addFields: { latestPrice: { $last: { $objectToArray: "$price" } } } },
+            { $sort: s },
+            { $limit: Number(limit) || 500 }
+          ])
   
   await cursor.forEach( el => {
     responses.push(el)
@@ -311,8 +317,8 @@ app.get(TEAM_ENDPOINT, (req, res) => {
   })
 })
 
-app.get(PLAYER_ENDPOINT, (req, res) => {
-  console.log('GET player(s)  ',`team:${req.headers.team}`,`term:${req.headers.term}`,`sort:${req.headers.sort}`)
+app.get(PLAYERS_ENDPOINT, (req, res) => {
+  console.log('GET players  ',`team:${req.headers.team}`,`term:${req.headers.term}`,`sort:${req.headers.sort}`)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
     if (req.headers.team) {
@@ -322,6 +328,14 @@ app.get(PLAYER_ENDPOINT, (req, res) => {
     } else {
       getPlayers(res, client, req.headers.sort, undefined, req.headers.term, undefined, req.headers.limit)
     }
+  })
+})
+
+app.get(PLAYER_ENDPOINT, (req, res) => {
+  console.log('GET player  ')
+  MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
+    if (err) throw err  
+    getPlayers(res, client, undefined, undefined, undefined, req.headers.player)
   })
 })
 
@@ -357,7 +371,7 @@ app.put(USERS_ENDPOINT, (req, res) => {
   })
 })
 
-app.put(PLAYER_ENDPOINT, (req, res) => {
+app.put(PLAYERS_ENDPOINT, (req, res) => {
   console.log('PUT   ',req.body)  
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err

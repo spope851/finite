@@ -23,7 +23,6 @@ const TimeTable = styled.div`
 && {
   display: block;
   position: relative;
-  max-height: 600px;
   overflow: auto;
 }`
 
@@ -126,7 +125,7 @@ export const Timesheet: React.FC<Clock[]> = () => {
             placeholder='What did we accomplish?'
             onChange={e => setAccomplished(e.target.value)} />
          </AccomplishedWrapper> }
-      <TimeTable>
+      <TimeTable style={{ maxHeight: `${data[0].out ? '631px' : '545px'}` }}>
         <table className="table animate__animated animate__zoomIn">
           <thead className="thead-light">
             <tr>

@@ -15,23 +15,26 @@ import { App } from './App'
 import { Timesheet } from './components/timesheet/timesheet'
 import { PlayerRoutes } from './routes/player-routes'
 import { useData } from './services/data.service'
-import infinity from './assets/Infinity.gif'
+import eclipse from './assets/Eclipse.gif'
 import { PlayerSearch } from './components/player-search'
 import { Home } from './components/home'
+import Axios from 'axios';
 // import { Welcome } from './components/welcome'
 // import { populateUsers } from './functions/populate-users'
 
 export const Index:React.FC = () => {
   const userCall = useData('GET', 'user')
   const user:ActiveUserProps = !userCall.loading && userCall.data[0]
+
+  // Axios.post(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`, {}, { auth: { username:"spope", password:"0123" } })
   
   return (
     <>
-      <FixedHeader className="nav-tabs d-flex justify-content-between py-0 bg-light">
+      <FixedHeader className={`nav-tabs d-flex justify-content-between py-0 ${onThatTab("/", true) && "mb-2"} bg-light`}>
         {userCall.loading
           ? <img
               alt={'loading'}
-              src={infinity}
+              src={eclipse}
               height={50}
               style={{ marginLeft: "50px" }} />
           : user
