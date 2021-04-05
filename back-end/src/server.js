@@ -72,8 +72,9 @@ async function getUser(response,client) {
               equity: {
                 $sum: {
                   $multiply: [ 
-                    `$player.price.${WEEK}`, 
-                    "$trades.quantity" 
+                    `$player.price.${WEEK}`,
+                    "$trades.quantity",
+                    { $cond: [ { $toBool: "$trades.buy" }, 1, -1 ] } 
                   ]
                 }
               } 

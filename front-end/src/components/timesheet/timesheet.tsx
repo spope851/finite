@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { FOOTHEIGHT } from '../..'
 import data from './timesheet.json'
 const axios = require('axios')
 
@@ -26,15 +27,11 @@ const TimeTable = styled.div`
   overflow: auto;
 }`
 
-const AccomplishedWrapper = styled.div`
-&& {
-  width: 800px;
-  margin: auto;
-}`
-
 export const Timesheet: React.FC<Clock[]> = () => {
   const [accomplished, setAccomplished] = useState<string>()
   const [goal, setGoal] = useState<number>(1)
+
+  const HEADHEIGHT = 67
 
   const clockIn = () => {
     const clock_in = { in: new Date().toLocaleString('en-US', { timeZone: 'America/New_York' }) }
@@ -76,9 +73,9 @@ export const Timesheet: React.FC<Clock[]> = () => {
       }
     }
   })
-
+  
   return (
-    <>
+    <div className="d-flex flex-column" style={{ maxHeight: `calc(100vh - ${HEADHEIGHT + FOOTHEIGHT}px)` }}>
       <div className="d-flex align-items-center justify-content-center p-3">
         <Goal className={`input-group m-3 ${TIME_THIS_WEEK > goal && TIME_THIS_WEEK_END > goal && 'border rounded border-success'}`}>
           <div className="input-group-prepend">
@@ -116,16 +113,7 @@ export const Timesheet: React.FC<Clock[]> = () => {
               type="button"
               onClick={clockOut}>Clock Out</button>}
       </div>
-      {data[0].out 
-       ? '' 
-       : <AccomplishedWrapper className={'mb-4'}>
-          <textarea
-            tabIndex={5}
-            className='form-control animate__animated animate__lightSpeedInLeft'
-            placeholder='What did we accomplish?'
-            onChange={e => setAccomplished(e.target.value)} />
-         </AccomplishedWrapper> }
-      <TimeTable style={{ maxHeight: `${data[0].out ? '631px' : '545px'}` }}>
+      <TimeTable>
         <table className="table animate__animated animate__zoomIn">
           <thead className="thead-light">
             <tr>
@@ -142,15 +130,23 @@ export const Timesheet: React.FC<Clock[]> = () => {
               <tr key={time.in}>
                 <td>{new Date(time.in).toLocaleDateString()}</td>
                 <td>{new Date(time.in).toLocaleTimeString("en-US", { hour: 'numeric', minute: 'numeric' })}</td>
-                {time.out && <td>{new Date(time.out).toLocaleTimeString("en-US", { hour: 'numeric', minute: 'numeric' })}</td>}
-                {time.out && <td>{`${duration(time.in, time.out)}`}</td>}
-                {time.accomplished && <td>{time.accomplished}</td>}
+                <td>{time.out && new Date(time.out).toLocaleTimeString("en-US", { hour: 'numeric', minute: 'numeric' })}</td>
+                <td>{time.out && `${duration(time.in, time.out)}`}</td>
+                <td>
+                  {time.out 
+                   ? time.accomplished 
+                   : <textarea
+                        tabIndex={5}
+                        className='form-control animate__animated animate__lightSpeedInLeft'
+                        placeholder='What did we accomplish?'
+                        onChange={e => setAccomplished(e.target.value)} />}
+                </td>
               </tr>
             )
           })}
           </tbody>
         </table>
       </TimeTable>
-    </>
+    </div>
   )
 }

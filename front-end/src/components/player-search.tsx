@@ -51,6 +51,7 @@ export const PlayerSearch: React.FC = () => {
   const [term, setTerm] = useState<string>()
   const [hideDropdown, setHideDropdown] = useState<boolean>()
   const [players, setPlayers] = useState<IPlayer[]>([])
+  const [dropdownFocus, setDropdownFocus] = useState<boolean>(false)
   
   useEffect(() => {
     const fetchPlayers = async () => {
@@ -75,19 +76,21 @@ export const PlayerSearch: React.FC = () => {
     else setTerm(e.currentTarget.value)
   }
 
-  const blur = (e: FormEvent<HTMLInputElement>) => {
-    console.log(e);
-    
-    if (onThatTab('/players', true)) history.push(`?term=${e.currentTarget.value}`)
-    else setTerm(e.currentTarget.value)
+  const blur = () => {
+    !dropdownFocus && setHideDropdown(true)
   }
 
+  const key = (e: any) => {
+    if (e.keyCode === 9) setDropdownFocus(true)
+  }
+  
   return (
     <FormWrapper 
       className="form-inline my-2 my-lg-0 mr-2 animate__animated animate__fadeInDownBig" 
       onSubmit={search}>
       <InputWrapper>
-        <input 
+        <input
+          onKeyDown={key} 
           className="form-control mr-sm-2" 
           type="search" 
           placeholder="Search" 
@@ -100,7 +103,10 @@ export const PlayerSearch: React.FC = () => {
           {players.length > 0
           ? players.slice(0,5).map((player: IPlayer) => {
               return (
-                <li key={player._id}>
+                <li
+                  onMouseOver={() => setDropdownFocus(true)}
+                  onMouseOut={() => setDropdownFocus(false)}
+                  key={player._id}>
                   <a
                     // style={{ pointerEvents: 'none' }}
                     href={`/players/${player._id}`} 

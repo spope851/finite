@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 import { Account } from './components/account'
 import {
@@ -18,19 +18,42 @@ import { useData } from './services/data.service'
 import eclipse from './assets/Eclipse.gif'
 import { PlayerSearch } from './components/player-search'
 import { Home } from './components/home'
-import Axios from 'axios';
-// import { Welcome } from './components/welcome'
+import { styled } from '@material-ui/core/styles';
 // import { populateUsers } from './functions/populate-users'
+import { Drawer, Fab } from '@material-ui/core';
+import AccountBalanceRounded from '@material-ui/icons/AccountBalanceRounded';
+
+const BankFab = styled(Fab)({
+  background: 'linear-gradient(45deg, green 30%, green 90%)',
+  border: 0,
+  boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+  color: 'white',
+  margin: '10px 0 0 10px'
+})
+
+export const FOOTHEIGHT = 75
 
 export const Index:React.FC = () => {
   const userCall = useData('GET', 'user')
   const user:ActiveUserProps = !userCall.loading && userCall.data[0]
+  const [drawerOpen, setDrawerOpen] = useState<boolean>(false)
 
-  // Axios.post(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`, {}, { auth: { username:"spope", password:"0123" } })
+  const toggleDrawer = () => {
+    setDrawerOpen(!drawerOpen)
+  }
   
   return (
     <>
-      <FixedHeader className={`nav-tabs d-flex justify-content-between py-0 ${onThatTab("/", true) && "mb-2"} bg-light`}>
+      <FixedHeader className={`nav-tabs d-flex py-0 ${onThatTab("/", true) && "mb-2"} bg-light`}>
+        <BankFab
+          size="small"
+          color="secondary"
+          onClick={() => toggleDrawer()}>
+          <AccountBalanceRounded />
+        </BankFab>
+        <Drawer anchor={'left'} open={drawerOpen} onClose={() => toggleDrawer()}>
+          <div>hello world</div>
+        </Drawer>
         {userCall.loading
           ? <img
               alt={'loading'}
@@ -40,7 +63,7 @@ export const Index:React.FC = () => {
           : user
             ? <User user={user}/>
             : <Login />}
-        <ul className="nav align-self-end animate__animated animate__fadeInDownBig">
+        <ul className="nav align-self-end mr-auto animate__animated animate__fadeInDownBig">
           <li className={`nav-item`}>
             <a
               className={`navbar-brand text-dark nav-link ${onThatTab('/', true) ? 'active animate__animated animate__pulse animate__delay-2s' : ''}`}

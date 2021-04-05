@@ -39,7 +39,7 @@ export const User:React.FC<OwnProps> = (props) => {
 
   return (
     <>
-      <Card className="card text-dark animate__animated animate__fadeInDownBig">
+      <Card className="card mr-auto text-dark animate__animated animate__fadeInDownBig">
           <span>
             {message} 
             <span className={`text-success`}>{value}</span>
