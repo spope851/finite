@@ -290,6 +290,13 @@ async function updateCash(client,_id,tradeValue) {
   )
 }
 
+async function deposit(client,_id,deposit) {
+  await client.db(FINITE_DB).collection(USER_TABLE).updateOne(
+    {_id: ObjectId(_id)},
+    { $inc: { cash: deposit } }
+  )
+}
+
 app.get(USERS_ENDPOINT, (req, res) => {
   console.log('GET user  ',req.body)
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
@@ -369,6 +376,7 @@ app.put(USERS_ENDPOINT, (req, res) => {
     if (req.body.function === 'changePassword'){changePassword(client, req.body._id, req.body.newPassword)}
     if (req.body.function === 'populate'){populate(client, req.body)}
     if (req.body.function === 'updateCash'){updateCash(client, req.body._id, req.body.tradeValue)}
+    if (req.body.function === 'deposit'){deposit(client, req.body._id, req.body.deposit)}
   })
 })
 

@@ -34,7 +34,7 @@ export const User:React.FC<OwnProps> = (props) => {
 
   const message =
     `${user
-      ? user._id.username 
+      ? user._id.username
       : 'Guest'}: `
 
   return (

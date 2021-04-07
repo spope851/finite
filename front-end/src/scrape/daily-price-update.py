@@ -55,11 +55,11 @@ x = [{"name": i["player"], "add": dictionary[i["key"]]} for i in leaders]
 for item in x:
     for player in players:
         if unidecode.unidecode(player["name"]).replace(' Jr.','') == item["name"]:
-            player["price"]["3"] = player["price"]["2"] + item["add"]
+            player["price"]["4"] = player["price"]["3"] + item["add"]
             
 for player in players:
-    if "3" not in player["price"].keys():
-        player["price"]["3"] = player["price"]["2"]
+    if "4" not in player["price"].keys():
+        player["price"]["4"] = player["price"]["3"]
 
 print(players)
 

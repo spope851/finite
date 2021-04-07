@@ -18,10 +18,13 @@ import { useData } from './services/data.service'
 import eclipse from './assets/Eclipse.gif'
 import { PlayerSearch } from './components/player-search'
 import { Home } from './components/home'
-import { styled } from '@material-ui/core/styles';
+import { styled } from '@material-ui/core/styles'
 // import { populateUsers } from './functions/populate-users'
-import { Drawer, Fab } from '@material-ui/core';
-import AccountBalanceRounded from '@material-ui/icons/AccountBalanceRounded';
+import { Drawer, Fab } from '@material-ui/core'
+import { Button } from 'reactstrap'
+import AccountBalanceRounded from '@material-ui/icons/AccountBalanceRounded'
+
+let axios = require('axios')
 
 const BankFab = styled(Fab)({
   background: 'linear-gradient(45deg, green 30%, green 90%)',
@@ -31,29 +34,39 @@ const BankFab = styled(Fab)({
   margin: '10px 0 0 10px'
 })
 
+const USERS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
+
 export const FOOTHEIGHT = 75
 
 export const Index:React.FC = () => {
   const userCall = useData('GET', 'user')
   const user:ActiveUserProps = !userCall.loading && userCall.data[0]
   const [drawerOpen, setDrawerOpen] = useState<boolean>(false)
+  const [deposit, setDeposit] = useState<string>('50')
 
   const toggleDrawer = () => {
     setDrawerOpen(!drawerOpen)
+  }
+
+  const depositFunds = () => {
+    axios.put(USERS_API, {
+        "function":"deposit",
+        "_id": user && user._id._id,
+        "deposit": Number(deposit)
+    })
+    document.location.reload()
   }
   
   return (
     <>
       <FixedHeader className={`nav-tabs d-flex py-0 ${onThatTab("/", true) && "mb-2"} bg-light`}>
-        <BankFab
-          size="small"
-          color="secondary"
-          onClick={() => toggleDrawer()}>
-          <AccountBalanceRounded />
-        </BankFab>
-        <Drawer anchor={'left'} open={drawerOpen} onClose={() => toggleDrawer()}>
-          <div>hello world</div>
-        </Drawer>
+        {user && 
+          <BankFab
+            size="small"
+            color="secondary"
+            onClick={() => toggleDrawer()}>
+            <AccountBalanceRounded />
+          </BankFab>}
         {userCall.loading
           ? <img
               alt={'loading'}
@@ -61,7 +74,33 @@ export const Index:React.FC = () => {
               height={50}
               style={{ marginLeft: "50px" }} />
           : user
-            ? <User user={user}/>
+            ? <>
+                <Drawer className={""} anchor={'left'} open={drawerOpen} onClose={() => toggleDrawer()}>
+                  <div className="d-flex flex-column justify-content-between h-100 p-3">
+                    <p>{user._id.username}</p>
+                    <p className="mb-auto">{`Cash: $${Number(user._id.cash).toFixed(2)}`}</p>
+                    <div className="input-group mb-3 mt-auto">
+                      <div className="input-group-prepend">
+                        <span className="input-group-text">$</span>
+                      </div>
+                      <input
+                        onChange={(e: { target: { value: string } }) => setDeposit(e.target.value)}
+                        type="number"
+                        className="form-control"
+                        aria-label="Amount (to the nearest dollar)" 
+                        min={0}
+                        step={50}
+                        placeholder="50"
+                      />
+                      <div className="input-group-append">
+                        <span className="input-group-text">.00</span>
+                      </div>
+                    </div>
+                    <Button className="w-100" color="success" outline={true} onClick={depositFunds}>Deposit</Button>
+                  </div>
+                </Drawer>
+                <User user={user}/>
+              </>
             : <Login />}
         <ul className="nav align-self-end mr-auto animate__animated animate__fadeInDownBig">
           <li className={`nav-item`}>

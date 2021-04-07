@@ -8,6 +8,8 @@
 
 # docker exec -it finite_mongodb_1 bash
 
+#db.createUser({user:"spope", pwd:"password", roles:[{role:"userAdminAnyDatabase", db:"admin"}, "readWriteAnyDatabase"]})
+
 version: '3'
 services:
   mongodb:

@@ -43,7 +43,7 @@ export const Login:React.FC = () => {
   }
 
     return (
-      <form className="form-inline m-2 justify-content-center animate__animated animate__fadeInDownBig" onSubmit={login}>
+      <form className="form-inline m-2 mr-auto justify-content-center animate__animated animate__fadeInDownBig" onSubmit={login}>
         <br />
         <input
           className={`form-control mr-sm-2 animate__animated animate__faster ${!signedUp && 'animate__headShake border-danger'}`}

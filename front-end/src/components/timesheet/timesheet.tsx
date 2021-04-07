@@ -27,7 +27,7 @@ const TimeTable = styled.div`
   overflow: auto;
 }`
 
-export const Timesheet: React.FC<Clock[]> = () => {
+export const Timesheet: React.FC = () => {
   const [accomplished, setAccomplished] = useState<string>()
   const [goal, setGoal] = useState<number>(1)
 

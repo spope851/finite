@@ -2,35 +2,35 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-nginx
+  name: finite
   labels:
-    app: my-nginx
+    app: finite
     rel: stable
     tier: frontend
 spec:
   replicas: 4
   selector:
     matchLabels:
-      app: my-nginx
+      app: finite
   template:
     metadata:
       labels:
         tier: frontend
-        app: my-nginx
+        app: finite
     spec:
       containers:
-      - name: my-nginx
-        image: nginx:alpine
-        livenessProbe:
-          httpGet:
-            path: /index.html
-            port: 80
-          initialDelaySeconds: 15
-          timeoutSeconds: 2
-          periodSeconds: 5
-          failureThreshold: 1
+      - name: finitemongodb1
+        image: mongo
+        # livenessProbe:
+          # httpGet:
+          #   path: /index.html
+          #   port: 80
+          # initialDelaySeconds: 15
+          # timeoutSeconds: 2
+          # periodSeconds: 5
+          # failureThreshold: 1
         ports:
-        - containerPort: 80
+        - containerPort: 27017
         resources:
           limits:
             memory: "128Mi"
