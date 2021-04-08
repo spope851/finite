@@ -1,3 +1,4 @@
+import { Button } from '@material-ui/core'
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { Gear } from '../assets/gear'
@@ -7,6 +8,7 @@ import { IPlayer, Player } from './player'
 import { Signup } from './signup'
 import { ITeam } from './team'
 import { ActiveUserProps } from './user'
+import { Modal } from './utils/modal'
 let axios = require('axios')
 
 const USERS_API =  `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
@@ -32,6 +34,8 @@ export const Account:React.FC = () => {
   const [changepw, setChangepw] = useState<boolean>(false)
   const [disabled, setDisabled] = useState<boolean>(false)
   const [showSettings, setShowSettings] = useState<boolean>(false)
+  const [openDeleteModal, setOpenDeleteModal] = useState<boolean>(false)
+  const [openCPWModal, setOpenCPWModal] = useState<boolean>(false)
   const [newPassword, setNewPassword] = useState<string>()
   const [positions, setPositions] = useState<AccountPosition[]>()
 
@@ -58,11 +62,8 @@ export const Account:React.FC = () => {
   }
 
   const deleteAccount = () => {
-    let ans = window.confirm("Are you sure?")
-    if(ans){
-      axios.delete(USERS_API, { "data": {"_id": user && user._id._id}})
-      document.location.reload()
-    }
+    axios.delete(USERS_API, { "data": {"_id": user && user._id._id}})
+    document.location.reload()
   }
       
   const changePassword = () => {
@@ -71,8 +72,7 @@ export const Account:React.FC = () => {
       "_id": user && user._id._id,
       "newPassword": newPassword
     })
-    let ans = window.confirm('Password changed successfully!')
-    if (ans) {document.location.reload()}
+    document.location.reload()
   }
 
   return (
@@ -106,10 +106,26 @@ export const Account:React.FC = () => {
                       setChangepw(true)
                       setDisabled(true)
                     }}>Change Password</button>
+                  <Modal
+                    open={openCPWModal}
+                    message={
+                      <>
+                        <h2>Is your new password secure?</h2>
+                        <Button onClick={changePassword}>Confirm</Button>
+                        <Button onClick={() => setOpenCPWModal(false)}>Cancel</Button>
+                      </>} />
                   <button 
                     className="btn btn-outline-info mx-3 mb-3"
                     disabled={disabled}
-                    onClick={deleteAccount}>Delete Account</button>
+                    onClick={() => setOpenDeleteModal(true)}>Delete Account</button>
+                  <Modal
+                    open={openDeleteModal}
+                    message={
+                      <>
+                        <h2>Is your new password secure?</h2>
+                        <Button onClick={deleteAccount}>Confirm</Button>
+                        <Button onClick={() => setOpenDeleteModal(false)}>Cancel</Button>
+                      </>} />
                   <button
                     disabled={disabled}
                     className="btn btn-outline-info mx-3 mb-3"
@@ -123,8 +139,9 @@ export const Account:React.FC = () => {
                           onChange={e => setNewPassword(e.target.value)}/>
                         <button
                           className="btn btn-outline-info m-3" 
-                          type="button" 
-                          onClick={changePassword}>Confirm</button>
+                          type="button"
+                          disabled={!newPassword}
+                          onClick={() => setOpenCPWModal(true)}>Confirm</button>
                         <button
                           className="btn btn-outline-info m-3"
                           type="button" 

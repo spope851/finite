@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { useData } from '../../services/data.service'
 import { UserProps } from '../user'
+import { Modal } from '../utils/modal'
 let axios = require('axios')
 
 interface Player {
@@ -23,7 +24,6 @@ interface OwnProps {
     buy?:boolean
 }
 
-
 const USERS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
 const TRADES_API = process.env.REACT_APP_MONGO_TRADES || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/trades`
 const POSITIONS_API = process.env.REACT_APP_MONGO_POSITIONS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/positions`
@@ -34,6 +34,12 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
 
     const [position, setPosition] = useState<Position>()
     const [disableSell, setDisableSell] = useState<boolean>(true)
+    const [open, setOpen] = useState<boolean>(false)
+  
+    const handleClose = () => {
+      setOpen(false)
+      storeTrade()
+    }
 
     const users = useData('GET', 'users')
     const user = !users.loading && users.data.find((user:UserProps) => user.signedIn === true)
@@ -95,23 +101,28 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
         document.location.reload()
     }
 
-    const trade = () => {
-        alert(`${buy ? 'Bought' : 'Sold'} ${quantity} shares of ${player.name} at $${price.toFixed(2)} for $${(price * quantity).toFixed(2)}`)
-        storeTrade()
-    }
-
     const disabled = !quantity || (user && 
         buy 
             ? Number(user.cash) <= (price * quantity)
             : disableSell || (position && position.quantity < quantity))
 
+    const message = <>
+        <h2 id="transition-modal-title">{`${buy ? 'Purchase' : 'Sale'} Order: ${player.name}`}</h2>
+        <p id="transition-modal-description">{`${quantity} Shares`}</p>
+        <p id="transition-modal-description">{`Price: $${price.toFixed(2)}`}</p>
+        <p id="transition-modal-description">{`Total: $${(price * quantity).toFixed(2)}`}</p>
+    </>
+
     return (
-        <StyledButton
-            className={`btn btn${disabled ? " disabled" : "-outline-secondary"} btn-sm m-1 mb-2`}
-            onClick={e => trade()}
-            disabled={disabled}>
-            {buy ? 'Buy' : 'Sell'}
-        </StyledButton>
+        <>
+            <StyledButton
+                className={`btn btn${disabled ? " disabled" : "-outline-secondary"} btn-sm m-1 mb-2`}
+                onClick={e => setOpen(true)}
+                disabled={disabled}>
+                {buy ? 'Buy' : 'Sell'}
+            </StyledButton>
+            <Modal open={open} handleClose={handleClose} message={message} />
+        </>
     )
 }
 
