@@ -18,6 +18,8 @@ export interface IPlayer {
     image?:string
     value?:string
     volume:number
+    chart?:{ k:string, v:number }[]
+    stats?:{[key:string]: number}[]
 }
 
 interface OwnProps extends IPlayer {

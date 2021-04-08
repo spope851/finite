@@ -77,7 +77,7 @@ async function getUser(response,client) {
                     { $cond: [ { $toBool: "$trades.buy" }, 1, -1 ] } 
                   ]
                 }
-              } 
+              }
             } 
           }
         ]).toArray(async function(err, results) {
@@ -140,7 +140,10 @@ async function getPlayers(response,client,sort,team,term,player,limit) {
         }
       ])
       : player
-        ? client.db(FINITE_DB).collection(PLAYER_TABLE).find({ "_id": { $in: [player] } })
+        ? client.db(FINITE_DB).collection(PLAYER_TABLE).aggregate([
+            { $match: { "_id": { $in: [player] } } },
+            { $addFields: { chart: { $objectToArray: "$price" } } }
+          ])
         : client.db(FINITE_DB).collection(PLAYER_TABLE).aggregate([
             { $match: { "name": new RegExp(term, "i") } },
             { $addFields: { latestPrice: { $last: { $objectToArray: "$price" } } } },

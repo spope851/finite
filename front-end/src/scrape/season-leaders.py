@@ -16,7 +16,7 @@ soup = BeautifulSoup(data, 'html.parser')
 
 leaders = []
 players = []
-
+count = 0 
 for table in soup.find_all('table', 'columns'):
     # print(table.caption.string) # stat
     players.append(table.tr.td.find_next_sibling('td').a.string) # all first place
@@ -27,6 +27,7 @@ for table in soup.find_all('table', 'columns'):
     
     
     leaderBoard = {
+        '_id': count,
         'stat': table.caption.string,
         'leaders': [ players[0],
                      players[1],
@@ -53,6 +54,7 @@ for table in soup.find_all('table', 'columns'):
     leaders.append(leaderBoard)
 
     players.clear()
+    count += 1
 
 handle = open(FILE, "w", encoding="utf8")
 json.dump(leaders, handle, indent=6, ensure_ascii=False)
