@@ -4,6 +4,8 @@ import { useHistory } from 'react-router-dom'
 import styled from 'styled-components'
 import { onThatTab } from '../functions/on-that-tab'
 import { IPlayer } from './player'
+import { storeUsage } from '../functions/store-player-usage'
+import { Endpoints } from '../variables/api.variables'
 
 const DropDown = styled.ul`
 && {
@@ -50,10 +52,11 @@ export const PlayerSearch: React.FC = () => {
   const [term, setTerm] = useState<string>()
   const [hideDropdown, setHideDropdown] = useState<boolean>()
   const [players, setPlayers] = useState<IPlayer[]>([])
+  const [dropdownFocus, setDropdownFocus] = useState<boolean>(false)
   
   useEffect(() => {
     const fetchPlayers = async () => {
-      const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`, {
+      const data = await axios.get(Endpoints.PLAYERS, {
         headers: {term: term || ''}
       })
       
@@ -69,34 +72,49 @@ export const PlayerSearch: React.FC = () => {
   }
 
   const change = (e: FormEvent<HTMLInputElement>) => {
-    if (onThatTab('app')) history.push(`?term=${e.currentTarget.value}`)
+    setHideDropdown(false)
+    if (onThatTab('/players', true)) history.push(`?term=${e.currentTarget.value}`)
     else setTerm(e.currentTarget.value)
   }
 
+  const blur = () => {
+    !dropdownFocus && setHideDropdown(true)
+  }
+
+  const key = (e: any) => {
+    if (e.keyCode === 9) setDropdownFocus(true)
+  }
+  
   return (
     <FormWrapper 
-      className="form-inline my-2 my-lg-0 animate__animated animate__fadeInDownBig" 
+      className="form-inline my-2 my-lg-0 mr-2 animate__animated animate__fadeInDownBig" 
       onSubmit={search}>
       <InputWrapper>
-        <input 
+        <input
+          onKeyDown={key} 
           className="form-control mr-sm-2" 
           type="search" 
           placeholder="Search" 
           aria-label="Search"
-          onChange={change}/>
+          onChange={change}
+          onBlur={blur}/>
       </InputWrapper>
-      {!onThatTab('app') && term && !hideDropdown && players &&
+      {!onThatTab('/players', true) && term && !hideDropdown && players &&
         <DropDown className={`p-0 mt-2 bg-white dropdown border rounded animate__animated animate__rotateInUpLeft`}>
           {players.length > 0
           ? players.slice(0,5).map((player: IPlayer) => {
               return (
-                <li key={player._id}>
-                  <a 
+                <li
+                  onMouseOver={() => setDropdownFocus(true)}
+                  onMouseOut={() => setDropdownFocus(false)}
+                  key={player._id}>
+                  <a
+                    // style={{ pointerEvents: 'none' }}
                     href={`/players/${player._id}`} 
                     className="text-dark"
-                    onClick={() => setHideDropdown(false)}>
+                    onClick={() => storeUsage(player._id, player.name)}>
                       <Player className={'animate__animated animate__fadeIn'}>
-                        <NameWrapper>{player.name}</NameWrapper>
+                        <NameWrapper className="text-muted">{player.name}</NameWrapper>
                         <img alt={player.name} height={70} src={player.image} />
                       </Player>
                   </a>

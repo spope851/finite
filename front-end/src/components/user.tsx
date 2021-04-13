@@ -1,48 +1,50 @@
 import React from 'react'
 import styled from 'styled-components'
-import { populateUsers } from '../functions/populate-users'
-
-export interface UserProps {
-  _id:string,
-  username:string,
-  password:string,
-  signedIn:boolean,
-  cash:string,
-  stockValue:string
-}
-
-interface OwnProps {
-  user?:UserProps
-  noUsers:boolean
-}
-
-export const User:React.FC<OwnProps> = (props) => {
-
-  const { user, noUsers } = props
-  
-  const value = user ? `$${user && ((Number(user.cash) + Number(user.stockValue)).toFixed(2) || 0)}` : ''
-
-  const message =
-    `${user
-      ? user.username 
-      : 'Guest'}: `
-
-
-  return (
-    <>
-      <Card className="card text-dark animate__animated animate__fadeInDownBig">
-          <span>
-            {message} 
-            <span className={`text-success`}>{value}</span>
-           </span>
-      </Card>
-      {noUsers && <button onClick={populateUsers}>No users in DB. Click here to add some for testing</button>}
-    </>
-  )
-}
 
 const Card = styled.div`
 & {
   margin: 10px;
   padding: 10px;
 }`
+
+export interface UserProps {
+  _id:string
+  username:string
+  password:string
+  signedIn:boolean
+}
+
+export interface ActiveUserProps {
+  _id: {
+    _id:string,
+    cash:string,
+    username:string
+  }
+  equity:string
+}
+
+interface OwnProps {
+  user?:ActiveUserProps
+}
+
+export const User:React.FC<OwnProps> = (props) => {
+  const { user } = props
+  
+  const value = user ? `$${user && ((Number(user._id.cash) + Number(user.equity)).toFixed(2) || 0)}` : ''
+
+  const message =
+    `${user
+      ? user._id.username
+      : 'Guest'}: `
+
+  return (
+    <>
+      <Card className="card mr-auto text-dark animate__animated animate__fadeInDownBig">
+          <span>
+            {message} 
+            <span className={`text-success`}>{value}</span>
+           </span>
+      </Card>
+    </>
+  )
+}

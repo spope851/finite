@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { useData } from '../../services/data.service'
+import { Endpoints } from '../../variables/api.variables'
 import { UserProps } from '../user'
+import { Modal } from '../utils/modal'
 let axios = require('axios')
 
 interface Player {
@@ -23,16 +25,17 @@ interface OwnProps {
     buy?:boolean
 }
 
-
-const USERS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
-const TRADES_API = process.env.REACT_APP_MONGO_TRADES || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/trades`
-const POSITIONS_API = process.env.REACT_APP_MONGO_POSITIONS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/positions`
-
 export const TradeButton:React.FC<OwnProps> = (props) => {
     const { price, quantity, buy, player } = props
 
     const [position, setPosition] = useState<Position>()
     const [disableSell, setDisableSell] = useState<boolean>(true)
+    const [open, setOpen] = useState<boolean>(false)
+  
+    const handleClose = () => {
+      setOpen(false)
+      storeTrade()
+    }
 
     const users = useData('GET', 'users')
     const user = !users.loading && users.data.find((user:UserProps) => user.signedIn === true)
@@ -44,7 +47,7 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
   
     useEffect(() => {
         const fetchPositions = async () => {
-          const data = await axios.get(POSITIONS_API, {
+          const data = await axios.get(Endpoints.POSITIONS, {
             headers: {
               "user_id":user && user._id,
               "player_id":player.id
@@ -58,7 +61,7 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
     },[player.id, user])
   
     const storeTrade = () => {
-        axios.post(TRADES_API,{
+        axios.post(Endpoints.TRADES,{
             "user_id": user && user._id,
             "buy": !!buy,
             "timestamp": new Date(),
@@ -66,22 +69,26 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
             "quantity": quantity,
             "price": buy ? price : price * -1
         })
-        axios.put(USERS_API, {
-            "function":"updateStockValue",
+        axios.put(Endpoints.USERS, {
+            "function":"updateCash",
             "_id": user && user._id,
             "tradeValue": buy ? TRADE : TRADE * -1
         })
+        axios.put(Endpoints.PLAYERS, {
+            "_id": player.id,
+            "quantity": Math.abs(quantity)
+        })
         if (position) {
             if ( UPDATED_QUANTITY === 0 ) {
-                axios.delete(POSITIONS_API, { "data": {"_id": position._id} })
+                axios.delete(Endpoints.POSITIONS, { "data": {"_id": position._id} })
             } else {
-                axios.put(POSITIONS_API, { 
+                axios.put(Endpoints.POSITIONS, { 
                     quantity: UPDATED_QUANTITY,
                     _id: position._id
                 })
             }
         } else {
-            axios.post(POSITIONS_API, {
+            axios.post(Endpoints.POSITIONS, {
                 user_id: user && user._id,
                 player_id: player.id,
                 quantity: quantity
@@ -90,23 +97,28 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
         document.location.reload()
     }
 
-    const trade = () => {
-        alert(`${buy ? 'Bought' : 'Sold'} ${quantity} shares of ${player.name} at $${price.toFixed(2)} for $${(price * quantity).toFixed(2)}`)
-        storeTrade()
-    }
-
     const disabled = !quantity || (user && 
         buy 
             ? Number(user.cash) <= (price * quantity)
             : disableSell || (position && position.quantity < quantity))
 
+    const message = <>
+        <h2 id="transition-modal-title">{`${buy ? 'Purchase' : 'Sale'} Order: ${player.name}`}</h2>
+        <p id="transition-modal-description">{`${quantity} Shares`}</p>
+        <p id="transition-modal-description">{`Price: $${price.toFixed(2)}`}</p>
+        <p id="transition-modal-description">{`Total: $${(price * quantity).toFixed(2)}`}</p>
+    </>
+
     return (
-        <StyledButton
-            className={`btn btn${disabled ? " disabled" : "-outline-secondary"} btn-sm m-1 mb-2`}
-            onClick={e => trade()}
-            disabled={disabled}>
-            {buy ? 'Buy' : 'Sell'}
-        </StyledButton>
+        <>
+            <StyledButton
+                className={`btn btn${disabled ? " disabled" : "-outline-secondary"} btn-sm m-1 mb-2`}
+                onClick={e => setOpen(true)}
+                disabled={disabled}>
+                {buy ? 'Buy' : 'Sell'}
+            </StyledButton>
+            <Modal open={open} handleClose={handleClose} message={message} />
+        </>
     )
 }
 

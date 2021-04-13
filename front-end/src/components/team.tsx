@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Endpoints } from '../variables/api.variables';
 import { Player, IPlayer } from './player'
 
 let axios = require('axios');
@@ -30,7 +31,7 @@ export const Team:React.FC<OwnProps> = (props) => {
   
   useEffect(() => {
     const fetchPlayers = async () => {
-      const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`, {
+      const data = await axios.get(Endpoints.PLAYERS, {
         headers: {
           "team":id
         }
@@ -43,38 +44,35 @@ export const Team:React.FC<OwnProps> = (props) => {
   
 
   return (
-    <div className="card col-12">
-      <div className="card-header">{response && response.name}</div>
-      <div className="card-body">
-        <table className="table">
-          <tbody>
-            <tr>
-              <td>{response && 'City: '+response.city}</td>
-              <td>{response && 'Conference: '+response.conference}</td>
-              <td>{response && 'Division: '+response.division}</td>
-            </tr>
-          </tbody>
-        </table>
-        <br />
-        <h2>Players</h2>
-        <div className="row">
-          {response && response.players.map((player:IPlayer) => 
-            <div className={'col-sm-4'} key={player._id}>
-              <Player 
-                _id={player._id} 
-                height={player.height && player.height}
-                weight={player.weight && player.weight}
-                position={player.position}
-                team={player.team}
-                teamName={(response && response.full_name) || ''}
-                price={player.price}
-                name={player.name} 
-                image={player.image} 
-              />
-            </div>
-          )}
-        </div>
+    <>
+      <table className="table table-borderless text-muted">
+        <tbody>
+          <tr style={{ borderTop: "hidden" }}>
+            <th colSpan={3}>{response && response.name}</th>
+          </tr>
+          <tr>
+            <th>{response && 'City: '+response.city}</th>
+            <th>{response && 'Conference: '+response.conference}</th>
+            <th>{response && 'Division: '+response.division}</th>
+          </tr>
+        </tbody>
+      </table>
+      <h2 className="h2 text-muted">Players</h2>
+      <div className="row mx-5 pt-1 bg-white justify-content-center border-top">
+        {response && response.players.map((player:IPlayer) => 
+            <Player 
+              _id={player._id} 
+              height={player.height && player.height}
+              weight={player.weight && player.weight}
+              position={player.position}
+              team={player.team}
+              teamName={(response && response.full_name) || ''}
+              price={player.price}
+              name={player.name} 
+              image={player.image}
+              volume={player.volume}/>
+        )}
       </div>
-    </div>
+    </>
   )
 }

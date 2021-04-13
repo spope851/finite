@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { useData } from '../services/data.service';
+import { Endpoints } from '../variables/api.variables';
 import { UserProps } from './user';
 
 let axios = require('axios');
-
-const MONGO_EXPRESS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
 
 export const Signup:React.FC = () => {
   const [unavailable, setUnavailable] = useState<boolean>(false)
@@ -20,12 +19,11 @@ export const Signup:React.FC = () => {
   }
   
   const storeUser = async (username:string, password:string) => {
-    axios.post(MONGO_EXPRESS_API,{
+    axios.post(Endpoints.USERS,{
         "username": username,
         "password": password,
         "signedIn":true,
-        "cash": '0',
-        "stockValue": '0'
+        "cash": 0
         })
   }
 

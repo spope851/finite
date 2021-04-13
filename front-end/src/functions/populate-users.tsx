@@ -1,11 +1,9 @@
-import React from 'react'
+import { Endpoints } from "../variables/api.variables"
 
 let axios = require('axios')
 
-const MONGO_EXPRESS_API = `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
-
 export const populateUsers = () => {
-  axios.put(MONGO_EXPRESS_API, 
+  axios.put(Endpoints.USERS, 
   {
     "function":"populate",
     "table":"users",
@@ -14,50 +12,43 @@ export const populateUsers = () => {
           username: 'spope',
           password: '0123',
           signedIn: false,
-          cash: 1000,
-          stockValue: 0
+          cash: 1000
       },
       {
           username: 'tlutke',
           password: '0123',
           signedIn: false,
-          cash: 1000,
-          stockValue: 0
+          cash: 1000
       },
       {
           username: 'emusk',
           password: '0123',
           signedIn: false,
-          cash: 1000,
-          stockValue: 0
+          cash: 1000
       },
       {
           username: 'abecker',
           password: '0123',
           signedIn: false,
-          cash: 100000,
-          stockValue: 1000
+          cash: 100000
       },
       {
           username: 'nhill',
           password: '0123',
           signedIn: false,
-          cash: 100,
-          stockValue: 0
+          cash: 100
       },
       {
           username: 'pattia',
           password: '0123',
           signedIn: false,
-          cash: -100,
-          stockValue: 200
+          cash: -100
       },
       {
           username: 'nravikant',
           password: '0123',
           signedIn: false,
-          cash: 0,
-          stockValue: 0
+          cash: 0
       }
     ]
   })

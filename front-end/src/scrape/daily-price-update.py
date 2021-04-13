@@ -10,17 +10,18 @@ import fnmatch
 import re
 import random
 import unidecode
+import pprint
 
 ##################################################
 # RUN ./season-leaders.py BEFORE RUNNING THIS FILE
 ##################################################
 
 FILE='player-info.json'
-with open(FILE) as data:    
+with open(FILE, encoding="utf8") as data:    
     players = json.load(data)
 
 FILE='season-leaders.json'
-with open(FILE) as data:    
+with open(FILE, encoding="utf8") as data:    
     leaderboards = json.load(data)
 
 ###############################################################
@@ -33,32 +34,40 @@ for board in leaderboards:
     count = 1
     for name in board["leaders"]:
         if name in dictionary.keys():
-            dictionary[name].append(count)
+            dictionary[name].append({ board["stat"] : count })
         else:
-            dictionary[name] = [count]
+            dictionary[name] = [{ board["stat"] : count }]
         count += 1
 
+#pprint.pprint(dictionary)
+
 for key, value in dictionary.items():
+    #print(key, value)
     add = 0
     for place in value:
-        add += (1-(place * 0.05))
-    # print(key, add)
-    dictionary[key] = add
+        add += (1-(list(place.values())[0] * 0.05))
+    print(key, add)
+    dictionary[key] = { "add": add, "value": value }
 
 ###############################################################
 ###############################################################
 ###############################################################
 
+#pprint.pprint(dictionary)
 
 leaders = [{"key": i, "player": unidecode.unidecode(i)} for i in dictionary.keys()]
-x = [{"name": i["player"], "add": dictionary[i["key"]]} for i in leaders]
+x = [{"name": i["player"], "add": dictionary[i["key"]]["add"], "value": dictionary[i["key"]]["value"]} for i in leaders]
 for item in x:
     for player in players:
         if unidecode.unidecode(player["name"]).replace(' Jr.','') == item["name"]:
-            player["price"] = {1: player["last_price"], 2: player["last_price"] + item["add"]}
-            del player["last_price"]
+            player["price"]["5"] = player["price"]["4"] + item["add"]
+            player["stats"] = item["value"]
+            
+for player in players:
+    if "5" not in player["price"].keys():
+        player["price"]["5"] = player["price"]["4"]
 
-print(players)
+# pprint.pprint(players)
 
 handle = open("player-info.json", "w", encoding="utf8")
 json.dump(players, handle, indent=6, ensure_ascii=False)

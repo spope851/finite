@@ -1,90 +1,102 @@
-import React, { BaseSyntheticEvent, FormEvent } from 'react'
+import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 import { Account } from './components/account'
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  useHistory,
-  useLocation
+  Switch
 } from "react-router-dom";
-import { User, UserProps } from './components/user'
-import { Welcome } from './components/welcome'
+import { User, ActiveUserProps } from './components/user'
 import { TeamRoutes } from './routes/team-routes'
 import { Login } from './components/login'
 import { onThatTab } from './functions/on-that-tab'
 import { FixedHeader } from './components/wrappers/header'
-import { App } from './App'
 import { Timesheet } from './components/timesheet/timesheet'
 import { PlayerRoutes } from './routes/player-routes'
 import { useData } from './services/data.service'
-import infinity from './assets/Infinity.gif'
+import eclipse from './assets/Eclipse.gif'
+import { PlayerSearch } from './components/player-search'
+import { Home } from './components/home'
+import { App } from './app'
+import { Drawer } from '@material-ui/core'
+import { MainNav } from './components/navs/main-nav'
+import { DebtTable } from './components/debt-table'
+import { DepositForm } from './components/deposit-form'
+import { BankFab } from './components/buttons/bank-fab'
+import styled from 'styled-components'
+// import { PopulateUsers } from './components/buttons/populate-users-button'
+
+export const FOOTHEIGHT = 75
+
+const BankFabWrapper = styled.div`
+&& {
+  margin: 10px 0 0 10px
+}`
 
 export const Index:React.FC = () => {
-  let location = useLocation()
-  let history = useHistory()
+  const userCall = useData('GET', 'user')
+  const user:ActiveUserProps = !userCall.loading && userCall.data[0]
+  const [drawerOpen, setDrawerOpen] = useState<boolean>(false)
 
-  const users = useData('GET', 'users')
-  const activeUser = !users.loading && users.data.find((user:UserProps) => user.signedIn === true)
-
-  const search = (e: BaseSyntheticEvent) => {
-    e.preventDefault()
-    history.replace(`/app?term=${e.target[0].value}`)
+  const toggleDrawer = () => {
+    setDrawerOpen(!drawerOpen)
   }
-
-  const change = (e: FormEvent<HTMLInputElement>) => {
-    onThatTab('app') && history.push(`?term=${e.currentTarget.value}`)
-  }
-    
+  
   return (
     <>
-      <FixedHeader className="navbar bg-light">
-        {users.loading
-          ? <img alt={'loading'} src={infinity} height={50} style={{ marginLeft: "50px" }} />
-          : activeUser
-            ? <User
-                user={activeUser} 
-                noUsers={!users.data.length}/>
+      <FixedHeader className={`nav-tabs d-flex py-0 ${onThatTab("/", true) && "mb-2"} bg-light`}>
+        <BankFabWrapper>
+          {user && <BankFab toggleDrawer={toggleDrawer}/>}
+        </BankFabWrapper>
+        {userCall.loading
+          ? <img
+              alt={'loading'}
+              src={eclipse}
+              height={50}
+              style={{ marginLeft: "50px" }} />
+          : user
+            ? <>
+                <Drawer className={""} anchor={'left'} open={drawerOpen} onClose={() => toggleDrawer()}>
+                  <div className="d-flex flex-column justify-content-between h-100 p-3">
+                    <p>{user._id.username}</p>
+                    <p className="mb-auto">{`Cash: $${Number(user._id.cash).toFixed(2)}`}</p>
+                    <DebtTable userId={user._id._id} />
+                    <DepositForm userId={user._id._id} />
+                  </div>
+                </Drawer>
+                <User user={user}/>
+              </>
             : <Login />}
-        <ul className="nav nav-tabs justify-content-center animate__animated animate__fadeInDownBig">
-          <li className={`nav-item`}><a className={`nav-link ${onThatTab('app') ? 'active' : ''}`} href="/app">App</a></li>
-          <li className={`nav-item`}><a className={`nav-link ${onThatTab('account') ? 'active' : ''}`} href="/account">Account</a></li>
-        </ul>
-        <form 
-          className="form-inline my-2 my-lg-0 animate__animated animate__fadeInDownBig" 
-          onSubmit={search}>
-          <input 
-            className="form-control mr-sm-2" 
-            type="search" 
-            placeholder="Search" 
-            aria-label="Search"
-            onChange={change} />
-          <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <MainNav />
+        <PlayerSearch />
       </FixedHeader>
-      {location.pathname === "/"
-        ? <Welcome/>
-        : ''}
+      {/* <PopulateUsers /> */}
+      {onThatTab('/', true) && <Home/> }
     </>
   )  
 }
 
 ReactDOM.render(
     <div className="App">
-      <Router>
-          <Route path="/" component={Index} />
-          <Route path="/account" component={Account} />
-          <Route path="/app" component={App} />
-          <Switch>
-              <Route path="/teams/:id" component={TeamRoutes} />
-          </Switch>
-          <Switch>
-              <Route path="/players/:id" component={PlayerRoutes} />
-          </Switch>
-          <Switch>
-              <Route exact path="/time" component={Timesheet} />
-          </Switch>
-      </Router>
+      <div className="content-wrap">
+        <Router>
+            <Route path="/" component={Index} />
+            <Route path="/account" component={Account} />
+            <Route path="/players" component={App} />
+            <Switch>
+                <Route path="/teams/:id" component={TeamRoutes} />
+            </Switch>
+            <Switch>
+                <Route path="/players/:id" component={PlayerRoutes} />
+            </Switch>
+            <Route path="/time" component={Timesheet} />
+        </Router>
+      </div>
+      <footer 
+        className={"bg-light p-4 border-top"}
+        style={{ marginTop: "auto", height: "75px"}}>
+        github:<a className="stretched-link ml-1" href="http://github.com/spope851" >spope851</a>
+      </footer>
     </div>,
   document.getElementById('root')
 )

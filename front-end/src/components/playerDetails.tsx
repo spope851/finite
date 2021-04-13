@@ -7,14 +7,16 @@ interface OwnProps {
   weight?:number
   teamId:number
   teamName:string
+  volume:number
 }
 
 export const PlayerDetails:React.FC<OwnProps> = (props) => {
 
-  const { position, height, weight, teamId, teamName } = props
+  const { position, height, weight, teamId, teamName, volume } = props
   
   return (
     <>
+      <p>{'Volume: '+volume}</p>
       <p>{'Position: '+position}</p>
       <p>{height ? 'Height: '+height : ''}</p>
       <p>{weight ? 'Weight: '+weight : ''}</p>
