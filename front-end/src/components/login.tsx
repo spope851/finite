@@ -2,9 +2,9 @@ import React, { useState, BaseSyntheticEvent } from 'react'
 import { UserProps } from './user'
 import { onThatTab } from '../functions/on-that-tab'
 import { useData } from '../services/data.service'
-let axios = require('axios')
+import { Endpoints } from '../variables/api.variables'
 
-const MONGO_EXPRESS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
+let axios = require('axios')
 
 export const Login:React.FC = () => {
   const [signedUp, setSignedUp] = useState<boolean>(true)
@@ -18,7 +18,7 @@ export const Login:React.FC = () => {
   }
   
   const fetchUser = (user_id: string) => {
-    axios.put(MONGO_EXPRESS_API, {
+    axios.put(Endpoints.USERS, {
         "function":"login",
         "_id":user_id
     })

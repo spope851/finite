@@ -10,23 +10,43 @@ const port = process.env.PORT || 3001;
 const HOST = process.env.MODE === 'dev' ? process.env.HOST_DEV : process.env.HOST_PROD
 const MONGO_URL = `mongodb://spope:password@${HOST}:27017`
 const MONGO_OPTIONS = { useUnifiedTopology: true, authSource: 'admin' }
+// DBs
 const FINITE_DB = 'finite'
+const FINANCE_DB = 'finance'
+// Tables
+const LOAN_TABLE = 'loan'
 const USER_TABLE = 'users'
 const TEAMS_TABLE = 'teams'
 const TRADE_TABLE = 'trades'
 const PLAYER_TABLE = 'players'
 const POSITION_TABLE = 'positions'
+// Endpoints
 const TIMESHEET = '/time'
 const USER_ENDPOINT = '/api/user'
-const USERS_ENDPOINT = '/api/users'
 const TEAM_ENDPOINT = '/api/teams'
+const USERS_ENDPOINT = '/api/users'
 const TRADE_ENDPOINT = '/api/trades'
 const PLAYER_ENDPOINT = '/api/player'
+const LOAN_ENDPOINT = '/finance/loans'
 const PLAYERS_ENDPOINT = '/api/players'
 const POSITION_ENDPOINT = '/api/positions'
 
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }))
+
+async function getLoans(response,client,user_id) {
+  let responses = []
+  let cursor = client.db(FINANCE_DB).collection(LOAN_TABLE).aggregate(
+    user_id && { $match: { user_id: ObjectId(user_id) } }
+  )
+  let total = 0
+  await cursor.forEach( el => {
+    responses.push(el)
+    total += el.credit
+  })
+  responses.push({ total })
+  response.send(responses)
+}
 
 async function getUsers(response,client) {
   let responses = []
@@ -36,7 +56,6 @@ async function getUsers(response,client) {
   })
   response.send(responses)
 }
-
 
 async function getUser(response,client) {
   let responses = []
@@ -238,6 +257,21 @@ async function signup(client,body) {
   await client.db(FINITE_DB).collection(USER_TABLE).insertOne(body)
 }
 
+async function creditDebit(client,body) {
+  await client.db(FINANCE_DB).collection(LOAN_TABLE).insertOne(
+    body.credit && { 
+      user_id: ObjectId(body.user_id),
+      credit: body.credit,
+      date: body.date
+    },
+    body.debit && {
+      user_id: ObjectId(body.user_id),
+      debit: body.debit,
+      date: body.date
+    }
+  )
+}
+
 async function trade(client,body) {
   await client.db(FINITE_DB).collection(TRADE_TABLE).insertOne({
     "user_id": new ObjectId(body.user_id),
@@ -370,6 +404,14 @@ app.get(POSITION_ENDPOINT, (req, res) => {
   })
 })
 
+app.get(LOAN_ENDPOINT, (req, res) => {
+  console.log('GET loans  ', req.headers.user_id)
+  MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
+    if (err) throw err  
+    getLoans(res, client, req.headers.user_id)    
+  })
+})
+
 app.put(USERS_ENDPOINT, (req, res) => {
   console.log('PUT   ',req.body)  
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
@@ -413,6 +455,14 @@ app.post(USERS_ENDPOINT, (req, res) => {
   MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
     if (err) throw err  
     signup(client, req.body)      
+  })
+})
+
+app.post(LOAN_ENDPOINT, (req, res) => {
+  console.log('POST  ',req.body);
+  MongoClient.connect(MONGO_URL, MONGO_OPTIONS, (err, client) => {
+    if (err) throw err  
+    creditDebit(client, req.body)      
   })
 })
 

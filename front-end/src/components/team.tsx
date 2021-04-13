@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Endpoints } from '../variables/api.variables';
 import { Player, IPlayer } from './player'
 
 let axios = require('axios');
@@ -30,7 +31,7 @@ export const Team:React.FC<OwnProps> = (props) => {
   
   useEffect(() => {
     const fetchPlayers = async () => {
-      const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`, {
+      const data = await axios.get(Endpoints.PLAYERS, {
         headers: {
           "team":id
         }

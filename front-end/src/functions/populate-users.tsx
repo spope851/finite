@@ -1,9 +1,9 @@
+import { Endpoints } from "../variables/api.variables"
+
 let axios = require('axios')
 
-const MONGO_EXPRESS_API = `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
-
 export const populateUsers = () => {
-  axios.put(MONGO_EXPRESS_API, 
+  axios.put(Endpoints.USERS, 
   {
     "function":"populate",
     "table":"users",

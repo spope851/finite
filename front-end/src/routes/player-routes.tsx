@@ -13,6 +13,7 @@ import {
   Tooltip,
   CartesianGrid,
 } from "recharts";
+import { Endpoints } from '../variables/api.variables'
 
 export const PlayerRoutes: React.FC = () => {
     const [player, setPlayer] = useState<IPlayer>()
@@ -21,7 +22,7 @@ export const PlayerRoutes: React.FC = () => {
     
     useEffect(() => {
       const fetchPlayers = async () => {
-        const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/player`, {
+        const data = await axios.get(Endpoints.PLAYER, {
           headers: {player: id}
         })
         
@@ -30,7 +31,7 @@ export const PlayerRoutes: React.FC = () => {
       }
   
       const fetchTeams = async () => {
-        const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/teams`)
+        const data = await axios.get(Endpoints.TEAMS)
         setTeams(data.data)
       }
       fetchPlayers()

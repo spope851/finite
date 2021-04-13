@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { useData } from '../services/data.service'
 import infinity from '../assets/Infinity.gif'
 import { IPlayer, Player } from './player'
-let axios = require('axios')
+import { Endpoints } from '../variables/api.variables'
 
-const MONGO_EXPRESS_API = `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`
+let axios = require('axios')
 
 export const Home:React.FC = () => {
   const [players, setPlayers] = useState<IPlayer[]>([])
@@ -16,7 +16,7 @@ export const Home:React.FC = () => {
   useEffect(() => {
     const fetchPlayers = async () => {
       try {
-        const data = await axios.get(MONGO_EXPRESS_API, { headers: { sort: 'volume', limit: 5 } })
+        const data = await axios.get(Endpoints.PLAYERS, { headers: { sort: 'volume', limit: 5 } })
         setPlayers(data.data)
         const news = await axios.get("https://newsapi.org/v2/everything?q=nba&from=2021-04-01&sortBy=publishedAt&apiKey=2d8047d572db474c8c4018db768206a1")
         setNews(news.data.articles)

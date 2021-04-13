@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { useData } from '../../services/data.service'
+import { Endpoints } from '../../variables/api.variables'
 import { UserProps } from '../user'
 import { Modal } from '../utils/modal'
 let axios = require('axios')
@@ -24,11 +25,6 @@ interface OwnProps {
     buy?:boolean
 }
 
-const USERS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
-const TRADES_API = process.env.REACT_APP_MONGO_TRADES || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/trades`
-const POSITIONS_API = process.env.REACT_APP_MONGO_POSITIONS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/positions`
-const PLAYERS_API = process.env.REACT_APP_MONGO_POSITIONS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`
-
 export const TradeButton:React.FC<OwnProps> = (props) => {
     const { price, quantity, buy, player } = props
 
@@ -51,7 +47,7 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
   
     useEffect(() => {
         const fetchPositions = async () => {
-          const data = await axios.get(POSITIONS_API, {
+          const data = await axios.get(Endpoints.POSITIONS, {
             headers: {
               "user_id":user && user._id,
               "player_id":player.id
@@ -65,7 +61,7 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
     },[player.id, user])
   
     const storeTrade = () => {
-        axios.post(TRADES_API,{
+        axios.post(Endpoints.TRADES,{
             "user_id": user && user._id,
             "buy": !!buy,
             "timestamp": new Date(),
@@ -73,26 +69,26 @@ export const TradeButton:React.FC<OwnProps> = (props) => {
             "quantity": quantity,
             "price": buy ? price : price * -1
         })
-        axios.put(USERS_API, {
+        axios.put(Endpoints.USERS, {
             "function":"updateCash",
             "_id": user && user._id,
             "tradeValue": buy ? TRADE : TRADE * -1
         })
-        axios.put(PLAYERS_API, {
+        axios.put(Endpoints.PLAYERS, {
             "_id": player.id,
             "quantity": Math.abs(quantity)
         })
         if (position) {
             if ( UPDATED_QUANTITY === 0 ) {
-                axios.delete(POSITIONS_API, { "data": {"_id": position._id} })
+                axios.delete(Endpoints.POSITIONS, { "data": {"_id": position._id} })
             } else {
-                axios.put(POSITIONS_API, { 
+                axios.put(Endpoints.POSITIONS, { 
                     quantity: UPDATED_QUANTITY,
                     _id: position._id
                 })
             }
         } else {
-            axios.post(POSITIONS_API, {
+            axios.post(Endpoints.POSITIONS, {
                 user_id: user && user._id,
                 player_id: player.id,
                 quantity: quantity

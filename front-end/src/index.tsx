@@ -11,62 +11,43 @@ import { TeamRoutes } from './routes/team-routes'
 import { Login } from './components/login'
 import { onThatTab } from './functions/on-that-tab'
 import { FixedHeader } from './components/wrappers/header'
-import { App } from './App'
+import { App } from './app'
 import { Timesheet } from './components/timesheet/timesheet'
 import { PlayerRoutes } from './routes/player-routes'
 import { useData } from './services/data.service'
 import eclipse from './assets/Eclipse.gif'
 import { PlayerSearch } from './components/player-search'
 import { Home } from './components/home'
-import { styled } from '@material-ui/core/styles'
-// import { populateUsers } from './functions/populate-users'
-import { Drawer, Fab } from '@material-ui/core'
-import { Button } from 'reactstrap'
-import AccountBalanceRounded from '@material-ui/icons/AccountBalanceRounded'
-
-let axios = require('axios')
-
-const BankFab = styled(Fab)({
-  background: 'linear-gradient(45deg, green 30%, green 90%)',
-  border: 0,
-  boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-  color: 'white',
-  margin: '10px 0 0 10px'
-})
-
-const USERS_API = process.env.REACT_APP_MONGO_USERS || `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
+import { Drawer } from '@material-ui/core'
+import { MainNav } from './components/navs/main-nav'
+import { DebtTable } from './components/debt-table'
+import { DepositForm } from './components/deposit-form'
+import { BankFab } from './components/buttons/bank-fab'
+import styled from 'styled-components'
+// import { PopulateUsers } from './components/buttons/populate-users-button'
 
 export const FOOTHEIGHT = 75
+
+const BankFabWrapper = styled.div`
+&& {
+  margin: 10px 0 0 10px
+}`
 
 export const Index:React.FC = () => {
   const userCall = useData('GET', 'user')
   const user:ActiveUserProps = !userCall.loading && userCall.data[0]
   const [drawerOpen, setDrawerOpen] = useState<boolean>(false)
-  const [deposit, setDeposit] = useState<string>('50')
 
   const toggleDrawer = () => {
     setDrawerOpen(!drawerOpen)
-  }
-
-  const depositFunds = () => {
-    axios.put(USERS_API, {
-        "function":"deposit",
-        "_id": user && user._id._id,
-        "deposit": Number(deposit)
-    })
-    document.location.reload()
   }
   
   return (
     <>
       <FixedHeader className={`nav-tabs d-flex py-0 ${onThatTab("/", true) && "mb-2"} bg-light`}>
-        {user && 
-          <BankFab
-            size="small"
-            color="secondary"
-            onClick={() => toggleDrawer()}>
-            <AccountBalanceRounded />
-          </BankFab>}
+        <BankFabWrapper>
+          {user && <BankFab toggleDrawer={toggleDrawer}/>}
+        </BankFabWrapper>
         {userCall.loading
           ? <img
               alt={'loading'}
@@ -79,59 +60,17 @@ export const Index:React.FC = () => {
                   <div className="d-flex flex-column justify-content-between h-100 p-3">
                     <p>{user._id.username}</p>
                     <p className="mb-auto">{`Cash: $${Number(user._id.cash).toFixed(2)}`}</p>
-                    <div className="input-group mb-3 mt-auto">
-                      <div className="input-group-prepend">
-                        <span className="input-group-text">$</span>
-                      </div>
-                      <input
-                        onChange={(e: { target: { value: string } }) => setDeposit(e.target.value)}
-                        type="number"
-                        className="form-control"
-                        aria-label="Amount (to the nearest dollar)" 
-                        min={0}
-                        step={50}
-                        placeholder="50"
-                      />
-                      <div className="input-group-append">
-                        <span className="input-group-text">.00</span>
-                      </div>
-                    </div>
-                    <Button className="w-100" color="success" outline={true} onClick={depositFunds}>Deposit</Button>
+                    <DebtTable userId={user._id._id} />
+                    <DepositForm userId={user._id._id} />
                   </div>
                 </Drawer>
                 <User user={user}/>
               </>
             : <Login />}
-        <ul className="nav align-self-end mr-auto animate__animated animate__fadeInDownBig">
-          <li className={`nav-item`}>
-            <a
-              className={`navbar-brand text-dark nav-link ${onThatTab('/', true) ? 'active animate__animated animate__pulse animate__delay-2s' : ''}`}
-              href="/">
-                finite
-            </a>
-          </li>
-          <li className={`nav-item`}>
-            <a
-              className={`nav-link text-muted ${onThatTab('players') ? 'active' : ''}`}
-              href="/players">
-                Players
-            </a>
-          </li>
-          <li className={`nav-item`}>
-            <a
-              className={`nav-link text-muted ${onThatTab('account') ? 'active' : ''}`}
-              href="/account">
-                Account
-            </a>
-          </li>
-        </ul>
+        <MainNav />
         <PlayerSearch />
       </FixedHeader>
-      {/* <button
-        className="btn btn-outline-warning m-2"
-        onClick={populateUsers}>
-          No users in DB. Click here to add some for testing
-      </button> */}
+      {/* <PopulateUsers /> */}
       {onThatTab('/', true) && <Home/> }
     </>
   )  

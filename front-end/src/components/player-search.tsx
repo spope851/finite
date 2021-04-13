@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import { onThatTab } from '../functions/on-that-tab'
 import { IPlayer } from './player'
 import { storeUsage } from '../functions/store-player-usage'
+import { Endpoints } from '../variables/api.variables'
 
 const DropDown = styled.ul`
 && {
@@ -55,7 +56,7 @@ export const PlayerSearch: React.FC = () => {
   
   useEffect(() => {
     const fetchPlayers = async () => {
-      const data = await axios.get(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/players`, {
+      const data = await axios.get(Endpoints.PLAYERS, {
         headers: {term: term || ''}
       })
       

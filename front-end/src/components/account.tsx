@@ -3,16 +3,15 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { Gear } from '../assets/gear'
 import { useData } from '../services/data.service'
+import { Endpoints } from '../variables/api.variables'
 import { Position } from './buttons/trade-button'
 import { IPlayer, Player } from './player'
 import { Signup } from './signup'
 import { ITeam } from './team'
 import { ActiveUserProps } from './user'
 import { Modal } from './utils/modal'
-let axios = require('axios')
 
-const USERS_API =  `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/users`
-const POSITIONS_API =  `http://localhost:${process.env.REACT_APP_SERVER_PORT}/api/positions`
+let axios = require('axios')
 
 export interface TradeProps {
   _id:string
@@ -44,7 +43,7 @@ export const Account:React.FC = () => {
   
   useEffect(() => {
     const fetchTrades = async () => {
-      const positions = await axios.get(POSITIONS_API, {
+      const positions = await axios.get(Endpoints.POSITIONS, {
         headers: {
           "user_id":user && user._id._id
         }
@@ -55,19 +54,19 @@ export const Account:React.FC = () => {
   },[user])
   
   const logout = () => {
-    axios.put(USERS_API, {
+    axios.put(Endpoints.USERS, {
       "function":"logout"
     })
     document.location.reload()
   }
 
   const deleteAccount = () => {
-    axios.delete(USERS_API, { "data": {"_id": user && user._id._id}})
+    axios.delete(Endpoints.USERS, { "data": {"_id": user && user._id._id}})
     document.location.reload()
   }
       
   const changePassword = () => {
-    axios.put(USERS_API, {
+    axios.put(Endpoints.USERS, {
       "function":"changePassword",
       "_id": user && user._id._id,
       "newPassword": newPassword

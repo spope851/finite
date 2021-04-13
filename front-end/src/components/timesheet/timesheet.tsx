@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import { Table } from 'reactstrap'
 import styled from 'styled-components'
 import { FOOTHEIGHT } from '../..'
+import { Endpoints } from '../../variables/api.variables'
 import data from './timesheet.json'
 const axios = require('axios')
 
@@ -43,11 +45,11 @@ export const Timesheet: React.FC = () => {
       out: new Date().toLocaleString('en-US', { timeZone: 'America/New_York' }),
       accomplished: accomplished || ''
     }
-    axios.post(`http://localhost:${process.env.REACT_APP_SERVER_PORT}/time`, {clock_out})
+    axios.post(Endpoints.TIME, {clock_out})
   }
 
   const duration = (timeIn: string, timeOut: string) => {
-    return ((new Date(timeOut).getUTCHours() - new Date(timeIn).getUTCHours()) + ((new Date(timeOut).getUTCMinutes() - new Date(timeIn).getUTCMinutes())/60)).toFixed(2)
+    return ((new Date(timeOut).getTime() - new Date(timeIn).getTime())/1000/60/60).toFixed(2)
   }
 
   let TIME_THIS_WEEK: number = 0
@@ -73,7 +75,7 @@ export const Timesheet: React.FC = () => {
       }
     }
   })
-  
+
   return (
     <div className="d-flex flex-column" style={{ maxHeight: `calc(100vh - ${HEADHEIGHT + FOOTHEIGHT}px)` }}>
       <div className="d-flex align-items-center justify-content-center p-3">
@@ -114,7 +116,7 @@ export const Timesheet: React.FC = () => {
               onClick={clockOut}>Clock Out</button>}
       </div>
       <TimeTable>
-        <table className="table animate__animated animate__zoomIn">
+        <Table striped className="table animate__animated animate__zoomIn">
           <thead className="thead-light">
             <tr>
               <th>Date</th>
@@ -145,7 +147,7 @@ export const Timesheet: React.FC = () => {
             )
           })}
           </tbody>
-        </table>
+        </Table>
       </TimeTable>
     </div>
   )
